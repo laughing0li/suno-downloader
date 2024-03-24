@@ -5,7 +5,25 @@ import { Container } from '@/components/Container'
 import { useState } from 'react'
 export function Hero() {
   const [targetUrl, setTargetUrl] = useState('')
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+  function isValidURL(str: string) {
+    try {
+      const url = new URL(str);
+      return url.href !== undefined;
+    } catch (err) {
+      return false;
+    }
+  }
+
   const handleDownloadAudio = async () => {
+    setIsDownloading(true); // Disable the button
+    if (!isValidURL(targetUrl)) {
+      setIsError(true);
+      setIsDownloading(false); // Enable the button
+      return;
+    }
     try {
       const response = await fetch('/api/audio', {
         method: 'POST',
@@ -16,7 +34,6 @@ export function Hero() {
       });
       if (response.ok) {
         const filename = response.headers.get('Content-Disposition')?.split('=')[1] ?? 'audio.mp3'; // Add nullish coalescing operator to provide a default value
-        console.log(decodeURIComponent(filename))
         const blob = await response.blob();
         const audioUrl = URL.createObjectURL(blob);
 
@@ -27,11 +44,17 @@ export function Hero() {
 
         URL.revokeObjectURL(audioUrl); // Clean up the temporary URL
       } else {
-        console.error('Error fetching audio file');
+        setIsError(true);
       }
     } catch (error) {
-      console.error('Failed to download audio:', error);
+      alert('Failed to download audio file');
     }
+    setTargetUrl(''); // Clear the input field
+    setIsDownloading(false); // Enable the button
+  };
+
+  const handleClearError = () => {
+    setIsError(false);
   };
 
   return (
@@ -39,6 +62,13 @@ export function Hero() {
       <BackgroundImage position="right" className="-bottom-32 -top-40" />
       <Container className="relative">
         <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          {isError && (
+            <div role="alert" className="alert alert-error mb-16">
+              <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6 hover:" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" onClick={handleClearError} /></svg>
+              <span>Error! Please Check you URL again.</span>
+            </div>
+          )}
+
           <h1 className="grid justify-items-center font-display text-2xl font-bold text-blue-600 sm:text-4xl">
             Suno Music Downloader
           </h1>
@@ -52,16 +82,19 @@ export function Hero() {
               className="basis block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
               placeholder="Enter Share link"
             />
-            <Button
-              onClick={handleDownloadAudio}
-              type="button"
-            >
-              Download
-            </Button>
-          </div>
-          
-        </div>
+            {isDownloading ? (
+              <span className="loading loading-bars text-indigo-600 loading-lg" />
+            ) : (
+              <Button
+                onClick={handleDownloadAudio}
+                type="button"
+              >
+                Download
+              </Button>
+            )}
 
+          </div>
+        </div>
       </Container>
     </div>
   )

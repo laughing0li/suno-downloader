@@ -41,7 +41,7 @@ export default function RootLayout({
         dmSans.variable,
       )}
     >
-      <Analytics />
+      {/* <Analytics /> */}
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">{children}</div>
       </body>
