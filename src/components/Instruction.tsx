@@ -2,7 +2,7 @@ import Image from 'next/image'
 export function Instruction() {
     return (
         <div>
-            <h2 className='text-2xl font-bold leading-10 tracking-tight pb-4 text-gray-900'>How to find Suno Music Link?</h2>
+            <h2 className='text-2xl font-bold leading-10 tracking-tight pb-4 text-gray-900'>How to download songs from Suno?</h2>
             <Image width={400} height={200} alt="" className="float-left mr-10" src="https://raw.githubusercontent.com/laughing0li/FIgureBed/master/suno-downloader/example.png" />
             <p className='text-gray-600 text-medium pb-2'>
                 To download a Suno track, you will need the share link of the track you wish to download. Here are some examples of Suno share links:

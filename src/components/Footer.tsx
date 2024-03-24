@@ -11,24 +11,31 @@ const navigation = {
       ),
     }
   ],
+  main: [
+    { name: 'About', href: '/about' },
+    { name: 'Privacy Policy', href: '/privacy' },
+  ],
 }
 export function Footer() {
   return (
-    <footer className="flex-none py-16">
+    <footer className="flex-none bg-slate-900">
       <Container className="flex flex-col items-center justify-between md:flex-row">
-        <p className="mt-6 text-base text-slate-500 md:mt-0">
-          Copyright &copy; {new Date().getFullYear()} Suno Downloader. All
-          rights reserved.
-        </p>
-        <div className="flex space-x-6">
-              {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon className="h-6 w-6" aria-hidden="true" />
+        <div className="mx-auto max-w-7xl overflow-hidden px-6 py-8 sm:py-10 lg:px-8">
+          <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+            {navigation.main.map((item) => (
+              <div key={item.name} className="pb-6">
+                <a href={item.href} className="text-medium leading-6 text-gray-100 hover:text-gray-400">
+                  {item.name}
                 </a>
-              ))}
-            </div>
+              </div>
+            ))}
+          </nav>
+          <p className="mt-10 text-center text-xs leading-5 text-gray-100">
+            &copy; {new Date().getFullYear()} <a href="/"> - Suno Downloader</a>. 
+          </p>
+        </div>
       </Container>
+
     </footer>
   )
 }
