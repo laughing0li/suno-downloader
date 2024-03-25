@@ -2,9 +2,10 @@ import { type Metadata } from 'next'
 import { DM_Sans, Inter } from 'next/font/google'
 import clsx from 'clsx'
 import { Layout } from '@/components/Layout'
-import { unstable_setRequestLocale } from 'next-intl/server'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { ReactNode } from 'react'
+import Analytics from '@/components/Analytics'
 
 type Props = {
   children: ReactNode;
@@ -23,15 +24,29 @@ const dmSans = DM_Sans({
   display: 'swap',
   variable: '--font-dm-sans',
 })
+export async function generateMetadata({
+  params: { locale }
+}: Omit<Props, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'metadata' });
+  const baseUrl = 'https://www.sunodownloader.com';
+  const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi'];
+  if (locale === 'en') locale = ''
+  const languages = locales.reduce((acc, locale) => {
+      acc[locale as keyof typeof acc] = `${baseUrl}/${locale}`;
+      return acc;
+  }, {} as Record<string, string>)
+  languages['x-default'] = `${baseUrl}`;
 
-export const metadata: Metadata = {
-  title: {
-    template: '%s - Suno Downloader',
-    default: 'Suno Downloader - Free & Fast Suno Music Downloader',
-  },
-  description:
-    'Experience the future of music with Suno AI. Download AI-generated songs instantly. Explore a wide range of genres and start your musical journey today!',
-}
+  return {
+      title: t('title'),
+      description: t('description'),
+      alternates: {
+          canonical: `${baseUrl}/${locale}`,
+          languages: languages
+      }
+  }
+};
+
 const MainLayout = ({
   children,
   params: { locale },
@@ -47,7 +62,7 @@ const MainLayout = ({
         dmSans.variable,
       )}
     >
-      {/* <Analytics /> */}
+      <Analytics />
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">
           <NextIntlClientProvider messages={messages}>
