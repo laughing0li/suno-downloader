@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Descargador Suno - Gratis y Rápido Descargador de Música Suno",
+        "description": "Experimenta el futuro de la música con Suno AI. Descarga canciones generadas por IA al instante. ¡Explora una amplia gama de géneros y comienza tu viaje musical hoy!"
+    },
+    "heroSection": {
+        "error": "¡Error! Por favor, verifica tu URL nuevamente.",
+        "h1": "Descargador de Música Suno",
+        "button": "Descargar",
+        "placeholder": "Ingresa el URL de Música Suno"
+    },
+    "instruction": {
+        "h2": "¿Cómo descargar canciones de Suno?",
+        "p1": "Para descargar una pista de Suno, necesitarás el enlace compartido de la pista que deseas descargar. Aquí hay algunos ejemplos de enlaces compartidos de Suno:",
+        "p2": "Simplemente pega el enlace compartido de la pista de Suno que deseas descargar en el campo de entrada. Haz clic en el botón de descarga para obtener el enlace de descarga. Una vez que el enlace de descarga esté listo, haz clic en el botón de descarga para guardar la pista en tu dispositivo. Puedes encontrar el enlace para copiar como se muestra en la imagen."
+    },
+    "faq": {
+        "p1": "El Descargador de Música Suno te permite explorar y guardar pistas de música generadas por IA directamente en tu dispositivo (ya sea móvil o PC) sin costo alguno. Sumérgete en el innovador mundo de Suno AI.",
+        "p2": "Siéntete libre de descargar tantas pistas de Suno como desees. Nuestro Descargador de Música Suno no impone restricciones en el número de canciones que puedes guardar, asegurando una aventura musical sin restricciones. Lo que distingue a nuestra herramienta es su notable eficiencia: dependiendo de tu velocidad de internet, obtener enlaces de descarga toma solo segundos.",
+        "h2": "Preguntas frecuentes - FAQ",
+        "question1": "¿Es gratis usar el Descargador de Música Suno?",
+        "answer1": "Sí, el Descargador de Música Suno es completamente gratuito. Puedes descargar tantas canciones como desees sin ningún cargo.",
+        "question2": "¿El Descargador de Música Suno tiene alguna limitación?",
+        "answer2": "No, el Descargador de Música Suno no tiene limitaciones. Puedes descargar tantas canciones como desees sin restricciones.",
+        "question3": "¿Puedo descargar canciones de Suno en mi dispositivo móvil?",
+        "answer3": "Sí, puedes descargar canciones del Descargador de Música Suno en cualquier dispositivo (iOS o Android).",
+        "question4": "¿Dónde puedo encontrar las canciones descargadas?",
+        "answer4": "Ya sea que uses una PC o un dispositivo móvil, las canciones descargadas se pueden encontrar en el directorio de descargas predeterminado de tu dispositivo."
+    },
+    "about": {
+        "h1": "Acerca de",
+        "p1": "Bienvenido a",
+        "a": "Descargador de Canciones Suno",
+        "p2": "tu destino principal para descargar música Suno sin esfuerzo en cualquier dispositivo, ya sea una computadora, tableta o teléfono móvil. Nuestra plataforma simplifica el proceso de descarga de música, haciéndolo accesible, rápido y, lo más importante, gratuito.",
+        "p3": "Ofrecemos un servicio rápido, confiable y completamente gratuito, asegurando que tengas acceso a descargas ilimitadas de música Suno AI sin problemas. Nuestras descargas son rápidas y fáciles de usar, manteniendo todo el proceso optimizado para tu conveniencia. Simplemente copia el enlace de la canción Suno que deseas descargar, pégalo en la página principal de nuestro sitio y haz clic en “Descargar”. ¡Es así de fácil!",
+        "p4": "Estamos dedicados a mejorar su experiencia. Nuestro equipo actualiza periódicamente Suno Music Downloader para optimizar el proceso de descarga y la funcionalidad del sitio, asegurando que disfrute de nuestro servicio al máximo. Sin embargo, los ajustes técnicos ocasionales en el backend pueden afectar los tiempos de carga. Tenga la seguridad de que estamos a la altura de resolver cualquier problema rápidamente, minimizando cualquier interrupción en sus actividades de descarga de música."
+    },
+    "privacy": {
+        "h1": "Política de Privacidad",
+        "p1": "Al utilizar",
+        "a": "Descargador de Música Suno",
+        "p2": "aceptas adherirte a las políticas de privacidad descritas en esta página:",
+        "p-strong1": "Información que No Recopilamos:",
+        "p3": "No recopilamos ninguna información personal de nuestros usuarios. Tu privacidad y seguridad son de suma importancia para nosotros.",
+        "p-strong2": "Uso de Cookies:",
+        "p4": "Para mejorar tu experiencia, Descargador de Música Suno utiliza cookies de Google Analytics, las cuales nos ayudan a comprender y guardar tus preferencias para futuras visitas. Las cookies son pequeños archivos de datos que un sitio o su proveedor de servicios transfiere al disco duro de tu computadora a través de tu navegador web (si lo permites) que permite que los sistemas del sitio o proveedores de servicios reconozcan tu navegador y capturen y recuerden cierta información.",
+        "p-strong3": "Compartir Información:",
+        "p5": "No vendemos, comerciamos, ni transferimos a terceros tu información personal identificable (y no recopilamos dicha información). Esto no incluye a terceros de confianza que nos asisten en la operación de nuestro sitio web, la realización de nuestro negocio, o el servicio a ti, siempre y cuando esos terceros se comprometan a mantener esta información confidencial. También podemos liberar tu información cuando creemos que es necesario para cumplir con la ley, hacer cumplir nuestras políticas del sitio, o proteger nuestros derechos o los de otros, propiedad o seguridad. Sin embargo, la información de visitantes no identificable personalmente puede ser proporcionada a otras partes para marketing, publicidad u otros usos.",
+        "p-strong4": "Actualizaciones de la Política de Privacidad:",
+        "p6": "Nos reservamos el derecho de modificar nuestra política de privacidad. Cualquier cambio será publicado en esta página."
+    },
+    "footer": {
+        "item1": "Sobre",
+        "item2": "política de Privacidade"
+    }
+}

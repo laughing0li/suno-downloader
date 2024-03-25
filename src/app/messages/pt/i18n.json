@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Download Suno - Download de Música Suno Grátis e Rápido",
+        "description": "Experimente o futuro da música com o Suno AI. Faça o download instantâneo de músicas geradas por IA. Explore uma vasta gama de gêneros e comece sua jornada musical hoje!"
+    },
+    "heroSection": {
+        "error": "Erro! Por favor, verifique a URL novamente.",
+        "h1": "Download de Música Suno",
+        "button": "Download",
+        "placeholder": "Insira a URL da Música Suno"
+    },
+    "instruction": {
+        "h2": "Como fazer o download de músicas do Suno?",
+        "p1": "Para fazer o download de uma faixa do Suno, você precisará do link de compartilhamento da faixa que deseja baixar. Aqui estão alguns exemplos de links de compartilhamento do Suno:",
+        "p2": "Basta colar o link de compartilhamento da faixa do Suno que deseja baixar no campo de entrada. Clique no botão de download para obter o link de download. Assim que o link de download estiver pronto, clique no botão de download para salvar a faixa no seu dispositivo. Você pode encontrar o link para copiar, conforme mostrado na imagem."
+    },
+    "faq": {
+        "p1": "O Download de Música Suno permite que você explore e salve sem problemas faixas musicais geradas por IA diretamente no seu dispositivo (móvel ou PC), gratuitamente. Mergulhe no mundo inovador do Suno AI.",
+        "p2": "Sinta-se à vontade para baixar quantas faixas do Suno desejar. Nosso Salvador de Música Suno não impõe restrições sobre o número de músicas que você pode salvar, garantindo uma aventura musical ilimitada. O que torna nossa ferramenta única é sua incrível eficiência: dependendo de sua velocidade de internet, obter links de download leva apenas alguns segundos.",
+        "h2": "Perguntas frequentes - FAQ",
+        "question1": "O Download de Música Suno é gratuito para usar?",
+        "answer1": "Sim, o Download de Música Suno é totalmente gratuito para usar. Você pode baixar quantas músicas quiser sem custos.",
+        "question2": "O Download de Música Suno tem alguma limitação?",
+        "answer2": "Não, o Download de Música Suno não tem limitações. Você pode baixar quantas músicas quiser sem restrições.",
+        "question3": "Posso baixar músicas do Suno no meu dispositivo móvel?",
+        "answer3": "Sim, você pode baixar músicas do Download de Música Suno em qualquer dispositivo (iOS ou Android).",
+        "question4": "Onde posso encontrar as músicas baixadas?",
+        "answer4": "Seja usando PC ou dispositivo móvel, as músicas baixadas podem ser encontradas no diretório de download padrão do seu dispositivo."
+    },
+    "about": {
+        "h1": "Sobre",
+        "p1": "Bem-vindo ao",
+        "a": "Download de Músicas Suno",
+        "p2": "seu principal destino para baixar músicas do Suno facilmente em qualquer dispositivo - seja computador, tablet ou telefone celular. Nossa plataforma simplifica o processo de download de música, tornando-o acessível, rápido e, mais importante, gratuito.",
+        "p3": "Oferecemos um serviço rápido, confiável e totalmente gratuito, garantindo que você tenha acesso a downloads ilimitados de música Suno AI sem problemas. Nossos downloads são rápidos e amigáveis ao usuário, mantendo todos os processos simplificados para sua conveniência. Basta copiar o link da música Suno que deseja baixar, colá-lo na página principal do nosso site e clicar em “Download”. É tão fácil assim!",
+        "p4": "Estamos empenhados em melhorar sua experiência. Nossa equipe atualiza regularmente o Download de Música Suno para otimizar o processo de download e a funcionalidade do site, garantindo que você desfrute totalmente de nosso serviço. No entanto, ajustes técnicos ocasionais no backend podem afetar os tempos de carregamento. Fique tranquilo, estamos trabalhando para resolver quaisquer problemas rapidamente, minimizando qualquer interrupção em suas atividades de download de música."
+    },
+    "privacy": {
+        "h1": "Política de Privacidade",
+        "p1": "Ao utilizar o",
+        "a": "Download de Música Suno",
+        "p2": "você concorda em aderir às políticas de privacidade delineadas nesta página:",
+        "p-strong1": "Informações que não coletamos:",
+        "p3": "Não coletamos nenhuma informação pessoal de nossos usuários. Sua privacidade e segurança são de máxima importância para nós.",
+        "p-strong2": "Uso de cookies:",
+        "p4": "Para melhorar sua experiência, o Download de Música Suno usa cookies do Google Analytics, que nos ajudam a entender e salvar suas preferências para futuras visitas. Os cookies são pequenos arquivos de dados transferidos para o disco rígido do seu dispositivo por meio do seu navegador da web (com sua permissão) que permitem que um site reconheça seu navegador e capture determinadas informações para uso futuro.",
+        "p-strong3": "Compartilhamento de informações:",
+        "p5": "Não vendemos, negociamos ou transferimos suas informações pessoalmente identificáveis ​​para terceiros externos. Isso exclui terceiros confiáveis ​​que nos ajudam na operação do site, gerenciamento de negócios ou serviço ao usuário, desde que concordem em manter essas informações confidenciais. Podemos liberar suas informações quando necessário para cumprir obrigações legais, fazer cumprir nossas políticas de site ou proteger os direitos, propriedade ou segurança de nossos usuários ou outros. No entanto, informações de visitantes não identificáveis ​​pessoalmente podem ser compartilhadas para fins de marketing, publicidade ou outros.",
+        "p-strong4": "Atualizações da Política de Privacidade:",
+        "p6": "Reservamos o direito de modificar nossa política de privacidade. Quaisquer alterações serão postadas nesta página."
+    },
+    "footer": {
+        "item1": "Sobre",
+        "item2": "Política de Privacidade"
+    }
+}

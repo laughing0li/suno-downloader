@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Suno Downloader - Kostenloses und schnelles Suno-Musik-Herunterladen",
+        "description": "Erleben Sie die Zukunft der Musik mit Suno AI. Laden Sie sofort KI-generierte Songs herunter. Entdecken Sie eine Vielzahl von Genres und beginnen Sie heute Ihre musikalische Reise!"
+    },
+    "heroSection": {
+        "error": "Fehler! Bitte überprüfen Sie die URL erneut.",
+        "h1": "Suno-Musik-Downloader",
+        "button": "Herunterladen",
+        "placeholder": "Geben Sie die Suno-Musik-URL ein"
+    },
+    "instruction": {
+        "h2": "Wie lade ich Lieder von Suno herunter?",
+        "p1": "Um einen Suno-Track herunterzuladen, benötigen Sie den Freigabe-Link des Tracks, den Sie herunterladen möchten. Hier sind einige Beispiele für Suno-Freigabe-Links:",
+        "p2": "Fügen Sie einfach den Freigabe-Link des Suno-Tracks ein, den Sie herunterladen möchten, in das Eingabefeld ein. Klicken Sie auf die Schaltfläche “Herunterladen”, um den Download-Link abzurufen. Sobald der Download-Link bereit ist, klicken Sie auf die Schaltfläche “Herunterladen”, um den Track auf Ihr Gerät zu speichern. Sie finden den Link zum Kopieren, wie auf dem Bild gezeigt."
+    },
+    "faq": {
+        "p1": "Mit dem Suno-Musik-Downloader können Sie nahtlos KI-generierte Musiktitel direkt auf Ihr Gerät (Mobil oder PC) kostenlos erkunden und sichern. Tauchen Sie ein in die innovative Welt von Suno AI.",
+        "p2": "Fühlen Sie sich frei, so viele Suno-Tracks wie gewünscht herunterzuladen. Unser Suno-Musik-Saver setzt keine Beschränkungen für die Anzahl der Songs, die Sie sichern können, sodass Sie ein grenzenloses musikalisches Abenteuer erleben können. Was unser Tool so einzigartig macht, ist seine bemerkenswerte Effizienz: Abhängig von Ihrer Internetgeschwindigkeit dauert das Abrufen von Download-Links nur wenige Sekunden.",
+        "h2": "Häufig gestellte Fragen - FAQ",
+        "question1": "Ist der Suno-Musik-Downloader kostenlos zu benutzen?",
+        "answer1": "Ja, der Suno-Musik-Downloader ist völlig kostenlos zu benutzen. Sie können so viele Songs wie gewünscht ohne Zusatzkosten herunterladen.",
+        "question2": "Hat der Suno-Musik-Downloader Einschränkungen?",
+        "answer2": "Nein, der Suno-Musik-Downloader hat keine Einschränkungen. Sie können so viele Lieder wie gewünscht ohne Einschränkungen herunterladen.",
+        "question3": "Kann ich Suno-Songs auf meinem Mobilgerät herunterladen?",
+        "answer3": "Ja, Sie können Songs vom Suno-Musik-Downloader auf jedem Gerät (iOS oder Android) herunterladen.",
+        "question4": "Wo finde ich die heruntergeladenen Songs?",
+        "answer4": "Egal ob Sie einen PC oder ein Mobilgerät verwenden, die heruntergeladenen Songs finden Sie im Standard-Downloadverzeichnis Ihres Geräts."
+    },
+    "about": {
+        "h1": "Über",
+        "p1": "Willkommen bei",
+        "a": "Suno-Songs-Downloader",
+        "p2": "Ihrer Hauptanlaufstelle, um ganz einfach Suno-Musik auf jedem Gerät herunterzuladen - ob Computer, Tablet oder Mobiltelefon. Unsere Plattform vereinfacht den Musikdownload-Prozess und macht ihn zugänglich, schnell und vor allem kostenlos.",
+        "p3": "Wir bieten einen schnellen, zuverlässigen und völlig kostenlosen Service, damit Sie unbegrenzt Suno-AI-Musik herunterladen können, ohne Probleme zu haben. Unsere Downloads sind schnell und benutzerfreundlich, sodass alle Vorgänge für Ihre Bequemlichkeit optimiert sind. Kopieren Sie einfach den Link des Suno-Songs, den Sie herunterladen möchten, fügen Sie ihn auf der Hauptseite unserer Website ein und klicken Sie auf “Herunterladen”. So einfach ist das!",
+        "p4": "Wir sind bestrebt, Ihr Erlebnis zu verbessern. Unser Team aktualisiert den Suno-Musik-Downloader regelmäßig, um den Download-Prozess und die Website-Funktionalität zu optimieren, damit Sie unseren Service voll ausnutzen können. Gelegentliche technische Anpassungen im Backend können sich jedoch auf die Ladezeiten auswirken. Seien Sie versichert, dass wir hart daran arbeiten, Probleme schnell zu beheben und Unterbrechungen Ihrer Musik-Download-Aktivitäten zu minimieren."
+    },
+    "privacy": {
+        "h1": "Datenschutzrichtlinie",
+        "p1": "Durch die Nutzung von",
+        "a": "Suno-Musik-Downloader",
+        "p2": "stimmen Sie zu, die auf dieser Seite dargelegten Datenschutzrichtlinien einzuhalten:",
+        "p-strong1": "Informationen, die wir nicht sammeln:",
+        "p3": "Wir sammeln keinerlei persönliche Informationen von unseren Nutzern. Ihr Datenschutz und Ihre Sicherheit haben für uns höchste Priorität.",
+        "p-strong2": "Verwendung von Cookies:",
+        "p4": "Um Ihr Erlebnis zu verbessern, verwendet der Suno-Musik-Downloader Google Analytics Cookies, die uns dabei helfen, Ihre Einstellungen zu verstehen und für zukünftige Besuche zu speichern. Cookies sind kleine Datendateien, die über Ihren Webbrowser (mit Ihrer Erlaubnis) auf die Festplatte Ihres Geräts übertragen werden und es einer Website ermöglichen, Ihren Browser zu erkennen und bestimmte Informationen für die zukünftige Nutzung zu erfassen.",
+        "p-strong3": "Informationsaustausch:",
+        "p5": "Wir verkaufen, handeln oder übertragen Ihre persönlich identifizierbaren Informationen nicht an externe Parteien. Dies schließt vertrauenswürdige Dritte aus, die uns bei Websitebetrieb, Geschäftsführung oder Kundenservice unterstützen, vorausgesetzt, sie verpflichten sich, diese Informationen vertraulich zu behandeln. Wir können Ihre Informationen weitergeben, wenn dies zur Einhaltung gesetzlicher Verpflichtungen, zur Durchsetzung unserer Website-Richtlinien oder zum Schutz der Rechte, des Eigentums oder der Sicherheit unserer Nutzer oder anderer erforderlich ist. Nicht-persönlich identifizierbare Besucherinformationen können jedoch für Marketing-, Werbe- oder andere Zwecke geteilt werden.",
+        "p-strong4": "Aktualisierungen der Datenschutzrichtlinie:",
+        "p6": "Wir behalten uns das Recht vor, unsere Datenschutzrichtlinie zu ändern. Alle Änderungen werden auf dieser Seite veröffentlicht."
+    },
+    "footer": {
+        "item1": "Über",
+        "item2": "Datenschutzrichtlinie"
+    }
+}

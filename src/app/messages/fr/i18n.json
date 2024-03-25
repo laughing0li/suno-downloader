@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Suno Téléchargeur - Gratuit & Rapide Téléchargeur de Musique Suno",
+        "description": "Expérimentez le futur de la musique avec Suno AI. Téléchargez instantanément des chansons générées par IA. Explorez une large gamme de genres et commencez votre voyage musical aujourd'hui !"
+    },
+    "heroSection": {
+        "error": "Erreur ! Veuillez vérifier à nouveau votre URL.",
+        "h1": "Téléchargeur de Musique Suno",
+        "button": "Télécharger",
+        "placeholder": "Entrez l'URL de la Musique Suno"
+    },
+    "instruction": {
+        "h2": "Comment télécharger des chansons de Suno ?",
+        "p1": "Pour télécharger un morceau de Suno, vous aurez besoin du lien de partage du morceau que vous souhaitez télécharger. Voici quelques exemples de liens de partage Suno :",
+        "p2": "Collez simplement le lien de partage du morceau Suno que vous souhaitez télécharger dans le champ de saisie. Cliquez sur le bouton de téléchargement pour obtenir le lien de téléchargement. Une fois le lien de téléchargement prêt, cliquez sur le bouton de téléchargement pour enregistrer le morceau sur votre appareil. Vous pouvez trouver le lien à copier comme indiqué sur l'image."
+    },
+    "faq": {
+        "p1": "Le Téléchargeur de Musique Suno vous permet d'explorer et de sauvegarder directement sur votre appareil (que ce soit mobile ou PC) des morceaux de musique générés par IA sans aucun coût. Plongez-vous dans le monde innovant de Suno AI.",
+        "p2": "N'hésitez pas à télécharger autant de morceaux Suno que vous le souhaitez. Notre Téléchargeur de Musique Suno n'impose aucune restriction sur le nombre de chansons que vous pouvez sauvegarder, assurant une aventure musicale sans restrictions. Ce qui distingue notre outil, c'est son efficacité remarquable : selon votre vitesse internet, obtenir des liens de téléchargement prend seulement quelques secondes.",
+        "h2": "Questions Fréquemment Posées - FAQ",
+        "question1": "Le Téléchargeur de Musique Suno est-il gratuit à utiliser ?",
+        "answer1": "Oui, le Téléchargeur de Musique Suno est complètement gratuit. Vous pouvez télécharger autant de chansons que vous le souhaitez sans aucun frais.",
+        "question2": "Le Téléchargeur de Musique Suno a-t-il des limitations ?",
+        "answer2": "Non, le Téléchargeur de Musique Suno n'a pas de limitations. Vous pouvez télécharger autant de chansons que vous le souhaitez sans restrictions.",
+        "question3": "Puis-je télécharger des chansons Suno sur mon appareil mobile ?",
+        "answer3": "Oui, vous pouvez télécharger des chansons depuis le Téléchargeur de Musique Suno sur n'importe quel appareil (iOS ou Android).",
+        "question4": "Où puis-je trouver les chansons téléchargées ?",
+        "answer4": "Que vous utilisiez un PC ou un appareil mobile, les chansons téléchargées peuvent être trouvées dans le répertoire de téléchargement par défaut de votre appareil."
+    },
+    "about": {
+        "h1": "À propos",
+        "p1": "Bienvenue sur",
+        "a": "Téléchargeur de Chansons Suno",
+        "p2": "votre destination principale pour télécharger de la musique Suno sans effort sur n'importe quel appareil - que ce soit un ordinateur, une tablette ou un téléphone mobile. Notre plateforme simplifie le processus de téléchargement de musique, le rendant accessible, rapide et, surtout, gratuit.",
+        "p3": "Nous offrons un service rapide, fiable et entièrement gratuit, vous assurant un accès illimité aux téléchargements de musique Suno AI sans problème. Nos téléchargements sont rapides et conviviaux, tout en simplifiant le processus pour votre commodité. Il suffit de copier le lien de la chanson Suno que vous souhaitez télécharger, de le coller sur la page principale de notre site et de cliquer sur « Télécharger ». C'est aussi simple que ça !",
+        "p4": "Nous nous engageons à améliorer votre expérience. Notre équipe met régulièrement à jour le Téléchargeur de Musique Suno pour optimiser le processus de téléchargement et la fonctionnalité du site, vous assurant de profiter pleinement de notre service. Cependant, des ajustements techniques occasionnels peuvent affecter les temps de chargement. Soyez assuré que nous nous efforçons de résoudre tout problème rapidement, minimisant toute perturbation de vos activités de téléchargement musical."
+    },
+    "privacy": {
+        "h1": "Politique de Confidentialité",
+        "p1": "En utilisant",
+        "a": "Téléchargeur de Musique Suno",
+        "p2": "vous acceptez de respecter les politiques de confidentialité énoncées sur cette page :",
+        "p-strong1": "Informations que Nous Ne Collectons Pas :",
+        "p3": "Nous ne collectons aucune information personnelle de nos utilisateurs. Votre vie privée et votre sécurité sont d'une importance capitale pour nous.",
+        "p-strong2": "Utilisation des Cookies :",
+        "p4": "Pour améliorer votre expérience, Téléchargeur de Musique Suno utilise des cookies Google Analytics, qui nous aident à comprendre et à sauvegarder vos préférences pour de futures visites. Les cookies sont de petits fichiers de données transférés sur le disque dur de votre ordinateur via votre navigateur Web (si vous le permettez) qui permettent aux systèmes du site ou des fournisseurs de services de reconnaître votre navigateur et de capturer et de se souvenir de certaines informations.",
+        "p-strong3": "Partage d'Informations :",
+        "p5": "Nous ne vendons, échangeons ou transférons pas vos informations personnelles identifiables à des tiers. Cela n'inclut pas les tiers de confiance qui nous assistent dans l'exploitation de notre site Web, la conduite de notre entreprise, ou vous servant, tant que ces parties conviennent de garder ces informations confidentielles. Nous pouvons également libérer vos informations lorsque nous croyons que la libération est appropriée pour se conformer à la loi, appliquer nos politiques de site, ou protéger nos droits, propriété, ou sécurité, ou ceux d'autres. Cependant, des informations sur les visiteurs non personnellement identifiables peuvent être fournies à d'autres parties pour le marketing, la publicité, ou d'autres usages.",
+        "p-strong4": "Mises à Jour de la Politique de Confidentialité :",
+        "p6": "Nous nous réservons le droit de modifier notre politique de confidentialité. Tout changement sera publié sur cette page."
+    },
+    "footer": {
+        "item1": "À Propos",
+        "item2": "Politique de Confidentialité"
+    }
+}

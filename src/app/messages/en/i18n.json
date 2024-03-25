@@ -1,0 +1,56 @@
+{
+    "metadata": {
+        "title": "Suno Downloader - Free & Fast Suno Music Downloader",
+        "description": "Experience the future of music with Suno AI. Download AI-generated songs instantly. Explore a wide range of genres and start your musical journey today!"
+    },
+    "heroSection": {
+        "error": "Error! Please Check you URL again.",
+        "h1": "Suno Music Downloader",
+        "button": "Download",
+        "placeholder": "Enter Suno Music URL"
+    },
+    "instruction": {
+        "h2": "How to download songs from Suno?",
+        "p1": "To download a Suno track, you will need the share link of the track you wish to download. Here are some examples of Suno share links:",
+        "p2": "Simply paste the share link of the Suno track you wish to download into the input field. Click the download button to fetch the download link. Once the download link is ready, click the download button to save the track to your device. You can find the copy the link as shown in the image."
+    },
+    "faq": {
+        "p1": "The Suno Music Downloader lets you seamlessly explore and save AI-generated music tracks directly to your device (be it mobile or PC) at no cost. Immerse yourself in the innovative world of Suno AI.",
+        "p2": "Feel free to download as many Suno tracks as you desire. Our Suno Music Saver imposes no restrictions on the number of songs you can save, ensuring an unrestricted musical adventure. What sets our tool apart is its remarkable efficiency: depending on your internet speed, fetching download links takes mere seconds.",
+        "h2": "Frequently asked questions - FAQ",
+        "question1": "Is Suno Music Downloader free to use?",
+        "answer1": "Yes, Suno Music Downloader is completely free to use. You can download as many songs as you want without any charges.",
+        "question2": "Does Suno Music Downloader have any limitations?",
+        "answer2": "No, the Suno Music Downloader has no limitations. You can download as many songs as you want without any restrictions.",
+        "question3": "Can I download Suno songs on my mobile device?",
+        "answer3": "Yes, you can download songs from Suno Music Downloader on any device (iOS or Android)",
+        "question4": "Where can I find the downloaded songs?",
+        "answer4": "Whether you use pc or mobile device, The downloaded songs can be found in your device's default download directory"
+    },
+    "about": {
+        "h1": "About",
+        "p1": "Welcome to",
+        "a": "Suno Songs Downloader",
+        "p2": "your premier destination for downloading Suno music effortlessly to any device—be it a computer, tablet, or mobile phone. Our platform simplifies the music downloading process, making it accessible, fast, and, most importantly, free.",
+        "p3": "We offers a fast, reliable, and entirely free service, ensuring you have access to unlimited Suno AI music downloads without a hitch. Our downloads are quick and user-friendly, keeping all processes streamlined for your convenience. Simply copy the link of the Suno song you wish to download, paste it into our site’s main page, and hit “Download.” It’s that easy!",
+        "p4": "We’re dedicated to enhancing your experience. Our team regularly updates the Suno Music Downloader to optimize the download process and site functionality, ensuring you enjoy our service to the fullest. However, occasional technical adjustments on the backend may affect loading times. Rest assured, we’re on top of resolving any issues swiftly, minimizing any disruption to your music downloading activities."
+    },
+    "privacy": {
+        "h1": "Privacy Policy",
+        "p1": "By utilizing",
+        "a": "Suno Music Downloader",
+        "p2": "you agree to adhere to the privacy policies outlined on this page:",
+        "p-strong1": "Information We Do Not Collect:",
+        "p3": "We do not gather any personal information from our users. Your privacy and security are paramount to us.",
+        "p-strong2": "Cookie Usage: ",
+        "p4": "To enhance your experience, Suno Music Downloader employs Google Analytics cookies, which help us understand and save your preferences for future visits. Cookies are tiny data files transferred to your device’s hard drive via your web browser (with your permission) that allow a website to recognize your browser and capture certain information for future use.",
+        "p-strong3": "Information Sharing: ",
+        "p5": "We do not sell, trade, or transfer your personally identifiable information to external parties. This excludes trusted third parties who aid us in website operation, business management, or user service, provided they agree to keep this information confidential. We may release your information when necessary to comply with legal obligations, enforce our site policies, or protect the rights, property, or safety of our users or others. However, non-personally identifiable visitor information may be shared for marketing, advertising, or other purposes.",
+        "p-strong4": "Privacy Policy Updates: ",
+        "p6": "We reserve the right to modify our privacy policy. Any changes will be posted on this page."
+    },
+    "footer": {
+        "item1": "About",
+        "item2": "Privacy Policy"
+    }
+}
