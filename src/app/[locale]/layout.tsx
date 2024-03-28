@@ -1,4 +1,3 @@
-import { type Metadata } from 'next'
 import { DM_Sans, Inter } from 'next/font/google'
 import clsx from 'clsx'
 import { Layout } from '@/components/Layout'

@@ -52,5 +52,17 @@
     "footer": {
         "item1": "Sobre",
         "item2": "Política de Privacidade"
+    },
+    "howTo": {
+        "content": "Nosso downloader de música Suno ajuda você a baixar músicas do Suno AI (suno.ai) com menos etapas do que o método de copiar e colar. O downloader de músicas Suno funciona perfeitamente em qualquer navegador, móvel e desktop. Descubra como salvar uma música do Suno com nosso site lendo as instruções de 'como fazer' abaixo.",
+        "question1": "Como usar o aplicativo de download de músicas Suno?",
+        "answer1": "Você pode iniciar o processo de download da música do Suno AI através do nosso site em qualquer dispositivo com um navegador instalado e com qualquer SO (Windows 7, 10, Mac, Linux, Ubuntu etc.). Comparado com a extensão do navegador, fazer o download pelo nosso site é fácil, a única diferença é que você precisa fazer um passo adicional. Veja todas as informações abaixo.",
+        "question2": "COPIAR URL DA MÚSICA",
+        "answer2": "Encontre a música que você deseja salvar do Suno AI e copie o link do ícone de compartilhamento. Você pode encontrar este exemplo de link de compartilhamento na seção 'como fazer'.",
+        "question3": "COLAR NO CAMPO DE ENTRADA",
+        "answer3": "Abra o site do downloader de música Suno em uma nova aba e cole a URL no formulário no topo da página. Em seguida, clique no botão “Download” à direita para obter a música.",
+        "question4": "BAIXAR MÚSICA DO SUNO",
+        "answer4": "Uma vez que você pressione o botão, em alguns segundos você conseguirá baixar esta música pelo seu navegador e ela será armazenada na sua pasta de downloads padrão."
     }
+    
 }

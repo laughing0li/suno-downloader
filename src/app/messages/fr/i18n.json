@@ -52,5 +52,17 @@
     "footer": {
         "item1": "À Propos",
         "item2": "Politique de Confidentialité"
+    },
+    "howTo": {
+        "content": "Notre téléchargeur de musique Suno vous aide à télécharger des chansons de Suno AI (suno.ai) avec moins d'étapes que la méthode de copier-coller. Le téléchargeur de chansons Suno fonctionne parfaitement dans n'importe quel navigateur, mobile et ordinateur de bureau. Découvrez comment sauvegarder une chanson Suno avec notre site web en lisant les instructions 'comment faire' ci-dessous.",
+        "question1": "Comment utiliser l'application de téléchargement de chansons Suno ?",
+        "answer1": "Vous pouvez commencer le processus de téléchargement de chanson depuis Suno AI via notre site web sur n'importe quel appareil doté d'un navigateur installé et sous tout OS (Windows 7, 10, Mac, Linux, Ubuntu, etc.). Comparé à l'extension de navigateur, télécharger via notre site web est facile, la seule différence est que vous devez faire une étape supplémentaire. Voir toutes les infos ci-dessous.",
+        "question2": "COPIER L'URL DE LA MUSIQUE",
+        "answer2": "Trouvez la chanson que vous souhaitez sauvegarder de Suno AI et copiez le lien depuis l'icône de partage. Vous pouvez trouver cet exemple de lien de partage dans la section 'comment faire'.",
+        "question3": "COLLER DANS LE CHAMP DE SAISIE",
+        "answer3": "Ouvrez le site web de téléchargement de musique Suno dans un nouvel onglet et collez l'URL dans le formulaire en haut de la page. Ensuite, cliquez sur le bouton “Télécharger” à droite pour obtenir la chanson.",
+        "question4": "TÉLÉCHARGER LA CHANSON DE SUNO",
+        "answer4": "Une fois que vous avez appuyé sur le bouton, en quelques secondes, vous pourrez télécharger cette chanson via votre navigateur et elle sera stockée dans votre dossier de téléchargements par défaut."
     }
+    
 }

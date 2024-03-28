@@ -5,7 +5,7 @@ export function Instruction() {
     return (
         <div>
             <h2 className='text-2xl font-bold leading-10 tracking-tight pb-4 text-gray-900'>{t('h2')}</h2>
-            <Image width={400} height={200} alt="" className="float-left mr-10" src="https://raw.githubusercontent.com/laughing0li/FIgureBed/master/suno-downloader/example.png" />
+            <Image width={400} height={200} alt="Instruction steps image" className="float-left mr-10" src="https://raw.githubusercontent.com/laughing0li/FIgureBed/master/suno-downloader/example.png" />
             <p className='text-gray-600 text-medium pb-2'>
                 {t('p1')}
             </p>

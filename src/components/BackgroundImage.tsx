@@ -26,7 +26,7 @@ export function BackgroundImage({
             'left-full -translate-x-1/2 sm:left-1/2 sm:translate-x-[-20%] sm:translate-y-[-15%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-x-[27%] xl:translate-y-[-8%]',
         )}
         src={backgroundImage}
-        alt=""
+        alt="Background image"
         width={918}
         height={1495}
         priority

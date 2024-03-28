@@ -4,6 +4,7 @@ import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
 import { Container } from './Container'
 import { Instruction } from './Instruction'
 import { useTranslations } from 'next-intl'
+import HowTo from './HowTo'
 
 export default function Faq() {
     const t = useTranslations('faq')
@@ -35,7 +36,7 @@ export default function Faq() {
                     {t('p2')}
                 </p>
                 <Instruction />
-
+                <HowTo />
                 <div className="mt-24 mx-auto pb-10 max-w-4xl divide-y divide-gray-900/10">
                     <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">{t('h2')}</h2>
                     <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
