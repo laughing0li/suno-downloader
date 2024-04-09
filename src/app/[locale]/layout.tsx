@@ -61,7 +61,7 @@ const MainLayout = ({
         dmSans.variable,
       )}
     >
-      {/* <Analytics /> */}
+      <Analytics />
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">
           <NextIntlClientProvider messages={messages}>
