@@ -27,7 +27,7 @@ export async function generateMetadata({
   params: { locale }
 }: Omit<Props, 'children'>) {
   const t = await getTranslations({ locale, namespace: 'metadata' });
-  const baseUrl = 'https://www.sunodownloader.com';
+  const baseUrl = 'https://www.sunodownloader.io';
   const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi'];
   if (locale === 'en') locale = ''
   const languages = locales.reduce((acc, locale) => {
@@ -61,7 +61,7 @@ const MainLayout = ({
         dmSans.variable,
       )}
     >
-      <Analytics />
+      {/* <Analytics /> */}
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">
           <NextIntlClientProvider messages={messages}>

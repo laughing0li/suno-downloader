@@ -5,7 +5,7 @@ import { Hero } from '@/components/Hero'
 export default function Home() {
   return (
     <>
-      <Ads />
+      {/* <Ads /> */}
       <Hero />
       <Faq />
     </>
