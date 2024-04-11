@@ -3,6 +3,10 @@ import Script from 'next/script'
 const Analytics = () => (
     <>
         <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-48MVDH1X2C"
+        />
+        <Script
             id="google-analytics"
             dangerouslySetInnerHTML={{
                 __html: `
