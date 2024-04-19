@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container"
 import { useTranslations } from "next-intl"
+export const runtime = 'edge';
 
 export default function Privacy() {
     const t = useTranslations('privacy')

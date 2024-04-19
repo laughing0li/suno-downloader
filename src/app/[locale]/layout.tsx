@@ -5,6 +5,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { ReactNode } from 'react'
 import Analytics from '@/components/Analytics'
+export const runtime = 'edge';
 
 type Props = {
   children: ReactNode;

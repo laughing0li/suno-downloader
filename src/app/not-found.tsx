@@ -1,7 +1,8 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
+export const runtime = 'edge';
 
 export default function NotFound() {
   return (
