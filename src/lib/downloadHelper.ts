@@ -1,6 +1,5 @@
-import fetch from 'node-fetch'
 import * as cheerio from 'cheerio'
-
+export const runtime = 'edge'
 export const scrapeAudioUrl = async (pageUrl: string) => {
   try {
     // Fetch the HTML content of the page
