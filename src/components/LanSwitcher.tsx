@@ -37,10 +37,10 @@ export default function LanSwitcher() {
         toPath = '';
     } else if (pathItems.length === 1) {
         const [firstItem] = pathItems;
-        if (firstItem === 'about' || firstItem === 'privacy' || firstItem === 'blog') {
-            toPath = firstItem;
-        } else {
+        if (isLocale(firstItem)) {
             currentLocale = firstItem.toUpperCase();
+        } else {
+            toPath = firstItem;
         }
     } else {
         const [firstItem, ...restItems] = pathItems;
@@ -48,12 +48,13 @@ export default function LanSwitcher() {
             currentLocale = firstItem.toUpperCase();
             toPath = restItems.join('/');
         } else {
+            currentLocale = 'EN';
             toPath = pathItems.join('/');
         }
     }
-
+    console.log('currentLocale:', currentLocale);
     function isLocale(item: string) {
-        return !/^[a-zA-Z]{2}-[a-zA-Z]{2}$/.test(item);
+        return /^[a-z]{2}$/.test(item);  // Checks for two lowercase letters only
     }
     return (
         <Popover className="relative">

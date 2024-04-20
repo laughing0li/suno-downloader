@@ -30,9 +30,6 @@ const SunoAffects = () => {
                     <li className='mt-2'>
                         {t('blog6.li5')}
                     </li>
-                    <li className='mt-2'>
-                        {t('blog6.li6')}
-                    </li>
                 </ul>
                 <p>
                     {t('blog6.p2')}
