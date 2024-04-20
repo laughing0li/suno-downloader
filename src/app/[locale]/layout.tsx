@@ -32,18 +32,35 @@ export async function generateMetadata({
   const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi'];
   if (locale === 'en') locale = ''
   const languages = locales.reduce((acc, locale) => {
-      acc[locale as keyof typeof acc] = `${baseUrl}/${locale}`;
-      return acc;
+    acc[locale as keyof typeof acc] = `${baseUrl}/${locale}`;
+    return acc;
   }, {} as Record<string, string>)
   languages['x-default'] = `${baseUrl}`;
 
   return {
+    title: t('title'),
+    description: t('description'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: languages
+    },
+    twitter: {
+      card: '',
+      site: `${baseUrl}/${locale}`,
+    },
+    openGraph: {
       title: t('title'),
       description: t('description'),
-      alternates: {
-          canonical: `${baseUrl}/${locale}`,
-          languages: languages
-      }
+      url: `${baseUrl}/${locale}`,
+      type: 'website',
+      locale: locale,
+      images: [
+        {
+          url: `${baseUrl}/images/suno.svg`,
+          alt: 'sunodownloader Logo',
+        },
+      ],
+    },
   }
 };
 

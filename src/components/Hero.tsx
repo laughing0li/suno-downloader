@@ -72,9 +72,9 @@ export function Hero() {
             </div>
           )}
 
-          <h1 className="grid justify-items-center font-display text-2xl font-bold text-blue-600 sm:text-4xl">
+          {/* <h1 className="grid justify-items-center font-display text-2xl font-bold text-blue-600 sm:text-4xl">
             {t('h1')}
-          </h1>
+          </h1> */}
           <div className="mt-12 flex flex-row gap-10 justify-center">
             <input
               type="url"

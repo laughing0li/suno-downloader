@@ -37,7 +37,7 @@ export default function LanSwitcher() {
         toPath = '';
     } else if (pathItems.length === 1) {
         const [firstItem] = pathItems;
-        if (firstItem === 'about' || firstItem === 'privacy') {
+        if (firstItem === 'about' || firstItem === 'privacy' || firstItem === 'blog') {
             toPath = firstItem;
         } else {
             currentLocale = firstItem.toUpperCase();
