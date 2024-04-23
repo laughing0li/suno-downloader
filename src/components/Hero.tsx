@@ -62,8 +62,8 @@ export function Hero() {
   };
 
   return (
-    <div className="relative py-20 sm:pb-12 sm:pt-24">
-      <BackgroundImage position="right" className="-bottom-32 -top-40" />
+    <div className="relative sm:pt-24">
+      <BackgroundImage position="right" className="-bottom-20 -top-40" />
       <Container className="relative">
         <div className="mx-auto max-w-xl lg:max-w-3xl lg:px-12">
           {isError && (
@@ -95,7 +95,9 @@ export function Hero() {
               </Button>
             )}
           </div>
-          <AdSense slot={"3719858701"} />
+          <div className='sm:mt-20 mt-10'>
+            <AdSense slot={"3719858701"} />
+          </div>
         </div>
 
       </Container>

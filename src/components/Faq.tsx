@@ -29,11 +29,11 @@ export default function Faq() {
         }
     ]
     return (
-        <Container className='pt-36'>
+        <Container>
   <div className="mx-auto w-full px-6">
     <div className="flex flex-wrap justify-between">
       {/* Left ad */}
-      <div className="w-full md:w-1/6 md:sticky md:top-24 md:h-screen">
+      <div className="w-full md:w-1/6">
         <div className="hidden md:block">
           <AdSense slot="3676460825"  />
         </div>
@@ -79,7 +79,7 @@ export default function Faq() {
       </div>
       
       {/* Right ad */}
-      <div className="w-full md:w-1/6 md:sticky md:top-24 md:h-screen">
+      <div className="w-full md:w-1/6">
         <div className="hidden md:block">
           <AdSense slot="8341629997" />
         </div>
