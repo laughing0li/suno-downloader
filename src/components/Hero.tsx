@@ -94,9 +94,10 @@ export function Hero() {
                 {t('button')}
               </Button>
             )}
-            <AdSense slot={"3719858701"}/>
           </div>
+          <AdSense slot={"3719858701"} />
         </div>
+
       </Container>
     </div>
   )

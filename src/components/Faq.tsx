@@ -30,10 +30,10 @@ export default function Faq() {
     ]
     return (
         <Container className='pt-36'>
-  <div className="mx-auto max-w-6xl px-6">
-    <div className="flex flex-wrap">
+  <div className="mx-auto w-full px-6">
+    <div className="flex flex-wrap justify-between">
       {/* Left ad */}
-      <div className="w-full md:w-1/5 md:sticky md:top-24 md:h-screen">
+      <div className="w-full md:w-1/6 md:sticky md:top-24 md:h-screen">
         <div className="hidden md:block">
           <AdSense slot="3676460825"  />
         </div>
@@ -41,7 +41,7 @@ export default function Faq() {
       
       {/* Main content */}
       <div className="w-full md:w-1/2">
-        <div className="mx-auto max-w-3xl">
+        <div>
           <p className="mx-auto text-lg leading-8 text-gray-600">{t('p1')}</p>
           <p className="mx-auto text-lg pb-16 leading-8 text-gray-600">{t('p2')}</p>
           <Instruction />
@@ -79,7 +79,7 @@ export default function Faq() {
       </div>
       
       {/* Right ad */}
-      <div className="w-full md:w-1/5 md:sticky md:top-24 md:h-screen">
+      <div className="w-full md:w-1/6 md:sticky md:top-24 md:h-screen">
         <div className="hidden md:block">
           <AdSense slot="8341629997" />
         </div>
