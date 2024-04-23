@@ -65,19 +65,13 @@ export function Hero() {
     <div className="relative py-20 sm:pb-12 sm:pt-24">
       <BackgroundImage position="right" className="-bottom-32 -top-40" />
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+        <div className="mx-auto max-w-xl lg:max-w-3xl lg:px-12">
           {isError && (
             <div role="alert" className="alert alert-error mb-16">
               <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6 hover:" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" onClick={handleClearError} /></svg>
               <span>{t('error')}</span>
             </div>
           )}
-
-          {/* <h1 className="grid justify-items-center font-display text-2xl font-bold text-blue-600 sm:text-4xl">
-            {t('h1')}
-          </h1> */}
-
-          <AdSense slot={"3719858701"}/>
 
           <div className="mt-12 flex flex-row gap-10 justify-center">
             <input
@@ -100,7 +94,7 @@ export function Hero() {
                 {t('button')}
               </Button>
             )}
-
+            <AdSense slot={"3719858701"}/>
           </div>
         </div>
       </Container>
