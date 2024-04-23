@@ -30,7 +30,7 @@ export default function Faq() {
     ]
     return (
         <Container>
-  <div className="mx-auto w-full px-6">
+  <div className="mx-auto w-full px-6 pt-10">
     <div className="flex flex-wrap justify-between">
       {/* Left ad */}
       <div className="w-full md:w-1/6">

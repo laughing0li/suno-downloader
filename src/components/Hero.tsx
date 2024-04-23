@@ -95,7 +95,7 @@ export function Hero() {
               </Button>
             )}
           </div>
-          <div className='sm:mt-20 mt-10'>
+          <div className='mt-10'>
             <AdSense slot={"3719858701"} />
           </div>
         </div>
