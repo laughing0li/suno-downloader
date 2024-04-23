@@ -4,6 +4,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
+import AdSense from './Adsense'
 
 export function Hero() {
   const t = useTranslations('heroSection')
@@ -75,6 +76,9 @@ export function Hero() {
           {/* <h1 className="grid justify-items-center font-display text-2xl font-bold text-blue-600 sm:text-4xl">
             {t('h1')}
           </h1> */}
+
+          <AdSense slot={"3719858701"}/>
+
           <div className="mt-12 flex flex-row gap-10 justify-center">
             <input
               type="url"

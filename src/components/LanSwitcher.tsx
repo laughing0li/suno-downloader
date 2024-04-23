@@ -52,7 +52,6 @@ export default function LanSwitcher() {
             toPath = pathItems.join('/');
         }
     }
-    console.log('currentLocale:', currentLocale);
     function isLocale(item: string) {
         return /^[a-z]{2}$/.test(item);  // Checks for two lowercase letters only
     }
