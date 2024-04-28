@@ -5,6 +5,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { ReactNode } from 'react'
 import Analytics from '@/components/Analytics'
+import Banner from '@/components/Banner';
 export const runtime = 'edge';
 
 type Props = {
@@ -82,6 +83,7 @@ const MainLayout = ({
       <Analytics />
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">
+          <Banner />
           <NextIntlClientProvider messages={messages}>
             <Layout>{children}</Layout>
           </NextIntlClientProvider>

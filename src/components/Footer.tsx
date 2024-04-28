@@ -18,6 +18,7 @@ export function Footer() {
     main: [
       { name: t('item1'), href: '/about' },
       { name: t('item2'), href: '/privacy' },
+      { name: 'ResumeGo', href: 'https://resumego.io' },
     ],
   }
   return (

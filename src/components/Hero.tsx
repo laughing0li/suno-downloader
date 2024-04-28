@@ -63,7 +63,7 @@ export function Hero() {
 
   return (
     <div className="relative sm:pt-24">
-      <BackgroundImage position="right" className="-bottom-20 -top-40" />
+      <BackgroundImage position="right" className="-bottom-20 -top-30" />
       <Container className="relative">
         <div className="mx-auto max-w-xl lg:max-w-3xl lg:px-12">
           {isError && (
