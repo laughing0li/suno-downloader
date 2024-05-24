@@ -1,5 +1,8 @@
 import { Container } from '@/components/Container'
 import { useTranslations } from 'next-intl'
+import logo from "@/app/ship.png";
+import Link from 'next/link';
+import Image from "next/image";
 
 export function Footer() {
   const t = useTranslations('footer')
@@ -24,6 +27,21 @@ export function Footer() {
   return (
     <footer className="flex-none bg-slate-900">
       <Container className="flex flex-col items-center justify-between md:flex-row">
+      <Link
+            className="flex items-center gap-2 shrink-0 mt-4 sm:mt-0"
+            href="https://shipfa.st/?via=yunlong"
+            title={`shipfast homepage`}
+          >
+            <span className="text-white">Built with</span>
+            <Image
+              src={logo}
+              alt={`shipfast logo`}
+              className="w-24"
+              priority={true}
+              width={100}
+              height={100}
+            />
+          </Link>
         <div className="mx-auto max-w-7xl overflow-hidden px-6 py-8 sm:py-10 lg:px-8">
           <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
             {navigation.main.map((item) => (
@@ -39,7 +57,6 @@ export function Footer() {
           </p>
         </div>
       </Container>
-
     </footer>
   )
 }
