@@ -23,14 +23,11 @@ export const scrapeAudioUrl = async (pageUrl: string) => {
         break // Stop the loop once the audio URL is found
       }
     }
-    // For header texts, adjust the selector as needed
-    const headerTexts = $('h2')
-      .map((i, el) => $(el).text())
-      .get() // Assuming h2 tags for headers
-
+    const headerTexts = $('title').text();
+    const [mainTitle] = headerTexts.split(' by ');
     if (audioUrl) {
       // Assuming you have a title or some text to name the file
-      const fileName = `${headerTexts[0] || 'downloaded_audio'}`
+      const fileName = `${mainTitle || 'downloaded_audio'}`
       const baseUrl = new URL(pageUrl).origin
       const resolvedAudioUrl = audioUrl.startsWith('http')
         ? audioUrl
