@@ -6,6 +6,8 @@ const Analytics = () => (
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-48MVDH1X2C"
         />
+        <Script defer data-domain="photorater.io" src="https://plausible.io/js/script.js"></Script>
+
         <Script
             id="google-analytics"
             dangerouslySetInnerHTML={{
