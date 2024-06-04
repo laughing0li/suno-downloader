@@ -47,6 +47,12 @@ export default function Faq() {
           <Instruction />
           <HowTo />
           <Blog />
+          <div className='grid sm:grid-cols-2 grid-cols-1 sm: gap-x-4 gap-y-4 mt-10'>
+          <p className='w-full text-slate-400 font-mono font-semibold'>
+            If you find my work helpful and would like to support me, consider buying me a coffee. Your support is greatly appreciated!
+          </p>
+          <a href="https://www.buymeacoffee.com/laughing" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: '60px !important;', width: '217px !important;'}} /></a>
+          </div>
           <div className="mt-24 mx-auto pb-10 max-w-4xl divide-y divide-gray-900/10">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">{t('h2')}</h2>
             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
