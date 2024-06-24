@@ -31,6 +31,7 @@ export async function generateMetadata({
 }: Omit<Props, 'children'>) {
     const t = await getTranslations({ locale, namespace: 'metadata' })
     const header = headers()
+    console.log('header: ', header)
     const pathName = header.get('x-pathname')
     const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://www.sunodownloader.io';
 
