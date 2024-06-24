@@ -5,7 +5,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider, useMessages } from 'next-intl'
 import { ReactNode } from 'react'
 import Analytics from '@/components/Analytics'
-import { headers } from "next/headers"
+import { cookies, headers } from "next/headers"
 import Banner from '@/components/Banner'
 export const runtime = 'edge'
 
@@ -31,8 +31,12 @@ export async function generateMetadata({
 }: Omit<Props, 'children'>) {
     const t = await getTranslations({ locale, namespace: 'metadata' })
     const header = headers()
-    console.log('header: ', header)
-    const pathName = header.get('x-pathname')
+    const cookieStore = cookies();
+
+    // console.log('header: ', header)
+    console.log('cookieStore: ', cookieStore.get('x-pathname')?.value)
+    // const pathName = header.get('x-pathname')
+    const pathName = cookieStore.get('x-pathname')?.value
     const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://www.sunodownloader.io';
 
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']

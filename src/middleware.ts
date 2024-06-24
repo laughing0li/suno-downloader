@@ -16,8 +16,8 @@ export default function middleware(request: NextRequest) {
   let pathname = request.nextUrl.pathname
   const localePattern = /^\/(en|ch|jp|ko|es|fr|de|it|pt|ru|ar|hi)(\/|$)/
   pathname = pathname.replace(localePattern, '/')
-  response.headers.set('x-pathname', pathname)
-  console.log('pathname from middleware: ', pathname)
+//   response.headers.set('x-pathname', pathname)
+  response.cookies.set('x-pathname', pathname)
   return response
 }
 
