@@ -7,7 +7,7 @@ const SunoPopular = () => {
     const t = useTranslations('blog')
 
     return (
-        <Container className='pt-20 text-gray-900'>
+        <Container className='py-20 text-gray-900'>
             <h3 className='font-bold text-2xl my-6 flex justify-center'>
                 {t('blog4.title')}
             </h3>

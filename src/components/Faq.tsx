@@ -33,14 +33,14 @@ export default function Faq() {
   <div className="mx-auto w-full px-6 pt-10">
     <div className="flex flex-wrap justify-between">
       {/* Left ad */}
-      <div className="w-full md:w-1/6">
+      {/* <div className="w-full md:w-1/6">
         <div className="hidden md:block">
           <AdSense slot="3676460825"  />
         </div>
-      </div>
+      </div> */}
       
       {/* Main content */}
-      <div className="w-full md:w-1/2">
+      <div className="max-w-5xl	mx-auto">
         <div>
           <p className="mx-auto text-lg leading-8 text-gray-600">{t('p1')}</p>
           <p className="mx-auto text-lg pb-16 leading-8 text-gray-600">{t('p2')}</p>
@@ -48,12 +48,12 @@ export default function Faq() {
           <HowTo />
           <Blog />
           <div className='grid sm:grid-cols-2 grid-cols-1 sm: gap-x-4 gap-y-4 mt-10'>
-          <p className='w-full text-slate-400 font-mono font-semibold'>
+          {/* <p className='w-full text-slate-400 font-mono font-semibold'>
             If you find my work helpful and would like to support me, consider buying me a coffee. Your support is greatly appreciated!
           </p>
-          <a href="https://www.buymeacoffee.com/laughing" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: '60px !important;', width: '217px !important;'}} /></a>
+          <a href="https://www.buymeacoffee.com/laughing" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: '60px !important', width: '217px !important'}} /></a> */}
           </div>
-          <div className="mt-24 mx-auto pb-10 max-w-4xl divide-y divide-gray-900/10">
+          <div className="mt-24 mx-auto pb-10 divide-y divide-gray-900/10">
             <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">{t('h2')}</h2>
             <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
               {faqs.map((faq) => (
@@ -85,11 +85,11 @@ export default function Faq() {
       </div>
       
       {/* Right ad */}
-      <div className="w-full md:w-1/6">
+      {/* <div className="w-full md:w-1/6">
         <div className="hidden md:block">
           <AdSense slot="8341629997" />
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 </Container>
