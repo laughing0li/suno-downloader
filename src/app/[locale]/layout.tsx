@@ -5,7 +5,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider, useMessages } from 'next-intl'
 import { ReactNode } from 'react'
 import Analytics from '@/components/Analytics'
-import { cookies, headers } from "next/headers"
+import { cookies } from "next/headers"
 import Banner from '@/components/Banner'
 export const runtime = 'edge'
 
@@ -30,38 +30,33 @@ export async function generateMetadata({
     params: { locale }
 }: Omit<Props, 'children'>) {
     const t = await getTranslations({ locale, namespace: 'metadata' })
-    const header = headers()
     const cookieStore = cookies();
-
-    // console.log('header: ', header)
-    console.log('cookieStore: ', cookieStore.get('x-pathname')?.value)
-    // const pathName = header.get('x-pathname')
-    const pathName = cookieStore.get('x-pathname')?.value
+    const pathName = cookieStore.get('x-pathname')?.value || '/';
     const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://www.sunodownloader.io';
-
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
     const localePath = locale === 'en' ? '' : `/${locale}`;
+    const formattedPath = pathName === '/' ? '/' : pathName;
     const languages = locales.reduce((acc, locale) => {
-        acc[locale as keyof typeof acc] = `${baseUrl}/${locale}${pathName}`;
+        acc[locale as keyof typeof acc] = `${baseUrl}/${locale}${formattedPath === '/' ? '' : formattedPath}`;
         return acc
     }, {} as Record<string, string>)
     languages['x-default'] = `${baseUrl}${pathName}`;
-
+    const site_url = `${baseUrl}${localePath}${formattedPath === '/' ? '/' : formattedPath}`
     return {
         title: t('title'),
         description: t('description'),
         alternates: {
-            canonical: `${baseUrl}${localePath}${pathName}`,
+            canonical: site_url,
             languages: languages
         },
         twitter: {
             card: '',
-            site: `${baseUrl}${localePath}${pathName}`,
+            site: site_url,
         },
         openGraph: {
             title: t('title'),
             description: t('description'),
-            site: `${baseUrl}${localePath}${pathName}`,
+            site: site_url,
             type: 'website',
             locale: locale,
             images: [
