@@ -31,17 +31,21 @@ export async function generateMetadata({
 }: Omit<Props, 'children'>) {
     const t = await getTranslations({ locale, namespace: 'metadata' })
     const cookieStore = cookies();
-    const pathName = cookieStore.get('x-pathname')?.value || '/';
+    let pathName = cookieStore.get('x-pathname')?.value || '/';
     const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://www.sunodownloader.io';
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
     const localePath = locale === 'en' ? '' : `/${locale}`;
-    const formattedPath = pathName === '/' ? '/' : pathName;
+
+    // Ensure correct formatting
+    if (pathName !== '/' && pathName.endsWith('/')) {
+        pathName = pathName.slice(0, -1); // Remove trailing slash from non-root paths
+    }
+    const site_url = localePath === '' && pathName === '/' ? `${baseUrl}/` : `${baseUrl}${localePath}${pathName === '/' ? '' : pathName}`;
     const languages = locales.reduce((acc, locale) => {
-        acc[locale as keyof typeof acc] = `${baseUrl}/${locale}${formattedPath === '/' ? '' : formattedPath}`;
+        acc[locale as keyof typeof acc] = `${baseUrl}/${locale}${pathName === '/' ? '' : pathName}`;
         return acc
     }, {} as Record<string, string>)
     languages['x-default'] = `${baseUrl}${pathName}`;
-    const site_url = `${baseUrl}${localePath}${formattedPath === '/' ? '/' : formattedPath}`
     return {
         title: t('title'),
         description: t('description'),
