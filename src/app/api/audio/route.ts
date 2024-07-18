@@ -1,4 +1,4 @@
-import { scrapeAudioUrl } from '@/lib/downloadHelper'
+import { downloadAudio, scrapeAudioUrl } from '@/lib/downloadHelper'
 import { NextRequest, NextResponse } from 'next/server'
 
 export const runtime = 'edge';
@@ -13,7 +13,8 @@ export async function POST(request: NextRequest) {
     )
   }
 
-  const audioBuffer = await scrapeAudioUrl(url)
+//   const audioBuffer = await scrapeAudioUrl(url)
+  const audioBuffer = await downloadAudio(url)
   if (!audioBuffer) {
     return NextResponse.json(
       { error: 'Failed to fetch audio file' },

@@ -23,8 +23,8 @@ export const scrapeAudioUrl = async (pageUrl: string) => {
         break // Stop the loop once the audio URL is found
       }
     }
-    const headerTexts = $('title').text();
-    const [mainTitle] = headerTexts.split(' by ');
+    const headerTexts = $('title').text()
+    const [mainTitle] = headerTexts.split(' by ')
     if (audioUrl) {
       // Assuming you have a title or some text to name the file
       const fileName = `${mainTitle || 'downloaded_audio'}`
@@ -43,4 +43,22 @@ export const scrapeAudioUrl = async (pageUrl: string) => {
   } catch (error) {
     console.error(`An error occurred: ${error}`)
   }
+}
+
+export const downloadAudio = async (pageUrl: string) => {
+    const suno_id = getStringAfterSong(pageUrl)
+    const audioUrl = `https://cdn1.suno.ai/${suno_id}.mp3`
+    const audioResponse = await fetch(audioUrl)
+    if (!audioResponse.ok) {
+      throw new Error(`Failed to fetch audio file: ${audioResponse.statusText}`)
+    }
+    const audioBuffer = await audioResponse.arrayBuffer()
+    const fileName = `audio`
+    return { audioBuffer, fileName }
+}
+
+function getStringAfterSong(url: string): string | null {
+  const regex = /song\/([^\/]+)/
+  const match = url.match(regex)
+  return match ? match[1] : null
 }
