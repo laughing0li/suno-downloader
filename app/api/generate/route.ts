@@ -24,7 +24,7 @@ export async function POST(req: NextRequest) {
         // TODO When in production, change the callback URL to your own server
         callBackUrl:
             // `https://c9d9-159-196-132-3.ngrok-free.app/api/music/${user_id}/callback`,
-            `https://suno-ai-ochre.vercel.app/api/music/${user_id}/callback`,
+            `https://www.sunodownloader.io/api/music/${user_id}/callback`,
     };
     const headers = {
         "Content-Type": "application/json",
