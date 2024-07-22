@@ -1,0 +1,130 @@
+{
+    "metadata": {
+        "title": "Descargador Suno - Gratis y Rápido Descargador de Música Suno",
+        "description": "Experimenta el futuro de la música con Suno AI. Descarga canciones generadas por IA al instante. ¡Explora una amplia gama de géneros y comienza tu viaje musical hoy!"
+    },
+    "heroSection": {
+        "error": "¡Error! Por favor, verifica tu URL nuevamente.",
+        "h1": "Descargador de Música Suno",
+        "button": "Descargar",
+        "placeholder": "Ingresa el URL de Música Suno"
+    },
+    "instruction": {
+        "h2": "¿Cómo descargar canciones de Suno?",
+        "p1": "Para descargar una pista de Suno, necesitarás el enlace compartido de la pista que deseas descargar. Aquí hay algunos ejemplos de enlaces compartidos de Suno:",
+        "p2": "Simplemente pega el enlace compartido de la pista de Suno que deseas descargar en el campo de entrada. Haz clic en el botón de descarga para obtener el enlace de descarga. Una vez que el enlace de descarga esté listo, haz clic en el botón de descarga para guardar la pista en tu dispositivo. Puedes encontrar el enlace para copiar como se muestra en la imagen."
+    },
+    "faq": {
+        "p1": "El Descargador de Música Suno te permite explorar y guardar pistas de música generadas por IA directamente en tu dispositivo (ya sea móvil o PC) sin costo alguno. Sumérgete en el innovador mundo de Suno AI.",
+        "p2": "Siéntete libre de descargar tantas pistas de Suno como desees. Nuestro Descargador de Música Suno no impone restricciones en el número de canciones que puedes guardar, asegurando una aventura musical sin restricciones. Lo que distingue a nuestra herramienta es su notable eficiencia: dependiendo de tu velocidad de internet, obtener enlaces de descarga toma solo segundos.",
+        "h2": "Preguntas frecuentes - FAQ",
+        "question1": "¿Es gratis usar el Descargador de Música Suno?",
+        "answer1": "Sí, el Descargador de Música Suno es completamente gratuito. Puedes descargar tantas canciones como desees sin ningún cargo.",
+        "question2": "¿El Descargador de Música Suno tiene alguna limitación?",
+        "answer2": "No, el Descargador de Música Suno no tiene limitaciones. Puedes descargar tantas canciones como desees sin restricciones.",
+        "question3": "¿Puedo descargar canciones de Suno en mi dispositivo móvil?",
+        "answer3": "Sí, puedes descargar canciones del Descargador de Música Suno en cualquier dispositivo (iOS o Android).",
+        "question4": "¿Dónde puedo encontrar las canciones descargadas?",
+        "answer4": "Ya sea que uses una PC o un dispositivo móvil, las canciones descargadas se pueden encontrar en el directorio de descargas predeterminado de tu dispositivo."
+    },
+    "about": {
+        "h1": "Acerca de",
+        "p1": "Bienvenido a",
+        "a": "Descargador de Canciones Suno",
+        "p2": "tu destino principal para descargar música Suno sin esfuerzo en cualquier dispositivo, ya sea una computadora, tableta o teléfono móvil. Nuestra plataforma simplifica el proceso de descarga de música, haciéndolo accesible, rápido y, lo más importante, gratuito.",
+        "p3": "Ofrecemos un servicio rápido, confiable y completamente gratuito, asegurando que tengas acceso a descargas ilimitadas de música Suno AI sin problemas. Nuestras descargas son rápidas y fáciles de usar, manteniendo todo el proceso optimizado para tu conveniencia. Simplemente copia el enlace de la canción Suno que deseas descargar, pégalo en la página principal de nuestro sitio y haz clic en “Descargar”. ¡Es así de fácil!",
+        "p4": "Estamos dedicados a mejorar su experiencia. Nuestro equipo actualiza periódicamente Suno Music Downloader para optimizar el proceso de descarga y la funcionalidad del sitio, asegurando que disfrute de nuestro servicio al máximo. Sin embargo, los ajustes técnicos ocasionales en el backend pueden afectar los tiempos de carga. Tenga la seguridad de que estamos a la altura de resolver cualquier problema rápidamente, minimizando cualquier interrupción en sus actividades de descarga de música."
+    },
+    "privacy": {
+        "h1": "Política de Privacidad",
+        "p1": "Al utilizar",
+        "a": "Descargador de Música Suno",
+        "p2": "aceptas adherirte a las políticas de privacidad descritas en esta página:",
+        "p-strong1": "Información que No Recopilamos:",
+        "p3": "No recopilamos ninguna información personal de nuestros usuarios. Tu privacidad y seguridad son de suma importancia para nosotros.",
+        "p-strong2": "Uso de Cookies:",
+        "p4": "Para mejorar tu experiencia, Descargador de Música Suno utiliza cookies de Google Analytics, las cuales nos ayudan a comprender y guardar tus preferencias para futuras visitas. Las cookies son pequeños archivos de datos que un sitio o su proveedor de servicios transfiere al disco duro de tu computadora a través de tu navegador web (si lo permites) que permite que los sistemas del sitio o proveedores de servicios reconozcan tu navegador y capturen y recuerden cierta información.",
+        "p-strong3": "Compartir Información:",
+        "p5": "No vendemos, comerciamos, ni transferimos a terceros tu información personal identificable (y no recopilamos dicha información). Esto no incluye a terceros de confianza que nos asisten en la operación de nuestro sitio web, la realización de nuestro negocio, o el servicio a ti, siempre y cuando esos terceros se comprometan a mantener esta información confidencial. También podemos liberar tu información cuando creemos que es necesario para cumplir con la ley, hacer cumplir nuestras políticas del sitio, o proteger nuestros derechos o los de otros, propiedad o seguridad. Sin embargo, la información de visitantes no identificable personalmente puede ser proporcionada a otras partes para marketing, publicidad u otros usos.",
+        "p-strong4": "Actualizaciones de la Política de Privacidad:",
+        "p6": "Nos reservamos el derecho de modificar nuestra política de privacidad. Cualquier cambio será publicado en esta página."
+    },
+    "footer": {
+        "item1": "Sobre",
+        "item2": "política de Privacidade",
+        "item3": "Descargador de Música Suno",
+        "description": "Experimenta el futuro de la música con Suno AI. Descarga canciones generadas por IA al instante. Explora una amplia gama de géneros y comienza tu viaje musical hoy mismo!",
+        "copyright": "Derechos de autor © 2024 - Todos los derechos reservados",
+        "pricing": "Precios",
+        "legal": "Legal",
+        "links": "Enlaces"
+    },
+    "howTo": {
+        "content": "Nuestro descargador de música Suno te ayuda a descargar canciones de Suno AI (suno.ai) con menos pasos que el método de copiar y pegar. El descargador de canciones de Suno funciona perfectamente en cualquier navegador, móvil y escritorio. Descubre cómo guardar una canción de Suno con nuestra página web leyendo las instrucciones de 'cómo hacerlo' a continuación.",
+        "question1": "¿Cómo usar la aplicación descargadora de canciones de Suno?",
+        "answer1": "Puedes iniciar el proceso de descarga de canciones desde Suno AI a través de nuestra página web en cualquier dispositivo con un navegador instalado y con cualquier sistema operativo (Windows 7, 10, Mac, Linux, Ubuntu, etc.). En comparación con la extensión de navegador, descargar a través de nuestra página web es fácil, la única diferencia es que necesitas realizar un paso adicional. Consulta toda la información a continuación.",
+        "question2": "COPIAR URL DE MÚSICA",
+        "answer2": "Encuentra la canción que quieres guardar de Suno AI y copia el enlace del icono de Compartir. Puedes encontrar este ejemplo de enlace para compartir en la sección de 'Cómo hacerlo'.",
+        "question3": "PEGAR EN EL CAMPO DE ENTRADA",
+        "answer3": "Abre la página web del descargador de música de Suno en una nueva pestaña y pega la URL en el formulario en la parte superior de la página. Luego, haz clic en el botón “Descargar” a la derecha para obtener la canción.",
+        "question4": "DESCARGAR CANCIÓN DE SUNO",
+        "answer4": "Una vez que presiones el botón, en unos segundos podrás descargar esta canción a través de tu navegador y se almacenará en tu carpeta de descargas predeterminada."
+    },
+    "blog": {
+        "blog1": {
+            "title": "1. ¿Qué es Suno AI?",
+            "p1": "Suno AI es una plataforma innovadora que revoluciona la forma en que se crea música con inteligencia artificial. Permite a los usuarios generar canciones completas con letras originales, melodías e instrumentación basadas en indicaciones de texto. Esto significa que puedes ingresar una descripción o unas pocas líneas de letras y la IA creará una canción completa basada en esos inputs.",
+            "p2": "El servicio ha llamado la atención por su capacidad para crear música rápidamente sin necesidad de habilidades musicales tradicionales como tocar un instrumento o cantar. Los usuarios pueden acceder a Suno AI a través de una aplicación web, diseñada para ser extremadamente fácil de usar y hacer que la creación de música sea accesible para una amplia audiencia, independientemente de su experiencia musical."
+        },
+        "blog2": {
+            "title": "2. ¿Por qué creamos Suno Downloader?",
+            "p1": "Suno AI es una gran herramienta para crear música, pero tiene algunas limitaciones. Por ejemplo, los usuarios solo pueden descargar las canciones que crearon. Aquí es donde entra Suno Downloader. Suno Downloader es una herramienta de terceros que permite a los usuarios descargar cualquier canción creada con Suno AI, incluso si no fueron los creadores originales. Esto significa que los usuarios pueden acceder fácilmente y compartir canciones creadas con Suno AI, incluso si no tienen una cuenta de Suno AI."
+        },
+        "blog3": {
+            "title": "3. ¿Quién creó Suno AI?",
+            "p1": "Suno fue fundado por cuatro personas: Michael Shulman, Georg Kucsko, Martin Camacho y Keenan Freyberg en 2023."
+        },
+        "blog4": {
+            "title": "4. ¿Por qué Suno AI es tan popular?",
+            "p1": "Suno AI ha ganado rápidamente popularidad por su enfoque innovador en la creación de música utilizando inteligencia artificial. Aquí hay algunas razones clave por las que Suno AI se ha vuelto tan popular:",
+            "li1": "Soporte multilingüe: Suno AI admite varios idiomas, lo que lo hace accesible para una audiencia más amplia en todo el mundo.",
+            "li2": "Forma creativa de generar música: Suno AI ofrece una forma única e innovadora de crear música. Los usuarios pueden generar canciones completas con letras originales, melodías e instrumentación basadas en indicaciones de texto.",
+            "li3": "Facilidad de uso: La plataforma proporciona una interfaz simple e intuitiva, lo que permite a los usuarios crear chatbots y asistentes de voz impulsados por IA sin requerir experiencia técnica.",
+            "li4": "Precios asequibles: Suno AI ofrece planes de precios competitivos, lo que lo convierte en una opción atractiva para pequeñas y medianas empresas que buscan integrar la IA en sus operaciones.",
+            "li5": "Suno AI fomenta una fuerte participación comunitaria al organizar desafíos y mostrar pistas creadas por los usuarios. Este aspecto comunitario ayuda a crear un ambiente de apoyo donde los usuarios pueden aprender, compartir y mejorar sus habilidades de creación musical. La gente también puede crear su propia música basada en la música de otras personas, lo que es una excelente manera de interactuar entre ellos.",
+            "li6": "Suno AI no solo maneja el aspecto de audio, sino que también integra visuales en el proceso de producción musical, convirtiéndolo en una herramienta integral para crear contenido multimedia. Esta característica es especialmente útil para creadores de contenido que buscan producir videos musicales o presentaciones visuales junto con su música.",
+            "p2": "Estos factores combinados hacen que Suno AI sea una opción popular entre aquellos que buscan explorar o expandir su creatividad musical sin necesidad de un extenso bagaje musical o recursos."
+        },
+        "blog5": {
+            "title": "5. Suno vs. Udio",
+            "li1": "Suno AI está diseñado para hacer que el proceso de creación musical sea sencillo y accesible para personas sin formación musical previa. Automatiza la creación de pistas completas, incluidas las voces, e integra bien los aspectos visuales, lo que lo hace particularmente atractivo para principiantes o aquellos que buscan producir rápidamente canciones completas con un esfuerzo mínimo. Suno AI es celebrado por su interfaz fácil de usar y la capacidad para producir música de alta calidad fácilmente.",
+            "li2": "Udio AI, por otro lado, se destaca por su avanzada tecnología de generación de voz, que puede producir pistas vocales notablemente realistas. Esto hace que Udio sea muy beneficioso para los usuarios que pueden no tener habilidades vocales sólidas pero desean incluir elementos vocales convincentes en su música. Inicialmente, Udio estaba limitado a crear fragmentos de 30 segundos, pero ahora ha ampliado sus capacidades para permitir composiciones de hasta cuatro minutos de duración. Udio ofrece una interfaz sencilla con opciones de modo automático y manual tanto para la creación de letras como de música, lo que atrae tanto a principiantes en la producción musical como a personas sin experiencia musical.",
+            "li3": "En resumen, si buscas una manera súper fácil y rápida de hacer tus propias pistas de música completas, Suno AI es definitivamente la opción a seguir. Es perfecto para principiantes o cualquier persona que no tenga antecedentes musicales pero aún quiera crear algunas melodías impresionantes. Por otro lado, si estás más interesado en la generación vocal avanzada y quieres hacer piezas musicales más largas y personalizadas, incluso sin ningún entrenamiento formal, entonces Udio AI podría ser más adecuado para ti."
+        },
+        "blog6": {
+            "title": "6. ¿Suno afectará a la industria musical?",
+            "p1": "El impacto de las plataformas de generación de música impulsadas por IA como Suno AI en los artistas es un tema de discusión continua en la industria musical. Si bien estas herramientas tienen el potencial de democratizar la creación musical y ofrecer nuevas oportunidades, también pueden presentar algunos desafíos para los artistas profesionales. Aquí hay algunos efectos potenciales:",
+            "li1": "Aumento de la competencia: Con más personas capaces de crear música utilizando herramientas de IA, podría haber un aumento en la oferta total de música, lo que podría dificultar que los artistas individuales se destaquen.",
+            "li2": "Cambios en el proceso creativo: Algunos artistas pueden sentir que la música generada por IA carece del toque humano y la profundidad emocional que proviene del proceso creativo tradicional.",
+            "li3": "Preocupaciones sobre la originalidad: Puede haber preguntas sobre la originalidad y autenticidad de la música creada utilizando IA, lo que podría afectar cómo los oyentes perciben y valoran esa música.",
+            "li4": "Impacto potencial en los ingresos: Si la música generada por IA se vuelve ampliamente disponible y popular, podría reducir potencialmente la demanda de música creada por humanos, afectando los flujos de ingresos de los artistas.",
+            "li5": "Enfoque en las presentaciones en vivo: Los artistas pueden poner mayor énfasis en las presentaciones en vivo, la narración de historias y la creación de experiencias únicas que no pueden ser replicadas por la IA.",
+            "p2": "Es importante tener en cuenta que el impacto a largo plazo de la IA en la industria musical aún está en desarrollo y probablemente variará dependiendo de factores como las herramientas de IA específicas que se están utilizando, los roles de los creadores humanos y la recepción de la música generada por IA por parte del público. Al igual que con cualquier avance tecnológico, habrá tanto desafíos como oportunidades para que los artistas naveguen en este panorama en evolución."
+        }
+    },
+    "header": {
+        "title": "Descargador de Música Suno",
+        "tool": "Generador de Música AI",
+        "discover": "Descubrir",
+        "pricing": "Precios",
+        "library": "Mi Biblioteca",
+        "billing": "Facturación",
+        "logout": "Cerrar sesión",
+        "signin": "Iniciar sesión"
+    },
+    "signin": {
+        "home": "Inicio",
+        "signin": "Iniciar sesión en Descargador de Música Suno",
+        "signup": "Regístrate con Google"
+    }
+}
