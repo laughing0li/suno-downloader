@@ -4,6 +4,7 @@ import config from "@/config";
 
 // This route is used to receive emails from Mailgun and forward them to our customer support email.
 // See more: https://shipfa.st/docs/features/emails
+export const runtime = 'edge';
 export async function POST(req: NextRequest) {
   try {
     // extract the email content, subject and sender

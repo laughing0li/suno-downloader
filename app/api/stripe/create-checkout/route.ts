@@ -6,6 +6,7 @@ import { createCheckout } from "@/libs/stripe";
 // This function is used to create a Stripe Checkout Session (one-time payment or subscription)
 // It's called by the <ButtonCheckout /> component
 // Users must be authenticated. It will prefill the Checkout data with their email and/or credit card (if any)
+export const runtime = 'edge';
 export async function POST(req: NextRequest) {
   try {
     const cookieStore = cookies();

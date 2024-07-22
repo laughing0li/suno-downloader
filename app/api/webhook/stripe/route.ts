@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
 import { findCheckoutSession } from "@/libs/stripe";
-
+export const runtime = 'edge';
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: "2023-08-16",
   typescript: true,

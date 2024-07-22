@@ -2,7 +2,7 @@ import { NextResponse, NextRequest } from "next/server";
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import { createCustomerPortal } from "@/libs/stripe";
-
+export const runtime = 'edge';
 export async function POST(req: NextRequest) {
   try {
     const cookieStore = cookies();

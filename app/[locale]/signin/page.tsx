@@ -10,6 +10,7 @@ import logo from "@/app/icon.png"
 import { useTranslations } from "next-intl"
 // This a login/singup page for Supabase Auth.
 // Successfull login redirects to /api/auth/callback where the Code Exchange is processed (see app/api/auth/callback/route.js).
+export const runtime = 'edge';
 export default function Login() {
     const supabase = createClientComponentClient()
     const [isLoading, setIsLoading] = useState<boolean>(false)
