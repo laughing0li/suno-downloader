@@ -27,7 +27,7 @@ export async function generateMetadata({
     const t = await getTranslations({ locale, namespace: 'metadata' })
     const cookieStore = cookies();
     let pathName = cookieStore.get('x-pathname')?.value || '/';
-    const baseUrl = process.env.NODE_ENV === "development" ? 'http://localhost:3000' : 'https://www.sunodownloader.io';
+    const baseUrl = 'https://www.sunodownloader.io';
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
     const localePath = locale === 'en' ? '' : `/${locale}`;
     // Ensure correct formatting

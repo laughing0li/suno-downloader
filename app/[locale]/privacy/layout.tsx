@@ -13,19 +13,19 @@ export async function generateMetadata({
     let pathName = cookieStore.get('x-pathname')?.value || '/'
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
     const localePath = locale === 'en' ? '' : `/${locale}`
-    const baseUrl = `https://www.sunodownloader.io${localePath}/ai-music-generator`
+    const baseUrl = `https://www.sunodownloader.io${localePath}/privacy`
     // Ensure correct formatting
     if (pathName !== '/' && pathName.endsWith('/')) {
         pathName = pathName.slice(0, -1) // Remove trailing slash from non-root paths
     }
     const languages = locales.reduce((acc, locale) => {
-        acc[locale as keyof typeof acc] = `https://www.sunodownloader.io/${locale}/ai-music-generator`
+        acc[locale as keyof typeof acc] = `https://www.sunodownloader.io/${locale}/privacy`
         return acc
     }, {} as Record<string, string>)
-    languages['x-default'] = `https://www.sunodownloader.io/ai-music-generator`
+    languages['x-default'] = `https://www.sunodownloader.io/privacy`
     return {
-        title: "Free AI Music Generator",
-        description: "Generate AI music for free with AI music generator. Create unlimited music tracks use it anywhere.",
+        title: "Explore All AI Music | AI Music Generator",
+        description: "Enjoy the library of AI music tracks. Download AI music for free. Create unlimited music tracks with AI music generator.",
         alternates: {
             canonical: baseUrl,
             languages: languages
