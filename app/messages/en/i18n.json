@@ -7,7 +7,9 @@
         "error": "Error! Please Check you URL again.",
         "h1": "Suno Music Downloader",
         "button": "Download",
-        "placeholder": "Enter Suno Music URL"
+        "placeholder": "Enter Suno Music URL",
+        "tool": "AI Music Generator",
+        "try": "Try it for free"
     },
     "instruction": {
         "h2": "How to download songs from Suno?",
@@ -127,5 +129,4 @@
         "signin": "Sign-In to Suno Downloader",
         "signup": "Sign-Up with Google"
     }
-
 }

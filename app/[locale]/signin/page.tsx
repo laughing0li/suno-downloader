@@ -61,9 +61,9 @@ export default function Login() {
                     {t('home')}
                 </Link>
             </div>
-            <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-center mb-12">
+            <p className="text-2xl md:text-3xl font-extrabold tracking-tight text-center mb-12">
                 {t('signin')}
-            </h1>
+            </p>
 
             <div className="space-y-8 max-w-xl mx-auto">
                 <button

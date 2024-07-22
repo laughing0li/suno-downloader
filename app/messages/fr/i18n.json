@@ -7,7 +7,9 @@
         "error": "Erreur ! Veuillez vérifier à nouveau votre URL.",
         "h1": "Téléchargeur de Musique Suno",
         "button": "Télécharger",
-        "placeholder": "Entrez l'URL de la Musique Suno"
+        "placeholder": "Entrez l'URL de la Musique Suno",
+        "tool": "Générateur de musique IA",
+        "try": "Essayez gratuitement"
     },
     "instruction": {
         "h2": "Comment télécharger des chansons de Suno ?",

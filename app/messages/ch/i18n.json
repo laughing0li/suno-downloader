@@ -7,7 +7,9 @@
         "error": "错误！请再次检查您的URL。",
         "h1": "Suno音乐下载器",
         "button": "下载",
-        "placeholder": "输入Suno音乐URL"
+        "placeholder": "输入Suno音乐URL",
+        "tool": "AI 音乐生成器",
+        "try": "免费试用"
     },
     "instruction": {
         "h2": "如何从Suno下载歌曲？",

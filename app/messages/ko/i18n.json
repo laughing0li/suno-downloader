@@ -7,7 +7,9 @@
         "error": "오류! URL을 다시 확인하세요.",
         "h1": "수노 음악 다운로더",
         "button": "다운로드",
-        "placeholder": "수노 음악 URL 입력"
+        "placeholder": "수노 음악 URL 입력",
+        "tool": "AI 음악 생성기",
+        "try": "무료로 사용해보세요"
     },
     "instruction": {
         "h2": "수노에서 곡을 다운로드하는 방법은?",

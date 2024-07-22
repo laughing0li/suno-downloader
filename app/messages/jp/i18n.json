@@ -7,7 +7,9 @@
         "error": "エラー!URLを再度ご確認ください。",
         "h1": "Suno 音楽ダウンローダー",
         "button": "ダウンロード",
-        "placeholder": "Suno 音楽URLを入力"
+        "placeholder": "Suno 音楽URLを入力",
+        "tool": "AI音楽ジェネレーター",
+        "try": "無料で試す"
     },
     "instruction": {
         "h2": "Sunoから曲をダウンロードする方法は?",

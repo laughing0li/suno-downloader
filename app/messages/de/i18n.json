@@ -7,7 +7,9 @@
         "error": "Fehler! Bitte überprüfen Sie die URL erneut.",
         "h1": "Suno-Musik-Downloader",
         "button": "Herunterladen",
-        "placeholder": "Geben Sie die Suno-Musik-URL ein"
+        "placeholder": "Geben Sie die Suno-Musik-URL ein",
+        "tool": "KI-Musikgenerator",
+        "try": "Kostenlos ausprobieren"
     },
     "instruction": {
         "h2": "Wie lade ich Lieder von Suno herunter?",
