@@ -26,6 +26,7 @@ export default function MyMusic() {
     const [audioData, setAudioData] = useState<AudioData[]>([])
     const [isPolling, setIsPolling] = useState(true)
     const intervalIdRef = useRef(null)
+    const [credits, setCredits] = useState(0)
 
     const handlePageChange = (newPage: number) => {
         setPage(newPage)
@@ -42,6 +43,7 @@ export default function MyMusic() {
             const result = await response.json()
             setAudioData(result.data)
             setTotalPages(result.totalPages)
+            setCredits(result.data[0].audio_generations.user.credits)
             const incompleteItems = result.data.filter((item: AudioData) => !item.audio_url)
             if (incompleteItems.length === 0) {
                 setIsPolling(false)
@@ -91,7 +93,9 @@ export default function MyMusic() {
     return (
         <div className="sm:mt-24 mt-12">
             <h1 className='text-center text-3xl font-bold p-4'>
-                Credits left: <span className="text-secondary">{audioData[0].audio_generations.user.free}</span>
+                Credits left: <span className="text-secondary">
+                    {credits > 0 ? credits : 0}
+                </span>
             </h1>
             <p className="text-center text-xl font-bold mt-4 text-secondary">
                 <a href="/ai-music-generator">AI Music Generator &gt;&gt;</a>
