@@ -46,24 +46,7 @@ export async function generateMetadata({
         alternates: {
             canonical: site_url,
             languages: languages
-        },
-        // twitter: {
-        //     card: '',
-        //     site: site_url,
-        // },
-        // openGraph: {
-        //     title: t('title'),
-        //     description: t('description'),
-        //     site: site_url,
-        //     type: 'website',
-        //     locale: locale,
-        //     images: [
-        //         {
-        //             url: `${baseUrl}/images/suno.svg`,
-        //             alt: 'sunodownloader Logo',
-        //         },
-        //     ],
-        // },
+        }
     }
 }
 
