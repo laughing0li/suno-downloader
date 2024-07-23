@@ -25,10 +25,9 @@ export default function Login() {
         e?.preventDefault()
 
         setIsLoading(true)
-
         try {
             const { type, provider } = options
-            const redirectURL = `${window.location.origin}/api/auth/callback`
+            const redirectURL = window.location.origin + "/api/auth/callback"
             if (type === "oauth") {
                 await supabase.auth.signInWithOAuth({
                     provider,
@@ -37,7 +36,6 @@ export default function Login() {
                     },
                 })
             }
-
         } catch (error) {
             console.log(error)
         } finally {

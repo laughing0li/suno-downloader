@@ -49,7 +49,7 @@ const config = {
             {
                 priceId:
                     process.env.NODE_ENV === "development"
-                        ? "price_456"
+                        ? "price_45645"
                         : "price_1PeBKMI04HNQCZe5poHbdnAF",
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
                 isFeatured: true,

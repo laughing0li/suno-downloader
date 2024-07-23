@@ -13,13 +13,17 @@ const intlMiddleware = createMiddleware({
 });
 
 export async function middleware(req: NextRequest) {
-
+    if (req.nextUrl.pathname === "/" && req.nextUrl.searchParams.has("code")) {
+        // Redirect to the correct callback URL
+        const url = req.nextUrl.clone();
+        url.pathname = "/api/auth/callback";
+        return NextResponse.redirect(url);
+    }
     const res = NextResponse.next();
     const supabase = createMiddlewareClient({ req, res });
     await supabase.auth.getSession();
     const intlResponse = intlMiddleware(req);
     return intlResponse;
-
 
     // const res = NextResponse.next();
     // const supabase = createMiddlewareClient({ req, res });
