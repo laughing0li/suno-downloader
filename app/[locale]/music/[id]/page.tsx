@@ -1,104 +1,112 @@
-"use client";
-import { useEffect, useRef, useState } from "react";
-import { useParams } from "next/navigation";
-import SoundSkeleton from "@/components/skeleton/SoundSkeleton";
-import type { AudioGeneration } from "@/libs/mediaType";
+"use client"
+import { useEffect, useRef, useState } from "react"
+import { useParams } from "next/navigation"
+import SoundSkeleton from "@/components/skeleton/SoundSkeleton"
+import type { AudioGeneration } from "@/libs/mediaType"
 
-export const runtime = "edge";
+export const runtime = "edge"
 interface AudioData {
-    id: string;
-    audio_url: string;
-    image_url: string;
-    audio_generations: AudioGeneration;
+    id: string
+    audio_url: string
+    image_url: string
+    audio_generations: AudioGeneration
 }
 
 export default function Music() {
-    const audioRefs = useRef<{ [key: string]: HTMLAudioElement | null }>({});
-    const [playingId, setPlayingId] = useState<string | null>(null);
-    const [audioData, setAudioData] = useState<AudioData[]>(null);
-    const { id } = useParams();
+    const audioRefs = useRef<{ [key: string]: HTMLAudioElement | null }>({})
+    const [playingId, setPlayingId] = useState<string | null>(null)
+    const [audioData, setAudioData] = useState<AudioData[]>(null)
+    const [isDownloading, setIsDownloading] = useState(false)
+    const { id } = useParams()
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const response = await fetch(`/api/music?id=${id}`, {
                     method: "GET",
-                });
+                })
                 if (!response.ok) {
-                    throw new Error("Failed to fetch the audio URL");
+                    throw new Error("Failed to fetch the audio URL")
                 }
-                const data = await response.json();
+                const data = await response.json()
                 setAudioData(data.audioData)
             } catch (error) {
-                console.error(error);
+                console.error(error)
             }
-        };
-        fetchData();
-    }, []);
+        }
+        fetchData()
+    }, [])
 
     const fetchAudioUrl = async (id: string) => {
+        setIsDownloading(true)
         try {
             const response = await fetch(
                 `/api/user/download?id=${id}`
-            );
-            if (!response.ok) {
-                throw new Error("Failed to fetch the audio URL");
+            )
+            if (response.status === 401) {
+                alert("You must be logged in to download.")
+                return null
             }
-            const audioBlob = await response.blob();
-            return audioBlob;
+            if (!response.ok) {
+                throw new Error("Failed to fetch the audio URL")
+            }
+            const audioBlob = await response.blob()
+            return audioBlob
         } catch (error) {
-            console.error(error);
-            return null;
+            console.error(error)
+            return null
+        } finally {
+            setIsDownloading(false)
         }
-    };
+    }
 
     const checkAccess = async () => {
         try {
             const response = await fetch(`/api/user`, {
                 method: "GET",
-            });
+            })
             if (!response.ok) {
-                throw new Error("Failed to fetch the user data");
+                throw new Error("Failed to fetch the user data")
             }
-            const data = await response.json();
-            return data.has_access;
+            const data = await response.json()
+            return data.has_access
         } catch (error) {
-            console.error(error);
-            return false;
+            console.error(error)
+            return false
         }
-    };
+    }
 
     const handleDownload = async (id: string) => {
         // check if the user has access to download the audio
-        const hasAccess = await checkAccess();
-        if (!hasAccess) {
-            alert(
-                "You don't have access to download this audio. Please make a purchase."
-            );
-            return;
-        }
+        // const hasAccess = await checkAccess();
+        // if (!hasAccess) {
+        //     alert(
+        //         "You don't have access to download this audio. Please make a purchase."
+        //     );
+        //     return;
+        // }
         try {
-            const audioBlob = await fetchAudioUrl(id); // Replace 'your-audio-id' and yourIndex with actual values
+            const audioBlob = await fetchAudioUrl(id) // Replace 'your-audio-id' and yourIndex with actual values
             if (audioBlob) {
-                const audioUrl = URL.createObjectURL(audioBlob);
-                const a = document.createElement("a");
-                a.href = audioUrl;
-                a.download = "audio.mp3";
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-                URL.revokeObjectURL(audioUrl);
+                const audioUrl = URL.createObjectURL(audioBlob)
+                const a = document.createElement("a")
+                a.href = audioUrl
+                a.download = "audio.mp3"
+                document.body.appendChild(a)
+                a.click()
+                document.body.removeChild(a)
+                URL.revokeObjectURL(audioUrl)
             }
         } catch (error) {
-            console.error("Download failed", error);
+            console.error("Download failed", error)
         }
-    };
+    }
 
     const handleAudioEnded = (audioId: string, index: number) => {
-        const uniqueId = `${audioId}-${index}`;
+        const uniqueId = `${audioId}-${index}`
         if (playingId === uniqueId) {
-            setPlayingId(null);
+            setPlayingId(null)
         }
-    };
+    }
 
     return (
         <div className="min-h-screen flex flex-col bg-gradient-to-r from-[#ECF5FF] via-[#d2deee] to-[#ECF5FF]">
@@ -191,7 +199,7 @@ export default function Music() {
                                                     ref={(el) => {
                                                         audioRefs.current[
                                                             audio.id
-                                                        ] = el;
+                                                        ] = el
                                                     }}
                                                     controls
                                                     src={audio.audio_url}
@@ -204,14 +212,20 @@ export default function Music() {
                                                         )
                                                     }
                                                 />
-                                                <i
-                                                    className="bi bi-cloud-arrow-down text-4xl text-secondary hover:cursor-pointer"
-                                                    onClick={() =>
-                                                        handleDownload(
-                                                            audio?.id,
-                                                        )
-                                                    }
-                                                />
+                                                {
+                                                    isDownloading ? 
+                                                    (<span className="loading loading-ring loading-lg"></span>) 
+                                                    : 
+                                                    (<i
+                                                            className="bi bi-cloud-arrow-down text-4xl text-secondary hover:cursor-pointer"
+                                                            onClick={() =>
+                                                                handleDownload(
+                                                                    audio?.id,
+                                                                )
+                                                            }
+                                                        />
+                                                    )
+                                                }
                                             </div>
                                         </div>
                                     </div>
@@ -235,5 +249,5 @@ export default function Music() {
                 </div>
             )}
         </div>
-    );
+    )
 }

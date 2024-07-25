@@ -7,6 +7,17 @@ export const runtime = "edge";
 
 export async function GET(req: NextRequest) {
     const supabase = createRouteHandlerClient({ cookies });
+    const {
+        data: { session },
+    } = await supabase.auth.getSession();
+
+    // User who are not logged in can't make a purchase
+    if (!session) {
+        return NextResponse.json(
+            { error: "You must be logged in to download." },
+            { status: 401 }
+        );
+    }
     const { searchParams } = new URL(req.url);
     const id = searchParams.get("id");
     try {

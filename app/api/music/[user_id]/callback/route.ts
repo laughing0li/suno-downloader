@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import jsonData from "./test.json";
 import { createClient } from "@supabase/supabase-js";
 export const runtime = "edge";
 

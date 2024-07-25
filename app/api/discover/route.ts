@@ -40,7 +40,8 @@ export async function GET(request: Request) {
             )
             // only fetch version 1 of the media
             .eq("version", "1")
-            .range(start, end);
+            .range(start, end)
+            .order("created_at", { ascending: false });
         if (error) {
             throw error;
         }
