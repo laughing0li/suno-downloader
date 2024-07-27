@@ -25,21 +25,78 @@ const config = {
                         ? "price_1PeB5gI04HNQCZe5GJJRq95c"
                         : "price_1PeB56I04HNQCZe5s6SaP4Gi",
                 //  REQUIRED - Name of the plan, displayed on the pricing page
-                name: "Starter",
+                name: "Free",
                 // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-                description: "Perfect for taste of AI music",
+                description: "Free Plan",
                 // The price you want to display, the one user will be charged on Stripe.
-                price: 4.99,
+                price: 0,
                 // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-                priceAnchor: 149,
-                credits: 100,
+                priceAnchor: '',
+                credits: 0,
                 features: [
                     {
-                        name: "100 credits for generation",
+                        name: "6 songs for free",
                     },
-                    { name: "200 Songs" },
+                    { name: "3 generation credits" },
                     {
-                        name: "$0.024 per song"
+                        name: "Free trial on first login"
+                    },
+                    {
+                        name: "Shared generation queue",
+                    }
+                    
+                ],
+            },
+            // {
+            //     // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
+            //     priceId:
+            //         process.env.NODE_ENV === "development"
+            //             ? "price_1PeB5gI04HNQCZe5GJJRq95c"
+            //             : "price_1PeB56I04HNQCZe5s6SaP4Gi",
+            //     //  REQUIRED - Name of the plan, displayed on the pricing page
+            //     name: "Composer",
+            //     // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
+            //     description: "Start your AI music journey",
+            //     // The price you want to display, the one user will be charged on Stripe.
+            //     price: 4.99,
+            //     // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
+            //     priceAnchor: '$0.048',
+            //     credits: 100,
+            //     features: [
+            //         {
+            //             name: "100 credits for generation",
+            //         },
+            //         { name: "200 Songs" },
+            //         {
+            //             name: "$0.048 per generation"
+            //         },
+            //         {
+            //             name: "Unlimited downloads",
+            //         },
+            //     ],
+            // },
+            {
+                priceId:
+                    process.env.NODE_ENV === "development"
+                        ? "price_456"
+                        : "price_1PeBLII04HNQCZe5g7h2kxOo",
+                // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
+                isFeatured: true,
+                name: "Maestro",
+                description: "Unlimited musical possibilities",
+                price: 15.99,
+                priceAnchor: '$0.019',
+                credits: 800,
+                features: [
+                    { name: "1600 Songs" },
+                    {
+                        name: "800 credits for generation",
+                    },
+                    {
+                        name: "0.019 per generation"
+                    },
+                    {
+                        name: "Priority generation queue",
                     },
                     {
                         name: "Unlimited downloads",
@@ -52,50 +109,29 @@ const config = {
                         ? "price_45645"
                         : "price_1PeBKMI04HNQCZe5poHbdnAF",
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
-                isFeatured: true,
-                name: "Advanced",
-                description: "Enjoy more favor of AI music",
+                isFeatured: false,
+                name: "Producer",
+                description: "Amplify your creative output",
                 price: 7.99,
-                priceAnchor: 299,
+                priceAnchor: '$0.026',
                 credits: 300,
                 features: [
+                    { name: "600 Songs" },
+
                     {
                         name: "300 credits for generation",
                     },
-                    { name: "600 Songs" },
                     {
-                        name: "$0.013 per song"
+                        name: "$0.026 per generation"
+                    },
+                    {
+                        name: "Priority generation queue",
                     },
                     {
                         name: "Unlimited downloads",
                     },
                 ],
-            },
-            {
-                priceId:
-                    process.env.NODE_ENV === "development"
-                        ? "price_456"
-                        : "price_1PeBLII04HNQCZe5g7h2kxOo",
-                // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
-                isFeatured: false,
-                name: "Premier",
-                description: "For the music connoisseur",
-                price: 15.99,
-                priceAnchor: 299,
-                credits: 600,
-                features: [
-                    {
-                        name: "600 credits for generation",
-                    },
-                    { name: "1200 Songs" },
-                    {
-                        name: "0.013 per songs"
-                    },
-                    {
-                        name: "Unlimited downloads",
-                    },
-                ],
-            },
+            }
         ],
     },
     aws: {

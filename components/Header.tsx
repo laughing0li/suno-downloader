@@ -65,6 +65,11 @@ const Header = () => {
                 </div>
                 {/* Burger button to open menu on mobile */}
                 <div className="flex lg:hidden">
+                    <Link
+                        className="link link-hover mr-4"
+                        href="/pricing"
+                        title='AI Music Generator pricing'
+                    >Pricing</Link>
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"

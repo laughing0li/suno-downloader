@@ -51,7 +51,7 @@ const ButtonCheckout = ({
             ) : (
                 <i className="bi bi-cart2"></i>
             )}
-            Get started
+            Compose Now
         </button>
     )
 }
