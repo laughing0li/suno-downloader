@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { Container } from '@/components/Container'
-
+export const runtime = 'edge';
 const AiLyricsGenerator = () => {
     const [lyrics, setLyrics] = useState('')
     const [description, setDescription] = useState('')
