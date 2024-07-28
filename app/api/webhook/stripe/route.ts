@@ -57,6 +57,7 @@ export async function POST(req: NextRequest) {
         if (!plan) break;
 
         // Update the profile where id equals the userId (in table called 'profiles') and update the customer_id, price_id, and has_access (provisioning)
+        // TODO: Need to check if the user still has some credits left and update the credits accordingly
         await supabase
           .from("users")
           .update({
@@ -64,6 +65,7 @@ export async function POST(req: NextRequest) {
             price_id: priceId,
             has_access: true,
             credits: plan.credits,
+            lyric_credits: plan.credits,
           })
           .eq("id", userId);
 

@@ -115,7 +115,7 @@ const ButtonAccount = () => {
                                         <i className="bi bi-music-note-beamed" />
                                         {t('library')}
                                     </button>
-                                    <button
+                                    {/* <button
                                         className="flex items-center gap-2 hover:bg-base-300 duration-200 py-1.5 px-4 w-full rounded-lg font-medium"
                                         onClick={handleBilling}
                                     >
@@ -132,7 +132,7 @@ const ButtonAccount = () => {
                                             />
                                         </svg>
                                         {t('billing')}
-                                    </button>
+                                    </button> */}
 
                                     <button
                                         className="flex items-center gap-2 hover:bg-error/20 hover:text-error duration-200 py-1.5 px-4 w-full rounded-lg font-medium"

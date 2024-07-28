@@ -23,17 +23,28 @@ const ButtonCheckout = ({
         setIsLoading(true)
 
         try {
-            const { url }: { url: string } = await apiClient.post(
-                "/stripe/create-checkout",
+            const response = await fetch(
+                "/api/stripe/create-checkout",
                 {
-                    priceId,
-                    successUrl: window.location.href,
-                    cancelUrl: window.location.href,
-                    mode,
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        priceId,
+                        mode,
+                        successUrl: window.location.href,
+                        cancelUrl: window.location.href,
+                    }),
                 }
             )
-
-            window.location.href = url
+            if (response.status === 401) {
+                (document.getElementById('sign-in') as HTMLDialogElement).showModal()
+                setIsLoading(false)
+                return
+            }
+            const data = await response.json()
+            window.location.href = data.url
         } catch (e) {
             console.error(e)
         }

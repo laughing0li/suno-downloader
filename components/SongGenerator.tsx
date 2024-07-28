@@ -92,10 +92,10 @@ const SongGenerator = () => {
                 }
                 break
             case 'style':
-                if (value.length <= 200) {
+                if (value.length <= 50) {
                     setStyle(value)
                 } else {
-                    setStyle(value.substring(0, 200))
+                    setStyle(value.substring(0, 50))
                 }
                 break
             case 'title':
@@ -151,6 +151,11 @@ const SongGenerator = () => {
             router.push('/my-music')
         }
     }
+
+    const handleToLyrics = () => {
+        router.push('/ai-lyrics-generator')
+    }
+
     const handleClear = () => {
         setLyrics('')
         setStyle('')
@@ -159,21 +164,28 @@ const SongGenerator = () => {
     }
     return (
         <div>
-            {
-                !isLogged && (
-                    <p className='text-slate-500 text-center mb-6 text-sm'>Login to enjoy <span className='text-secondary text-base font-semibold'>3</span> free credits</p>
-                )
-            }
-            {
-                isLogged && free <= 0 && (
-                    <p className='text-slate-500 text-center mb-6 text-sm'>You have <span className='text-secondary text-base font-semibold'>{credits}</span> credits</p>
-                )
-            }
-            {
-                isLogged && free > 0 && (
-                    <p className='text-slate-500 text-center mb-6 text-sm'>You have <span className='text-secondary text-base font-semibold'>{free}</span> free credits</p>
-                )
-            }
+            <div className='flex justify-center place-items-center gap-x-3 mb-4'>
+                {
+                    !isLogged && (
+                        <p className='text-slate-500 text-center text-sm'>Login to enjoy <span className='text-secondary text-base font-semibold'>2</span> free credits</p>
+                    )
+                }
+                {
+                    isLogged && free <= 0 && (
+                        <p className='text-slate-500 text-center text-sm'>You have <span className='text-secondary text-base font-semibold'>{credits ? credits : 0}</span> credits</p>
+                    )
+                }
+                {
+                    isLogged && free > 0 && (
+                        <p className='text-slate-500 text-center text-sm'>You have <span className='text-secondary text-base font-semibold'>{free}</span> free credits</p>
+                    )
+                }
+                <div className="divider divider-horizontal"></div>
+
+                <p className="text-center text-sm font-bold text-secondary">
+                    <a href="/ai-lyrics-generator">AI Lyrics Generator &gt;&gt;</a>
+                </p>
+            </div>
             <div className="max-w-2xl bg-base-200 mx-auto p-6 rounded-lg shadow-md mb-16">
                 <div className='flex justify-between mb-4'>
                     <div className='flex gap-x-4'>
@@ -220,13 +232,14 @@ const SongGenerator = () => {
                                 </div>
                                 <div className="absolute inset-x-0 bottom-0 flex justify-between items-center py-2 pl-3 pr-2">
                                     <div className="flex items-center space-x-5">
-                                        {/* <button
-                                        type='button'
-                                        className="relative inline-flex items-center justify-center whitespace-nowrap transition-all duration-200 ring-0 ring-transparent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-true-white/20 border border-light text-dark shadow-xs hover:ring-gray-100 active:ring-gray-200 disabled:text-light px-4 py-2 rounded-3xl hover:ring"
-                                    >
-                                        Random Lyrics
-                                        <span className="sr-only">Random Lyrics</span>
-                                    </button> */}
+                                        <button
+                                            type='button'
+                                            className="relative inline-flex items-center justify-center whitespace-nowrap transition-all duration-200 ring-0 ring-transparent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-true-white/20 border border-light text-dark shadow-xs hover:ring-gray-100 active:ring-gray-200 disabled:text-light px-4 py-2 rounded-3xl hover:ring"
+                                            onClick={handleToLyrics}
+                                        >
+                                            Lyrics Generator
+                                            <span className="sr-only">Random Lyrics</span>
+                                        </button>
 
                                     </div>
                                     <div className="flex-shrink-0">
@@ -260,7 +273,7 @@ const SongGenerator = () => {
                                 </div>
                                 <div className="absolute inset-x-0 bottom-0 flex justify-end items-center py-2 pl-3 pr-2">
                                     <div className="flex-shrink-0">
-                                        <span className="text-sm ml-2 text-gray-500">{style.length}/200 &nbsp;</span>
+                                        <span className="text-sm ml-2 text-gray-500">{style.length}/50 &nbsp;</span>
                                     </div>
                                 </div>
                             </div>
@@ -330,23 +343,23 @@ const SongGenerator = () => {
                         </div>
                     )
                 }
-
-                {
-                    loading
-                        ?
-                        (<div className='w-full text-center mt-4'>
-                            <span className="loading loading-dots loading-lg text-primary" />
-                            <p className='text-slate-400'>
-                                Please wait while we generate your song, this may take a few minutes. Or you can check back later in your <span className="text-slate-500 hover:cursor-pointer underline">Music library</span> page.
-                            </p>
-                        </div>)
-                        :
-                        (<button type="submit" onClick={handleSubmit} className="w-full btn btn-primary mt-8">
-                            Generate Song
-                        </button>)
-                }
-
             </div>
+            {
+                loading
+                    ?
+                    (<div className='mx-auto max-w-3xl text-center mb-8'>
+                        <span className="loading loading-dots loading-lg text-primary" />
+                        <p className='text-slate-400'>
+                            Please wait while we generate your song, this may take a few minutes. Or you can check back later in your <span className="text-slate-500 hover:cursor-pointer underline">Music library</span> page.
+                        </p>
+                    </div>)
+                    :
+                    (<div className='text-center'>
+                        <button type="submit" onClick={handleSubmit} className="btn btn-wide btn-primary mb-8">
+                            Generate Song
+                        </button>
+                    </div>)
+            }
         </div>
     )
 }

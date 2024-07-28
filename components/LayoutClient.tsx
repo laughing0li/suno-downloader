@@ -74,11 +74,11 @@ const ClientLayout = ({ children }: { children: ReactNode }) => {
             <NextTopLoader color={config.colors.main} showSpinner={false} />
 
             {/* Content inside app/page.js files  */}
-            <Suspense>
+            <div className="flex flex-col min-h-screen">
                 <Header />
-            </Suspense>
-                {children}
-            <Footer />
+                <main className="flex-grow">{children}</main>
+                <Footer />
+            </div>
             {/* Show Success/Error messages anywhere from the app with toast() */}
             <Toaster
                 toastOptions={{

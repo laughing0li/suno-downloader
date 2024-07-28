@@ -16,10 +16,13 @@ const Footer = () => {
             { name: t('pricing'), href: '/pricing' },
         ],
         tools: [
+            { name: 'AI Music Generator', href: '/ai-music-generator' },
+            { name: 'AI Lyrics Generator', href: '/ai-lyrics-generator' },
+        ],
+        links: [
             { name: 'ResumeGo', href: 'https://resumego.io' },
             { name: 'Soundify', href: 'https://soundifytext.io' },
             { name: 'PhotoRater', href: 'https://photorater.io' },
-            { name: 'AI Music Generator', href: '/ai-music-generator' },
         ]
     }
   return (
@@ -59,7 +62,7 @@ const Footer = () => {
               </div>
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                {navigation.tools.map((item, i) => (
+                {navigation.links.map((item, i) => (
                   <Link key={i} href={item.href} className="link link-hover">
                     {item.name}
                     </Link>
@@ -74,6 +77,19 @@ const Footer = () => {
 
               <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                 {navigation.main.map((item, i) => (
+                  <Link key={i} href={item.href} className="link link-hover">
+                    {item.name}
+                    </Link>
+                ))}
+              </div>
+            </div>
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
+                Tools
+              </div>
+
+              <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
+                {navigation.tools.map((item, i) => (
                   <Link key={i} href={item.href} className="link link-hover">
                     {item.name}
                     </Link>

@@ -40,10 +40,10 @@ export async function POST(req: NextRequest) {
             }
         );
         if (!response.ok) {
-            throw new Error(`Error: ${response.statusText}`);
+            // throw new Error(`Error: ${response.statusText}`);
+            console.error(`Error: ${response.statusText}`);
         }
         const { data: user} = await supabase.from("users").select().eq("id", user_id).single();
-        console.log('user', user)
         let credits = user.credits;
         let free = user.free;
         if (free > 0) {

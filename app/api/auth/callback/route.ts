@@ -31,9 +31,7 @@ export async function GET(req: NextRequest) {
 
                 if (profileError) {
                     console.error("Error fetching profile data:", profileError);
-                } else {
-                    console.log("Profile data:", profileData);
-                }
+                } 
                 if (!profileData) {
                     const { error: insertError } = await supabase.from("users").insert([
                         {
@@ -42,6 +40,7 @@ export async function GET(req: NextRequest) {
                             full_name,
                             avatar_url,
                             free: 3,
+                            lyric_credits: 3
                         },
                     ]);
 
