@@ -167,7 +167,7 @@ const SongGenerator = () => {
             <div className='flex justify-center place-items-center gap-x-3 mb-4'>
                 {
                     !isLogged && (
-                        <p className='text-slate-500 text-center text-sm'>Login to enjoy <span className='text-secondary text-base font-semibold'>2</span> free credits</p>
+                        <p className='text-slate-500 text-center text-sm'>Login to enjoy <span className='text-secondary text-base font-semibold'>3</span> free credits</p>
                     )
                 }
                 {
