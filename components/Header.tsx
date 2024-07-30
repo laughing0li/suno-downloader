@@ -73,7 +73,7 @@ const Header = () => {
                         className="link link-hover mr-4"
                         href="/pricing"
                         title='AI Music Generator pricing'
-                    >Pricing</Link>
+                    >{t('pricing')}</Link>
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"

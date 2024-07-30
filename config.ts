@@ -22,62 +22,38 @@ const config = {
                 // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
                 priceId:
                     process.env.NODE_ENV === "development"
-                        ? "price_156"
-                        : "price_126",
+                        ? "price_1PeB5gI04HNQCZe5GJJRq95c1"
+                        : "price_1PeB56I04HNQCZe5s6SaP4Gi",
                 //  REQUIRED - Name of the plan, displayed on the pricing page
-                name: "Free",
+                name: "Composer",
                 // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-                description: "Free Plan",
+                description: "Start your AI music journey",
                 // The price you want to display, the one user will be charged on Stripe.
-                price: 0,
+                price: 4.99,
                 // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-                priceAnchor: '',
-                credits: 0,
+                priceAnchor: '$0.048',
+                credits: 100,
                 features: [
                     {
-                        name: "6 songs for free",
-                    },
-                    { name: "3 generation credits" },
-                    {
-                        name: "3 generation credits for lyrics"
+                        name: "200 Songs",
                     },
                     {
-                        name: "Free trial on first login"
+                        name: "100 credits for generation",
                     },
                     {
-                        name: "Shared generation queue",
-                    }
-                    
+                        name: "$0.048 per generation"
+                    },
+                    {
+                        name: "100 credits for lyrics generation"
+                    },
+                    {
+                        name: "Priority generation queue",
+                    },
+                    {
+                        name: "Unlimited downloads",
+                    },
                 ],
             },
-            // {
-            //     // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
-            //     priceId:
-            //         process.env.NODE_ENV === "development"
-            //             ? "price_1PeB5gI04HNQCZe5GJJRq95c"
-            //             : "price_1PeB56I04HNQCZe5s6SaP4Gi",
-            //     //  REQUIRED - Name of the plan, displayed on the pricing page
-            //     name: "Composer",
-            //     // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-            //     description: "Start your AI music journey",
-            //     // The price you want to display, the one user will be charged on Stripe.
-            //     price: 4.99,
-            //     // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-            //     priceAnchor: '$0.048',
-            //     credits: 100,
-            //     features: [
-            //         {
-            //             name: "100 credits for generation",
-            //         },
-            //         { name: "200 Songs" },
-            //         {
-            //             name: "$0.048 per generation"
-            //         },
-            //         {
-            //             name: "Unlimited downloads",
-            //         },
-            //     ],
-            // },
             {
                 priceId:
                     process.env.NODE_ENV === "development"
@@ -96,7 +72,7 @@ const config = {
                         name: "800 credits for generation",
                     },
                     {
-                        name: "0.019 per generation"
+                        name: "$0.019 per generation"
                     },
                     {
                         name: "800 credits for lyrics generation"
@@ -112,7 +88,7 @@ const config = {
             {
                 priceId:
                     process.env.NODE_ENV === "development"
-                        ? "price_1PeB5gI04HNQCZe5GJJRq95c"
+                        ? "price_1PeB5gI04HNQCZe5GJJRq95c2"
                         : "price_1PeBKMI04HNQCZe5poHbdnAF",
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
                 isFeatured: false,
@@ -139,6 +115,38 @@ const config = {
                     {
                         name: "Unlimited downloads",
                     },
+                ],
+            },
+            {
+                // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
+                priceId:
+                    process.env.NODE_ENV === "development"
+                        ? "price_156"
+                        : "price_126",
+                //  REQUIRED - Name of the plan, displayed on the pricing page
+                name: "Free",
+                // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
+                description: "Free Plan",
+                // The price you want to display, the one user will be charged on Stripe.
+                price: 0,
+                // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
+                priceAnchor: '',
+                credits: 0,
+                features: [
+                    {
+                        name: "6 songs for free",
+                    },
+                    { name: "3 generation credits" },
+                    {
+                        name: "3 generation credits for lyrics"
+                    },
+                    {
+                        name: "Free trial on first login"
+                    },
+                    {
+                        name: "Shared generation queue",
+                    }
+                    
                 ],
             }
         ],

@@ -1,11 +1,13 @@
 import config from "@/config"
 import ButtonCheckout from "./ButtonCheckout"
+import { useTranslatedConfig } from "@/libs/translations"
 
 // <Pricing/> displays the pricing plans for your app
 // It's your Stripe config in config.js.stripe.plans[] that will be used to display the plans
 // <ButtonCheckout /> renders a button that will redirect the user to Stripe checkout called the /api/stripe/create-checkout API endpoint with the correct priceId
 
 const Pricing = () => {
+    // const translatedPrice = useTranslatedConfig()
     return (
         <section className="bg-base-200 overflow-hidden" id="pricing">
             <div className="py-24 px-8 max-w-5xl mx-auto">
@@ -16,7 +18,7 @@ const Pricing = () => {
                     </h2>
                 </div>
 
-                <div className="relative flex justify-center flex-col lg:flex-row items-center lg:items-stretch gap-8">
+                <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center lg:items-stretch gap-8">
                     {config.stripe.plans.map((plan, index) => (
                         <div key={plan.priceId} className="relative w-full max-w-lg transition-all duration-300 hover:scale-105">
                             {plan.isFeatured && (
