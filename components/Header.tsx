@@ -24,13 +24,17 @@ const Header = () => {
         href: string
         label: string
     }[] = [
-            {
-                href: "/",
-                label: t('title'),
-            },
+            // {
+            //     href: "/",
+            //     label: t('title'),
+            // },
             {
                 href: "/ai-music-generator",
                 label: t('tool'),
+            },
+            {
+                href: "/ai-lyrics-generator",
+                label: t('tool1'),
             },
             {
                 href: "/discover",

@@ -9,7 +9,10 @@
         "button": "다운로드",
         "placeholder": "수노 음악 URL 입력",
         "tool": "AI 음악 생성기",
-        "try": "무료로 사용해보세요"
+        "try": "무료로 사용해보세요",
+        "title": "무료 AI 음악 생성기",
+        "subtitle1": "무료 Suno 다운로더 및 AI 음악 생성기",
+        "subtitle2": "AI 음악 생성기로 고유한 음악 만들기"
     },
     "instruction": {
         "h2": "수노에서 곡을 다운로드하는 방법은?",
@@ -59,7 +62,9 @@
         "copyright": "저작권 © 2024 - 모든 권리 보유",
         "pricing": "가격",
         "legal": "법적",
-        "links": "링크"
+        "links": "링크",
+        "music": "AI 음악 생성기",
+        "lyrics": "AI 가사 생성기"
     },
     "howTo": {
         "content": "저희 Suno 음악 다운로더는 복사 및 붙여넣기 방법보다 적은 단계로 Suno AI (suno.ai)에서 노래를 다운로드할 수 있도록 도와줍니다. Suno 노래 다운로더는 모든 브라우저, 모바일 및 데스크탑에서 완벽하게 작동합니다. 아래의 'how to' 지침을 읽고 저희 웹사이트를 사용하여 Suno 노래를 저장하는 방법을 알아보세요.",
@@ -122,7 +127,8 @@
         "library": "내 라이브러리",
         "billing": "청구",
         "logout": "로그아웃",
-        "login": "로그인"
+        "login": "로그인",
+        "tool1": "AI 가사 생성기"
     },
     "signin": {
         "home": "홈",

@@ -16,8 +16,9 @@ const Footer = () => {
             { name: t('pricing'), href: '/pricing' },
         ],
         tools: [
-            { name: 'AI Music Generator', href: '/ai-music-generator' },
-            { name: 'AI Lyrics Generator', href: '/ai-lyrics-generator' },
+            { name: t('music'), href: '/ai-music-generator' },
+            { name: t('lyrics'), href: '/ai-lyrics-generator' },
+            { name: t('item3'), href: '/' },
         ],
         links: [
             { name: 'ResumeGo', href: 'https://resumego.io' },

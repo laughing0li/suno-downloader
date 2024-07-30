@@ -9,7 +9,10 @@
         "button": "Download",
         "placeholder": "Enter Suno Music URL",
         "tool": "AI Music Generator",
-        "try": "Try it for free"
+        "try": "Try it for free",
+        "title": "Free AI Music Generator",
+        "subtitle1": "Free Suno Downloader and AI music generator",
+        "subtitle2": "Create unique music with AI music generator"
     },
     "instruction": {
         "h2": "How to download songs from Suno?",
@@ -59,7 +62,9 @@
         "copyright": "Copyright © 2024 - All rights reserved",
         "pricing": "Pricing",
         "legal": "Legal",
-        "links": "Links"
+        "links": "Links",
+        "music": "AI Music Generator",
+        "lyrics": "AI Lyrics Generator"
     },
     "howTo": {
         "content": "Our Suno music downloader, helps you to download songs from Suno AI (suno.ai) with fewer steps than the copying and pasting method. Suno song downloader works perfectly in any browser, mobile, and desktop. Find out how to save Suno song  with our website by reading the 'how to' instruction below.",
@@ -122,7 +127,8 @@
         "library": "My Library",
         "billing": "Billing",
         "logout": "Logout",
-        "signin": "Sign In"
+        "signin": "Sign In",
+        "tool1": "AI Lyrics Generator"
     },
     "signin": {
         "home": "Home",

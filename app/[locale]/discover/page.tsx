@@ -87,7 +87,7 @@ export default function DiscoverDisplay() {
                                 </div>
                             </figure>
                             <div className="mt-4 p-2">
-                                <h2 className="truncate">{audio.audio_generations.title}</h2>
+                                <p className="truncate">{audio.audio_generations.title}</p>
                                 <p className="text-sm">
                                     Created by {audio.audio_generations.user.full_name} with <a href="/ai-music-generator" className="text-indigo-500">AI Music Generator</a>
                                 </p>

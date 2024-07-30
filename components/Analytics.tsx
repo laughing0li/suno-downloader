@@ -33,6 +33,12 @@ const Analytics = () => (
         `
             }}
         />
+        <Script
+            id="umami-script"
+            strategy="afterInteractive"
+            src="https://us.umami.is/script.js"
+            data-website-id="4d0dbce4-7128-45e2-a865-3f6afb8178a5"
+        />
     </>
 )
 

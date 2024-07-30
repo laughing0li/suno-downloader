@@ -9,7 +9,10 @@
         "button": "Download",
         "placeholder": "Insira a URL da Música Suno",
         "tool": "Gerador de música AI",
-        "try": "Experimente grátis"
+        "try": "Experimente grátis",
+        "title": "Gerador de Música AI Gratuito",
+        "subtitle1": "Downloader Suno Gratuito e Gerador de Música AI",
+        "subtitle2": "Crie música única com o gerador de música AI"
     },
     "instruction": {
         "h2": "Como fazer o download de músicas do Suno?",
@@ -59,7 +62,9 @@
         "copyright": "Direitos autorais © 2024 - Todos os direitos reservados",
         "pricing": "Preços",
         "legal": "Legal",
-        "links": "Links"
+        "links": "Links",
+        "music": "Gerador de Música AI",
+        "lyrics": "Gerador de letras com IA"
     },
     "howTo": {
         "content": "Nosso downloader de música Suno ajuda você a baixar músicas do Suno AI (suno.ai) com menos etapas do que o método de copiar e colar. O downloader de músicas Suno funciona perfeitamente em qualquer navegador, móvel e desktop. Descubra como salvar uma música do Suno com nosso site lendo as instruções de 'como fazer' abaixo.",
@@ -122,7 +127,8 @@
         "library": "Minha Biblioteca",
         "billing": "Faturamento",
         "logout": "Sair",
-        "signin": "Entrar"
+        "signin": "Entrar",
+        "tool1": "Gerador de letras com IA"
     },
     "signin": {
         "home": "Início",

@@ -9,7 +9,10 @@
         "button": "Herunterladen",
         "placeholder": "Geben Sie die Suno-Musik-URL ein",
         "tool": "KI-Musikgenerator",
-        "try": "Kostenlos ausprobieren"
+        "try": "Kostenlos ausprobieren",
+        "title": "Kostenloser AI-Musikgenerator",
+        "subtitle1": "Kostenloser Suno-Downloader und AI-Musikgenerator",
+        "subtitle2": "Erstelle einzigartige Musik mit dem AI-Musikgenerator"
     },
     "instruction": {
         "h2": "Wie lade ich Lieder von Suno herunter?",
@@ -59,7 +62,9 @@
         "copyright": "Urheberrecht © 2024 - Alle Rechte vorbehalten",
         "pricing": "Preise",
         "legal": "Rechtlich",
-        "links": "Links"
+        "links": "Links",
+        "music": "KI-Musikgenerato",
+        "lyrics": "KI-Liedtextgenerator"
     },
     "howTo": {
         "content": "Unser Suno Musik-Downloader hilft Ihnen, Songs von Suno AI (suno.ai) mit weniger Schritten als die Kopieren-und-Einfügen-Methode herunterzuladen. Der Suno Song Downloader funktioniert perfekt in jedem Browser, mobil und Desktop. Erfahren Sie, wie Sie mit unserer Website ein Suno-Lied speichern können, indem Sie die unten stehenden 'Wie zu' Anweisungen lesen.",
@@ -122,7 +127,8 @@
         "library": "Meine Bibliothek",
         "billing": "Abrechnung",
         "logout": "Abmelden",
-        "signin": "Anmelden"
+        "signin": "Anmelden",
+        "tool1": "KI-Liedtextgenerator"
     },
     "signin": {
         "home": "Startseite",
