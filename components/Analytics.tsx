@@ -6,7 +6,7 @@ const Analytics = () => (
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-48MVDH1X2C"
         />
-        
+
 
         <Script
             id="google-analytics"
@@ -39,6 +39,8 @@ const Analytics = () => (
             src="https://us.umami.is/script.js"
             data-website-id="4d0dbce4-7128-45e2-a865-3f6afb8178a5"
         />
+        <Script defer data-domain="sunodownloader.io" src="https://plausible.io/js/script.js"></Script>
+
     </>
 )
 

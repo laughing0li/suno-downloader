@@ -7,7 +7,7 @@ import { useTranslatedConfig } from "@/libs/translations"
 // <ButtonCheckout /> renders a button that will redirect the user to Stripe checkout called the /api/stripe/create-checkout API endpoint with the correct priceId
 
 const Pricing = () => {
-    // const translatedPrice = useTranslatedConfig()
+    const translatedPrice = useTranslatedConfig()
     return (
         <section className="bg-base-200 overflow-hidden" id="pricing">
             <div className="py-24 px-8 max-w-5xl mx-auto">
