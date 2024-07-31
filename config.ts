@@ -26,6 +26,7 @@ const config = {
                         : "price_1PeB56I04HNQCZe5s6SaP4Gi",
                 //  REQUIRED - Name of the plan, displayed on the pricing page
                 name: "Composer",
+                planType: "paid",
                 // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
                 description: "Start your AI music journey",
                 // The price you want to display, the one user will be charged on Stripe.
@@ -35,24 +36,44 @@ const config = {
                 credits: 100,
                 features: [
                     {
-                        name: "200 Songs",
+                        name: "songs",
                     },
                     {
-                        name: "100 credits for generation",
+                        name: "credits",
                     },
                     {
-                        name: "$0.048 per generation"
+                        name: "pricePerGeneration"
                     },
                     {
-                        name: "100 credits for lyrics generation"
+                        name: "lyricsCredits"
                     },
                     {
-                        name: "Priority generation queue",
+                        name: "priorityQueue",
                     },
                     {
-                        name: "Unlimited downloads",
+                        name: "downloads",
                     },
                 ],
+                // features: [
+                //     {
+                //         name: "200 Songs",
+                //     },
+                //     {
+                //         name: "100 credits for generation",
+                //     },
+                //     {
+                //         name: "$0.048 per generation"
+                //     },
+                //     {
+                //         name: "100 credits for lyrics generation"
+                //     },
+                //     {
+                //         name: "Priority generation queue",
+                //     },
+                //     {
+                //         name: "Unlimited downloads",
+                //     },
+                // ],
             },
             {
                 priceId:
@@ -62,28 +83,49 @@ const config = {
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
                 isFeatured: true,
                 name: "Maestro",
+                planType: "paid",
                 description: "Unlimited musical possibilities",
                 price: 15.99,
                 priceAnchor: '$0.019',
                 credits: 800,
                 features: [
-                    { name: "1600 Songs" },
                     {
-                        name: "800 credits for generation",
+                        name: "songs",
                     },
                     {
-                        name: "$0.019 per generation"
+                        name: "credits",
                     },
                     {
-                        name: "800 credits for lyrics generation"
+                        name: "pricePerGeneration"
                     },
                     {
-                        name: "Priority generation queue",
+                        name: "lyricsCredits"
                     },
                     {
-                        name: "Unlimited downloads",
+                        name: "priorityQueue",
+                    },
+                    {
+                        name: "downloads",
                     },
                 ],
+                // features: [
+                //     { name: "1600 Songs" },
+                //     {
+                //         name: "800 credits for generation",
+                //     },
+                //     {
+                //         name: "$0.019 per generation"
+                //     },
+                //     {
+                //         name: "800 credits for lyrics generation"
+                //     },
+                //     {
+                //         name: "Priority generation queue",
+                //     },
+                //     {
+                //         name: "Unlimited downloads",
+                //     },
+                // ],
             },
             {
                 priceId:
@@ -93,29 +135,50 @@ const config = {
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
                 isFeatured: false,
                 name: "Producer",
+                planType: "paid",
                 description: "Amplify your creative output",
                 price: 7.99,
                 priceAnchor: '$0.026',
                 credits: 300,
                 features: [
-                    { name: "600 Songs" },
-
                     {
-                        name: "300 credits for generation",
+                        name: "songs",
                     },
                     {
-                        name: "$0.026 per generation"
+                        name: "credits",
                     },
                     {
-                        name: "300 credits for lyrics generation"
+                        name: "pricePerGeneration"
                     },
                     {
-                        name: "Priority generation queue",
+                        name: "lyricsCredits"
                     },
                     {
-                        name: "Unlimited downloads",
+                        name: "priorityQueue",
+                    },
+                    {
+                        name: "downloads",
                     },
                 ],
+                // features: [
+                //     { name: "600 Songs" },
+
+                //     {
+                //         name: "300 credits for generation",
+                //     },
+                //     {
+                //         name: "$0.026 per generation"
+                //     },
+                //     {
+                //         name: "300 credits for lyrics generation"
+                //     },
+                //     {
+                //         name: "Priority generation queue",
+                //     },
+                //     {
+                //         name: "Unlimited downloads",
+                //     },
+                // ],
             },
             {
                 // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
@@ -132,22 +195,36 @@ const config = {
                 // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
                 priceAnchor: '',
                 credits: 0,
+                planType: "free",
                 features: [
                     {
-                        name: "6 songs for free",
+                        name: "songs",
                     },
-                    { name: "3 generation credits" },
+                    { name: "credits" },
                     {
-                        name: "3 generation credits for lyrics"
-                    },
-                    {
-                        name: "Free trial on first login"
+                        name: "lyricsCredits"
                     },
                     {
-                        name: "Shared generation queue",
-                    }
+                        name: "priorityQueue"
+                    },
                     
                 ],
+                // features: [
+                //     {
+                //         name: "6 songs for free",
+                //     },
+                //     { name: "3 generation credits" },
+                //     {
+                //         name: "3 generation credits for lyrics"
+                //     },
+                //     {
+                //         name: "Free trial on first login"
+                //     },
+                //     {
+                //         name: "Shared generation queue",
+                //     }
+                    
+                // ],
             }
         ],
     },

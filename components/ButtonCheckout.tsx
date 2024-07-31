@@ -1,8 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import apiClient from "@/libs/api"
-import config from "@/config"
+import { useTranslations } from "next-intl"
 
 // This component is used to create Stripe Checkout Sessions
 // It calls the /api/stripe/create-checkout route with the priceId, successUrl and cancelUrl
@@ -18,7 +17,7 @@ const ButtonCheckout = ({
     extraStyle?: string
 }) => {
     const [isLoading, setIsLoading] = useState<boolean>(false)
-
+    const t = useTranslations("stripe")
     const handlePayment = async () => {
         setIsLoading(true)
 
@@ -62,7 +61,7 @@ const ButtonCheckout = ({
             ) : (
                 <i className="bi bi-cart2"></i>
             )}
-            Compose Now
+            {t('button')}
         </button>
     )
 }

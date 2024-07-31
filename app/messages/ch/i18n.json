@@ -124,7 +124,7 @@
         "tool": "AI 音乐生成器",
         "discover": "发现",
         "pricing": "定价",
-        "library": "我的图书馆",
+        "library": "我的音乐库",
         "billing": "账单",
         "logout": "登出",
         "signin": "登录",
@@ -134,5 +134,99 @@
         "home": "首页",
         "signin": "登录到Suno下载器",
         "signup": "用Google注册"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "作曲家",
+            "description": "开始您的AI音乐之旅",
+            "features": {
+                "songs": "200首歌曲",
+                "credits": "100个生成信用",
+                "pricePerGeneration": "每次生成0.048美元",
+                "lyricsCredits": "100个歌词生成信用",
+                "priorityQueue": "优先生成队列",
+                "downloads": "无限下载"
+            }
+        },
+        "Maestro": {
+            "name": "指挥家",
+            "description": "无限的音乐可能性",
+            "features": {
+                "songs": "1600首歌曲",
+                "credits": "800个生成信用",
+                "pricePerGeneration": "每次生成0.019美元",
+                "lyricsCredits": "800个歌词生成信用",
+                "priorityQueue": "优先生成队列",
+                "downloads": "无限下载"
+            }
+        },
+        "Producer": {
+            "name": "制作人",
+            "description": "放大你的创意产出",
+            "features": {
+                "songs": "600首歌曲",
+                "credits": "300个生成信用",
+                "pricePerGeneration": "每次生成0.026美元",
+                "lyricsCredits": "300个歌词生成信用",
+                "priorityQueue": "优先生成队列",
+                "downloads": "无限下载"
+            }
+        },
+        "Free": {
+            "name": "免费",
+            "description": "免费计划",
+            "features": {
+                "songs": "6首歌曲",
+                "credits": "3个生成信用",
+                "lyricsCredits": "3个歌词生成信用",
+                "priorityQueue": "共享生成队列"
+            }
+        },
+        "title": "AI音乐定价",
+        "subtitle": "选择最适合您的计划",
+        "button": "立即创作",
+        "featured": "热门",
+        "credit": "积分",
+        "one-time": "一次性付款",
+        "seo-title": "AI音乐生成器定价",
+        "seo-description": "选择适合您需求的计划。今天开始您的AI音乐之旅。",
+        "inquire": "如有疑问或需要帮助，请联系我们",
+        "free-button": "免费开始"
+    },
+    "ai-music-generator": {
+        "title": "AI音乐生成器",
+        "description": "使用AI音乐生成器创建独特的音乐，可用于个人和商业用途。",
+        "button": "生成歌曲",
+        "seo-title": "免费AI音乐生成器",
+        "seo-description": "使用AI音乐生成器免费生成AI音乐。创建无限音乐曲目，可以在任何地方使用。",
+        "credits": "积分数量",
+        "free-credits": "免费积分数量",
+        "lyrics": "AI歌词生成器",
+        "lyrics-placeholder": "在此输入歌词，然后点击生成按钮创建歌曲。",
+        "lyrics-label": "歌词",
+        "lyrics-tooltip": "使用两段（8行）以获得最佳效果。",
+        "ask-login1": "登录以享受",
+        "ask-login2": "免费积分",
+        "music-style": "音乐风格",
+        "music-style-tooltip": "描述你想要的音乐风格（例如 '原声流行'）。模型不识别艺术家的名字，但理解流派和风格。",
+        "music-style-placeholder": "在此输入音乐风格",
+        "song-title": "歌曲标题",
+        "song-title-tooltip": "为歌曲起一个标题以便分享。",
+        "song-title-placeholder": "在此输入歌曲标题",
+        "custom": "自定义",
+        "instrumental": "纯音乐",
+        "instrumental-tooltip": "没有歌词的音乐",
+        "isloading": "请稍等，我们正在生成您的歌曲，这可能需要几分钟时间。或者您可以稍后在",
+        "library": "音乐库中查看",
+        "credits-alert": "您的积分已用完，请购买更多积分",
+        "lyrics-length-alert": "歌词长度应至少为200个字符",
+        "style-length-alert": "音乐风格不能为空",
+        "title-length-alert": "歌曲标题不能为空",
+        "custom-description-alert": "歌曲描述不能为空！",
+        "custom-instrumental-style-length-alert": "音乐风格不能为空",
+        "custom-instrumental-title-length-alert": "歌曲标题不能为空",
+        "song-description": "歌曲描述",
+        "song-description-tooltip": "描述你想生成的歌曲。",
+        "song-description-placeholder": "一首关于爱情的未来流行歌曲"
     }
 }

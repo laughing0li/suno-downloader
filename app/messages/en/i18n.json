@@ -134,5 +134,99 @@
         "home": "Home",
         "signin": "Sign-In to Suno Downloader",
         "signup": "Sign-Up with Google"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "Composer",
+            "description": "Start your AI music journey",
+            "features": {
+                "songs": "200 Songs",
+                "credits": "100 credits for generation",
+                "pricePerGeneration": "$0.048 per generation",
+                "lyricsCredits": "100 credits for lyrics generation",
+                "priorityQueue": "Priority generation queue",
+                "downloads": "Unlimited downloads"
+            }
+        },
+        "Maestro": {
+            "name": "Maestro",
+            "description": "Unlimited musical possibilities",
+            "features": {
+                "songs": "1600 Songs",
+                "credits": "800 credits for generation",
+                "pricePerGeneration": "0.019per generation",
+                "lyricsCredits": "800 credits for lyrics generation",
+                "priorityQueue": "Priority generation queue",
+                "downloads": "Unlimited downloads"
+            }
+        },
+        "Producer": {
+            "name": "Producer",
+            "description": "Amplify your creative output",
+            "features": {
+                "songs": "600 Songs",
+                "credits": "300 credits for generation",
+                "pricePerGeneration": "$0.026 per generation",
+                "lyricsCredits": "300 credits for lyrics generation",
+                "priorityQueue": "Priority generation queue",
+                "downloads": "Unlimited downloads"
+            }
+        },
+        "Free": {
+            "name": "Free",
+            "description": "Free Plan",
+            "features": {
+                "songs": "6 Songs",
+                "credits": "3 credits for generation",
+                "lyricsCredits": "3 credits for lyrics generation",
+                "priorityQueue": "Shared generation queue"
+            }
+        },
+        "title": "AI Music Pricing",
+        "subtitle": "Choose the best plan for you",
+        "button": "Compose Now",
+        "featured": "Popular",
+        "credit": "credit",
+        "one-time": "one time payment",
+        "seo-title": "AI Music Generator Pricing",
+        "seo-description": "Choose the plan that fits your needs. Start your AI music journey today.",
+        "inquire": "For inquiries or assistance, please contact us at",
+        "free-button": "Start Free"
+    },
+    "ai-music-generator": {
+        "title": "AI Music Generator",
+        "description": "Create unique music with AI music generator, can use for personal and commercial purposes.",
+        "button": "Generate Song",
+        "seo-title": "Free AI Music Generator",
+        "seo-description": "Generate AI music for free with AI music generator. Create unlimited music tracks use it anywhere.",
+        "credits": "Number of credits",
+        "free-credits": "Number of free credits",
+        "lyrics": "AI Lyrics Generator",
+        "lyrics-placeholder": "Enter the lyrics here and hit the generate button to create a song.",
+        "lyrics-label": "Lyrics",
+        "lyrics-tooltip": "Use two verses (8 lines) for best results.",
+        "ask-login1": "Login to enjoy",
+        "ask-login2": "free credits",
+        "music-style": "Music Style",
+        "music-style-tooltip": "Describe the style of music you want (e.g.acoustic pop'). The models do not recognize artists' names but do understand genres and vibes.",
+        "music-style-placeholder": "Enter the music style here",
+        "song-title": "Song Title",
+        "song-title-tooltip": "Give song a title for sharing.",
+        "song-title-placeholder": "Enter the song title here",
+        "custom": "Custom",
+        "instrumental": "Instrumental",
+        "instrumental-tooltip": "Music without lyrics",
+        "isloading": "Please wait while we generate your song, this may take a few minutes. Or you can check back later in your",
+        "library": "Music Library",
+        "credits-alert": "You have no credits left, please purchase more credits",
+        "lyrics-length-alert": "Lyrics should be at least 200 characters",
+        "style-length-alert": "Music Style should not be empty",
+        "title-length-alert": "Song Title should not be empty",
+        "custom-description-alert": "Song description should not be empty!",
+        "custom-instrumental-style-length-alert": "Music Style should not be empty",
+        "custom-instrumental-title-length-alert": "Song Title should not be empty",
+        "song-description": "Song Description",
+        "song-description-tooltip": "Describe the song you want to generate.",
+        "song-description-placeholder": "A futuristic pop song about love"
     }
 }

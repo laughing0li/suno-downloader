@@ -103,7 +103,7 @@ const Header = () => {
                         <Link
                             href={link.href}
                             key={link.href}
-                            className="link link-hover"
+                            className="link link-hover max-w-40"
                             title={link.label}
                         >
                             {link.label}

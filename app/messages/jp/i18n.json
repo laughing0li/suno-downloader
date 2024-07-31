@@ -134,5 +134,99 @@
         "home": "ホーム",
         "signin": "Suno ダウンローダーにサインイン",
         "signup": "Googleでサインアップ"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "作曲家",
+            "description": "AI音楽の旅を始めましょう",
+            "features": {
+                "songs": "200曲",
+                "credits": "生成用100クレジット",
+                "pricePerGeneration": "生成あたり0.048ドル",
+                "lyricsCredits": "歌詞生成用100クレジット",
+                "priorityQueue": "優先生成キュー",
+                "downloads": "無制限ダウンロード"
+            }
+        },
+        "Maestro": {
+            "name": "マエストロ",
+            "description": "無限の音楽の可能性",
+            "features": {
+                "songs": "1600曲",
+                "credits": "生成用800クレジット",
+                "pricePerGeneration": "生成あたり0.019ドル",
+                "lyricsCredits": "歌詞生成用800クレジット",
+                "priorityQueue": "優先生成キュー",
+                "downloads": "無制限ダウンロード"
+            }
+        },
+        "Producer": {
+            "name": "プロデューサー",
+            "description": "創造的な成果を増幅する",
+            "features": {
+                "songs": "600曲",
+                "credits": "生成用300クレジット",
+                "pricePerGeneration": "生成あたり0.026ドル",
+                "lyricsCredits": "歌詞生成用300クレジット",
+                "priorityQueue": "優先生成キュー",
+                "downloads": "無制限ダウンロード"
+            }
+        },
+        "Free": {
+            "name": "無料",
+            "description": "無料プラン",
+            "features": {
+                "songs": "6曲",
+                "credits": "生成用3クレジット",
+                "lyricsCredits": "歌詞生成用3クレジット",
+                "priorityQueue": "共有生成キュー"
+            }
+        },
+        "title": "AI音楽の料金",
+        "subtitle": "最適なプランを選んでください",
+        "button": "今すぐ作曲",
+        "featured": "人気",
+        "credit": "クレジット",
+        "one-time": "一回払い",
+        "seo-title": "AI音楽生成器の料金",
+        "seo-description": "ニーズに合ったプランを選びましょう。今日からAI音楽の旅を始めましょう。",
+        "inquire": "お問い合わせやサポートについては、以下にご連絡ください",
+        "free-button": "無料で始める"
+    },
+    "ai-music-generator": {
+        "title": "AIミュージックジェネレーター",
+        "description": "AIミュージックジェネレーターでユニークな音楽を作成し、個人的および商業的な目的で使用できます。",
+        "button": "曲を生成",
+        "seo-title": "無料のAIミュージックジェネレーター",
+        "seo-description": "AIミュージックジェネレーターで無料でAI音楽を生成します。無制限の音楽トラックを作成して、どこでも使用できます。",
+        "credits": "クレジットの数",
+        "free-credits": "無料クレジットの数",
+        "lyrics": "AI歌詞ジェネレーター",
+        "lyrics-placeholder": "ここに歌詞を入力し、生成ボタンを押して曲を作成します。",
+        "lyrics-label": "歌詞",
+        "lyrics-tooltip": "最良の結果を得るために2つの詩（8行）を使用してください。",
+        "ask-login1": "無料クレジットを楽しむために",
+        "ask-login2": "ログインしてください",
+        "music-style": "音楽スタイル",
+        "music-style-tooltip": "希望する音楽スタイルを記述してください（例：'アコースティックポップ'）。モデルはアーティスト名を認識しませんが、ジャンルや雰囲気を理解します。",
+        "music-style-placeholder": "ここに音楽スタイルを入力",
+        "song-title": "曲のタイトル",
+        "song-title-tooltip": "共有するために曲にタイトルを付けてください。",
+        "song-title-placeholder": "ここに曲のタイトルを入力",
+        "custom": "カスタム",
+        "instrumental": "インストゥルメンタル",
+        "instrumental-tooltip": "歌詞のない音楽",
+        "isloading": "曲を生成している間、少々お待ちください。数分かかることがあります。または、後でご自身の",
+        "library": "音楽ライブラリで確認できます",
+        "credits-alert": "クレジットが残っていません、クレジットを購入してください",
+        "lyrics-length-alert": "歌詞は少なくとも200文字必要です",
+        "style-length-alert": "音楽スタイルを空にしないでください",
+        "title-length-alert": "曲のタイトルを空にしないでください",
+        "custom-description-alert": "曲の説明を空にしないでください！",
+        "custom-instrumental-style-length-alert": "音楽スタイルを空にしないでください",
+        "custom-instrumental-title-length-alert": "曲のタイトルを空にしないでください",
+        "song-description": "曲の説明",
+        "song-description-tooltip": "生成したい曲を説明してください。",
+        "song-description-placeholder": "愛についての未来的なポップソング"
     }
 }

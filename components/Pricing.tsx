@@ -1,6 +1,7 @@
 import config from "@/config"
 import ButtonCheckout from "./ButtonCheckout"
 import { useTranslatedConfig } from "@/libs/translations"
+import { useTranslations } from "next-intl"
 
 // <Pricing/> displays the pricing plans for your app
 // It's your Stripe config in config.js.stripe.plans[] that will be used to display the plans
@@ -8,23 +9,24 @@ import { useTranslatedConfig } from "@/libs/translations"
 
 const Pricing = () => {
     const translatedPrice = useTranslatedConfig()
+    const t = useTranslations('stripe')
     return (
         <section className="bg-base-200 overflow-hidden" id="pricing">
             <div className="py-24 px-8 max-w-5xl mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
-                    <p className="font-medium mb-8">AI Music Pricing</p>
+                    <p className="font-medium mb-8">{t('title')}</p>
                     <h2 className="font-bold text-3xl lg:text-5xl tracking-tight">
-                        Chose the best plan for you
+                        {t('subtitle')}
                     </h2>
                 </div>
 
                 <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center lg:items-stretch gap-8">
-                    {config.stripe.plans.map((plan, index) => (
+                    {translatedPrice.stripe.plans.map((plan, index) => (
                         <div key={plan.priceId} className="relative w-full max-w-lg transition-all duration-300 hover:scale-105">
                             {plan.isFeatured && (
                                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
-                                    <span className="badge badge-secondary badge-lg text-secondary-content font-semibold">
-                                        POPULAR
+                                    <span className="badge badge-secondary badge-lg text-secondary-content font-semibold uppercase">
+                                        {t('featured')}
                                     </span>
                                 </div>
                             )}
@@ -39,17 +41,25 @@ const Pricing = () => {
                                         )}
                                     </div>
                                 </div>
-                                {plan.name !== "Free" && (
-                                    <div className="mb-6">
-                                        <div className="flex items-end gap-2">
-                                            <p className={`text-4xl font-bold ${plan.isFeatured ? 'text-white' : 'text-slate-800'}`}>{plan.priceAnchor}</p>
-                                            <p className={`text-lg ${plan.isFeatured ? 'text-indigo-200' : 'text-base-content/60'} font-semibold mb-1`}>/ credit</p>
-                                        </div>
-                                        <p className={`${plan.isFeatured ? 'text-indigo-200' : 'text-base-content/70'} text-sm mt-1`}>
-                                            ${plan.price} one time payment
+
+                                <div className="mb-6">
+                                    <div className="flex items-end gap-2">
+                                        <p className={`text-4xl font-bold ${plan.isFeatured ? 'text-white' : 'text-slate-800'}`}>
+                                            {plan.priceAnchor}
+                                        </p>
+                                        <p className={`text-lg ${plan.isFeatured ? 'text-indigo-200' : 'text-base-content/60'} font-semibold mb-1`}>
+                                            {
+                                                plan.price === 0 ? '' : '/ ' + t('credit')
+                                            }
                                         </p>
                                     </div>
-                                )}
+                                    <p className={`${plan.isFeatured ? 'text-indigo-200' : 'text-base-content/70'} text-sm mt-1`}>
+                                    {/* ${plan.price} one time payment */}
+                                        {
+                                            plan.price === 0 ? '' : `$${plan.price} ${t('one-time')}`
+                                        }
+                                    </p>
+                                </div>
                                 {plan.features && (
                                     <ul className="space-y-4 leading-relaxed text-base flex-1 mb-8">
                                         {plan.features.map((feature, i) => (
@@ -66,17 +76,17 @@ const Pricing = () => {
                                 )}
                                 {plan.isFeatured ? (
                                     <ButtonCheckout extraStyle="btn-secondary btn-block text-secondary-content " priceId={plan.priceId} />
-                                ) : plan.name !== "Free" ? (
+                                ) : plan.planType !== "free" ? (
                                     <ButtonCheckout extraStyle="btn-outline btn-block" priceId={plan.priceId} />
                                 ) : (
-                                    <a href="/ai-music-generator" className="btn btn-block btn-outline">Start Free</a>
+                                    <a href="/ai-music-generator" className="btn btn-block btn-outline">{t('free-button')}</a>
                                 )}
                             </div>
                         </div>
                     ))}
                 </div>
                 <p className="text-center pt-10">
-                    For inquiries or assistance, please contact us at{" "}
+                    {t('inquire')}{" "}
                     <a
                         href="mailto:support@sundownloader.io"
                         className="text-slate-700 underline"

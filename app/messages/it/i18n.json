@@ -134,5 +134,99 @@
         "home": "Home",
         "signin": "Accedi a Suno Downloader",
         "signup": "Iscriviti con Google"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "Compositore",
+            "description": "Inizia il tuo viaggio musicale con l'IA",
+            "features": {
+                "songs": "200 Canzoni",
+                "credits": "100 crediti per la generazione",
+                "pricePerGeneration": "$0.048 per generazione",
+                "lyricsCredits": "100 crediti per la generazione di testi",
+                "priorityQueue": "Coda di generazione prioritaria",
+                "downloads": "Download illimitati"
+            }
+        },
+        "Maestro": {
+            "name": "Maestro",
+            "description": "Possibilità musicali illimitate",
+            "features": {
+                "songs": "1600 Canzoni",
+                "credits": "800 crediti per la generazione",
+                "pricePerGeneration": "$0.019 per generazione",
+                "lyricsCredits": "800 crediti per la generazione di testi",
+                "priorityQueue": "Coda di generazione prioritaria",
+                "downloads": "Download illimitati"
+            }
+        },
+        "Producer": {
+            "name": "Produttore",
+            "description": "Amplifica la tua produzione creativa",
+            "features": {
+                "songs": "600 Canzoni",
+                "credits": "300 crediti per la generazione",
+                "pricePerGeneration": "$0.026 per generazione",
+                "lyricsCredits": "300 crediti per la generazione di testi",
+                "priorityQueue": "Coda di generazione prioritaria",
+                "downloads": "Download illimitati"
+            }
+        },
+        "Free": {
+            "name": "Gratis",
+            "description": "Piano gratuito",
+            "features": {
+                "songs": "6 Canzoni",
+                "credits": "3 crediti per la generazione",
+                "lyricsCredits": "3 crediti per la generazione di testi",
+                "priorityQueue": "Coda di generazione condivisa"
+            }
+        },
+        "title": "Prezzi della Musica AI",
+        "subtitle": "Scegli il miglior piano per te",
+        "button": "Componi Ora",
+        "featured": "Popolare",
+        "credit": "crediti",
+        "one-time": "pagamento una tantum",
+        "seo-title": "Prezzi del Generatore di Musica AI",
+        "seo-description": "Scegli il piano che soddisfa le tue esigenze. Inizia oggi il tuo viaggio musicale con AI.",
+        "inquire": "Per domande o assistenza, contattaci a",
+        "free-button": "Inizia Gratis"
+    },
+    "ai-music-generator": {
+        "title": "Generatore di Musica AI",
+        "description": "Crea musica unica con il generatore di musica AI, utilizzabile per scopi personali e commerciali.",
+        "button": "Genera Canzone",
+        "seo-title": "Generatore di Musica AI Gratuito",
+        "seo-description": "Genera musica AI gratuitamente con il generatore di musica AI. Crea tracce musicali illimitate e usale ovunque.",
+        "credits": "Numero di crediti",
+        "free-credits": "Numero di crediti gratuiti",
+        "lyrics": "Generatore di Testi AI",
+        "lyrics-placeholder": "Inserisci qui i testi e premi il pulsante genera per creare una canzone.",
+        "lyrics-label": "Testi",
+        "lyrics-tooltip": "Usa due versi (8 righe) per ottenere i migliori risultati.",
+        "ask-login1": "Accedi per goderti",
+        "ask-login2": "crediti gratuiti",
+        "music-style": "Stile Musicale",
+        "music-style-tooltip": "Descrivi lo stile musicale che desideri (ad es. 'pop acustico'). I modelli non riconoscono i nomi degli artisti ma comprendono generi e atmosfere.",
+        "music-style-placeholder": "Inserisci qui lo stile musicale",
+        "song-title": "Titolo della Canzone",
+        "song-title-tooltip": "Dai un titolo alla canzone per la condivisione.",
+        "song-title-placeholder": "Inserisci qui il titolo della canzone",
+        "custom": "Personalizzato",
+        "instrumental": "Strumentale",
+        "instrumental-tooltip": "Musica senza testi",
+        "isloading": "Attendere mentre generiamo la tua canzone, potrebbe richiedere alcuni minuti. Oppure puoi controllare più tardi nella tua",
+        "library": "Libreria Musicale",
+        "credits-alert": "Non hai più crediti, per favore acquista più crediti",
+        "lyrics-length-alert": "I testi devono contenere almeno 200 caratteri",
+        "style-length-alert": "Lo stile musicale non deve essere vuoto",
+        "title-length-alert": "Il titolo della canzone non deve essere vuoto",
+        "custom-description-alert": "La descrizione della canzone non deve essere vuota!",
+        "custom-instrumental-style-length-alert": "Lo stile musicale non deve essere vuoto",
+        "custom-instrumental-title-length-alert": "Il titolo della canzone non deve essere vuoto",
+        "song-description": "Descrizione della canzone",
+        "song-description-tooltip": "Descrivi la canzone che vuoi generare.",
+        "song-description-placeholder": "Una canzone pop futuristica sull'amore"
     }
 }

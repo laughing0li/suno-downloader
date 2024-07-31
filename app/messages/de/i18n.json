@@ -134,5 +134,99 @@
         "home": "Startseite",
         "signin": "Anmelden bei Suno-Musik-Downloader",
         "signup": "Mit Google anmelden"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "Komponist",
+            "description": "Beginnen Sie Ihre KI-Musikreise",
+            "features": {
+                "songs": "200 Lieder",
+                "credits": "100 Credits für die Generierung",
+                "pricePerGeneration": "$0.048 pro Generierung",
+                "lyricsCredits": "100 Credits für die Textgenerierung",
+                "priorityQueue": "Priorisierte Generierungswarteschlange",
+                "downloads": "Unbegrenzte Downloads"
+            }
+        },
+        "Maestro": {
+            "name": "Maestro",
+            "description": "Unbegrenzte musikalische Möglichkeiten",
+            "features": {
+                "songs": "1600 Lieder",
+                "credits": "800 Credits für die Generierung",
+                "pricePerGeneration": "$0.019 pro Generierung",
+                "lyricsCredits": "800 Credits für die Textgenerierung",
+                "priorityQueue": "Priorisierte Generierungswarteschlange",
+                "downloads": "Unbegrenzte Downloads"
+            }
+        },
+        "Producer": {
+            "name": "Produzent",
+            "description": "Verstärken Sie Ihre kreative Leistung",
+            "features": {
+                "songs": "600 Lieder",
+                "credits": "300 Credits für die Generierung",
+                "pricePerGeneration": "$0.026 pro Generierung",
+                "lyricsCredits": "300 Credits für die Textgenerierung",
+                "priorityQueue": "Priorisierte Generierungswarteschlange",
+                "downloads": "Unbegrenzte Downloads"
+            }
+        },
+        "Free": {
+            "name": "Kostenlos",
+            "description": "Kostenloser Plan",
+            "features": {
+                "songs": "6 Lieder",
+                "credits": "3 Credits für die Generierung",
+                "lyricsCredits": "3 Credits für die Textgenerierung",
+                "priorityQueue": "Geteilte Generierungswarteschlange"
+            }
+        },
+        "title": "AI Musik Preisgestaltung",
+        "subtitle": "Wählen Sie den besten Plan für sich aus",
+        "button": "Jetzt komponieren",
+        "featured": "Beliebt",
+        "credit": "Credits",
+        "one-time": "Einmalzahlung",
+        "seo-title": "AI Musik Generator Preisgestaltung",
+        "seo-description": "Wählen Sie den Plan, der Ihren Bedürfnissen entspricht. Beginnen Sie heute Ihre AI-Musikreise.",
+        "inquire": "Für Anfragen oder Unterstützung kontaktieren Sie uns bitte unter",
+        "free-button": "Kostenlos starten"
+    },
+    "ai-music-generator": {
+        "title": "KI-Musikgenerator",
+        "description": "Erstelle einzigartige Musik mit dem KI-Musikgenerator, kann für persönliche und kommerzielle Zwecke verwendet werden.",
+        "button": "Lied generieren",
+        "seo-title": "Kostenloser KI-Musikgenerator",
+        "seo-description": "Erstelle kostenlos KI-Musik mit dem KI-Musikgenerator. Erstelle unbegrenzt Musikstücke und nutze sie überall.",
+        "credits": "Anzahl der Credits",
+        "free-credits": "Anzahl der kostenlosen Credits",
+        "lyrics": "KI-Textgenerator",
+        "lyrics-placeholder": "Geben Sie hier die Liedtexte ein und drücken Sie den Generieren-Button, um ein Lied zu erstellen.",
+        "lyrics-label": "Liedtexte",
+        "lyrics-tooltip": "Verwenden Sie zwei Strophen (8 Zeilen) für beste Ergebnisse.",
+        "ask-login1": "Melden Sie sich an, um",
+        "ask-login2": "kostenlose Credits zu genießen",
+        "music-style": "Musikstil",
+        "music-style-tooltip": "Beschreiben Sie den gewünschten Musikstil (z.B. 'Akustik-Pop'). Die Modelle erkennen keine Künstlernamen, verstehen aber Genres und Stimmungen.",
+        "music-style-placeholder": "Geben Sie hier den Musikstil ein",
+        "song-title": "Liedtitel",
+        "song-title-tooltip": "Geben Sie dem Lied einen Titel zum Teilen.",
+        "song-title-placeholder": "Geben Sie hier den Liedtitel ein",
+        "custom": "Benutzerdefiniert",
+        "instrumental": "Instrumental",
+        "instrumental-tooltip": "Musik ohne Text",
+        "isloading": "Bitte warten Sie, während wir Ihr Lied generieren, dies kann einige Minuten dauern. Oder Sie können später in Ihrer",
+        "library": "Musikbibliothek nachsehen",
+        "credits-alert": "Sie haben keine Credits mehr, bitte kaufen Sie mehr Credits",
+        "lyrics-length-alert": "Die Liedtexte sollten mindestens 200 Zeichen lang sein",
+        "style-length-alert": "Der Musikstil darf nicht leer sein",
+        "title-length-alert": "Der Liedtitel darf nicht leer sein",
+        "custom-description-alert": "Die Beschreibung des Liedes darf nicht leer sein!",
+        "custom-instrumental-style-length-alert": "Der Musikstil darf nicht leer sein",
+        "custom-instrumental-title-length-alert": "Der Liedtitel darf nicht leer sein",
+        "song-description": "Liedbeschreibung",
+        "song-description-tooltip": "Beschreibe das Lied, das du erstellen möchtest.",
+        "song-description-placeholder": "Ein futuristisches Popsong über Liebe"
     }
 }

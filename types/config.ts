@@ -33,6 +33,7 @@ export interface ConfigProps {
   stripe: {
     plans: {
       isFeatured?: boolean;
+      planType?: string,
       priceId: string;
       name: string;
       description?: string;

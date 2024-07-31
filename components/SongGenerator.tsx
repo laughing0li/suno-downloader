@@ -1,6 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { useTranslations } from "next-intl"
 
 const SongGenerator = () => {
     const router = useRouter()
@@ -15,43 +16,44 @@ const SongGenerator = () => {
     const [isLogged, setIsLogged] = useState(false)
     const [credits, setCredits] = useState(0)
     const [free, setFree] = useState(0)
+    const t = useTranslations('ai-music-generator')
     const handleSubmit = async (e: React.FormEvent) => {
         if (!isLogged) {
             (document.getElementById('sign-in') as HTMLDialogElement).showModal()
             return
         }
         if (credits <= 0 && free <= 0) {
-            alert('You have no credits left, please purchase more credits')
+            alert(t('credits-alert'))
             return
         }
         e.preventDefault()
         if (custom && !instrumental) {
             if (lyrics.length < 200) {
-                alert('Lyrics should be at least 200 characters')
+                alert(t('lyrics-length-alert'))
                 return
             }
             if (style.length <= 0) {
-                alert('Music Style should not be empty')
+                alert(t('style-length-alert'))
                 return
             }
             if (title.length <= 0) {
-                alert('Song Title should not be empty')
+                alert(t('title-length-alert'))
                 return
             }
         }
         if (!custom) {
             if (description.length <= 0) {
-                alert('Song description should not be empty!')
+                alert(t('custom-description-alert'))
                 return
             }
         }
         if (custom && instrumental) {
             if (style.length <= 0) {
-                alert('Music Style should not be empty')
+                alert(t('custom-instrumental-style-length-alert'))
                 return
             }
             if (title.length <= 0) {
-                alert('Song Title should not be empty')
+                alert(t('custom-instrumental-title-length-alert'))
                 return
             }
         }
@@ -164,38 +166,40 @@ const SongGenerator = () => {
     }
     return (
         <div>
+            <h1 className="text-3xl font-bold mb-6 text-center mt-16">{t('title')}</h1>
+
             <div className='flex justify-center place-items-center gap-x-3 mb-4'>
                 {
                     !isLogged && (
-                        <p className='text-slate-500 text-center text-sm'>Login to enjoy <span className='text-secondary text-base font-semibold'>3</span> free credits</p>
+                        <p className='text-slate-500 text-center text-sm'>{t('ask-login1')}<span className='text-secondary text-base font-semibold'>3</span> {t('ask-login2')}</p>
                     )
                 }
                 {
                     isLogged && free <= 0 && (
-                        <p className='text-slate-500 text-center text-sm'>You have <span className='text-secondary text-base font-semibold'>{credits ? credits : 0}</span> credits</p>
+                        <p className='text-slate-500 text-center text-sm'>{t('credits')}: <span className='text-secondary text-base font-semibold'>{credits ? credits : 0}</span></p>
                     )
                 }
                 {
                     isLogged && free > 0 && (
-                        <p className='text-slate-500 text-center text-sm'>You have <span className='text-secondary text-base font-semibold'>{free}</span> free credits</p>
+                        <p className='text-slate-500 text-center text-sm'>{t('free-credits')}: <span className='text-secondary text-base font-semibold'>{free}</span></p>
                     )
                 }
                 <div className="divider divider-horizontal"></div>
 
                 <p className="text-center text-sm font-bold text-secondary">
-                    <a href="/ai-lyrics-generator">AI Lyrics Generator &gt;&gt;</a>
+                    <a href="/ai-lyrics-generator">{t('lyrics')} &gt;&gt;</a>
                 </p>
             </div>
             <div className="max-w-2xl bg-base-200 mx-auto p-6 rounded-lg shadow-md mb-16">
                 <div className='flex justify-between mb-4'>
                     <div className='flex gap-x-4'>
                         <div className='flex items-center gap-x-2'>
-                            <span className="label-text">Custom</span>
+                            <span className="label-text">{t('custom')}</span>
                             <input type="checkbox" checked={custom} className="toggle toggle-secondary" onChange={(e) => { handleCustom(e) }} />
                         </div>
                         <div className='flex items-center gap-x-2'>
-                            <span className="label-text">Instrumental
-                                <div className="tooltip" data-tip="Music without lyrics">
+                            <span className="label-text">{t('instrumental')}
+                                <div className="tooltip" data-tip={t('instrumental-tooltip')}>
                                     <i className="ml-2 bi bi-patch-question text-base" />
                                 </div>
                             </span>
@@ -209,8 +213,8 @@ const SongGenerator = () => {
                         <div>
                             {!instrumental && (<div className='relative'>
                                 <label htmlFor="lyrics" className="block text-sm font-medium text-gray-700 mb-1">
-                                    Lyrics
-                                    <div className="tooltip" data-tip="Use two verses (8 lines) for best results.">
+                                    {t('lyrics-label')}
+                                    <div className="tooltip" data-tip={t('lyrics-tooltip')}>
                                         <i className="ml-2 bi bi-patch-question text-base" />
                                     </div>
                                 </label>
@@ -220,7 +224,7 @@ const SongGenerator = () => {
                                         name="lyrics"
                                         value={lyrics}
                                         onChange={(e) => handleTextChange(e, 'lyrics')}
-                                        placeholder="Enter the lyrics here and hit generate song"
+                                        placeholder={t('lyrics-placeholder')}
                                         className='textarea w-full rounded-2xl focus:outline-none focus:ring-0 focus:border-0 placeholder:text-lg'
                                     />
 
@@ -232,14 +236,14 @@ const SongGenerator = () => {
                                 </div>
                                 <div className="absolute inset-x-0 bottom-0 flex justify-between items-center py-2 pl-3 pr-2">
                                     <div className="flex items-center space-x-5">
-                                        <button
+                                        {/* <button
                                             type='button'
                                             className="relative inline-flex items-center justify-center whitespace-nowrap transition-all duration-200 ring-0 ring-transparent focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-true-white/20 border border-light text-dark shadow-xs hover:ring-gray-100 active:ring-gray-200 disabled:text-light px-4 py-2 rounded-3xl hover:ring"
                                             onClick={handleToLyrics}
                                         >
                                             Lyrics Generator
                                             <span className="sr-only">Random Lyrics</span>
-                                        </button>
+                                        </button> */}
 
                                     </div>
                                     <div className="flex-shrink-0">
@@ -249,8 +253,8 @@ const SongGenerator = () => {
                             </div>)}
                             <div className='relative mt-8'>
                                 <label htmlFor="style" className="block text-sm font-medium text-gray-700 mb-2">
-                                    Music Style
-                                    <div className="tooltip" data-tip="Describe the style of music you want (e.g.acoustic pop'). The models do not recognize artists' names but do understand genres and vibes.">
+                                    {t('music-style')}
+                                    <div className="tooltip" data-tip={t('music-style-tooltip')}>
                                         <i className="ml-2 bi bi-patch-question text-base" />
                                     </div>
                                 </label>
@@ -260,7 +264,7 @@ const SongGenerator = () => {
                                         name="music style"
                                         value={style}
                                         onChange={(e) => handleTextChange(e, 'style')}
-                                        placeholder="Rock, Pop, Jazz"
+                                        placeholder={t('music-style-placeholder')}
                                         required
                                         className='textarea w-full rounded-2xl focus:outline-none focus:ring-0 focus:border-0 placeholder:text-lg'
                                     />
@@ -279,8 +283,8 @@ const SongGenerator = () => {
                             </div>
                             <div className='relative mt-8'>
                                 <label htmlFor="title" className="block text-sm font-medium text-gray-700 mb-2">
-                                    Song Title
-                                    <div className="tooltip" data-tip="Give song a title for sharing">
+                                    {t('song-title')}
+                                    <div className="tooltip" data-tip={t('song-title-tooltip')}>
                                         <i className="ml-2 bi bi-patch-question text-base" />
                                     </div>
                                 </label>
@@ -291,7 +295,7 @@ const SongGenerator = () => {
                                         value={title}
                                         onChange={(e) => handleTextChange(e, 'title')}
                                         required
-                                        placeholder="Enter the song title"
+                                        placeholder={t('song-title-placeholder')}
                                         className='textarea w-full rounded-2xl focus:outline-none focus:ring-0 focus:border-0 placeholder:text-lg'
                                     />
 
@@ -313,8 +317,8 @@ const SongGenerator = () => {
                     !custom && (
                         <div className='relative mt-8'>
                             <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
-                                Song Description
-                                <div className="tooltip" data-tip="Describe the style of music and topic you want(e.g. 'acoustic pop about the holidays'). Use genres and vibes instead of specific artists and songs.">
+                                {t('song-description')}
+                                <div className="tooltip" data-tip={t('music-style-tooltip')}>
                                     <i className="ml-2 bi bi-patch-question text-base" />
                                 </div>
                             </label>
@@ -325,7 +329,7 @@ const SongGenerator = () => {
                                     value={description}
                                     onChange={(e) => handleTextChange(e, 'description')}
                                     required
-                                    placeholder="A futuristic pop song about love"
+                                    placeholder={t('song-description-placeholder')}
                                     className='textarea w-full rounded-2xl focus:outline-none focus:ring-0 focus:border-0 placeholder:text-lg'
                                 />
 
@@ -350,13 +354,13 @@ const SongGenerator = () => {
                     (<div className='mx-auto max-w-3xl text-center mb-8'>
                         <span className="loading loading-dots loading-lg text-primary" />
                         <p className='text-slate-400'>
-                            Please wait while we generate your song, this may take a few minutes. Or you can check back later in your <span className="text-slate-500 hover:cursor-pointer underline">Music library</span> page.
+                            {t('isloading')}<span className="text-slate-500 hover:cursor-pointer underline">{t('library')}</span>
                         </p>
                     </div>)
                     :
                     (<div className='text-center'>
                         <button type="submit" onClick={handleSubmit} className="btn btn-wide btn-primary mb-8">
-                            Generate Song
+                            {t('button')}
                         </button>
                     </div>)
             }

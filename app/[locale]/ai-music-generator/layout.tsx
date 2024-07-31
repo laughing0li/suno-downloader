@@ -8,7 +8,7 @@ type Props = {
 export async function generateMetadata({
     params: { locale }
 }: Omit<Props, 'children'>) {
-    const t = await getTranslations({ locale, namespace: 'metadata' })
+    const t = await getTranslations('ai-music-generator')
     const cookieStore = cookies()
     let pathName = cookieStore.get('x-pathname')?.value || '/'
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
@@ -24,8 +24,8 @@ export async function generateMetadata({
     }, {} as Record<string, string>)
     languages['x-default'] = `https://www.sunodownloader.io/ai-music-generator`
     return {
-        title: "Free AI Music Generator",
-        description: "Generate AI music for free with AI music generator. Create unlimited music tracks use it anywhere.",
+        title: t('seo-title'),
+        description: t('seo-description'),
         alternates: {
             canonical: baseUrl,
             languages: languages

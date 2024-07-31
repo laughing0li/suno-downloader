@@ -134,5 +134,99 @@
         "home": "홈",
         "signin": "Suno 다운로더 에 로그인",
         "signup": "Google로 가입하기"
+    },
+    "stripe": {
+        "Composer": {
+            "name": "작곡가",
+            "description": "AI 음악 여행을 시작하세요",
+            "features": {
+                "songs": "200곡",
+                "credits": "생성을 위한 100 크레딧",
+                "pricePerGeneration": "생성당 $0.048",
+                "lyricsCredits": "가사 생성을 위한 100 크레딧",
+                "priorityQueue": "우선 생성 큐",
+                "downloads": "무제한 다운로드"
+            }
+        },
+        "Maestro": {
+            "name": "마에스트로",
+            "description": "무한한 음악 가능성",
+            "features": {
+                "songs": "1600곡",
+                "credits": "생성을 위한 800 크레딧",
+                "pricePerGeneration": "생성당 $0.019",
+                "lyricsCredits": "가사 생성을 위한 800 크레딧",
+                "priorityQueue": "우선 생성 큐",
+                "downloads": "무제한 다운로드"
+            }
+        },
+        "Producer": {
+            "name": "프로듀서",
+            "description": "창의적 결과물 증폭",
+            "features": {
+                "songs": "600곡",
+                "credits": "생성을 위한 300 크레딧",
+                "pricePerGeneration": "생성당 $0.026",
+                "lyricsCredits": "가사 생성을 위한 300 크레딧",
+                "priorityQueue": "우선 생성 큐",
+                "downloads": "무제한 다운로드"
+            }
+        },
+        "Free": {
+            "name": "무료",
+            "description": "무료 플랜",
+            "features": {
+                "songs": "6곡",
+                "credits": "생성을 위한 3 크레딧",
+                "lyricsCredits": "가사 생성을 위한 3 크레딧",
+                "priorityQueue": "공유 생성 큐"
+            }
+        },
+        "title": "AI 음악 가격",
+        "subtitle": "가장 적합한 요금제를 선택하세요",
+        "button": "지금 작곡하기",
+        "featured": "인기",
+        "credit": "크레딧",
+        "one-time": "일회 결제",
+        "seo-title": "AI 음악 생성기 가격",
+        "seo-description": "필요에 맞는 요금제를 선택하세요. 오늘 AI 음악 여정을 시작하세요.",
+        "inquire": "문의나 도움이 필요하시면 저희에게 연락해 주세요",
+        "free-button": "무료로 시작하기"
+    },
+    "ai-music-generator": {
+        "title": "AI 음악 생성기",
+        "description": "AI 음악 생성기로 독특한 음악을 만들고 개인 및 상업적 목적으로 사용할 수 있습니다.",
+        "button": "노래 생성",
+        "seo-title": "무료 AI 음악 생성기",
+        "seo-description": "AI 음악 생성기로 무료로 AI 음악을 생성하세요. 무제한 음악 트랙을 생성하고 어디에서나 사용하세요.",
+        "credits": "크레딧 수",
+        "free-credits": "무료 크레딧 수",
+        "lyrics": "AI 가사 생성기",
+        "lyrics-placeholder": "여기에 가사를 입력하고 생성 버튼을 눌러 노래를 만드세요.",
+        "lyrics-label": "가사",
+        "lyrics-tooltip": "최상의 결과를 위해 두 절(8줄)을 사용하세요.",
+        "ask-login1": "무료 크레딧을 즐기려면",
+        "ask-login2": "로그인하세요",
+        "music-style": "음악 스타일",
+        "music-style-tooltip": "원하는 음악 스타일을 설명하세요(예: '어쿠스틱 팝'). 모델은 아티스트 이름을 인식하지 않지만 장르와 분위기를 이해합니다.",
+        "music-style-placeholder": "여기에 음악 스타일을 입력하세요",
+        "song-title": "노래 제목",
+        "song-title-tooltip": "공유를 위해 노래에 제목을 붙이세요.",
+        "song-title-placeholder": "여기에 노래 제목을 입력하세요",
+        "custom": "커스텀",
+        "instrumental": "기악",
+        "instrumental-tooltip": "가사가 없는 음악",
+        "isloading": "노래를 생성하는 동안 잠시 기다려 주세요. 몇 분 정도 소요될 수 있습니다. 또는 나중에",
+        "library": "음악 라이브러리에서 확인하세요",
+        "credits-alert": "크레딧이 남아 있지 않습니다. 크레딧을 구매하세요",
+        "lyrics-length-alert": "가사는 최소 200자 이상이어야 합니다",
+        "style-length-alert": "음악 스타일이 비어 있어서는 안 됩니다",
+        "title-length-alert": "노래 제목이 비어 있어서는 안 됩니다",
+        "custom-description-alert": "노래 설명이 비어 있어서는 안 됩니다!",
+        "custom-instrumental-style-length-alert": "음악 스타일이 비어 있어서는 안 됩니다",
+        "custom-instrumental-title-length-alert": "노래 제목이 비어 있어서는 안 됩니다",
+        "song-description": "노래 설명",
+        "song-description-tooltip": "생성하려는 노래를 설명하세요.",
+        "song-description-placeholder": "사랑에 대한 미래 지향적인 팝송"
     }
 }
