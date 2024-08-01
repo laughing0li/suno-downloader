@@ -157,7 +157,6 @@ const SongGenerator = () => {
     const handleToLyrics = () => {
         router.push('/ai-lyrics-generator')
     }
-
     const handleClear = () => {
         setLyrics('')
         setStyle('')

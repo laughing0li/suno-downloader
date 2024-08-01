@@ -1,5 +1,5 @@
-import { Pathnames } from 'next-intl/navigation'
-
+// import { Pathnames } from 'next-intl/navigation'
+import { Pathnames } from 'next-intl/routing'
 export const locales = ['en', 'ch', 'jp', 'ko', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'ar', 'hi'] as const
 
 export const pathnames = {
