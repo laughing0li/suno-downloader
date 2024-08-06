@@ -38,5 +38,7 @@ next-env.d.ts
 .sentryclirc
 sitemap.py
 to-cf/*
+premium-user/*
 app/*/to-cf
+app/*/premium-user
 app/api/to-cf

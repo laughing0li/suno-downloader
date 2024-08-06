@@ -1,6 +1,7 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /music/
 
 # Host
 Host: https://sunodownloader.io/

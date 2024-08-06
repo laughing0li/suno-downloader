@@ -127,7 +127,7 @@
         "library": "내 라이브러리",
         "billing": "청구",
         "logout": "로그아웃",
-        "login": "로그인",
+        "signin": "로그인",
         "tool1": "AI 가사 생성기"
     },
     "signin": {

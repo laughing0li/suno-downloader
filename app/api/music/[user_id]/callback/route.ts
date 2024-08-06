@@ -81,6 +81,17 @@ const handleTextCallback = async (data: CallbackData[], user_id: string) => {
         throw new Error("No data in text callback");
     }
     const { id, prompt, model_name, title, tags, duration } = data[0];
+    // Check if the data with this id already exists
+    const { data: existingData, error: checkError } = await supabase
+        .from("audio_generations")
+        .select("id")
+        .eq("id", id)
+        .single();
+
+    if (existingData) {
+        console.log(`Data with id ${id} already exists. Skipping insertion.`);
+        return;
+    }
     await insertAudioGeneration(
         id,
         prompt,
@@ -111,7 +122,7 @@ const handleTextCallback = async (data: CallbackData[], user_id: string) => {
                 );
             }
         } catch (error) {
-            throw new Error("Error processing audio data: " + error.message);
+            throw new Error("Error processing audio data at Text stage: " + error.message);
         }
     }
 };
@@ -178,7 +189,7 @@ const insertAudioGeneration = async (
                 },
             ]);
         if (error) {
-            throw new Error("Error inserting audio data: " + error.message);
+            throw new Error("Error inserting data to audio_generations table: " + error.message);
         }
     } catch (error) {
         throw new Error("Error processing audio data: " + error.message);

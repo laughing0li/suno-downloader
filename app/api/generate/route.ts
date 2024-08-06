@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
+import { toast } from "react-hot-toast";
+
 export const runtime = 'edge';
 export async function POST(req: NextRequest) {
     const cookieStore = cookies();
@@ -23,16 +25,17 @@ export async function POST(req: NextRequest) {
         ...body,
         // TODO When in production, change the callback URL to your own server
         callBackUrl:
-            // `https://c9d9-159-196-132-3.ngrok-free.app/api/music/${user_id}/callback`,
+            // `https://10a7-159-196-132-3.ngrok-free.app/api/music/${user_id}/callback`,
             `https://www.sunodownloader.io/api/music/${user_id}/callback`,
     };
     const headers = {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.SUNO_API_KEY}`,
+        Authorization: `Bearer ${process.env.LUMA_API_KEY}`,
     };
     try {
         const response = await fetch(
-            "https://sunoapi.erweima.ai/api/v1/generate",
+            // "https://sunoapi.erweima.ai/api/v1/generate",
+            "https://api.lumaapi.com/api/suno/generate",
             {
                 method: "POST",
                 headers,
@@ -41,7 +44,7 @@ export async function POST(req: NextRequest) {
         );
         if (!response.ok) {
             // throw new Error(`Error: ${response.statusText}`);
-            console.error(`Error: ${response.statusText}`);
+            toast.error(`Error: ${response.statusText}`);
         }
         const { data: user} = await supabase.from("users").select().eq("id", user_id).single();
         let credits = user.credits;

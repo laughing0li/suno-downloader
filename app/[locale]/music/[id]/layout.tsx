@@ -10,7 +10,6 @@ export async function generateMetadata({
 }: Omit<Props, 'children'>) {
     const t = await getTranslations({ locale, namespace: 'metadata' })
     const cookieStore = cookies()
-    console.log('id', id)
     let pathName = cookieStore.get('x-pathname')?.value || '/'
     const locales = ['ar', 'ch', 'es', 'fr', 'pt', 'ru', 'ko', 'jp', 'de', 'it', 'hi']
     const localePath = locale === 'en' ? '' : `/${locale}`

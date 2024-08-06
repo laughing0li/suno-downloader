@@ -13,12 +13,12 @@ const Footer = () => {
         main: [
             { name: t('item1'), href: '/about' },
             { name: t('item2'), href: '/privacy' },
-            { name: t('pricing'), href: '/pricing' },
         ],
         tools: [
             { name: t('music'), href: '/ai-music-generator' },
             { name: t('lyrics'), href: '/ai-lyrics-generator' },
             { name: t('item3'), href: '/' },
+            { name: t('pricing'), href: '/pricing' },
         ],
         links: [
             { name: 'ResumeGo', href: 'https://resumego.io' },

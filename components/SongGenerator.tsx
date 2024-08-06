@@ -154,9 +154,6 @@ const SongGenerator = () => {
         }
     }
 
-    const handleToLyrics = () => {
-        router.push('/ai-lyrics-generator')
-    }
     const handleClear = () => {
         setLyrics('')
         setStyle('')
@@ -170,7 +167,7 @@ const SongGenerator = () => {
             <div className='flex justify-center place-items-center gap-x-3 mb-4'>
                 {
                     !isLogged && (
-                        <p className='text-slate-500 text-center text-sm'>{t('ask-login1')}<span className='text-secondary text-base font-semibold'>3</span> {t('ask-login2')}</p>
+                        <p className='text-slate-500 text-center text-sm'>{t('ask-login1')}<span className='text-secondary text-base font-semibold'> 3</span> {t('ask-login2')}</p>
                     )
                 }
                 {
