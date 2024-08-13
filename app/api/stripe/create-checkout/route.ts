@@ -79,7 +79,7 @@ export async function POST(req: NextRequest) {
         customerId: data?.customer_id,
       },
       // If you send coupons from the frontend, you can pass it here
-      // couponId: body.couponId,
+      couponId: body.couponId,
     });
 
     return NextResponse.json({ url: stripeSessionURL });

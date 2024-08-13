@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useTranslations } from "next-intl"
+import { toast } from "react-hot-toast";
 
 const SongGenerator = () => {
     const router = useRouter()
@@ -141,16 +142,16 @@ const SongGenerator = () => {
             })
             const data = await res.json()
             if (data.error) {
-                alert(data.error)
+                toast.error(data.error)
                 return
             }
+            await new Promise(r => setTimeout(r, 60000))
+            router.push('/my-music')
         } catch (e) {
             console.error('Error:', e)
         } finally {
             // wait for 10s to fetch the generated song
-            await new Promise(r => setTimeout(r, 60000))
             setLoading(false)
-            router.push('/my-music')
         }
     }
 
