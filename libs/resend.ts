@@ -18,3 +18,13 @@ export const resendEmail = async ({ to }: { to: string }): Promise<any> => {
         body: JSON.stringify({ to }),
     });
 };
+
+export const sendCoupon = async ({ to }: { to: string }): Promise<any> => {
+    await fetch("https://sunodownloader.io/api/send/coupon", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ to }),
+    });
+}

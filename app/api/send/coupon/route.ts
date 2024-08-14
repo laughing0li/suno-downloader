@@ -1,4 +1,4 @@
-import { EmailTemplate } from "@/components/emailTemplates/EmailTemplate";
+import { Coupon } from "@/components/emailTemplates/Coupon"
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 export const runtime = 'edge';
@@ -12,8 +12,8 @@ export async function POST(req: NextRequest) {
         const data = await resend.emails.send({
             from: "AI Music Generator <noreply@support.resumego.io>",
             to: [to],
-            subject: "Welcome to AI Music Generator",
-            react: EmailTemplate(),
+            subject: "Enjoy the 15% off coupon",
+            react: Coupon(),
         });
         return NextResponse.json({ message: 'Email sent successfully', data });
     } catch (error) {

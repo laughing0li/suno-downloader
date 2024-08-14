@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
 import { findCheckoutSession } from "@/libs/stripe";
-import { resendEmail } from "@/libs/resend"
+import { resendEmail, sendCoupon } from "@/libs/resend"
 export const runtime = "edge";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2023-08-16",
@@ -99,6 +99,17 @@ export async function POST(req: NextRequest) {
             case "checkout.session.expired": {
                 // User didn't complete the transaction
                 // You don't need to do anything here, by you can send an email to the user to remind him to complete the transaction, for instance
+                const stripeObject: Stripe.Checkout.Session = event.data
+                    .object as Stripe.Checkout.Session;
+
+                const session = await findCheckoutSession(stripeObject.id);
+                const email = session?.customer_details;
+                const toEmail = { to: email.email };
+                try {
+                    await sendCoupon(toEmail);
+                } catch (e) {
+                    console.error("Email issue:" + e?.message);
+                }
                 break;
             }
 
