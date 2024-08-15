@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
 import { findCheckoutSession } from "@/libs/stripe";
-import { resendEmail, sendCoupon } from "@/libs/resend"
+import { resendEmail, sendCoupon } from "@/libs/resend";
 export const runtime = "edge";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2023-08-16",
@@ -72,8 +72,12 @@ export async function POST(req: NextRequest) {
                     .select("credits, lyric_credits")
                     .eq("id", userId)
                     .single();
-                const updateCredits = profile?.credits ? profile.credits + plan.credits : plan.credits;
-                const updateLyricCredits = profile?.lyric_credits ? profile.lyric_credits + plan.credits : plan.credits;
+                const updateCredits = profile?.credits
+                    ? profile.credits + plan.credits
+                    : plan.credits;
+                const updateLyricCredits = profile?.lyric_credits
+                    ? profile.lyric_credits + plan.credits
+                    : plan.credits;
                 await supabase
                     .from("users")
                     .update({
@@ -88,7 +92,7 @@ export async function POST(req: NextRequest) {
                 // Extra: send email with user link, product page, etc...
                 const toEmail = { to: email.email };
                 try {
-                    await resendEmail(toEmail)
+                    await resendEmail(toEmail);
                 } catch (e) {
                     console.error("Email issue:" + e?.message);
                 }
@@ -103,12 +107,26 @@ export async function POST(req: NextRequest) {
                     .object as Stripe.Checkout.Session;
 
                 const session = await findCheckoutSession(stripeObject.id);
-                const email = session?.customer_details;
-                const toEmail = { to: email.email };
-                try {
-                    await sendCoupon(toEmail);
-                } catch (e) {
-                    console.error("Email issue:" + e?.message);
+                const userId = stripeObject.client_reference_id;
+                const { data: profile, error: profileError } = await supabase
+                    .from("users")
+                    .select("coupon")
+                    .eq("id", userId)
+                    .single();
+                // if coupon is not used, send coupon email
+                if (!profile?.coupon) {
+                    const email = session?.customer_details;
+                    const toEmail = { to: email.email };
+                    try {
+                        await sendCoupon(toEmail);
+                        // update the coupon status
+                        await supabase
+                            .from("users")
+                            .update({ coupon: true })
+                            .eq("id", userId);
+                    } catch (e) {
+                        console.error("Email issue:" + e?.message);
+                    }
                 }
                 break;
             }
