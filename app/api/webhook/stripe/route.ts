@@ -103,31 +103,31 @@ export async function POST(req: NextRequest) {
             case "checkout.session.expired": {
                 // User didn't complete the transaction
                 // You don't need to do anything here, by you can send an email to the user to remind him to complete the transaction, for instance
-                const stripeObject: Stripe.Checkout.Session = event.data
-                    .object as Stripe.Checkout.Session;
+                // const stripeObject: Stripe.Checkout.Session = event.data
+                //     .object as Stripe.Checkout.Session;
 
-                const session = await findCheckoutSession(stripeObject.id);
-                const userId = stripeObject.client_reference_id;
-                const { data: profile, error: profileError } = await supabase
-                    .from("users")
-                    .select("coupon")
-                    .eq("id", userId)
-                    .single();
-                // if coupon is not used, send coupon email
-                if (!profile?.coupon) {
-                    const email = session?.customer_details;
-                    const toEmail = { to: email.email };
-                    try {
-                        await sendCoupon(toEmail);
-                        // update the coupon status
-                        await supabase
-                            .from("users")
-                            .update({ coupon: true })
-                            .eq("id", userId);
-                    } catch (e) {
-                        console.error("Email issue:" + e?.message);
-                    }
-                }
+                // const session = await findCheckoutSession(stripeObject.id);
+                // const userId = stripeObject.client_reference_id;
+                // const { data: profile, error: profileError } = await supabase
+                //     .from("users")
+                //     .select("*")
+                //     .eq("id", userId)
+                //     .single();
+                // // if coupon is not used, send coupon email
+                // if (!profile?.coupon && !profile?.customer_id) {
+                //     const email = session?.customer_details;
+                //     const toEmail = { to: email.email };
+                //     try {
+                //         await sendCoupon(toEmail);
+                //         // update the coupon status
+                //         await supabase
+                //             .from("users")
+                //             .update({ coupon: true })
+                //             .eq("id", userId);
+                //     } catch (e) {
+                //         console.error("Email issue:" + e?.message);
+                //     }
+                // }
                 break;
             }
 
