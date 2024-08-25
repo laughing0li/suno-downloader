@@ -18,64 +18,6 @@ const config = {
     stripe: {
         // Create multiple plans in your Stripe dashboard, then add them here. You can add as many plans as you want, just make sure to add the priceId
         plans: [
-            // {
-            //     // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
-            //     priceId:
-            //         process.env.NODE_ENV === "development"
-            //             ? "price_1PeB5gI04HNQCZe5GJJRq95c1"
-            //             : "price_1PeB56I04HNQCZe5s6SaP4Gi",
-            //     //  REQUIRED - Name of the plan, displayed on the pricing page
-            //     name: "Composer",
-            //     planType: "paid",
-            //     // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-            //     description: "Start your AI music journey",
-            //     // The price you want to display, the one user will be charged on Stripe.
-            //     price: 4.99,
-            //     // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-            //     priceAnchor: '$0.048',
-            //     credits: 100,
-            //     features: [
-            //         {
-            //             name: "songs",
-            //         },
-            //         {
-            //             name: "credits",
-            //         },
-            //         {
-            //             name: "pricePerGeneration"
-            //         },
-            //         {
-            //             name: "lyricsCredits"
-            //         },
-            //         {
-            //             name: "priorityQueue",
-            //         },
-            //         {
-            //             name: "downloads",
-            //         },
-            //     ],
-            //     // features: [
-            //     //     {
-            //     //         name: "200 Songs",
-            //     //     },
-            //     //     {
-            //     //         name: "100 credits for generation",
-            //     //     },
-            //     //     {
-            //     //         name: "$0.048 per generation"
-            //     //     },
-            //     //     {
-            //     //         name: "100 credits for lyrics generation"
-            //     //     },
-            //     //     {
-            //     //         name: "Priority generation queue",
-            //     //     },
-            //     //     {
-            //     //         name: "Unlimited downloads",
-            //     //     },
-            //     // ],
-            // },
-            
             {
                 priceId:
                     process.env.NODE_ENV === "development"
@@ -109,25 +51,6 @@ const config = {
                         name: "downloads",
                     },
                 ],
-                // features: [
-                //     { name: "600 Songs" },
-
-                //     {
-                //         name: "300 credits for generation",
-                //     },
-                //     {
-                //         name: "$0.026 per generation"
-                //     },
-                //     {
-                //         name: "300 credits for lyrics generation"
-                //     },
-                //     {
-                //         name: "Priority generation queue",
-                //     },
-                //     {
-                //         name: "Unlimited downloads",
-                //     },
-                // ],
             },
             {
                 priceId:
@@ -162,24 +85,6 @@ const config = {
                         name: "downloads",
                     },
                 ],
-                // features: [
-                //     { name: "1600 Songs" },
-                //     {
-                //         name: "800 credits for generation",
-                //     },
-                //     {
-                //         name: "$0.019 per generation"
-                //     },
-                //     {
-                //         name: "800 credits for lyrics generation"
-                //     },
-                //     {
-                //         name: "Priority generation queue",
-                //     },
-                //     {
-                //         name: "Unlimited downloads",
-                //     },
-                // ],
             },
             {
                 // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)

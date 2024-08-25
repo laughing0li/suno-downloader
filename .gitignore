@@ -42,3 +42,4 @@ premium-user/*
 app/*/to-cf
 app/*/premium-user
 app/api/to-cf
+app/*/delete-temp/*

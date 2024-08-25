@@ -24,6 +24,7 @@ const Footer = () => {
             { name: 'ResumeGo', href: 'https://resumego.io' },
             { name: 'Soundify', href: 'https://soundifytext.io' },
             { name: 'PhotoRater', href: 'https://photorater.io' },
+            { name: "Flux AI Image Generator", href: 'https://flux1ai.ai/' }
         ]
     }
   return (
