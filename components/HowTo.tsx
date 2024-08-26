@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl"
 
 const HowTo = () => {
-    const t = useTranslations('howTo')
+    const t = useTranslations('howTo.download')
     return (
         <div>
             <div className="mt-16">

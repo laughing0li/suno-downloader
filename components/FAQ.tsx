@@ -9,7 +9,7 @@ import AdSense from './Adsense'
 import Blog from './Blog'
 
 export default function Faq() {
-    const t = useTranslations('faq')
+    const t = useTranslations('faq.download')
     const faqs = [
         {
             question: t('question1'),

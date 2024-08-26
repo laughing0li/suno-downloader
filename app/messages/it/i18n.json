@@ -20,17 +20,58 @@
         "p2": "Semplicemente incolla il link di condivisione del brano Suno che desideri scaricare nel campo di input. Clicca sul pulsante di download per recuperare il link di download. Una volta pronto il link di download, clicca sul pulsante di download per salvare il brano sul tuo dispositivo. Puoi trovare il link da copiare come mostrato nell'immagine."
     },
     "faq": {
-        "p1": "Il Download Musica Suno ti permette di esplorare e salvare senza problemi tracce musicali generate dall'IA direttamente sul tuo dispositivo (mobile o PC) gratuitamente. Immergiti nell'innovativo mondo di Suno AI.",
-        "p2": "Sentiti libero di scaricare quante più tracce Suno desideri. Il nostro Salva Musica Suno non impone restrizioni sul numero di canzoni che puoi salvare, assicurando un'avventura musicale senza limiti. Ciò che rende unico il nostro strumento è la sua notevole efficienza: a seconda della tua velocità Internet, il recupero dei link di download richiede solo pochi secondi.",
-        "h2": "Domande frequenti - FAQ",
-        "question1": "Il Download Musica Suno è gratuito?",
-        "answer1": "Sì, il Download Musica Suno è completamente gratuito. Puoi scaricare tutte le canzoni che vuoi senza costi aggiuntivi.",
-        "question2": "Il Download Musica Suno ha limitazioni?",
-        "answer2": "No, il Download Musica Suno non ha limitazioni. Puoi scaricare tutte le canzoni che vuoi senza restrizioni.",
-        "question3": "Posso scaricare canzoni Suno sul mio dispositivo mobile?",
-        "answer3": "Sì, puoi scaricare canzoni dal Download Musica Suno su qualsiasi dispositivo (iOS o Android).",
-        "question4": "Dove posso trovare le canzoni scaricate?",
-        "answer4": "Sia che tu usi un PC o un dispositivo mobile, le canzoni scaricate possono essere trovate nella directory di download predefinita del tuo dispositivo."
+        "download": {
+            "p1": "Il Download Musica Suno ti permette di esplorare e salvare senza problemi tracce musicali generate dall'IA direttamente sul tuo dispositivo (mobile o PC) gratuitamente. Immergiti nell'innovativo mondo di Suno AI.",
+            "p2": "Sentiti libero di scaricare quante più tracce Suno desideri. Il nostro Salva Musica Suno non impone restrizioni sul numero di canzoni che puoi salvare, assicurando un'avventura musicale senza limiti. Ciò che rende unico il nostro strumento è la sua notevole efficienza: a seconda della tua velocità Internet, il recupero dei link di download richiede solo pochi secondi.",
+            "h2": "Domande frequenti - FAQ",
+            "question1": "Il Download Musica Suno è gratuito?",
+            "answer1": "Sì, il Download Musica Suno è completamente gratuito. Puoi scaricare tutte le canzoni che vuoi senza costi aggiuntivi.",
+            "question2": "Il Download Musica Suno ha limitazioni?",
+            "answer2": "No, il Download Musica Suno non ha limitazioni. Puoi scaricare tutte le canzoni che vuoi senza restrizioni.",
+            "question3": "Posso scaricare canzoni Suno sul mio dispositivo mobile?",
+            "answer3": "Sì, puoi scaricare canzoni dal Download Musica Suno su qualsiasi dispositivo (iOS o Android).",
+            "question4": "Dove posso trovare le canzoni scaricate?",
+            "answer4": "Sia che tu usi un PC o un dispositivo mobile, le canzoni scaricate possono essere trovate nella directory di download predefinita del tuo dispositivo."
+        },
+        "music-generator": {
+            "h2": "FAQ sul generatore di musica IA",
+            "q1": {
+                "question": "Cos'è il generatore di musica IA?",
+                "answer": "In generale, il generatore di musica IA è uno strumento che utilizza l'intelligenza artificiale per creare tracce musicali in base ai tuoi input. Può generare tracce musicali uniche in pochi minuti. Non hai bisogno di alcuna abilità musicale per utilizzare il generatore di musica IA."
+            },
+            "q2": {
+                "question": "Come funziona il generatore di musica IA?",
+                "answer": "Il generatore di musica IA utilizza tecnologie di IA avanzate per creare tracce musicali in base ai tuoi input. Basta inserire i testi che vuoi utilizzare e descrivere lo stile musicale che desideri, e il generatore di musica IA genererà una traccia unica per te."
+            },
+            "q3": {
+                "question": "Per cosa posso utilizzare il generatore di musica IA?",
+                "answer": "Il generatore di musica IA può essere utilizzato per una vasta gamma di scopi, inclusa la creazione di musica di sottofondo per video, podcast e presentazioni, la generazione di musica per progetti personali e l'esplorazione di diversi stili musicali."
+            },
+            "q4": {
+                "question": "Il generatore di musica IA è gratuito da utilizzare?",
+                "answer": "Il generatore di musica IA offre un piano gratuito che ti permette di generare un numero limitato di tracce musicali. Per un accesso illimitato al generatore di musica IA, puoi acquistare un piano premium."
+            },
+            "q5": {
+                "question": "Posso utilizzare il generatore di musica IA per scopi commerciali?",
+                "answer": "Sì, una volta che avrai scelto il tuo piano premium. Puoi utilizzare le tracce musicali generate dal generatore di musica IA per scopi commerciali. Hai tutti i diritti sulle tracce musicali che crei."
+            },
+            "q6": {
+                "question": "Quanto tempo ci vuole per generare una traccia musicale?",
+                "answer": "Il generatore di musica IA può generare una traccia musicale in pochi minuti. Il tempo esatto può variare in base alla complessità della traccia e al carico del server."
+            },
+            "q7": {
+                "question": "Posso personalizzare le tracce musicali generate dal generatore di musica IA?",
+                "answer": "Sì, puoi personalizzare le tracce musicali aggiungendo un titolo e una descrizione. Questo ti aiuterà a tenere traccia delle tue tracce musicali e a organizzarle nella tua libreria."
+            },
+            "q8": {
+                "question": "Posso generare tracce musicali strumentali con il generatore di musica IA?",
+                "answer": "Sì, puoi generare tracce musicali strumentali con il generatore di musica IA. Basta selezionare l'opzione strumentale quando generi una traccia musicale."
+            },
+            "q9": {
+                "question": "Cosa significano i crediti nel generatore di musica IA?",
+                "answer": "I crediti vengono utilizzati per generare tracce musicali con il generatore di musica IA. Ogni piano include un certo numero di crediti che possono essere utilizzati per generare tracce musicali. Una volta esauriti i tuoi crediti, puoi acquistare altri crediti per continuare a generare tracce musicali."
+            }
+        }
     },
     "about": {
         "h1": "Informazioni",
@@ -67,15 +108,45 @@
         "lyrics": "Generatore di testi di canzoni con AI"
     },
     "howTo": {
-        "content": "Il nostro downloader di musica Suno, ti aiuta a scaricare canzoni da Suno AI (suno.ai) con meno passaggi rispetto al metodo di copia e incolla. Il downloader di canzoni Suno funziona perfettamente in qualsiasi browser, mobile e desktop. Scopri come salvare una canzone di Suno con il nostro sito web leggendo le istruzioni 'come fare' qui sotto.",
-        "question1": "Come usare l'app downloader di canzoni Suno?",
-        "answer1": "Puoi iniziare il processo di download della canzone da Suno AI tramite il nostro sito web su qualsiasi dispositivo con un browser installato e con qualsiasi sistema operativo (Windows 7, 10, Mac, Linux, Ubuntu ecc.). Rispetto all'estensione del browser, scaricare tramite il nostro sito web è facile, l'unica differenza è che devi fare un passaggio aggiuntivo. Vedi tutte le informazioni qui sotto.",
-        "question2": "COPIA URL MUSICA",
-        "answer2": "Trova la canzone che vuoi salvare da Suno AI e copia il link dall'icona di condivisione. Puoi trovare questo esempio di link di condivisione nella sezione 'come fare'.",
-        "question3": "INCOLLA NEL CAMPO DI INPUT",
-        "answer3": "Apri il sito web del downloader di musica Suno in una nuova scheda e incolla l'URL nel modulo in cima alla pagina. Quindi, clicca sul pulsante “Scarica” a destra per ottenere la canzone.",
-        "question4": "SCARICA CANZONE SUNO",
-        "answer4": "Una volta premuto il pulsante, in pochi secondi la canzone verrà scaricata tramite il tuo browser e salvata nella tua cartella di download predefinita."
+        "download": {
+            "content": "Il nostro downloader di musica Suno, ti aiuta a scaricare canzoni da Suno AI (suno.ai) con meno passaggi rispetto al metodo di copia e incolla. Il downloader di canzoni Suno funziona perfettamente in qualsiasi browser, mobile e desktop. Scopri come salvare una canzone di Suno con il nostro sito web leggendo le istruzioni 'come fare' qui sotto.",
+            "question1": "Come usare l'app downloader di canzoni Suno?",
+            "answer1": "Puoi iniziare il processo di download della canzone da Suno AI tramite il nostro sito web su qualsiasi dispositivo con un browser installato e con qualsiasi sistema operativo (Windows 7, 10, Mac, Linux, Ubuntu ecc.). Rispetto all'estensione del browser, scaricare tramite il nostro sito web è facile, l'unica differenza è che devi fare un passaggio aggiuntivo. Vedi tutte le informazioni qui sotto.",
+            "question2": "COPIA URL MUSICA",
+            "answer2": "Trova la canzone che vuoi salvare da Suno AI e copia il link dall'icona di condivisione. Puoi trovare questo esempio di link di condivisione nella sezione 'come fare'.",
+            "question3": "INCOLLA NEL CAMPO DI INPUT",
+            "answer3": "Apri il sito web del downloader di musica Suno in una nuova scheda e incolla l'URL nel modulo in cima alla pagina. Quindi, clicca sul pulsante “Scarica” a destra per ottenere la canzone.",
+            "question4": "SCARICA CANZONE SUNO",
+            "answer4": "Una volta premuto il pulsante, in pochi secondi la canzone verrà scaricata tramite il tuo browser e salvata nella tua cartella di download predefinita."
+        },
+        "music-generator": {
+            "h2": "Come utilizzare AI Music Generator?",
+            "btn": "Genera Canzone",
+            "step1": {
+                "title": "Inizia con il Testo",
+                "description": "Inserisci il testo che desideri utilizzare per la canzone. Puoi utilizzare due strofe (8 righe) per i migliori risultati."
+            },
+            "step2": {
+                "title": "Scegli il tuo stile musicale AI",
+                "description": "Descrivi lo stile musicale che desideri (ad esempio, pop acustico). I modelli non riconoscono i nomi degli artisti, ma comprendono i generi e le atmosfere. Assicurati di non utilizzare alcun nome di artista."
+            },
+            "step3": {
+                "title": "Crea musica unica",
+                "description": "Clicca sul pulsante genera per creare una canzone basata sul tuo testo e sullo stile musicale. AI Music Generator creerà una traccia unica basata sui tuoi input."
+            },
+            "step4": {
+                "title": "Scarica la canzone da AI Music Generator",
+                "description": "Una volta generata la canzone, puoi scaricarla sul tuo dispositivo. Puoi utilizzare la canzone per scopi personali o commerciali."
+            },
+            "step5": {
+                "title": "Personalizza la tua canzone AI",
+                "description": "Puoi personalizzare la tua canzone aggiungendo un titolo e una descrizione. Questo ti aiuterà a tenere traccia delle tue canzoni e organizzarle nella tua libreria."
+            },
+            "step6": {
+                "title": "Crea musica strumentale",
+                "description": "Se desideri creare musica strumentale, puoi selezionare l'opzione strumentale e generare una traccia musicale senza testo."
+            }
+        }
     },
     "blog": {
         "blog1": {
@@ -128,7 +199,8 @@
         "billing": "Fatturazione",
         "logout": "Disconnettersi",
         "signin": "Accedi",
-        "tool1": "Generatore di testi di canzoni con AI"
+        "tool1": "Generatore di testi di canzoni con AI",
+        "ai-tool-dropdown": "strumenti AI"
     },
     "signin": {
         "home": "Home",
@@ -228,5 +300,31 @@
         "song-description": "Descrizione della canzone",
         "song-description-tooltip": "Descrivi la canzone che vuoi generare.",
         "song-description-placeholder": "Una canzone pop futuristica sull'amore"
+    },
+    "features": {
+        "ai-music-generator": {
+            "h2": "Funzionalità di AI Music Generator",
+            "description": "AI Music Generator è uno strumento all'avanguardia che ti consente di creare tracce musicali uniche in pochi minuti. Con una vasta gamma di funzionalità, AI Music Generator è lo strumento perfetto per musicisti, creatori di contenuti ed appassionati di musica.",
+            "feature1": {
+                "title": "Generazione ultraveloce",
+                "description": "Con l'avanzata tecnologia AI, AI Music Generator può creare tracce musicali uniche in pochi minuti."
+            },
+            "feature2": {
+                "title": "Download illimitati",
+                "description": "Scarica quante canzoni vuoi senza restrizioni una volta effettuato l'accesso."
+            },
+            "feature3": {
+                "title": "Stile musicale personalizzato",
+                "description": "Descrivi lo stile musicale che desideri e AI Music Generator creerà una traccia unica basata sulla tua descrizione."
+            },
+            "feature4": {
+                "title": "Uso gratuito",
+                "description": "AI Music Generator è gratuito per uso personale e commerciale per il piano di acquisto."
+            },
+            "feature5": {
+                "title": "Non solo canzoni",
+                "description": "AI Music Generator può creare anche tracce musicali strumentali."
+            }
+        }
     }
 }

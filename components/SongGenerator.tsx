@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useTranslations } from "next-intl"
 import { toast } from "react-hot-toast";
+import MusicGeneratorSection from './features/MusicGeneratorSection'
+import MusicGeneratorFaq from './faq/MusicGeneratorFaq'
+import MusicGeneratorHt from './howTos/MusicGeneratorHt'
 
 const SongGenerator = () => {
     const router = useRouter()
@@ -361,6 +364,9 @@ const SongGenerator = () => {
                         </button>
                     </div>)
             }
+            <MusicGeneratorSection />
+            <MusicGeneratorHt />
+            <MusicGeneratorFaq />
         </div>
     )
 }

@@ -20,17 +20,58 @@
         "p2": "Collez simplement le lien de partage du morceau Suno que vous souhaitez télécharger dans le champ de saisie. Cliquez sur le bouton de téléchargement pour obtenir le lien de téléchargement. Une fois le lien de téléchargement prêt, cliquez sur le bouton de téléchargement pour enregistrer le morceau sur votre appareil. Vous pouvez trouver le lien à copier comme indiqué sur l'image."
     },
     "faq": {
-        "p1": "Le Téléchargeur de Musique Suno vous permet d'explorer et de sauvegarder directement sur votre appareil (que ce soit mobile ou PC) des morceaux de musique générés par IA sans aucun coût. Plongez-vous dans le monde innovant de Suno AI.",
-        "p2": "N'hésitez pas à télécharger autant de morceaux Suno que vous le souhaitez. Notre Téléchargeur de Musique Suno n'impose aucune restriction sur le nombre de chansons que vous pouvez sauvegarder, assurant une aventure musicale sans restrictions. Ce qui distingue notre outil, c'est son efficacité remarquable : selon votre vitesse internet, obtenir des liens de téléchargement prend seulement quelques secondes.",
-        "h2": "Questions Fréquemment Posées - FAQ",
-        "question1": "Le Téléchargeur de Musique Suno est-il gratuit à utiliser ?",
-        "answer1": "Oui, le Téléchargeur de Musique Suno est complètement gratuit. Vous pouvez télécharger autant de chansons que vous le souhaitez sans aucun frais.",
-        "question2": "Le Téléchargeur de Musique Suno a-t-il des limitations ?",
-        "answer2": "Non, le Téléchargeur de Musique Suno n'a pas de limitations. Vous pouvez télécharger autant de chansons que vous le souhaitez sans restrictions.",
-        "question3": "Puis-je télécharger des chansons Suno sur mon appareil mobile ?",
-        "answer3": "Oui, vous pouvez télécharger des chansons depuis le Téléchargeur de Musique Suno sur n'importe quel appareil (iOS ou Android).",
-        "question4": "Où puis-je trouver les chansons téléchargées ?",
-        "answer4": "Que vous utilisiez un PC ou un appareil mobile, les chansons téléchargées peuvent être trouvées dans le répertoire de téléchargement par défaut de votre appareil."
+        "download": {
+            "p1": "Le Téléchargeur de Musique Suno vous permet d'explorer et de sauvegarder directement sur votre appareil (que ce soit mobile ou PC) des morceaux de musique générés par IA sans aucun coût. Plongez-vous dans le monde innovant de Suno AI.",
+            "p2": "N'hésitez pas à télécharger autant de morceaux Suno que vous le souhaitez. Notre Téléchargeur de Musique Suno n'impose aucune restriction sur le nombre de chansons que vous pouvez sauvegarder, assurant une aventure musicale sans restrictions. Ce qui distingue notre outil, c'est son efficacité remarquable : selon votre vitesse internet, obtenir des liens de téléchargement prend seulement quelques secondes.",
+            "h2": "Questions Fréquemment Posées - FAQ",
+            "question1": "Le Téléchargeur de Musique Suno est-il gratuit à utiliser ?",
+            "answer1": "Oui, le Téléchargeur de Musique Suno est complètement gratuit. Vous pouvez télécharger autant de chansons que vous le souhaitez sans aucun frais.",
+            "question2": "Le Téléchargeur de Musique Suno a-t-il des limitations ?",
+            "answer2": "Non, le Téléchargeur de Musique Suno n'a pas de limitations. Vous pouvez télécharger autant de chansons que vous le souhaitez sans restrictions.",
+            "question3": "Puis-je télécharger des chansons Suno sur mon appareil mobile ?",
+            "answer3": "Oui, vous pouvez télécharger des chansons depuis le Téléchargeur de Musique Suno sur n'importe quel appareil (iOS ou Android).",
+            "question4": "Où puis-je trouver les chansons téléchargées ?",
+            "answer4": "Que vous utilisiez un PC ou un appareil mobile, les chansons téléchargées peuvent être trouvées dans le répertoire de téléchargement par défaut de votre appareil."
+        },
+        "music-generator": {
+            "h2": "FAQ sur le générateur de musique IA",
+            "q1": {
+                "question": "Qu'est-ce que le générateur de musique IA ?",
+                "answer": "De manière générale, le générateur de musique IA est un outil qui utilise l'intelligence artificielle pour créer des pistes musicales en fonction de vos entrées. Il peut générer des pistes musicales uniques en quelques minutes. Vous n'avez pas besoin de compétences musicales pour utiliser le générateur de musique IA."
+            },
+            "q2": {
+                "question": "Comment fonctionne le générateur de musique IA ?",
+                "answer": "Le générateur de musique IA utilise une technologie d'IA avancée pour créer des pistes musicales en fonction de vos entrées. Il vous suffit d'entrer les paroles que vous voulez utiliser et de décrire le style de musique que vous voulez, et le générateur de musique IA générera une piste unique pour vous."
+            },
+            "q3": {
+                "question": "À quoi puis-je utiliser le générateur de musique IA ?",
+                "answer": "Le générateur de musique IA peut être utilisé pour une grande variété de cas d'utilisation, notamment la création de musique de fond pour des vidéos, des podcasts et des présentations, la génération de musique pour des projets personnels et l'exploration de différents styles musicaux."
+            },
+            "q4": {
+                "question": "Le générateur de musique IA est-il gratuit d'utilisation ?",
+                "answer": "Le générateur de musique IA propose un plan gratuit qui vous permet de générer un nombre limité de pistes musicales. Pour un accès illimité au générateur de musique IA, vous pouvez souscrire à un abonnement premium."
+            },
+            "q5": {
+                "question": "Puis-je utiliser le générateur de musique IA à des fins commerciales ?",
+                "answer": "Oui, une fois que vous aurez choisi votre plan premium. Vous pouvez utiliser les pistes musicales générées par le générateur de musique IA à des fins commerciales. Vous avez tous les droits sur les pistes musicales que vous créez."
+            },
+            "q6": {
+                "question": "Combien de temps faut-il pour générer une piste musicale ?",
+                "answer": "Le générateur de musique IA peut générer une piste musicale en quelques minutes. Le temps exact peut varier selon la complexité de la piste et la charge du serveur."
+            },
+            "q7": {
+                "question": "Puis-je personnaliser les pistes musicales générées par le générateur de musique IA ?",
+                "answer": "Oui, vous pouvez personnaliser les pistes musicales en ajoutant un titre et une description. Cela vous aidera à suivre vos pistes musicales et à les organiser dans votre bibliothèque."
+            },
+            "q8": {
+                "question": "Puis-je générer des pistes musicales instrumentales avec le générateur de musique IA ?",
+                "answer": "Oui, vous pouvez générer des pistes musicales instrumentales avec le générateur de musique IA. Il vous suffit de sélectionner l'option instrumentale lors de la génération d'une piste musicale."
+            },
+            "q9": {
+                "question": "Que signifient les crédits dans le générateur de musique IA ?",
+                "answer": "Les crédits sont utilisés pour générer des pistes musicales avec le générateur de musique IA. Chaque plan comprend un certain nombre de crédits qui peuvent être utilisés pour générer des pistes musicales. Une fois que vos crédits sont épuisés, vous pouvez en acheter d'autres pour continuer à générer des pistes musicales."
+            }
+        }
     },
     "about": {
         "h1": "À propos",
@@ -67,15 +108,45 @@
         "lyrics": "Générateur de paroles IA"
     },
     "howTo": {
-        "content": "Notre téléchargeur de musique Suno vous aide à télécharger des chansons de Suno AI (suno.ai) avec moins d'étapes que la méthode de copier-coller. Le téléchargeur de chansons Suno fonctionne parfaitement dans n'importe quel navigateur, mobile et ordinateur de bureau. Découvrez comment sauvegarder une chanson Suno avec notre site web en lisant les instructions 'comment faire' ci-dessous.",
-        "question1": "Comment utiliser l'application de téléchargement de chansons Suno ?",
-        "answer1": "Vous pouvez commencer le processus de téléchargement de chanson depuis Suno AI via notre site web sur n'importe quel appareil doté d'un navigateur installé et sous tout OS (Windows 7, 10, Mac, Linux, Ubuntu, etc.). Comparé à l'extension de navigateur, télécharger via notre site web est facile, la seule différence est que vous devez faire une étape supplémentaire. Voir toutes les infos ci-dessous.",
-        "question2": "COPIER L'URL DE LA MUSIQUE",
-        "answer2": "Trouvez la chanson que vous souhaitez sauvegarder de Suno AI et copiez le lien depuis l'icône de partage. Vous pouvez trouver cet exemple de lien de partage dans la section 'comment faire'.",
-        "question3": "COLLER DANS LE CHAMP DE SAISIE",
-        "answer3": "Ouvrez le site web de téléchargement de musique Suno dans un nouvel onglet et collez l'URL dans le formulaire en haut de la page. Ensuite, cliquez sur le bouton “Télécharger” à droite pour obtenir la chanson.",
-        "question4": "TÉLÉCHARGER LA CHANSON DE SUNO",
-        "answer4": "Une fois que vous avez appuyé sur le bouton, en quelques secondes, vous pourrez télécharger cette chanson via votre navigateur et elle sera stockée dans votre dossier de téléchargements par défaut."
+        "download": {
+            "content": "Notre téléchargeur de musique Suno vous aide à télécharger des chansons de Suno AI (suno.ai) avec moins d'étapes que la méthode de copier-coller. Le téléchargeur de chansons Suno fonctionne parfaitement dans n'importe quel navigateur, mobile et ordinateur de bureau. Découvrez comment sauvegarder une chanson Suno avec notre site web en lisant les instructions 'comment faire' ci-dessous.",
+            "question1": "Comment utiliser l'application de téléchargement de chansons Suno ?",
+            "answer1": "Vous pouvez commencer le processus de téléchargement de chanson depuis Suno AI via notre site web sur n'importe quel appareil doté d'un navigateur installé et sous tout OS (Windows 7, 10, Mac, Linux, Ubuntu, etc.). Comparé à l'extension de navigateur, télécharger via notre site web est facile, la seule différence est que vous devez faire une étape supplémentaire. Voir toutes les infos ci-dessous.",
+            "question2": "COPIER L'URL DE LA MUSIQUE",
+            "answer2": "Trouvez la chanson que vous souhaitez sauvegarder de Suno AI et copiez le lien depuis l'icône de partage. Vous pouvez trouver cet exemple de lien de partage dans la section 'comment faire'.",
+            "question3": "COLLER DANS LE CHAMP DE SAISIE",
+            "answer3": "Ouvrez le site web de téléchargement de musique Suno dans un nouvel onglet et collez l'URL dans le formulaire en haut de la page. Ensuite, cliquez sur le bouton “Télécharger” à droite pour obtenir la chanson.",
+            "question4": "TÉLÉCHARGER LA CHANSON DE SUNO",
+            "answer4": "Une fois que vous avez appuyé sur le bouton, en quelques secondes, vous pourrez télécharger cette chanson via votre navigateur et elle sera stockée dans votre dossier de téléchargements par défaut."
+        },
+        "music-generator": {
+            "h2": "Comment utiliser le générateur de musique IA ?",
+            "btn": "Générer une chanson",
+            "step1": {
+                "title": "Commencer par les paroles",
+                "description": "Saisissez les paroles que vous souhaitez utiliser pour la chanson. Vous pouvez utiliser deux couplets (8 lignes) pour de meilleurs résultats."
+            },
+            "step2": {
+                "title": "Choisissez votre style de musique IA",
+                "description": "Décrivez le style de musique que vous souhaitez (par exemple, pop acoustique). Les modèles ne reconnaissent pas les noms d'artistes mais comprennent les genres et les ambiances. Veuillez ne pas utiliser de nom d'artiste."
+            },
+            "step3": {
+                "title": "Créer de la musique unique",
+                "description": "Cliquez sur le bouton Générer pour créer une chanson basée sur vos paroles et votre style de musique. Le générateur de musique IA créera un morceau unique en fonction de vos entrées."
+            },
+            "step4": {
+                "title": "Télécharger la chanson à partir du générateur de musique IA",
+                "description": "Une fois la chanson générée, vous pouvez la télécharger sur votre appareil. Vous pouvez utiliser la chanson à des fins personnelles ou commerciales."
+            },
+            "step5": {
+                "title": "Personnalisez votre chanson IA",
+                "description": "Vous pouvez personnaliser votre chanson en ajoutant un titre et une description. Cela vous aidera à garder une trace de vos chansons et à les organiser dans votre bibliothèque."
+            },
+            "step6": {
+                "title": "Créer de la musique instrumentale",
+                "description": "Si vous souhaitez créer de la musique instrumentale, vous pouvez sélectionner l'option instrumentale et générer un morceau de musique sans paroles."
+            }
+        }
     },
     "blog": {
         "blog1": {
@@ -128,7 +199,8 @@
         "billing": "Facturation",
         "logout": "Déconnexion",
         "signin": "Connexion",
-        "tool1": "Générateur de paroles IA"
+        "tool1": "Générateur de paroles IA",
+        "ai-tool-dropdown": "outils d'IA"
     },
     "signin": {
         "home": "Accueil",
@@ -228,5 +300,31 @@
         "song-description": "Description de la chanson",
         "song-description-tooltip": "Décrivez la chanson que vous souhaitez générer.",
         "song-description-placeholder": "Une chanson pop futuriste sur l'amour"
+    },
+    "features": {
+        "ai-music-generator": {
+            "h2": "Fonctionnalités du générateur de musique IA",
+            "description": "Le générateur de musique IA est un outil de pointe qui vous permet de créer des morceaux de musique uniques en quelques minutes. Avec un large éventail de fonctionnalités, le générateur de musique IA est l'outil idéal pour les musiciens, les créateurs de contenu et les amateurs de musique.",
+            "feature1": {
+                "title": "Génération ultra rapide",
+                "description": "Grâce à la technologie IA de pointe, le générateur de musique IA peut créer des morceaux de musique uniques en quelques minutes."
+            },
+            "feature2": {
+                "title": "Téléchargements illimités",
+                "description": "Téléchargez autant de chansons que vous le souhaitez sans aucune restriction une fois connecté."
+            },
+            "feature3": {
+                "title": "Style de musique personnalisé",
+                "description": "Décrivez le style de musique que vous souhaitez et le générateur de musique IA créera un morceau unique en fonction de votre description."
+            },
+            "feature4": {
+                "title": "Gratuit à utiliser",
+                "description": "Le générateur de musique IA est gratuit à utiliser à des fins personnelles et commerciales pour le plan d'achat."
+            },
+            "feature5": {
+                "title": "Pas seulement des chansons",
+                "description": "Le générateur de musique IA peut également créer des morceaux de musique instrumentaux."
+            }
+        }
     }
 }

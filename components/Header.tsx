@@ -32,10 +32,10 @@ const Header = () => {
                 href: "/ai-music-generator",
                 label: t('tool'),
             },
-            {
-                href: "/ai-lyrics-generator",
-                label: t('tool1'),
-            },
+            // {
+            //     href: "/ai-lyrics-generator",
+            //     label: t('tool1'),
+            // },
             {
                 href: "/discover",
                 label: t('discover'),
@@ -67,13 +67,9 @@ const Header = () => {
                         <Logo className="h-12 w-auto text-slate-900" />
                     </Link>
                 </div>
+
                 {/* Burger button to open menu on mobile */}
                 <div className="flex lg:hidden">
-                    <Link
-                        className="link link-hover mr-4"
-                        href="/pricing"
-                        title='AI Music Generator pricing'
-                    >{t('pricing')}</Link>
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
@@ -109,6 +105,18 @@ const Header = () => {
                             {link.label}
                         </Link>
                     ))}
+                    <div className="flex-none">
+                        <ul className="menu menu-horizontal px-1">
+                            <li>
+                                <details>
+                                    <summary>{t('ai-tool-dropdown')}</summary>
+                                    <ul className="rounded-t-none w-44 z-50">
+                                        <li><a href="/ai-lyrics-generator" title="ai lyrics generator">{t('tool1')}</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 {/* CTA on large screens */}
@@ -167,6 +175,14 @@ const Header = () => {
                                         {link.label}
                                     </Link>
                                 ))}
+                                <Link
+                                        href='/ai-lyrics-generator'
+                                        key='/ai-lyrics-generator'
+                                        className="link link-hover"
+                                        title='ai lyrics generator'
+                                    >
+                                        {t('tool1')}
+                                    </Link>
                             </div>
                         </div>
                         <div className="divider"></div>

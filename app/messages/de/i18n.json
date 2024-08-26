@@ -20,17 +20,58 @@
         "p2": "Fügen Sie einfach den Freigabe-Link des Suno-Tracks ein, den Sie herunterladen möchten, in das Eingabefeld ein. Klicken Sie auf die Schaltfläche “Herunterladen”, um den Download-Link abzurufen. Sobald der Download-Link bereit ist, klicken Sie auf die Schaltfläche “Herunterladen”, um den Track auf Ihr Gerät zu speichern. Sie finden den Link zum Kopieren, wie auf dem Bild gezeigt."
     },
     "faq": {
-        "p1": "Mit dem Suno-Musik-Downloader können Sie nahtlos KI-generierte Musiktitel direkt auf Ihr Gerät (Mobil oder PC) kostenlos erkunden und sichern. Tauchen Sie ein in die innovative Welt von Suno AI.",
-        "p2": "Fühlen Sie sich frei, so viele Suno-Tracks wie gewünscht herunterzuladen. Unser Suno-Musik-Saver setzt keine Beschränkungen für die Anzahl der Songs, die Sie sichern können, sodass Sie ein grenzenloses musikalisches Abenteuer erleben können. Was unser Tool so einzigartig macht, ist seine bemerkenswerte Effizienz: Abhängig von Ihrer Internetgeschwindigkeit dauert das Abrufen von Download-Links nur wenige Sekunden.",
-        "h2": "Häufig gestellte Fragen - FAQ",
-        "question1": "Ist der Suno-Musik-Downloader kostenlos zu benutzen?",
-        "answer1": "Ja, der Suno-Musik-Downloader ist völlig kostenlos zu benutzen. Sie können so viele Songs wie gewünscht ohne Zusatzkosten herunterladen.",
-        "question2": "Hat der Suno-Musik-Downloader Einschränkungen?",
-        "answer2": "Nein, der Suno-Musik-Downloader hat keine Einschränkungen. Sie können so viele Lieder wie gewünscht ohne Einschränkungen herunterladen.",
-        "question3": "Kann ich Suno-Songs auf meinem Mobilgerät herunterladen?",
-        "answer3": "Ja, Sie können Songs vom Suno-Musik-Downloader auf jedem Gerät (iOS oder Android) herunterladen.",
-        "question4": "Wo finde ich die heruntergeladenen Songs?",
-        "answer4": "Egal ob Sie einen PC oder ein Mobilgerät verwenden, die heruntergeladenen Songs finden Sie im Standard-Downloadverzeichnis Ihres Geräts."
+        "download": {
+            "p1": "Mit dem Suno-Musik-Downloader können Sie nahtlos KI-generierte Musiktitel direkt auf Ihr Gerät (Mobil oder PC) kostenlos erkunden und sichern. Tauchen Sie ein in die innovative Welt von Suno AI.",
+            "p2": "Fühlen Sie sich frei, so viele Suno-Tracks wie gewünscht herunterzuladen. Unser Suno-Musik-Saver setzt keine Beschränkungen für die Anzahl der Songs, die Sie sichern können, sodass Sie ein grenzenloses musikalisches Abenteuer erleben können. Was unser Tool so einzigartig macht, ist seine bemerkenswerte Effizienz: Abhängig von Ihrer Internetgeschwindigkeit dauert das Abrufen von Download-Links nur wenige Sekunden.",
+            "h2": "Häufig gestellte Fragen - FAQ",
+            "question1": "Ist der Suno-Musik-Downloader kostenlos zu benutzen?",
+            "answer1": "Ja, der Suno-Musik-Downloader ist völlig kostenlos zu benutzen. Sie können so viele Songs wie gewünscht ohne Zusatzkosten herunterladen.",
+            "question2": "Hat der Suno-Musik-Downloader Einschränkungen?",
+            "answer2": "Nein, der Suno-Musik-Downloader hat keine Einschränkungen. Sie können so viele Lieder wie gewünscht ohne Einschränkungen herunterladen.",
+            "question3": "Kann ich Suno-Songs auf meinem Mobilgerät herunterladen?",
+            "answer3": "Ja, Sie können Songs vom Suno-Musik-Downloader auf jedem Gerät (iOS oder Android) herunterladen.",
+            "question4": "Wo finde ich die heruntergeladenen Songs?",
+            "answer4": "Egal ob Sie einen PC oder ein Mobilgerät verwenden, die heruntergeladenen Songs finden Sie im Standard-Downloadverzeichnis Ihres Geräts."
+        },
+        "music-generator": {
+            "h2": "KI-Musikgenerator-FAQ",
+            "q1": {
+                "question": "Was ist der KI-Musikgenerator?",
+                "answer": "Allgemein gesagt ist der KI-Musikgenerator ein Tool, das Künstliche Intelligenz nutzt, um Musikstücke basierend auf deinen Eingaben zu erstellen. Er kann in Minuten einzigartige Musikstücke generieren. Du benötigst keine musikalischen Fähigkeiten, um den KI-Musikgenerator zu verwenden."
+            },
+            "q2": {
+                "question": "Wie funktioniert der KI-Musikgenerator?",
+                "answer": "Der KI-Musikgenerator verwendet fortschrittliche KI-Technologie, um Musikstücke basierend auf deinen Eingaben zu erstellen. Du musst lediglich die Texte eingeben, die du verwenden möchtest, und den gewünschten Musikstil beschreiben, und der KI-Musikgenerator wird ein einzigartiges Stück für dich generieren."
+            },
+            "q3": {
+                "question": "Wofür kann ich den KI-Musikgenerator verwenden?",
+                "answer": "Der KI-Musikgenerator kann für eine Vielzahl von Zwecken verwendet werden, einschließlich der Erstellung von Hintergrundmusik für Videos, Podcasts und Präsentationen, der Generierung von Musik für persönliche Projekte und der Erkundung verschiedener Musikstile."
+            },
+            "q4": {
+                "question": "Ist der KI-Musikgenerator kostenlos nutzbar?",
+                "answer": "Der KI-Musikgenerator bietet einen kostenlosen Tarif, der dir die Erstellung einer begrenzten Anzahl von Musikstücken ermöglicht. Für unbegrenzten Zugriff auf den KI-Musikgenerator kannst du einen Premium-Tarif buchen."
+            },
+            "q5": {
+                "question": "Kann ich den KI-Musikgenerator für kommerzielle Zwecke nutzen?",
+                "answer": "Ja, sobald du deinen Premium-Tarif gewählt hast. Du kannst die vom KI-Musikgenerator generierten Musikstücke für kommerzielle Zwecke verwenden. Du hast die vollen Rechte an den von dir erstellten Musikstücken."
+            },
+            "q6": {
+                "question": "Wie lange dauert es, ein Musikstück zu generieren?",
+                "answer": "Der KI-Musikgenerator kann ein Musikstück in Minuten erstellen. Die genaue Zeit kann je nach Komplexität des Stücks und Serverauslastung variieren."
+            },
+            "q7": {
+                "question": "Kann ich die vom KI-Musikgenerator generierten Musikstücke anpassen?",
+                "answer": "Ja, du kannst die Musikstücke anpassen, indem du ihnen einen Titel und eine Beschreibung hinzufügst. Dies hilft dir dabei, deine Musikstücke nachzuverfolgen und in deiner Bibliothek zu organisieren."
+            },
+            "q8": {
+                "question": "Kann ich mit dem KI-Musikgenerator auch Instrumentalmusik generieren?",
+                "answer": "Ja, du kannst mit dem KI-Musikgenerator Instrumentalmusik generieren. Wähle einfach die Option für Instrumentalmusik aus, wenn du ein Musikstück erstellst."
+            },
+            "q9": {
+                "question": "Was bedeuten die Guthaben im KI-Musikgenerator?",
+                "answer": "Guthaben werden verwendet, um Musikstücke mit dem KI-Musikgenerator zu erstellen. Jeder Tarif beinhaltet eine bestimmte Anzahl von Guthaben, die zum Generieren von Musikstücken verwendet werden können. Sobald dein Guthaben aufgebraucht ist, kannst du weitere Guthaben kaufen, um weiterhin Musikstücke zu erstellen."
+            }
+        }
     },
     "about": {
         "h1": "Über",
@@ -67,15 +108,45 @@
         "lyrics": "KI-Liedtextgenerator"
     },
     "howTo": {
-        "content": "Unser Suno Musik-Downloader hilft Ihnen, Songs von Suno AI (suno.ai) mit weniger Schritten als die Kopieren-und-Einfügen-Methode herunterzuladen. Der Suno Song Downloader funktioniert perfekt in jedem Browser, mobil und Desktop. Erfahren Sie, wie Sie mit unserer Website ein Suno-Lied speichern können, indem Sie die unten stehenden 'Wie zu' Anweisungen lesen.",
-        "question1": "Wie benutzt man die Suno Song Downloader App?",
-        "answer1": "Sie können den Downloadvorgang von Suno AI über unsere Website auf jedem Gerät mit einem installierten Browser und jedem Betriebssystem (Windows 7, 10, Mac, Linux, Ubuntu usw.) starten. Im Vergleich zur Browsererweiterung ist das Herunterladen über unsere Website einfach, der einzige Unterschied besteht darin, dass Sie einen zusätzlichen Schritt ausführen müssen. Alle Infos finden Sie unten.",
-        "question2": "MUSIK-URL KOPIEREN",
-        "answer2": "Finden Sie das Lied, das Sie von Suno AI speichern möchten, und kopieren Sie den Link vom Teilen-Symbol. Dieses Teilen-Link-Beispiel finden Sie im Abschnitt 'Wie zu'.",
-        "question3": "IN DAS EINGABEFELD EINFÜGEN",
-        "answer3": "Öffnen Sie die Suno Musik-Downloader-Website in einem neuen Tab und fügen Sie die URL in das Formular oben auf der Seite ein. Klicken Sie dann auf den „Download“-Button rechts, um das Lied zu erhalten.",
-        "question4": "SUNO-LIED HERUNTERLADEN",
-        "answer4": "Sobald Sie den Knopf drücken, wird dieses Lied in ein paar Sekunden über Ihren Browser heruntergeladen und in Ihrem Standard-Download-Ordner gespeichert."
+        "download": {
+            "content": "Unser Suno Musik-Downloader hilft Ihnen, Songs von Suno AI (suno.ai) mit weniger Schritten als die Kopieren-und-Einfügen-Methode herunterzuladen. Der Suno Song Downloader funktioniert perfekt in jedem Browser, mobil und Desktop. Erfahren Sie, wie Sie mit unserer Website ein Suno-Lied speichern können, indem Sie die unten stehenden 'Wie zu' Anweisungen lesen.",
+            "question1": "Wie benutzt man die Suno Song Downloader App?",
+            "answer1": "Sie können den Downloadvorgang von Suno AI über unsere Website auf jedem Gerät mit einem installierten Browser und jedem Betriebssystem (Windows 7, 10, Mac, Linux, Ubuntu usw.) starten. Im Vergleich zur Browsererweiterung ist das Herunterladen über unsere Website einfach, der einzige Unterschied besteht darin, dass Sie einen zusätzlichen Schritt ausführen müssen. Alle Infos finden Sie unten.",
+            "question2": "MUSIK-URL KOPIEREN",
+            "answer2": "Finden Sie das Lied, das Sie von Suno AI speichern möchten, und kopieren Sie den Link vom Teilen-Symbol. Dieses Teilen-Link-Beispiel finden Sie im Abschnitt 'Wie zu'.",
+            "question3": "IN DAS EINGABEFELD EINFÜGEN",
+            "answer3": "Öffnen Sie die Suno Musik-Downloader-Website in einem neuen Tab und fügen Sie die URL in das Formular oben auf der Seite ein. Klicken Sie dann auf den „Download“-Button rechts, um das Lied zu erhalten.",
+            "question4": "SUNO-LIED HERUNTERLADEN",
+            "answer4": "Sobald Sie den Knopf drücken, wird dieses Lied in ein paar Sekunden über Ihren Browser heruntergeladen und in Ihrem Standard-Download-Ordner gespeichert."
+        },
+        "music-generator": {
+            "h2": "Wie man den KI-Musikgenerator verwendet",
+            "btn": "Lied generieren",
+            "step1": {
+                "title": "Mit Texten beginnen",
+                "description": "Geben Sie den Text ein, den Sie für das Lied verwenden möchten. Für beste Ergebnisse können Sie zwei Strophen (8 Zeilen) verwenden."
+            },
+            "step2": {
+                "title": "Wählen Sie Ihren KI-Musikstil",
+                "description": "Beschreiben Sie den gewünschten Musikstil (z. B. akustischer Pop). Die Modelle erkennen keine Künstlernamen, aber sie verstehen Genres und Stimmungen. Bitte verwenden Sie keine Künstlernamen."
+            },
+            "step3": {
+                "title": "Einzigartige Musik erstellen",
+                "description": "Klicken Sie auf die Schaltfläche Generieren, um ein Lied basierend auf Ihrem Text und Ihrem Musikstil zu erstellen. Der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihren Eingaben."
+            },
+            "step4": {
+                "title": "Lied vom KI-Musikgenerator herunterladen",
+                "description": "Sobald das Lied generiert ist, können Sie es auf Ihr Gerät herunterladen. Sie können das Lied für persönliche oder kommerzielle Zwecke verwenden."
+            },
+            "step5": {
+                "title": "Ihr KI-Lied anpassen",
+                "description": "Sie können Ihr Lied anpassen, indem Sie einen Liedtitel und eine Beschreibung hinzufügen. Dies hilft Ihnen, Ihre Lieder zu verfolgen und in Ihrer Bibliothek zu organisieren."
+            },
+            "step6": {
+                "title": "Instrumentale Musik erstellen",
+                "description": "Wenn Sie instrumentale Musik erstellen möchten, können Sie die instrumentale Option auswählen und einen Musiktrack ohne Text generieren."
+            }
+        }
     },
     "blog": {
         "blog1": {
@@ -128,7 +199,8 @@
         "billing": "Abrechnung",
         "logout": "Abmelden",
         "signin": "Anmelden",
-        "tool1": "KI-Liedtextgenerator"
+        "tool1": "KI-Liedtextgenerator",
+        "ai-tool-dropdown": "KI-Tools"
     },
     "signin": {
         "home": "Startseite",
@@ -228,5 +300,31 @@
         "song-description": "Liedbeschreibung",
         "song-description-tooltip": "Beschreibe das Lied, das du erstellen möchtest.",
         "song-description-placeholder": "Ein futuristisches Popsong über Liebe"
+    },
+    "features": {
+        "ai-music-generator": {
+            "h2": "KI-Musikgenerator-Funktionen",
+            "description": "Der KI-Musikgenerator ist ein hochmodernes Tool, mit dem Sie in wenigen Minuten einzigartige Musiktitel erstellen können. Mit einer breiten Palette von Funktionen ist der KI-Musikgenerator das perfekte Tool für Musiker, Content-Ersteller und Musikbegeisterte.",
+            "feature1": {
+                "title": "Blitzschnelle Generierung",
+                "description": "Mit der hochmodernen KI-Technologie kann der KI-Musikgenerator in wenigen Minuten einzigartige Musiktitel erstellen."
+            },
+            "feature2": {
+                "title": "Unbegrenzte Downloads",
+                "description": "Laden Sie so viele Songs herunter, wie Sie möchten, ohne Einschränkungen, sobald Sie sich einloggen."
+            },
+            "feature3": {
+                "title": "Benutzerdefinierter Musikstil",
+                "description": "Beschreiben Sie den gewünschten Musikstil, und der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihrer Beschreibung."
+            },
+            "feature4": {
+                "title": "Kostenlos zu verwenden",
+                "description": "Der KI-Musikgenerator ist für persönliche und kommerzielle Zwecke kostenlos zu verwenden, wenn Sie einen Kaufplan haben."
+            },
+            "feature5": {
+                "title": "Nicht nur Lieder",
+                "description": "Der KI-Musikgenerator kann auch instrumentale Musiktitel erstellen."
+            }
+        }
     }
 }
