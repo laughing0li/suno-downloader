@@ -1,10 +1,21 @@
 # *
 User-agent: *
-Allow: /
+Allow: *
 Disallow: /music/
+Disallow: /es/music/
+Disallow: /ch/music/
+Disallow: /jp/music/
+Disallow: /ko/music/
+Disallow: /ru/music/
+Disallow: /fr/music/
+Disallow: /de/music/
+Disallow: /it/music/
+Disallow: /pt/music/
+Disallow: /ar/music/
+Disallow: /hi/music/
 
-# Host
-Host: https://sunodownloader.io/
+Disallow: /_next/
+
 
 # Sitemaps
 Sitemap: https://sunodownloader.io/sitemap.xml
