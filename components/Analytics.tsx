@@ -39,7 +39,7 @@ const Analytics = () => (
             src="https://us.umami.is/script.js"
             data-website-id="4d0dbce4-7128-45e2-a865-3f6afb8178a5"
         /> */}
-        <Script defer data-domain="sunodownloader.io" src="https://plausible.io/js/script.js"></Script>
+        {/* <Script defer data-domain="sunodownloader.io" src="https://plausible.io/js/script.js"></Script> */}
 
     </>
 )

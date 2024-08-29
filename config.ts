@@ -115,22 +115,6 @@ const config = {
                     },
                     
                 ],
-                // features: [
-                //     {
-                //         name: "6 songs for free",
-                //     },
-                //     { name: "3 generation credits" },
-                //     {
-                //         name: "3 generation credits for lyrics"
-                //     },
-                //     {
-                //         name: "Free trial on first login"
-                //     },
-                //     {
-                //         name: "Shared generation queue",
-                //     }
-                    
-                // ],
             }
         ],
     },
