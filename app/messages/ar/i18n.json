@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "يجب أن لا يكون عنوان الأغنية فارغًا",
         "song-description": "وصف الأغنية",
         "song-description-tooltip": "صف الأغنية التي تريد إنشاؤها.",
-        "song-description-placeholder": "أغنية بوب مستقبلية عن الحب"
+        "song-description-placeholder": "أغنية بوب مستقبلية عن الحب",
+        "violence-alert": "يرجى عدم تضمين أي أسماء فنانين أو محتوى عنيف أو جنسي أو مسيء في كلمات أغنية أو عنوانها. خلاف ذلك، قد يتم رفض أغنية."
     },
     "features": {
         "ai-music-generator": {

@@ -297,7 +297,8 @@
         "custom-instrumental-title-length-alert": "गाने का शीर्षक खाली नहीं होना चाहिए",
         "song-description": "गीत विवरण",
         "song-description-tooltip": "उस गीत का वर्णन करें जिसे आप उत्पन्न करना चाहते हैं।",
-        "song-description-placeholder": "प्रेम के बारे में एक भविष्य की पॉप गीत"
+        "song-description-placeholder": "प्रेम के बारे में एक भविष्य की पॉप गीत",
+        "violence-alert": "कृपया अपने गीत या शीर्षक में किसी भी कलाकार का नाम या हिंसक, यौन या आपत्तिजनक सामग्री शामिल न करें। अन्यथा, आपका गाना अस्वीकार किया जा सकता है।"
     },
     "features": {
         "ai-music-generator": {

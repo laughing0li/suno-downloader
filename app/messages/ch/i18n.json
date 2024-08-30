@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "歌曲标题不能为空",
         "song-description": "歌曲描述",
         "song-description-tooltip": "描述你想生成的歌曲。",
-        "song-description-placeholder": "一首关于爱情的未来流行歌曲"
+        "song-description-placeholder": "一首关于爱情的未来流行歌曲",
+        "violence-alert": "请不要在歌词或标题中包含任何艺术家姓名或暴力、色情或冒犯性内容。否则，您的歌曲可能会被拒绝。"
     },
     "features": {
         "ai-music-generator": {

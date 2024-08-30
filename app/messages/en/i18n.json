@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "Song Title should not be empty",
         "song-description": "Song Description",
         "song-description-tooltip": "Describe the song you want to generate.",
-        "song-description-placeholder": "A futuristic pop song about love"
+        "song-description-placeholder": "A futuristic pop song about love",
+        "violence-alert": "Please do not include any artist names or violent, sexual, or offensive content in your lyrics or title. Otherwise your song may be rejected."
     },
     "features": {
         "ai-music-generator": {

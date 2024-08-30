@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "Der Liedtitel darf nicht leer sein",
         "song-description": "Liedbeschreibung",
         "song-description-tooltip": "Beschreibe das Lied, das du erstellen möchtest.",
-        "song-description-placeholder": "Ein futuristisches Popsong über Liebe"
+        "song-description-placeholder": "Ein futuristisches Popsong über Liebe",
+        "violence-alert": "Bitte fügen Sie keine Künstlernamen oder gewalttätige, sexuelle oder anstößige Inhalte in Ihren Texten oder Ihrem Titel ein. Andernfalls könnte Ihr Song abgelehnt werden."
     },
     "features": {
         "ai-music-generator": {

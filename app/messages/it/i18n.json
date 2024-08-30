@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "Il titolo della canzone non deve essere vuoto",
         "song-description": "Descrizione della canzone",
         "song-description-tooltip": "Descrivi la canzone che vuoi generare.",
-        "song-description-placeholder": "Una canzone pop futuristica sull'amore"
+        "song-description-placeholder": "Una canzone pop futuristica sull'amore",
+        "violence-alert": "Si prega di non includere alcun nome di artista o contenuto violento, sessuale o offensivo nei testi o nel titolo. In caso contrario, la tua canzone potrebbe essere rifiutata."
     },
     "features": {
         "ai-music-generator": {

@@ -299,7 +299,8 @@
         "custom-instrumental-title-length-alert": "曲のタイトルを空にしないでください",
         "song-description": "曲の説明",
         "song-description-tooltip": "生成したい曲を説明してください。",
-        "song-description-placeholder": "愛についての未来的なポップソング"
+        "song-description-placeholder": "愛についての未来的なポップソング",
+        "violence-alert": "歌詞やタイトルにアーティスト名や暴力、性的、または不適切な内容を含めないでください。 そうしないと、あなたの曲は拒否される可能性があります。"
     },
     "features": {
         "ai-music-generator": {
