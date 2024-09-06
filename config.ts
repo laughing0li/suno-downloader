@@ -28,9 +28,43 @@ const config = {
                 name: "Producer",
                 planType: "paid",
                 description: "Amplify your creative output",
-                price: 7.99,
-                priceAnchor: '$0.026',
+                price: 9.99,
+                priceAnchor: '$0.033',
                 credits: 300,
+                features: [
+                    {
+                        name: "songs",
+                    },
+                    {
+                        name: "credits",
+                    },
+                    {
+                        name: "pricePerGeneration"
+                    },
+                    {
+                        name: "lyricsCredits"
+                    },
+                    {
+                        name: "priorityQueue",
+                    },
+                    {
+                        name: "downloads",
+                    },
+                ],
+            },
+            {
+                priceId:
+                    process.env.NODE_ENV === "development"
+                        ? "price_109"
+                        : "price_1PvypmI04HNQCZe5S5CHnaKN",
+                // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
+                isFeatured: true,
+                name: "Virtuoso",
+                planType: "paid",
+                description: "Immerse yourself in the world of music",
+                price: 29.99,
+                priceAnchor: '$0.019',
+                credits: 1500,
                 features: [
                     {
                         name: "songs",
@@ -58,13 +92,13 @@ const config = {
                         ? "price_1PeB5gI04HNQCZe5GJJRq95c"
                         : "price_1PeBLII04HNQCZe5g7h2kxOo",
                 // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
-                isFeatured: true,
+                isFeatured: false,
                 name: "Maestro",
                 planType: "paid",
                 description: "Unlimited musical possibilities",
                 price: 15.99,
-                priceAnchor: '$0.019',
-                credits: 800,
+                priceAnchor: '$0.026',
+                credits: 600,
                 features: [
                     {
                         name: "songs",
@@ -113,7 +147,9 @@ const config = {
                     {
                         name: "priorityQueue"
                     },
-                    
+                    {
+                        name: "history"
+                    }
                 ],
             }
         ],

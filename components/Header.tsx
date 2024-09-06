@@ -112,6 +112,7 @@ const Header = () => {
                                     <summary>{t('ai-tool-dropdown')}</summary>
                                     <ul className="rounded-t-none w-44 z-50">
                                         <li><a href="/ai-lyrics-generator" title="ai lyrics generator">{t('tool1')}</a></li>
+                                        <li><a href="/suno-ai-music" title="suno ai music generator">{t('tool2')}</a></li>
                                     </ul>
                                 </details>
                             </li>

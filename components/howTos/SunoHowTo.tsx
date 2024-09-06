@@ -64,8 +64,8 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
         </li>
     )
 }
-const MusicGeneratorHt = () => {
-    const t = useTranslations('howTo.music-generator')
+const SunoHowTo = () => {
+    const t = useTranslations('howTo.suno-ai-music')
 
     // FAQ items with translations
     const faqList: FAQItemProps[] = [
@@ -133,7 +133,7 @@ const MusicGeneratorHt = () => {
                             <FaqItem key={i} item={item} />
                         ))}
                     </ul>
-                    <a className="btn btn-secondary btn-outline mt-4" href="/ai-music-generator">
+                    <a className="btn btn-secondary btn-outline mt-4" href="/suno-ai-music">
                         {t('btn')}
                     </a>
                 </div>
@@ -143,4 +143,4 @@ const MusicGeneratorHt = () => {
 }
 
 
-export default MusicGeneratorHt
+export default SunoHowTo

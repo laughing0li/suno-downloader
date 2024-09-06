@@ -11,6 +11,7 @@ interface FAQItemProps {
 const FaqItem = ({ item }: { item: FAQItemProps }) => {
     const accordion = useRef<HTMLDivElement>(null)
     const [isOpen, setIsOpen] = useState(false)
+
     return (
         <li>
             <button
@@ -64,56 +65,80 @@ const FaqItem = ({ item }: { item: FAQItemProps }) => {
         </li>
     )
 }
-const MusicGeneratorHt = () => {
-    const t = useTranslations('howTo.music-generator')
+const SunoFaq = () => {
+    const t = useTranslations('faq.suno-ai-music')
 
     // FAQ items with translations
     const faqList: FAQItemProps[] = [
         {
-            question: t('step1.title'),
+            question: t("q1.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step1.description')}
+                    {t("q1.answer")}
                 </div>
             ),
         },
         {
-            question: t('step2.title'),
+            question: t("q2.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step2.description')}
+                    {t("q2.answer")}
                 </div>
             ),
         },
         {
-            question: t('step3.title'),
+            question: t("q3.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step3.description')}
+                    {t("q3.answer")}
                 </div>
             ),
         },
         {
-            question: t('step4.title'),
+            question: t("q4.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step4.description')}
+                    {t("q4.answer")}
                 </div>
             ),
         },
         {
-            question: t('step5.title'),
+            question: t("q5.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step5.description')}
+                    {t("q5.answer")}
                 </div>
             ),
         },
         {
-            question: t('step6.title'),
+            question: t("q6.question"),
             answer: (
                 <div className="space-y-2 leading-relaxed">
-                    {t('step6.description')}
+                    {t("q6.answer")}
+                </div>
+            ),
+        },
+        {
+            question: t("q7.question"),
+            answer: (
+                <div className="space-y-2 leading-relaxed">
+                    {t("q7.answer")}
+                </div>
+            ),
+        },
+        {
+            question: t("q8.question"),
+            answer: (
+                <div className="space-y-2 leading-relaxed">
+                    {t("q8.answer")}
+                </div>
+            ),
+        },
+        {
+            question: t("q9.question"),
+            answer: (
+                <div className="space-y-2 leading-relaxed">
+                    {t("q9.answer")}
                 </div>
             ),
         }
@@ -123,24 +148,20 @@ const MusicGeneratorHt = () => {
         <section id="faq">
             <div className="py-24 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
                 <div className="flex flex-col text-left basis-1/2">
+                    <p className="inline-block font-semibold text-slate-600 mb-4">FAQ</p>
                     <h2 className="sm:text-3xl text-xl font-extrabold text-slate-700">
                         {t('h2')}
                     </h2>
                 </div>
-                <div className="basis-1/2">
-                    <ul >
-                        {faqList.map((item, i) => (
-                            <FaqItem key={i} item={item} />
-                        ))}
-                    </ul>
-                    <a className="btn btn-secondary btn-outline mt-4" href="/ai-music-generator">
-                        {t('btn')}
-                    </a>
-                </div>
+
+                <ul className="basis-1/2">
+                    {faqList.map((item, i) => (
+                        <FaqItem key={i} item={item} />
+                    ))}
+                </ul>
             </div>
         </section>
     )
 }
 
-
-export default MusicGeneratorHt
+export default SunoFaq

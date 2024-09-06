@@ -1,12 +1,7 @@
-'use client'
 import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useTranslations } from "next-intl"
 import { toast } from "react-hot-toast"
-import MusicGeneratorSection from './features/MusicGeneratorSection'
-import MusicGeneratorFaq from './faq/MusicGeneratorFaq'
-import MusicGeneratorHt from './howTos/MusicGeneratorHt'
-
 const SongGenerator = () => {
     const router = useRouter()
     const [lyrics, setLyrics] = useState('')
@@ -166,10 +161,10 @@ const SongGenerator = () => {
     }
     return (
         <div>
-            <h1 className="text-3xl font-bold mb-6 text-center mt-16">{t('title')}</h1>
+            {/* <h1 className="text-3xl font-bold mb-6 text-center mt-16">{t('title')}</h1>
             <p className='text-center text-secondary text-sm mb-10'>
                 {t('violence-alert')}
-            </p>
+            </p> */}
             <div className='flex justify-center place-items-center gap-x-3 mb-4'>
                 {
                     !isLogged && (
@@ -366,9 +361,7 @@ const SongGenerator = () => {
                         </button>
                     </div>)
             }
-            <MusicGeneratorSection />
-            <MusicGeneratorHt />
-            <MusicGeneratorFaq />
+            
         </div>
     )
 }

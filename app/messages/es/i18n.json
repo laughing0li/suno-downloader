@@ -71,6 +71,45 @@
                 "question": "¿Qué significan los créditos en el generador de música con IA?",
                 "answer": "Los créditos se utilizan para generar pistas de música con el generador de música con IA. Cada plan viene con una cierta cantidad de créditos que se pueden usar para generar pistas de música. Una vez que se agoten tus créditos, puedes comprar más créditos para seguir generando pistas de música."
             }
+        },
+        "suno-ai-music": {
+            "h2": "Generador de música Suno AI: Preguntas frecuentes",
+            "q1": {
+                "question": "¿Qué es el generador de música Suno AI?",
+                "answer": "El generador de música Suno AI es una herramienta revolucionaria que utiliza inteligencia artificial avanzada para crear pistas de música únicas y de alta calidad basadas en tus entradas. Empodera a usuarios de todos los niveles para componer música de sonido profesional sin necesidad de formación musical previa."
+            },
+            "q2": {
+                "question": "¿Cómo funciona el generador de música Suno AI?",
+                "answer": "El generador de música Suno AI utiliza algoritmos avanzados de aprendizaje automático para analizar tus preferencias y la descripción del estilo de música deseado. Luego genera una pista de música personalizada adaptada a tu visión, eliminando la necesidad de composición manual o experiencia musical."
+            },
+            "q3": {
+                "question": "¿Para qué puedo usar el generador de música Suno AI?",
+                "answer": "El generador de música Suno AI se puede usar para una amplia variedad de aplicaciones, como crear música de fondo para videos, podcasts y presentaciones, generar pistas para proyectos personales o explorar nuevos estilos y géneros musicales."
+            },
+            "q4": {
+                "question": "¿Es gratuito el uso del generador de música Suno AI?",
+                "answer": "Suno ofrece un plan gratuito que te permite generar un número limitado de pistas de música. Para acceso ilimitado y uso comercial, puedes actualizar a uno de los planes de suscripción premium de Suno."
+            },
+            "q5": {
+                "question": "¿Puedo usar la música generada por AI de Suno para fines comerciales?",
+                "answer": "¡Por supuesto! Con los planes premium de Suno, tendrás todos los derechos para usar las pistas de música que crees para cualquier propósito comercial o personal, sin restricciones."
+            },
+            "q6": {
+                "question": "¿Qué tan rápido puede el generador de música Suno AI crear una pista?",
+                "answer": "El generador de música Suno AI puede crear una pista personalizada en solo unos minutos, dependiendo de la complejidad de la música deseada y la carga actual del servidor."
+            },
+            "q7": {
+                "question": "¿Puedo personalizar las pistas de música generadas por Suno?",
+                "answer": "Sí, puedes personalizar las pistas de música agregando un título y una descripción, lo que te ayudará a organizar y administrar tu creciente biblioteca de música generada por Suno."
+            },
+            "q8": {
+                "question": "¿Puedo crear música instrumental con el generador de música Suno AI?",
+                "answer": "Sí, el generador de música Suno AI ofrece la posibilidad de generar cautivadoras pistas instrumentales, perfectas para usar como música de fondo, paisajes sonoros o composiciones independientes."
+            },
+            "q9": {
+                "question": "¿Qué son los créditos en el generador de música Suno AI?",
+                "answer": "Los créditos son la moneda utilizada para generar pistas de música con el generador de música Suno AI. Cada uno de los planes de Suno viene con un cierto número de créditos que se pueden usar para crear nueva música. Una vez que agotes tus créditos, puedes comprar más para continuar tu viaje creativo."
+            }
         }
     },
     "about": {
@@ -105,7 +144,9 @@
         "legal": "Legal",
         "links": "Enlaces",
         "music": "Generador de Música AI",
-        "lyrics": "Generador de letras de canciones con IA"
+        "lyrics": "Generador de letras de canciones con IA",
+        "tools": "Herramientas",
+        "suno": "Música Suno AI"
     },
     "howTo": {
         "download": {
@@ -145,6 +186,34 @@
             "step6": {
                 "title": "Crear música instrumental",
                 "description": "Si desea crear música instrumental, puede seleccionar la opción instrumental y generar una pista de música sin letra."
+            }
+        },
+        "suno-ai-music": {
+            "h2": "Cómo usar el generador de música Suno AI",
+            "btn": "Generar canción",
+            "step1": {
+                "title": "Proporciona tu inspiración lírica",
+                "description": "Comienza ingresando la letra que deseas usar como base para tu pista de música. Para obtener mejores resultados, intenta usar dos versos (aproximadamente 8 líneas)."
+            },
+            "step2": {
+                "title": "Describe tu estilo de música deseado",
+                "description": "A continuación, describe el estilo musical, el género o el estado de ánimo que deseas que Suno AI capture. Evita usar nombres de artistas específicos, pero siéntete libre de hacer referencia a estilos generales como 'pop acústico' o 'orquestal cinematográfico'."
+            },
+            "step3": {
+                "title": "Deja que la IA de Suno haga su magia",
+                "description": "Haz clic en el botón 'Generar canción', y la IA avanzada de Suno creará una pista de música única adaptada a tus preferencias líricas y estilísticas."
+            },
+            "step4": {
+                "title": "Descarga tu pista generada por Suno",
+                "description": "Una vez que la IA haya completado su trabajo, podrás descargar la pista de música terminada en tu dispositivo. Puedes usar esta canción para cualquier propósito personal o comercial."
+            },
+            "step5": {
+                "title": "Personaliza tu creación Suno AI",
+                "description": "Personaliza tu pista de música generada por Suno agregando un título y una descripción. Esto te ayudará a mantener tu creciente biblioteca de canciones organizada y fácil de consultar."
+            },
+            "step6": {
+                "title": "Explora posibilidades instrumentales",
+                "description": "Si estás interesado en crear música de fondo o piezas instrumentales independientes, el generador de música Suno AI también puede generar pistas instrumentales de alta calidad para satisfacer tus necesidades."
             }
         }
     },
@@ -200,6 +269,7 @@
         "logout": "Cerrar sesión",
         "signin": "Iniciar sesión",
         "tool1": "Generador de letras de canciones con IA",
+        "tool2": "Música Suno AI",
         "ai-tool-dropdown": "herramientas de IA"
     },
     "signin": {
@@ -224,10 +294,10 @@
             "name": "Maestro",
             "description": "Posibilidades musicales ilimitadas",
             "features": {
-                "songs": "1600 Canciones",
-                "credits": "800 créditos para generación",
-                "pricePerGeneration": "$0.019 por generación",
-                "lyricsCredits": "800 créditos para generación de letras",
+                "songs": "1200 Canciones",
+                "credits": "600 créditos para generación",
+                "pricePerGeneration": "$0.026 por generación",
+                "lyricsCredits": "600 créditos para generación de letras",
                 "priorityQueue": "Cola de generación prioritaria",
                 "downloads": "Descargas ilimitadas"
             }
@@ -244,6 +314,18 @@
                 "downloads": "Descargas ilimitadas"
             }
         },
+        "Virtuoso": {
+            "name": "Virtuoso",
+            "description": "Sumérgete en el mundo de la música",
+            "features": {
+                "songs": "3000 canciones",
+                "credits": "1500 créditos para generación",
+                "pricePerGeneration": "$0.019 por generación",
+                "lyricsCredits": "1500 créditos para generación de letras",
+                "priorityQueue": "Cola de generación prioritaria",
+                "downloads": "Descargas ilimitadas"
+            }
+        },
         "Free": {
             "name": "Gratis",
             "description": "Plan Gratuito",
@@ -251,7 +333,8 @@
                 "songs": "6 Canciones",
                 "credits": "3 créditos para generación",
                 "lyricsCredits": "3 créditos para generación de letras",
-                "priorityQueue": "Cola de generación compartida"
+                "priorityQueue": "Cola de generación compartida",
+                "history": "15 días de historia"
             }
         },
         "title": "Precios de Música AI",
@@ -302,6 +385,12 @@
         "song-description-placeholder": "Una canción pop futurista sobre el amor",
         "violence-alert": "Por favor, no incluya ningún nombre de artista ni contenido violento, sexual u ofensivo en sus letras o título. De lo contrario, su canción puede ser rechazada."
     },
+    "suno-ai-music": {
+        "title": "Generador gratuito de música Suno AI",
+        "description": "Crea música única con el generador de música Suno AI, que se puede usar para fines personales y comerciales.",
+        "seo-title": "Crea música AI a partir de texto | Generador de música Suno AI",
+        "seo-description": "Convierte tu imaginación en música con el generador de música Suno AI. Exprésate con pistas de música únicas. ¡Pruébalo ahora!"
+    },
     "features": {
         "ai-music-generator": {
             "h2": "Características del Generador de Música AI",
@@ -326,6 +415,82 @@
                 "title": "No solo canciones",
                 "description": "El generador de música AI también puede crear pistas de música instrumental."
             }
+        },
+        "suno-ai-music": {
+            "h2": "Desata tu creatividad con el generador de música Suno AI",
+            "description": "El generador de música impulsado por IA de Suno es una herramienta revolucionaria que te permite crear pistas de música únicas y de calidad profesional en minutos. Ya seas un músico experimentado o un creador incipiente",
+            "feature1": {
+                "title": "Generación de música sin esfuerzo",
+                "description": "Los algoritmos avanzados de IA de Suno analizan tus entradas y generan instantáneamente una pista de música personalizada adaptada a tu visión. No se requiere formación musical - simplemente describe la atmósfera y deja que la IA de Suno haga el resto."
+            },
+            "feature2": {
+                "title": "Libertad creativa ilimitada",
+                "description": "Explora posibilidades musicales infinitas con las capacidades de generación de música ilimitadas de Suno. Descarga tantas pistas como necesites, sin restricciones ni costos adicionales."
+            },
+            "feature3": {
+                "title": "Estilos musicales personalizados",
+                "description": "El generador de música AI de Suno te permite especificar el estilo exacto, el género y el estado de ánimo que deseas, asegurando que tu música coincida perfectamente con tu visión creativa."
+            },
+            "feature4": {
+                "title": "Planes gratuitos y premium",
+                "description": "Suno ofrece un plan gratuito para que comiences, así como suscripciones premium que desbloquean funciones avanzadas y generación ilimitada de música para uso comercial."
+            },
+            "feature5": {
+                "title": "Obras maestras instrumentales",
+                "description": "Además de canciones completas, la IA de Suno también puede generar cautivadoras pistas instrumentales para mejorar tus proyectos, eventos o listas de reproducción personales."
+            }
+        }
+    },
+    "cta": {
+        "ai-music-generator": {
+            "h2": "Generador de música con IA",
+            "description": "Desata tu creatividad con el generador de música con IA. Crea pistas de música ilimitadas y úsalas en cualquier lugar.",
+            "btn": "Crear música con IA"
+        },
+        "suno-ai-music": {
+            "h2": "Desbloquea tu potencial musical con Suno",
+            "description": "Explora las posibilidades ilimitadas de la creación de música impulsada por IA con Suno. Genera pistas únicas para cualquier propósito y libera tu creatividad como nunca antes.",
+            "btn": "Comenzar a crear con Suno"
+        }
+    },
+    "usage": {
+        "ai-music-generator": {
+            "paragraph1": {
+                "title": "¿No eres músico? ¡No hay problema!",
+                "description": "Con el generador de música AI, no necesitas ser músico para crear música. Puedes usar el generador de música AI para crear pistas de música para tus propias canciones con cualquier estilo y letra."
+            },
+            "paragraph2": {
+                "title": "Captura el estilo perfecto",
+                "description": "¿Tienes algo en mente? Simplemente puedes tararear la melodía o la letra, y el generador de música AI creará una pista de música para ti con el estilo perfecto."
+            },
+            "paragraph3": {
+                "title": "No solo canciones",
+                "description": "El generador de música AI también puede crear pistas de música instrumentales. Crear música instrumental es tan fácil como respirar, simplemente ingresa tu estilo y deja que el generador de música AI haga el resto."
+            },
+            "paragraph4": {
+                "title": "Perfecto para cualquier ocasión",
+                "description": "¿Te faltan ideas para lo que reproducir en la fiesta? El generador de música AI puede ayudarte con eso. Simplemente describe la atmósfera o el estado de ánimo y el generador de música AI creará la música perfecta para esas ocasiones."
+            },
+            "btn": "Crear música AI"
+        },
+        "suno-ai-music": {
+            "paragraph1": {
+                "title": "Compón música sin experiencia musical",
+                "description": "El generador de música AI de Suno permite a cualquiera crear música con un sonido profesional, independientemente de sus antecedentes musicales. Simplemente describe el estilo que imaginas y deja que la IA de Suno haga el resto."
+            },
+            "paragraph2": {
+                "title": "Captura el estado de ánimo y la atmósfera perfectos",
+                "description": "Ya sea que necesites música animada y enérgica para una fiesta o una pista relajante y ambiental para un video de relajación, la IA de Suno puede generar la banda sonora perfecta que coincida con tu visión creativa."
+            },
+            "paragraph3": {
+                "title": "Pistas instrumentales para cualquier proyecto",
+                "description": "El generador de música AI de Suno se destaca en la creación de cautivadoras piezas instrumentales, lo que lo convierte en la herramienta ideal para mejorar videos, podcasts, presentaciones y más con la música de fondo perfecta."
+            },
+            "paragraph4": {
+                "title": "Música para cualquier ocasión",
+                "description": "¿Estás luchando por encontrar la música adecuada para tu evento, video o proyecto personal? La IA de Suno puede generar la pista perfecta basada en tu descripción, asegurando que tu visión creativa cobre vida."
+            },
+            "btn": "Prueba el generador de música Suno AI"
         }
     }
 }
