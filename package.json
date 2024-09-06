@@ -19,7 +19,6 @@
     "@react-email/components": "^0.0.22",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/supabase-js": "^2.41.1",
-    "axios": "^1.6.8",
     "bootstrap-icons": "^1.11.3",
     "clsx": "^2.1.1",
     "eslint": "8.47.0",
@@ -35,9 +34,11 @@
     "react-syntax-highlighter": "^15.5.0",
     "react-tooltip": "^5.26.3",
     "resend": "^3.5.0",
+    "sharp": "^0.33.5",
     "stripe": "^13.11.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^14.2.8",
     "@types/jest": "^29.5.12",
     "@types/mdx": "^2.0.12",
     "@types/node": "^20.12.2",
@@ -48,7 +49,6 @@
     "daisyui": "^4.10.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.3",
-    "@next/bundle-analyzer": "^14.2.8"
+    "typescript": "^5.4.3"
   }
 }

@@ -4,7 +4,6 @@
 import { useState, useEffect } from "react"
 import { Popover, Transition } from "@headlessui/react"
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
-import apiClient from "@/libs/api"
 import { useTranslations } from "next-intl"
 
 // A button to show user some account actions
@@ -36,24 +35,24 @@ const ButtonAccount = () => {
     const handleToMyMusic = async () => {
         window.location.href = "/my-music"
     }
-    const handleBilling = async () => {
-        setIsLoading(true)
+    // const handleBilling = async () => {
+    //     setIsLoading(true)
 
-        try {
-            const { url }: { url: string } = await apiClient.post(
-                "/stripe/create-portal",
-                {
-                    returnUrl: window.location.href,
-                }
-            )
+    //     try {
+    //         const { url }: { url: string } = await apiClient.post(
+    //             "/stripe/create-portal",
+    //             {
+    //                 returnUrl: window.location.href,
+    //             }
+    //         )
 
-            window.location.href = url
-        } catch (e) {
-            console.error(e)
-        }
+    //         window.location.href = url
+    //     } catch (e) {
+    //         console.error(e)
+    //     }
 
-        setIsLoading(false)
-    }
+    //     setIsLoading(false)
+    // }
 
     return (
         <Popover className="relative z-10">
