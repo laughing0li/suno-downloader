@@ -1,14 +1,14 @@
 import { createRouteHandlerClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
-import OpenAI from "openai";
 // because call the OpenAI api will take 10-15 seconds, so we set the maxDuration to 30 seconds
 export const maxDuration = 30;
 export const runtime = "edge";
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_KEY });
 
 async function GetLyrics(description: string) {
+    const { OpenAI } = await import('openai');
+    const client = new OpenAI({ apiKey: process.env.OPENAI_KEY });
     try {
         const response = await client.chat.completions.create({
             model: "gpt-4o-mini",
