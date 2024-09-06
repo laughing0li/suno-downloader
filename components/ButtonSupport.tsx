@@ -6,7 +6,7 @@ import config from "@/config";
 // If Crisp is not enable, it will open the support email in the default email client.
 const ButtonSupport = () => {
   const handleClick = () => {
-     if (config.mailgun?.supportEmail) {
+    if (config.mailgun?.supportEmail) {
       // open default email client in new window with "need help with ${config.appName}" as subject
       window.open(
         `mailto:${config.mailgun.supportEmail}?subject=Need help with ${config.appName}`,
