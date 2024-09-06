@@ -24,8 +24,8 @@ export async function generateMetadata({
     }, {} as Record<string, string>)
     languages['x-default'] = `https://www.sunodownloader.io/about`
     return {
-        title: "Explore All AI Music | AI Music Generator",
-        description: "Enjoy the library of AI music tracks. Download AI music for free. Create unlimited music tracks with AI music generator.",
+        title: t('title'),
+        description: t('description'),
         alternates: {
             canonical: baseUrl,
             languages: languages

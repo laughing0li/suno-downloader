@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
 import { findCheckoutSession } from "@/libs/stripe";
-import { resendEmail, sendCoupon } from "@/libs/resend";
+import { resendEmail } from "@/libs/resend";
 export const runtime = "edge";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2023-08-16",

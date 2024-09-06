@@ -1,4 +1,4 @@
-import config from "@/config"
+// import config from "@/config"
 import ButtonCheckout from "./ButtonCheckout"
 import { useTranslatedConfig } from "@/libs/translations"
 import { useTranslations } from "next-intl"

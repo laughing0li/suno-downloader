@@ -59,21 +59,21 @@ export default function Music() {
         }
     }
 
-    const checkAccess = async () => {
-        try {
-            const response = await fetch(`/api/user`, {
-                method: "GET",
-            })
-            if (!response.ok) {
-                throw new Error("Failed to fetch the user data")
-            }
-            const data = await response.json()
-            return data.has_access
-        } catch (error) {
-            console.error(error)
-            return false
-        }
-    }
+    // const checkAccess = async () => {
+    //     try {
+    //         const response = await fetch(`/api/user`, {
+    //             method: "GET",
+    //         })
+    //         if (!response.ok) {
+    //             throw new Error("Failed to fetch the user data")
+    //         }
+    //         const data = await response.json()
+    //         return data.has_access
+    //     } catch (error) {
+    //         console.error(error)
+    //         return false
+    //     }
+    // }
 
     const handleDownload = async (id: string) => {
         // check if the user has access to download the audio

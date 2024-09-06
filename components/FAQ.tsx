@@ -5,7 +5,7 @@ import { Container } from './Container'
 import { Instruction } from './Instruction'
 import { useTranslations } from 'next-intl'
 import HowTo from './HowTo'
-import AdSense from './Adsense'
+// import AdSense from './Adsense'
 import Blog from './Blog'
 
 export default function Faq() {

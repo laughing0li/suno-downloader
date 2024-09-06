@@ -1,7 +1,7 @@
 'use client'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
-import AdSense from './Adsense'
+// import AdSense from './Adsense'
 import { Container } from './Container'
 import { BackgroundImage } from './BackgroundImage'
 
@@ -11,7 +11,7 @@ export function Hero() {
     const [isDownloading, setIsDownloading] = useState(false)
     const [isError, setIsError] = useState(false)
 
-    function isValidURL(str: string) {
+    function isValidURL(str: string) {  
         try {
             const url = new URL(str)
             return url.href !== undefined
