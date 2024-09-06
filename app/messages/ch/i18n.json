@@ -144,7 +144,9 @@
         "legal": "法律",
         "links": "链接",
         "music": "AI音乐生成器",
-        "lyrics": "AI歌词生成器"
+        "lyrics": "AI歌词生成器",
+        "tools": "AI工具",
+        "suno": "Suno AI音乐生成器"
     },
     "howTo": {
         "download": {
@@ -267,6 +269,7 @@
         "logout": "登出",
         "signin": "登录",
         "tool1": "AI歌词生成器",
+        "tool2": "Suno AI音乐",
         "ai-tool-dropdown": "AI 工具"
     },
     "signin": {

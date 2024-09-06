@@ -2,7 +2,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { usePathname } from 'next/navigation'
-import { LanguageIcon } from '@heroicons/react/24/outline'
+
 const languages = [
     { name: 'English', href: '/en', locale: 'en' },
     { name: '日本語', href: '/jp', locale: 'jp' },
@@ -58,7 +58,7 @@ export default function LanSwitcher() {
     return (
         <Popover className="relative">
             <Popover.Button className="hover:cursor-pointer inline-flex outline-none items-center gap-x-1 text-sm font-semibold leading-6 text-slate-700">
-                <LanguageIcon className="h-5 w-5" />
+                <i className="bi bi-translate text-xl" />
                 <span className='text font-light font-mono mr-1'>{currentLocale}</span>
             </Popover.Button>
 

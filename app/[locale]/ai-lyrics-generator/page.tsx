@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { Container } from '@/components/Container'
-import { QuestionMarkCircleIcon } from '@heroicons/react/24/outline'
 export const runtime = 'edge';
 const AiLyricsGenerator = () => {
     const [lyrics, setLyrics] = useState('')

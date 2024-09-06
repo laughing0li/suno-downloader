@@ -12,7 +12,6 @@
     "@aws-sdk/client-s3": "^3.614.0",
     "@aws-sdk/lib-storage": "^3.617.0",
     "@headlessui/react": "^1.7.18",
-    "@heroicons/react": "^2.1.4",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.5.6",

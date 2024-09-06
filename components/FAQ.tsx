@@ -1,6 +1,5 @@
 'use client'
 import { Disclosure } from '@headlessui/react'
-import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
 import { Container } from './Container'
 import { Instruction } from './Instruction'
 import { useTranslations } from 'next-intl'
@@ -55,9 +54,9 @@ export default function Faq() {
                           <span className="text-base font-semibold leading-7">{faq.question}</span>
                           <span className="ml-6 flex h-7 items-center">
                             {open ? (
-                              <MinusIcon className="h-6 w-6" aria-hidden="true" />
+                                <i className="bi bi-dash-lg"></i>
                             ) : (
-                              <PlusIcon className="h-6 w-6" aria-hidden="true" />
+                              <i className="bi bi-plus-lg"></i>
                             )}
                           </span>
                         </Disclosure.Button>

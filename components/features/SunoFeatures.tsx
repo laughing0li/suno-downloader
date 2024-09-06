@@ -1,11 +1,4 @@
 import React from 'react'
-import {
-    BoltIcon,
-    ChatBubbleBottomCenterIcon,
-    AdjustmentsHorizontalIcon,
-    SparklesIcon,
-    CurrencyDollarIcon
-} from '@heroicons/react/24/outline'
 import { useTranslations } from 'next-intl'
 
 
@@ -15,27 +8,27 @@ const SunoFeatures = () => {
         {
             name: t('feature1.title'),
             description: t('feature1.description'),
-            icon: BoltIcon,
+            icon: <i className="bi bi-lightning-charge text-white text-xl" />,
         },
         {
             name: t('feature2.title'),
             description: t('feature2.description'),
-            icon: ChatBubbleBottomCenterIcon,
+            icon: <i className="bi bi-chat-left text-white text-xl" />,
         },
         {
             name: t('feature3.title'),
             description: t('feature3.description'),
-            icon: AdjustmentsHorizontalIcon,
+            icon: <i className="bi bi-gear text-white text-xl" />,
         },
         {
             name: t('feature4.title'),
             description: t('feature4.description'),
-            icon: CurrencyDollarIcon,
+            icon: <i className="bi bi-currency-dollar text-white text-xl" />,
         },
         {
             name: t('feature5.title'),
             description: t('feature5.description'),
-            icon: SparklesIcon,
+            icon: <i className="bi bi-stars text-white text-xl" />,
         }
     ]
     return (
@@ -54,7 +47,7 @@ const SunoFeatures = () => {
                         <div key={feature.name} className="relative pl-16">
                             <dt className="text-base font-semibold leading-7 text-gray-900">
                                 <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
-                                    <feature.icon aria-hidden="true" className="h-6 w-6 text-white" />
+                                    {feature.icon}
                                 </div>
                                 {feature.name}
                             </dt>
