@@ -9,15 +9,15 @@
  * @param {string} replyTo - The email address to set as the "Reply-To" address.
  * @returns {Promise} A Promise that resolves when the email is sent.
  */
-export const resendEmail = async ({ to }: { to: string }): Promise<any> => {
-    await fetch("https://sunodownloader.io/api/send", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ to }),
-    });
-};
+// export const resendEmail = async ({ to }: { to: string }): Promise<any> => {
+//     await fetch("https://sunodownloader.io/api/send", {
+//         method: "POST",
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({ to }),
+//     });
+// };
 
 export const sendCoupon = async ({ to }: { to: string }): Promise<any> => {
     await fetch("https://sunodownloader.io/api/send/coupon", {
