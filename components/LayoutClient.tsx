@@ -8,14 +8,6 @@ import config from "@/config"
 import Header from "./Header"
 import Footer from "./Footer"
 
-// Crisp customer chat support:
-// This component is separated from ClientLayout because it needs to be wrapped with <SessionProvider> to use useSession() hook
-
-// All the client wrappers are here (they can't be in server components)
-// 1. NextTopLoader: Show a progress bar at the top when navigating between pages
-// 2. Toaster: Show Success/Error messages anywhere from the app with toast()
-// 3. Tooltip: Show tooltips if any JSX elements has these 2 attributes: data-tooltip-id="tooltip" data-tooltip-content=""
-// 4. CrispChat: Set Crisp customer chat support (see above)
 const ClientLayout = ({ children }: { children: ReactNode }) => {
     return (
         <>
