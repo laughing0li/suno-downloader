@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { SupabaseClient } from "@supabase/supabase-js";
 import configFile from "@/config";
 import { findCheckoutSession } from "@/libs/stripe";
-// import { resendEmail } from "@/libs/resend";
+import { resendEmail } from "@/libs/resend";
 export const runtime = "edge";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
     apiVersion: "2023-08-16",
@@ -90,12 +90,12 @@ export async function POST(req: NextRequest) {
                     .eq("id", userId);
 
                 // Extra: send email with user link, product page, etc...
-                // const toEmail = { to: email.email };
-                // try {
-                //     await resendEmail(toEmail);
-                // } catch (e) {
-                //     console.error("Email issue:" + e?.message);
-                // }
+                const toEmail = { to: email.email };
+                try {
+                    await resendEmail(toEmail);
+                } catch (e) {
+                    console.error("Email issue:" + e?.message);
+                }
 
                 break;
             }
