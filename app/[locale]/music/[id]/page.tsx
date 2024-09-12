@@ -13,6 +13,8 @@ interface AudioData {
 }
 
 export default function Music() {
+    const [isLoading, setIsLoading] = useState(false)
+    const [isOwner, setIsOwner] = useState(false)
     const audioRefs = useRef<{ [key: string]: HTMLAudioElement | null }>({})
     const [playingId, setPlayingId] = useState<string | null>(null)
     const [audioData, setAudioData] = useState<AudioData[]>(null)
@@ -28,14 +30,15 @@ export default function Music() {
                     throw new Error("Failed to fetch the audio URL")
                 }
                 const data = await response.json()
+                setIsOwner(data.isOwner)
                 setAudioData(data.audioData)
+
             } catch (error) {
                 console.error(error)
             }
         }
         fetchData()
     }, [])
-
     const fetchAudioUrl = async (id: string) => {
         setIsDownloading(true)
         try {
@@ -59,31 +62,8 @@ export default function Music() {
         }
     }
 
-    // const checkAccess = async () => {
-    //     try {
-    //         const response = await fetch(`/api/user`, {
-    //             method: "GET",
-    //         })
-    //         if (!response.ok) {
-    //             throw new Error("Failed to fetch the user data")
-    //         }
-    //         const data = await response.json()
-    //         return data.has_access
-    //     } catch (error) {
-    //         console.error(error)
-    //         return false
-    //     }
-    // }
 
     const handleDownload = async (id: string) => {
-        // check if the user has access to download the audio
-        // const hasAccess = await checkAccess();
-        // if (!hasAccess) {
-        //     alert(
-        //         "You don't have access to download this audio. Please make a purchase."
-        //     );
-        //     return;
-        // }
         try {
             const audioBlob = await fetchAudioUrl(id) // Replace 'your-audio-id' and yourIndex with actual values
             if (audioBlob) {
@@ -105,6 +85,24 @@ export default function Music() {
         const uniqueId = `${audioId}-${index}`
         if (playingId === uniqueId) {
             setPlayingId(null)
+        }
+    }  
+
+    const handleDelete = async () => {
+        setIsLoading(true)
+        const generationId = audioData[0].audio_generations.id
+        try {
+            const response = await fetch(`/api/music?id=${generationId}`, {
+                method: "DELETE",
+            })
+            if (!response.ok) {
+                throw new Error("Failed to delete the music")
+            }
+            window.location.href = "/my-music"
+        } catch (error) {
+            console.error(error)
+        } finally {
+            setIsLoading(false)
         }
     }
 
@@ -213,10 +211,10 @@ export default function Music() {
                                                     }
                                                 />
                                                 {
-                                                    isDownloading ? 
-                                                    (<span className="loading loading-ring loading-lg"></span>) 
-                                                    : 
-                                                    (<i
+                                                    isDownloading ?
+                                                        (<span className="loading loading-ring loading-lg"></span>)
+                                                        :
+                                                        (<i
                                                             className="bi bi-cloud-arrow-down text-4xl text-secondary hover:cursor-pointer"
                                                             onClick={() =>
                                                                 handleDownload(
@@ -224,14 +222,41 @@ export default function Music() {
                                                                 )
                                                             }
                                                         />
-                                                    )
+                                                        )
                                                 }
                                             </div>
                                         </div>
+
                                     </div>
+
                                 ))
                             }
+                            {isOwner &&
+                                <div className="flex justify-center">
+                                    <button className="btn btn-secondary btn-wide btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).showModal()}>Delete</button>
+                                    <dialog id="my_modal_3" className="modal">
+                                        <div className="modal-box">
+                                            <form method="dialog">
+                                                {/* if there is a button in form, it will close the modal */}
+                                                <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                            </form>
+                                            <h3 className="font-bold text-lg">Confirm Delete</h3>
+                                            <p className="py-4">Are you sure you want to delete this music?</p>
+                                            <div className="modal-action">
+                                                <button className="btn btn-neutral btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).close()}>Cancel</button>
+                                                {
+                                                    isLoading ?
+                                                        (<span className="loading loading-spinner loading-lg"></span>)
+                                                        :
+                                                        (<button className="btn btn-error btn-outline" onClick={handleDelete}>Delete</button>)
+                                                }
+                                            </div>
+                                        </div>
+                                    </dialog>
+                                </div>
+                            }
                         </ul>
+
                         <div className="px-10 sm:px-4">
                             <p className="text-2xl font-semibold text-secondary">
                                 Lyrics
@@ -247,7 +272,8 @@ export default function Music() {
                         </div>
                     </div>
                 </div>
-            )}
-        </div>
+            )
+            }
+        </div >
     )
 }
