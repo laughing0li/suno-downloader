@@ -8,6 +8,7 @@ export const runtime = "edge";
 
 // This route is called after a successful login. It exchanges the code for a session and redirects to the callback URL (see config.js).
 export async function GET(req: NextRequest) {
+    const cfCountry = req.headers.get('cf-ipcountry')
     const requestUrl = new URL(req.url);
     const code = requestUrl.searchParams.get("code");
     if (code) {
@@ -32,17 +33,13 @@ export async function GET(req: NextRequest) {
                 if (profileError) {
                     console.error("Error fetching profile data:", profileError);
                 } 
-                // const new_ip = '5.188.62.140'
-                // const res = await fetch(`https://ipapi.co/${new_ip}/country_name`).then(res => res.text())
-                // console.log("res: ", res)
                 if (!profileData) {
-                    // const res = await fetch(`https://ipapi.co/${ip}/country_name`).then(res => res.text())
                     let free_credits = 3
-                    // if (res === 'Russia') {
-                    //     free_credits = 1
-                    //     country = 'Russia'
-                    // }
-                    // console.log("country: ", country)
+                    let country = 'Unknown'
+                    if (cfCountry) {
+                        // free_credits = 1
+                        country = cfCountry
+                    }
                     const { error: insertError } = await supabase.from("users").insert([
                         {
                             id: userId,
@@ -51,6 +48,7 @@ export async function GET(req: NextRequest) {
                             avatar_url,
                             free: free_credits,
                             lyric_credits: free_credits,
+                            country: country,
                         },
                     ]);
 
