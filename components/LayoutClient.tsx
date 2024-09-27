@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast"
 import config from "@/config"
 import Header from "./Header"
 import Footer from "./Footer"
+import Banner from "./Banner"
 
 const ClientLayout = ({ children }: { children: ReactNode }) => {
     return (
@@ -15,6 +16,7 @@ const ClientLayout = ({ children }: { children: ReactNode }) => {
 
             {/* Content inside app/page.js files  */}
             <div className="flex flex-col min-h-screen">
+                <Banner />
                 <Header />
                 <main className="flex-grow">{children}</main>
                 <Footer />

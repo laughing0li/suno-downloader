@@ -11,7 +11,7 @@ export function Hero() {
     const [isDownloading, setIsDownloading] = useState(false)
     const [isError, setIsError] = useState(false)
 
-    function isValidURL(str: string) {  
+    function isValidURL(str: string) {
         try {
             const url = new URL(str)
             return url.href !== undefined
@@ -131,7 +131,7 @@ export function Hero() {
                         </div>
                     )} */}
 
-                    {/* <div className="mt-12 flex flex-row gap-10 justify-center">
+                {/* <div className="mt-12 flex flex-row gap-10 justify-center">
                         <input
                             type="url"
                             name="name"
@@ -153,7 +153,7 @@ export function Hero() {
                             </button>
                         )}
                     </div> */}
-                    {/* <div className='mt-10'>
+                {/* <div className='mt-10'>
             <AdSense slot={"3719858701"} />
           </div> */}
                 {/* </div> */}
