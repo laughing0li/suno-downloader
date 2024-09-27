@@ -33,14 +33,18 @@ export async function GET(req: NextRequest) {
                 if (profileError) {
                     console.error("Error fetching profile data:", profileError);
                 } 
+                // const new_ip = '5.188.62.140'
+                // const res = await fetch(`https://ipapi.co/${new_ip}/country_name`).then(res => res.text())
+                // console.log("res: ", res)
                 if (!profileData) {
                     const res = await fetch(`https://ipapi.co/${ip}/country_name`).then(res => res.text())
                     let free_credits = 3
-                    let country = ''
-                    if (res === 'Russia') {
-                        free_credits = 1
-                        country = 'Russia'
-                    }
+                    let country = res
+                    // if (res === 'Russia') {
+                    //     free_credits = 1
+                    //     country = 'Russia'
+                    // }
+                    // console.log("country: ", country)
                     const { error: insertError } = await supabase.from("users").insert([
                         {
                             id: userId,
