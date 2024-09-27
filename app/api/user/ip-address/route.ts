@@ -1,6 +1,6 @@
 // app/api/getUserCountry/route.ts
 import { NextRequest, NextResponse } from 'next/server'
-
+export const runtime = 'edge';
 export async function GET(request: NextRequest) {
   const cfCountry = request.headers.get('cf-ipcountry')
   
