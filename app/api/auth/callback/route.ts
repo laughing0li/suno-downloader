@@ -36,10 +36,10 @@ export async function GET(req: NextRequest) {
                 if (!profileData) {
                     const res = await fetch(`https://ipapi.co/${ip}/country_name`).then(res => res.text())
                     let free_credits = 3
-                    let coupon = false
+                    let country = ''
                     if (res === 'Russia') {
                         free_credits = 1
-                        coupon = true
+                        country = 'Russia'
                     }
                     const { error: insertError } = await supabase.from("users").insert([
                         {
@@ -49,7 +49,7 @@ export async function GET(req: NextRequest) {
                             avatar_url,
                             free: free_credits,
                             lyric_credits: free_credits,
-                            coupon: coupon
+                            country: country
                         },
                     ]);
 

@@ -21,7 +21,7 @@ export default function DiscoverDisplay() {
     const pathName = usePathname()
     const pageParam = searchParams.get('page')
     const [totalPages, setTotalPages] = useState(0)
-    const [pageSize] = useState(16) // Fixed page size for simplicity
+    const [pageSize] = useState(32) // Fixed page size for simplicity
     const [page, setPage] = useState(Number(pageParam) || 1)
     const [audioData, setAudioData] = useState<AudioData[]>([])
 
