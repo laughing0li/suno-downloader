@@ -1,6 +1,6 @@
 'use client'
 import { useTranslations } from 'next-intl'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 // import AdSense from './Adsense'
 import { Container } from './Container'
 import { BackgroundImage } from './BackgroundImage'
@@ -19,13 +19,6 @@ export function Hero() {
             return false
         }
     }
-    useEffect(() => {
-        const getIp = async () => {
-            const res = await fetch('/api/user/ip-address').then(res => res.json())
-            console.log("res: ", res)
-        }
-        getIp()
-    }, [targetUrl])
     const handleDownloadAudio = async () => {
         setIsDownloading(true) // Disable the button
         if (!isValidURL(targetUrl)) {
