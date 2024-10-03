@@ -121,37 +121,68 @@ const config = {
                 ],
             },
             {
-                // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
                 priceId:
                     process.env.NODE_ENV === "development"
-                        ? "price_156"
-                        : "price_126",
-                //  REQUIRED - Name of the plan, displayed on the pricing page
-                name: "Free",
-                // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-                description: "Free Plan",
-                // The price you want to display, the one user will be charged on Stripe.
-                price: 0,
-                // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-                priceAnchor: '',
-                credits: 0,
-                planType: "free",
+                        ? "price_1PeB5gI04HNQCZe5GJJRq95c"
+                        : "price_1Q5nN7I04HNQCZe5dJJzCcA3",
+                // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
+                isFeatured: false,
+                name: "Composer",
+                planType: "paid",
+                description: "Start your AI music journey",
+                price: 5.99,
+                priceAnchor: '$0.056',
+                credits: 100,
                 features: [
                     {
                         name: "songs",
                     },
-                    { name: "credits" },
+                    {
+                        name: "credits",
+                    },
+                    {
+                        name: "pricePerGeneration"
+                    },
                     {
                         name: "lyricsCredits"
                     },
                     {
-                        name: "priorityQueue"
+                        name: "downloads",
                     },
-                    {
-                        name: "history"
-                    }
                 ],
-            }
+            },
+            // {
+            //     // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
+            //     priceId:
+            //         process.env.NODE_ENV === "development"
+            //             ? "price_156"
+            //             : "price_126",
+            //     //  REQUIRED - Name of the plan, displayed on the pricing page
+            //     name: "Free",
+            //     // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
+            //     description: "Free Plan",
+            //     // The price you want to display, the one user will be charged on Stripe.
+            //     price: 0,
+            //     // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
+            //     priceAnchor: '',
+            //     credits: 0,
+            //     planType: "free",
+            //     features: [
+            //         {
+            //             name: "songs",
+            //         },
+            //         { name: "credits" },
+            //         {
+            //             name: "lyricsCredits"
+            //         },
+            //         {
+            //             name: "priorityQueue"
+            //         },
+            //         {
+            //             name: "history"
+            //         }
+            //     ],
+            // }
         ],
     },
     aws: {

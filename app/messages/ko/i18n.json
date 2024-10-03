@@ -284,7 +284,7 @@
             "features": {
                 "songs": "200곡",
                 "credits": "생성을 위한 100 크레딧",
-                "pricePerGeneration": "생성당 $0.048",
+                "pricePerGeneration": "생성당 $0.06",
                 "lyricsCredits": "가사 생성을 위한 100 크레딧",
                 "priorityQueue": "우선 생성 큐",
                 "downloads": "무제한 다운로드"

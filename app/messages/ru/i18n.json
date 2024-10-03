@@ -285,7 +285,7 @@
             "features": {
                 "songs": "200 песен",
                 "credits": "100 кредитов для генерации",
-                "pricePerGeneration": "$0.048 за генерацию",
+                "pricePerGeneration": "$0.06 за генерацию",
                 "lyricsCredits": "100 кредитов для генерации текстов",
                 "priorityQueue": "Очередь приоритетной генерации",
                 "downloads": "Неограниченные загрузки"

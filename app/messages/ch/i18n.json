@@ -284,7 +284,7 @@
             "features": {
                 "songs": "200首歌曲",
                 "credits": "100个生成信用",
-                "pricePerGeneration": "每次生成0.048美元",
+                "pricePerGeneration": "每次生成0.06美元",
                 "lyricsCredits": "100个歌词生成信用",
                 "priorityQueue": "优先生成队列",
                 "downloads": "无限下载"

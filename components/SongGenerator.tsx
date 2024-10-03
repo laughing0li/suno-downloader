@@ -22,37 +22,41 @@ const SongGenerator = () => {
             return
         }
         if (credits <= 0 && free <= 0) {
-            alert(t('credits-alert'))
+            toast.error(t('credits-alert'))
+            // wait for 2s to redirect to pricing page
+            setTimeout(() => {
+                router.push('/pricing')
+            }, 2000)
             return
         }
         e.preventDefault()
         if (custom && !instrumental) {
             if (lyrics.length < 200) {
-                alert(t('lyrics-length-alert'))
+                toast.error(t('lyrics-length-alert'))
                 return
             }
             if (style.length <= 0) {
-                alert(t('style-length-alert'))
+                toast.error(t('style-length-alert'))
                 return
             }
             if (title.length <= 0) {
-                alert(t('title-length-alert'))
+                toast.error(t('title-length-alert'))
                 return
             }
         }
         if (!custom) {
             if (description.length <= 0) {
-                alert(t('custom-description-alert'))
+                toast.error(t('custom-description-alert'))
                 return
             }
         }
         if (custom && instrumental) {
             if (style.length <= 0) {
-                alert(t('custom-instrumental-style-length-alert'))
+                toast.error(t('custom-instrumental-style-length-alert'))
                 return
             }
             if (title.length <= 0) {
-                alert(t('custom-instrumental-title-length-alert'))
+                toast.error(t('custom-instrumental-title-length-alert'))
                 return
             }
         }
@@ -152,7 +156,10 @@ const SongGenerator = () => {
             setLoading(false)
         }
     }
-
+    const onClickBtn = () => {
+        (document.getElementById('sign-in') as HTMLDialogElement).showModal()
+        return
+    }
     const handleClear = () => {
         setLyrics('')
         setStyle('')
@@ -161,14 +168,10 @@ const SongGenerator = () => {
     }
     return (
         <div>
-            {/* <h1 className="text-3xl font-bold mb-6 text-center mt-16">{t('title')}</h1>
-            <p className='text-center text-secondary text-sm mb-10'>
-                {t('violence-alert')}
-            </p> */}
             <div className='flex justify-center place-items-center gap-x-3 mb-4'>
                 {
                     !isLogged && (
-                        <p className='text-slate-500 text-center text-sm'>{t('ask-login1')}<span className='text-secondary text-base font-semibold'> 3</span> {t('ask-login2')}</p>
+                        <button onClick={onClickBtn} className='text-slate-500 text-center text-sm underline hover:cursor-pointer'>{t('ask-login1')} {t('ask-login2')}</button>
                     )
                 }
                 {
@@ -361,7 +364,7 @@ const SongGenerator = () => {
                         </button>
                     </div>)
             }
-            
+
         </div>
     )
 }

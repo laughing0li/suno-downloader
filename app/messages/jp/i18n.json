@@ -284,7 +284,7 @@
             "features": {
                 "songs": "200曲",
                 "credits": "生成用100クレジット",
-                "pricePerGeneration": "生成あたり0.048ドル",
+                "pricePerGeneration": "生成あたり0.06ドル",
                 "lyricsCredits": "歌詞生成用100クレジット",
                 "priorityQueue": "優先生成キュー",
                 "downloads": "無制限ダウンロード"

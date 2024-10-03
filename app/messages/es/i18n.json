@@ -284,7 +284,7 @@
             "features": {
                 "songs": "200 Canciones",
                 "credits": "100 créditos para generación",
-                "pricePerGeneration": "$0.048 por generación",
+                "pricePerGeneration": "$0.06 por generación",
                 "lyricsCredits": "100 créditos para generación de letras",
                 "priorityQueue": "Cola de generación prioritaria",
                 "downloads": "Descargas ilimitadas"

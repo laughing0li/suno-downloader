@@ -34,14 +34,7 @@ export async function GET(req: NextRequest) {
                     console.error("Error fetching profile data:", profileError);
                 } 
                 if (!profileData) {
-                    let free_credits = 3
-                    let country = 'Unknown'
-                    if (cfCountry && cfCountry === 'RU') {
-                        free_credits = 1
-                        country = cfCountry
-                    } else {
-                        country = cfCountry
-                    }
+                    let free_credits = 1
                     const { error: insertError } = await supabase.from("users").insert([
                         {
                             id: userId,
@@ -50,7 +43,7 @@ export async function GET(req: NextRequest) {
                             avatar_url,
                             free: free_credits,
                             lyric_credits: free_credits,
-                            country: country,
+                            country: cfCountry,
                         },
                     ]);
 

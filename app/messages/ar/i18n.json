@@ -284,7 +284,7 @@
             "features": {
                 "songs": "200 أغنية",
                 "credits": "100 ائتمان للتوليد",
-                "pricePerGeneration": "0.048 دولار لكل توليد",
+                "pricePerGeneration": "0.06 دولار لكل توليد",
                 "lyricsCredits": "100 ائتمان لتوليد الكلمات",
                 "priorityQueue": "طابور التوليد ذو الأولوية",
                 "downloads": "تنزيلات غير محدودة"

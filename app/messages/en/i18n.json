@@ -122,7 +122,7 @@
             "features": {
                 "songs": "200 Songs",
                 "credits": "100 credits for generation",
-                "pricePerGeneration": "$0.048 per generation",
+                "pricePerGeneration": "$0.06 per generation",
                 "lyricsCredits": "100 credits for lyrics generation",
                 "priorityQueue": "Priority generation queue",
                 "downloads": "Unlimited downloads"
