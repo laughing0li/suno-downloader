@@ -61,7 +61,7 @@ const MainLayout = ({
     unstable_setRequestLocale(locale)
     return (
         <html lang="en" data-theme={config.colors.theme} className={font.className}>
-            {/* <Analytics /> */}
+            <Analytics />
             <body>
                 {/* ClientLayout contains all the client wrappers (Crisp chat support, toast messages, tooltips, etc.) */}
                 <NextIntlClientProvider messages={messages}>
