@@ -143,7 +143,7 @@ const ExtendComponent = () => {
     }
     return (
         <div>
-            <div className="w-full mx-auto p-4 rounded-lg shadow-md mb-8 bg-base-200 sm:w-11/12 md:w-10/12 lg:max-w-2xl lg:p-6 h-[800px] mt-48 overflow-y-auto">
+            <div className="w-full mx-auto p-4 rounded-lg shadow-md mb-8 bg-base-200 sm:w-11/12 md:w-10/12 lg:max-w-2xl lg:p-6 sm:h-[800px] h-[400px] mt-48 overflow-y-auto">
                 <div>
                     <p className='text-center text-secondary text-sm mb-10'>
                         {t('violence-alert')}
@@ -269,14 +269,14 @@ const ExtendComponent = () => {
                 {
                     loading
                         ?
-                        (<div className='mx-auto max-w-3xl text-center my-8'>
+                        (<div className='mx-auto max-w-3xl text-center sm:my-8'>
                             <span className="loading loading-dots loading-lg text-primary" />
                             <p className='text-slate-400'>
                                 {t('extend-loading')}
                             </p>
                         </div>)
                         :
-                        (<div className='text-center my-8 gap-x-4 flex justify-center'>
+                        (<div className='text-center sm:my-8 mb-24 gap-x-4 flex justify-center'>
                             <button type="submit" onClick={handleSubmit} className="btn btn-primary mb-8">
                                 {t('extend-song-btn')}
                             </button>
