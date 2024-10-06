@@ -191,7 +191,7 @@ const SongGenerator = () => {
                 </p>
             </div>
             <div className="max-w-2xl bg-base-200 mx-auto p-6 rounded-lg shadow-md mb-16">
-                <p className='text-sm text-slate-500 font-semibold text-center mb-10'>
+                <p className='text-sm text-secondary font-semibold text-center mb-10'>
                     🎉🎉 {t('extend-features')}
                 </p>
                 <div className='flex justify-between mb-4'>

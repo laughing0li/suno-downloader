@@ -269,18 +269,18 @@ const ExtendComponent = () => {
                 {
                     loading
                         ?
-                        (<div className='mx-auto max-w-3xl text-center mb-8 mt-8'>
+                        (<div className='mx-auto max-w-3xl text-center my-8'>
                             <span className="loading loading-dots loading-lg text-primary" />
                             <p className='text-slate-400'>
                                 {t('extend-loading')}
                             </p>
                         </div>)
                         :
-                        (<div className='text-center mt-8 gap-x-4 flex justify-center flex-col sm:flex-row'>
-                            <button type="submit" onClick={handleSubmit} className="btn btn-wide btn-primary mb-8">
+                        (<div className='text-center my-8 gap-x-4 flex justify-center'>
+                            <button type="submit" onClick={handleSubmit} className="btn btn-primary mb-8">
                                 {t('extend-song-btn')}
                             </button>
-                            <button onClick={() => (document.getElementById('extend-music') as HTMLDialogElement).close()} className="btn btn-wide btn-neutral mb-8">{t('cancel-btn')}</button>
+                            <button onClick={() => (document.getElementById('extend-music') as HTMLDialogElement).close()} className="btn btn-neutral mb-8">{t('cancel-btn')}</button>
                         </div>)
                 }
 
