@@ -50,6 +50,9 @@ const config = {
                     {
                         name: "downloads",
                     },
+                    {
+                        name: "extend"
+                    }
                 ],
             },
             {
@@ -84,6 +87,9 @@ const config = {
                     {
                         name: "downloads",
                     },
+                    {
+                        name: "extend"
+                    }
                 ],
             },
             {
@@ -118,39 +124,42 @@ const config = {
                     {
                         name: "downloads",
                     },
+                    {
+                        name: "extend"
+                    }
                 ],
             },
-            {
-                priceId:
-                    process.env.NODE_ENV === "development"
-                        ? "price_1PeB5gI04HNQCZe5GJJRq95c"
-                        : "price_1Q5nN7I04HNQCZe5dJJzCcA3",
-                // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
-                isFeatured: false,
-                name: "Composer",
-                planType: "paid",
-                description: "Start your AI music journey",
-                price: 5.99,
-                priceAnchor: '$0.056',
-                credits: 100,
-                features: [
-                    {
-                        name: "songs",
-                    },
-                    {
-                        name: "credits",
-                    },
-                    {
-                        name: "pricePerGeneration"
-                    },
-                    {
-                        name: "lyricsCredits"
-                    },
-                    {
-                        name: "downloads",
-                    },
-                ],
-            },
+            // {
+            //     priceId:
+            //         process.env.NODE_ENV === "development"
+            //             ? "price_1PeB5gI04HNQCZe5GJJRq95c"
+            //             : "price_1Q5nN7I04HNQCZe5dJJzCcA3",
+            //     // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
+            //     isFeatured: false,
+            //     name: "Composer",
+            //     planType: "paid",
+            //     description: "Start your AI music journey",
+            //     price: 5.99,
+            //     priceAnchor: '$0.056',
+            //     credits: 100,
+            //     features: [
+            //         {
+            //             name: "songs",
+            //         },
+            //         {
+            //             name: "credits",
+            //         },
+            //         {
+            //             name: "pricePerGeneration"
+            //         },
+            //         {
+            //             name: "lyricsCredits"
+            //         },
+            //         {
+            //             name: "downloads",
+            //         },
+            //     ],
+            // },
             // {
             //     // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
             //     priceId:

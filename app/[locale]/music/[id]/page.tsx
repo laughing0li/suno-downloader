@@ -1,8 +1,10 @@
 "use client"
 import { useEffect, useRef, useState } from "react"
-import { useParams } from "next/navigation"
+import { useParams, useRouter } from "next/navigation"
 import SoundSkeleton from "@/components/skeleton/SoundSkeleton"
 import type { AudioGeneration } from "@/libs/mediaType"
+import ExtendComponent from "@/components/ExtendComponent"
+import { useTranslations } from "next-intl"
 
 export const runtime = "edge"
 interface AudioData {
@@ -19,6 +21,7 @@ export default function Music() {
     const [playingId, setPlayingId] = useState<string | null>(null)
     const [audioData, setAudioData] = useState<AudioData[]>(null)
     const [isDownloading, setIsDownloading] = useState(false)
+    const t = useTranslations('music-detail')
     const { id } = useParams()
     useEffect(() => {
         const fetchData = async () => {
@@ -86,7 +89,7 @@ export default function Music() {
         if (playingId === uniqueId) {
             setPlayingId(null)
         }
-    }  
+    }
 
     const handleDelete = async () => {
         setIsLoading(true)
@@ -116,13 +119,13 @@ export default function Music() {
                         {audioData[0]?.audio_generations.title}
                     </h1>
                     <h2 className="text-center text-xl font-bold mt-4 ">
-                        AI Music created by{" "}
-                        {audioData[0]?.audio_generations.user.full_name} with
-                        <a href="/ai-music-generator" className="text-secondary">
-                            {" "}
-                            AI music generator
-                        </a>
+                        {t('h2')}:{" "}
+                        {audioData[0]?.audio_generations.user.full_name}
+                        
                     </h2>
+                    <p className="text-center text-sm font-bold mt-4 text-secondary">
+                        {t('extend-description')}
+                    </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 max-w-5xl mx-auto mt-12 gap-x-16">
                         <ul role="list">
                             {
@@ -181,7 +184,7 @@ export default function Music() {
                                                     </div>
                                                 </div>
                                                 <p className="text-xs w-full font-medium text-slate-500">
-                                                    Created at:{" "}
+                                                    {t('created-at')}:{" "}
                                                     {audio?.audio_generations.created_at.slice(
                                                         0,
                                                         10
@@ -210,18 +213,25 @@ export default function Music() {
                                                         )
                                                     }
                                                 />
+                                                <div className="tooltip" data-tip={t('extend-tooltip')}>
+                                                    {/* TODO: add extend song feature and block unpaid user */}
+                                                    <i className="bi bi-patch-plus text-3xl text-secondary hover:cursor-pointer" onClick={() => (document.getElementById('extend-music') as HTMLDialogElement).showModal()} />
+                                                </div>
                                                 {
                                                     isDownloading ?
                                                         (<span className="loading loading-ring loading-lg"></span>)
                                                         :
-                                                        (<i
-                                                            className="bi bi-cloud-arrow-down text-4xl text-secondary hover:cursor-pointer"
-                                                            onClick={() =>
-                                                                handleDownload(
-                                                                    audio?.id,
-                                                                )
-                                                            }
-                                                        />
+                                                        (
+                                                            <div className="tooltip" data-tip={t('download-tooltip')}>
+                                                                <i
+                                                                    className="bi bi-cloud-arrow-down text-4xl text-secondary hover:cursor-pointer"
+                                                                    onClick={() =>
+                                                                        handleDownload(
+                                                                            audio?.id,
+                                                                        )
+                                                                    }
+                                                                />
+                                                            </div>
                                                         )
                                                 }
                                             </div>
@@ -233,22 +243,22 @@ export default function Music() {
                             }
                             {isOwner &&
                                 <div className="flex justify-center">
-                                    <button className="btn btn-secondary btn-wide btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).showModal()}>Delete</button>
+                                    <button className="btn btn-secondary btn-wide btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).showModal()}>{t('delete-btn')}</button>
                                     <dialog id="my_modal_3" className="modal">
                                         <div className="modal-box">
                                             <form method="dialog">
                                                 {/* if there is a button in form, it will close the modal */}
                                                 <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                                             </form>
-                                            <h3 className="font-bold text-lg">Confirm Delete</h3>
-                                            <p className="py-4">Are you sure you want to delete this music?</p>
+                                            <h3 className="font-bold text-lg">{t('delete-modal-title')}</h3>
+                                            <p className="py-4">{t('delete-tooltip')}</p>
                                             <div className="modal-action">
-                                                <button className="btn btn-neutral btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).close()}>Cancel</button>
+                                                <button className="btn btn-neutral btn-outline" onClick={() => (document.getElementById('my_modal_3') as HTMLDialogElement).close()}>{t('cancel-btn')}</button>
                                                 {
                                                     isLoading ?
                                                         (<span className="loading loading-spinner loading-lg"></span>)
                                                         :
-                                                        (<button className="btn btn-error btn-outline" onClick={handleDelete}>Delete</button>)
+                                                        (<button className="btn btn-error btn-outline" onClick={handleDelete}>{t('delete-btn')}</button>)
                                                 }
                                             </div>
                                         </div>
@@ -259,14 +269,14 @@ export default function Music() {
 
                         <div className="px-10 sm:px-4">
                             <p className="text-2xl font-semibold text-secondary">
-                                Lyrics
+                                {t('lyrics')}
                             </p>
                             <pre
                                 className="whitespace-pre-line mt-4"
                                 style={{ fontFamily: "sans-serif" }}
                             >{audioData[0].audio_generations.prompt}</pre>
                             <p className="text-2xl font-semibold text-secondary mt-10">
-                                Music Style
+                                {t('music-style')}
                             </p>
                             <p>{audioData[0].audio_generations.tags}</p>
                         </div>
@@ -274,6 +284,9 @@ export default function Music() {
                 </div>
             )
             }
+            <dialog id='extend-music' className='modal'>
+                <ExtendComponent />
+            </dialog>
         </div >
     )
 }

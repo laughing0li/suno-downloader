@@ -1,496 +1,521 @@
 {
-    "metadata": {
-        "title": "Suno Downloader - Kostenloses und schnelles Suno-Musik-Herunterladen",
-        "description": "Erleben Sie die Zukunft der Musik mit Suno AI. Laden Sie sofort KI-generierte Songs herunter. Entdecken Sie eine Vielzahl von Genres und beginnen Sie heute Ihre musikalische Reise!"
+  "metadata": {
+    "title": "Suno Downloader - Kostenloses und schnelles Suno-Musik-Herunterladen",
+    "description": "Erleben Sie die Zukunft der Musik mit Suno AI. Laden Sie sofort KI-generierte Songs herunter. Entdecken Sie eine Vielzahl von Genres und beginnen Sie heute Ihre musikalische Reise!"
+  },
+  "heroSection": {
+    "error": "Fehler! Bitte überprüfen Sie die URL erneut.",
+    "h1": "Suno-Musik-Downloader",
+    "button": "Herunterladen",
+    "placeholder": "Geben Sie die Suno-Musik-URL ein",
+    "tool": "KI-Musikgenerator",
+    "try": "Kostenlos ausprobieren",
+    "title": "Kostenloser AI-Musikgenerator",
+    "subtitle1": "Kostenloser Suno-Downloader und AI-Musikgenerator",
+    "subtitle2": "Erstelle einzigartige Musik mit dem AI-Musikgenerator"
+  },
+  "instruction": {
+    "h2": "Wie lade ich Lieder von Suno herunter?",
+    "p1": "Um einen Suno-Track herunterzuladen, benötigen Sie den Freigabe-Link des Tracks, den Sie herunterladen möchten. Hier sind einige Beispiele für Suno-Freigabe-Links:",
+    "p2": "Fügen Sie einfach den Freigabe-Link des Suno-Tracks ein, den Sie herunterladen möchten, in das Eingabefeld ein. Klicken Sie auf die Schaltfläche “Herunterladen”, um den Download-Link abzurufen. Sobald der Download-Link bereit ist, klicken Sie auf die Schaltfläche “Herunterladen”, um den Track auf Ihr Gerät zu speichern. Sie finden den Link zum Kopieren, wie auf dem Bild gezeigt."
+  },
+  "faq": {
+    "download": {
+      "p1": "Mit dem Suno-Musik-Downloader können Sie nahtlos KI-generierte Musiktitel direkt auf Ihr Gerät (Mobil oder PC) kostenlos erkunden und sichern. Tauchen Sie ein in die innovative Welt von Suno AI.",
+      "p2": "Fühlen Sie sich frei, so viele Suno-Tracks wie gewünscht herunterzuladen. Unser Suno-Musik-Saver setzt keine Beschränkungen für die Anzahl der Songs, die Sie sichern können, sodass Sie ein grenzenloses musikalisches Abenteuer erleben können. Was unser Tool so einzigartig macht, ist seine bemerkenswerte Effizienz: Abhängig von Ihrer Internetgeschwindigkeit dauert das Abrufen von Download-Links nur wenige Sekunden.",
+      "h2": "Häufig gestellte Fragen - FAQ",
+      "question1": "Ist der Suno-Musik-Downloader kostenlos zu benutzen?",
+      "answer1": "Ja, der Suno-Musik-Downloader ist völlig kostenlos zu benutzen. Sie können so viele Songs wie gewünscht ohne Zusatzkosten herunterladen.",
+      "question2": "Hat der Suno-Musik-Downloader Einschränkungen?",
+      "answer2": "Nein, der Suno-Musik-Downloader hat keine Einschränkungen. Sie können so viele Lieder wie gewünscht ohne Einschränkungen herunterladen.",
+      "question3": "Kann ich Suno-Songs auf meinem Mobilgerät herunterladen?",
+      "answer3": "Ja, Sie können Songs vom Suno-Musik-Downloader auf jedem Gerät (iOS oder Android) herunterladen.",
+      "question4": "Wo finde ich die heruntergeladenen Songs?",
+      "answer4": "Egal ob Sie einen PC oder ein Mobilgerät verwenden, die heruntergeladenen Songs finden Sie im Standard-Downloadverzeichnis Ihres Geräts."
     },
-    "heroSection": {
-        "error": "Fehler! Bitte überprüfen Sie die URL erneut.",
-        "h1": "Suno-Musik-Downloader",
-        "button": "Herunterladen",
-        "placeholder": "Geben Sie die Suno-Musik-URL ein",
-        "tool": "KI-Musikgenerator",
-        "try": "Kostenlos ausprobieren",
-        "title": "Kostenloser AI-Musikgenerator",
-        "subtitle1": "Kostenloser Suno-Downloader und AI-Musikgenerator",
-        "subtitle2": "Erstelle einzigartige Musik mit dem AI-Musikgenerator"
-    },
-    "instruction": {
-        "h2": "Wie lade ich Lieder von Suno herunter?",
-        "p1": "Um einen Suno-Track herunterzuladen, benötigen Sie den Freigabe-Link des Tracks, den Sie herunterladen möchten. Hier sind einige Beispiele für Suno-Freigabe-Links:",
-        "p2": "Fügen Sie einfach den Freigabe-Link des Suno-Tracks ein, den Sie herunterladen möchten, in das Eingabefeld ein. Klicken Sie auf die Schaltfläche “Herunterladen”, um den Download-Link abzurufen. Sobald der Download-Link bereit ist, klicken Sie auf die Schaltfläche “Herunterladen”, um den Track auf Ihr Gerät zu speichern. Sie finden den Link zum Kopieren, wie auf dem Bild gezeigt."
-    },
-    "faq": {
-        "download": {
-            "p1": "Mit dem Suno-Musik-Downloader können Sie nahtlos KI-generierte Musiktitel direkt auf Ihr Gerät (Mobil oder PC) kostenlos erkunden und sichern. Tauchen Sie ein in die innovative Welt von Suno AI.",
-            "p2": "Fühlen Sie sich frei, so viele Suno-Tracks wie gewünscht herunterzuladen. Unser Suno-Musik-Saver setzt keine Beschränkungen für die Anzahl der Songs, die Sie sichern können, sodass Sie ein grenzenloses musikalisches Abenteuer erleben können. Was unser Tool so einzigartig macht, ist seine bemerkenswerte Effizienz: Abhängig von Ihrer Internetgeschwindigkeit dauert das Abrufen von Download-Links nur wenige Sekunden.",
-            "h2": "Häufig gestellte Fragen - FAQ",
-            "question1": "Ist der Suno-Musik-Downloader kostenlos zu benutzen?",
-            "answer1": "Ja, der Suno-Musik-Downloader ist völlig kostenlos zu benutzen. Sie können so viele Songs wie gewünscht ohne Zusatzkosten herunterladen.",
-            "question2": "Hat der Suno-Musik-Downloader Einschränkungen?",
-            "answer2": "Nein, der Suno-Musik-Downloader hat keine Einschränkungen. Sie können so viele Lieder wie gewünscht ohne Einschränkungen herunterladen.",
-            "question3": "Kann ich Suno-Songs auf meinem Mobilgerät herunterladen?",
-            "answer3": "Ja, Sie können Songs vom Suno-Musik-Downloader auf jedem Gerät (iOS oder Android) herunterladen.",
-            "question4": "Wo finde ich die heruntergeladenen Songs?",
-            "answer4": "Egal ob Sie einen PC oder ein Mobilgerät verwenden, die heruntergeladenen Songs finden Sie im Standard-Downloadverzeichnis Ihres Geräts."
-        },
-        "music-generator": {
-            "h2": "KI-Musikgenerator-FAQ",
-            "q1": {
-                "question": "Was ist der KI-Musikgenerator?",
-                "answer": "Allgemein gesagt ist der KI-Musikgenerator ein Tool, das Künstliche Intelligenz nutzt, um Musikstücke basierend auf deinen Eingaben zu erstellen. Er kann in Minuten einzigartige Musikstücke generieren. Du benötigst keine musikalischen Fähigkeiten, um den KI-Musikgenerator zu verwenden."
-            },
-            "q2": {
-                "question": "Wie funktioniert der KI-Musikgenerator?",
-                "answer": "Der KI-Musikgenerator verwendet fortschrittliche KI-Technologie, um Musikstücke basierend auf deinen Eingaben zu erstellen. Du musst lediglich die Texte eingeben, die du verwenden möchtest, und den gewünschten Musikstil beschreiben, und der KI-Musikgenerator wird ein einzigartiges Stück für dich generieren."
-            },
-            "q3": {
-                "question": "Wofür kann ich den KI-Musikgenerator verwenden?",
-                "answer": "Der KI-Musikgenerator kann für eine Vielzahl von Zwecken verwendet werden, einschließlich der Erstellung von Hintergrundmusik für Videos, Podcasts und Präsentationen, der Generierung von Musik für persönliche Projekte und der Erkundung verschiedener Musikstile."
-            },
-            "q4": {
-                "question": "Ist der KI-Musikgenerator kostenlos nutzbar?",
-                "answer": "Der KI-Musikgenerator bietet einen kostenlosen Tarif, der dir die Erstellung einer begrenzten Anzahl von Musikstücken ermöglicht. Für unbegrenzten Zugriff auf den KI-Musikgenerator kannst du einen Premium-Tarif buchen."
-            },
-            "q5": {
-                "question": "Kann ich den KI-Musikgenerator für kommerzielle Zwecke nutzen?",
-                "answer": "Ja, sobald du deinen Premium-Tarif gewählt hast. Du kannst die vom KI-Musikgenerator generierten Musikstücke für kommerzielle Zwecke verwenden. Du hast die vollen Rechte an den von dir erstellten Musikstücken."
-            },
-            "q6": {
-                "question": "Wie lange dauert es, ein Musikstück zu generieren?",
-                "answer": "Der KI-Musikgenerator kann ein Musikstück in Minuten erstellen. Die genaue Zeit kann je nach Komplexität des Stücks und Serverauslastung variieren."
-            },
-            "q7": {
-                "question": "Kann ich die vom KI-Musikgenerator generierten Musikstücke anpassen?",
-                "answer": "Ja, du kannst die Musikstücke anpassen, indem du ihnen einen Titel und eine Beschreibung hinzufügst. Dies hilft dir dabei, deine Musikstücke nachzuverfolgen und in deiner Bibliothek zu organisieren."
-            },
-            "q8": {
-                "question": "Kann ich mit dem KI-Musikgenerator auch Instrumentalmusik generieren?",
-                "answer": "Ja, du kannst mit dem KI-Musikgenerator Instrumentalmusik generieren. Wähle einfach die Option für Instrumentalmusik aus, wenn du ein Musikstück erstellst."
-            },
-            "q9": {
-                "question": "Was bedeuten die Guthaben im KI-Musikgenerator?",
-                "answer": "Guthaben werden verwendet, um Musikstücke mit dem KI-Musikgenerator zu erstellen. Jeder Tarif beinhaltet eine bestimmte Anzahl von Guthaben, die zum Generieren von Musikstücken verwendet werden können. Sobald dein Guthaben aufgebraucht ist, kannst du weitere Guthaben kaufen, um weiterhin Musikstücke zu erstellen."
-            }
-        },
-        "suno-ai-music": {
-            "h2": "Suno AI Musikgenerator: Häufig gestellte Fragen",
-            "q1": {
-                "question": "Was ist der Suno AI Musikgenerator?",
-                "answer": "Der Suno AI Musikgenerator ist ein revolutionäres Tool, das mithilfe von künstlicher Intelligenz einzigartige, hochwertige Musiktitel basierend auf Ihren Eingaben erstellt. Er ermöglicht Benutzern aller Niveaus, ohne vorherige musikalische Ausbildung professionell klingende Musik zu komponieren."
-            },
-            "q2": {
-                "question": "Wie funktioniert der Suno AI Musikgenerator?",
-                "answer": "Der Suno AI Musikgenerator verwendet modernste Machine-Learning-Algorithmen, um Ihre Präferenzen und die Beschreibung des gewünschten Musikstils zu analysieren. Anschließend generiert er einen auf Ihre Vision zugeschnittenen, individuellen Musiktitel, ohne dass manuelle Komposition oder musikalische Expertise erforderlich ist."
-            },
-            "q3": {
-                "question": "Wofür kann ich den Suno AI Musikgenerator verwenden?",
-                "answer": "Der Suno AI Musikgenerator kann für eine Vielzahl von Anwendungen verwendet werden, wie zum Beispiel das Erstellen von Hintergrundmusik für Videos, Podcasts und Präsentationen, das Generieren von Tracks für persönliche Projekte oder das Erkunden neuer musikalischer Stile und Genres."
-            },
-            "q4": {
-                "question": "Ist der Suno AI Musikgenerator kostenlos zu verwenden?",
-                "answer": "Suno bietet einen kostenlosen Plan, der es Ihnen ermöglicht, eine begrenzte Anzahl von Musiktiteln zu generieren. Für unbegrenzten Zugriff und kommerzielle Nutzung können Sie auf einen der Premium-Abonnementpläne von Suno upgraden."
-            },
-            "q5": {
-                "question": "Kann ich die von Suno generierten AI-Musiktitel für kommerzielle Zwecke verwenden?",
-                "answer": "Absolut! Mit den Premium-Plänen von Suno haben Sie die vollen Rechte, die von Ihnen erstellten Musiktitel für jeden kommerziellen oder persönlichen Zweck ohne Einschränkungen zu verwenden."
-            },
-            "q6": {
-                "question": "Wie schnell kann der Suno AI Musikgenerator einen Track erstellen?",
-                "answer": "Der Suno AI Musikgenerator kann einen benutzerdefinierten Track in nur wenigen Minuten erstellen, abhängig von der Komplexität der gewünschten Musik und der aktuellen Serverauslastung."
-            },
-            "q7": {
-                "question": "Kann ich die von Suno generierten Musiktitel anpassen?",
-                "answer": "Ja, Sie können die Musiktitel anpassen, indem Sie einen Titel und eine Beschreibung hinzufügen, die Ihnen helfen, Ihre wachsende Bibliothek von Suno-generierter Musik zu organisieren und zu verwalten."
-            },
-            "q8": {
-                "question": "Kann ich mit dem Suno AI Musikgenerator instrumentale Musik erstellen?",
-                "answer": "Ja, der Suno AI Musikgenerator bietet die Möglichkeit, fesselnde instrumentale Tracks zu generieren, die sich perfekt als Hintergrundmusik, Klanglandschaften oder eigenständige Kompositionen eignen."
-            },
-            "q9": {
-                "question": "Was sind Credits im Suno AI Musikgenerator?",
-                "answer": "Credits sind die Währung, die verwendet wird, um mit dem Suno AI Musikgenerator Musiktitel zu generieren. Jeder Suno-Plan enthält eine bestimmte Anzahl von Credits, die zur Erstellung neuer Musik verwendet werden können. Wenn Sie Ihre Credits erschöpft haben, können Sie weitere kaufen, um Ihre kreative Reise fortzusetzen."
-            }
-        }
-    },
-    "about": {
-        "h1": "Über",
-        "p1": "Willkommen bei",
-        "a": "Suno-Songs-Downloader",
-        "p2": "Ihrer Hauptanlaufstelle, um ganz einfach Suno-Musik auf jedem Gerät herunterzuladen - ob Computer, Tablet oder Mobiltelefon. Unsere Plattform vereinfacht den Musikdownload-Prozess und macht ihn zugänglich, schnell und vor allem kostenlos.",
-        "p3": "Wir bieten einen schnellen, zuverlässigen und völlig kostenlosen Service, damit Sie unbegrenzt Suno-AI-Musik herunterladen können, ohne Probleme zu haben. Unsere Downloads sind schnell und benutzerfreundlich, sodass alle Vorgänge für Ihre Bequemlichkeit optimiert sind. Kopieren Sie einfach den Link des Suno-Songs, den Sie herunterladen möchten, fügen Sie ihn auf der Hauptseite unserer Website ein und klicken Sie auf “Herunterladen”. So einfach ist das!",
-        "p4": "Wir sind bestrebt, Ihr Erlebnis zu verbessern. Unser Team aktualisiert den Suno-Musik-Downloader regelmäßig, um den Download-Prozess und die Website-Funktionalität zu optimieren, damit Sie unseren Service voll ausnutzen können. Gelegentliche technische Anpassungen im Backend können sich jedoch auf die Ladezeiten auswirken. Seien Sie versichert, dass wir hart daran arbeiten, Probleme schnell zu beheben und Unterbrechungen Ihrer Musik-Download-Aktivitäten zu minimieren."
-    },
-    "privacy": {
-        "h1": "Datenschutzrichtlinie",
-        "p1": "Durch die Nutzung von",
-        "a": "Suno-Musik-Downloader",
-        "p2": "stimmen Sie zu, die auf dieser Seite dargelegten Datenschutzrichtlinien einzuhalten:",
-        "p-strong1": "Informationen, die wir nicht sammeln:",
-        "p3": "Wir sammeln keinerlei persönliche Informationen von unseren Nutzern. Ihr Datenschutz und Ihre Sicherheit haben für uns höchste Priorität.",
-        "p-strong2": "Verwendung von Cookies:",
-        "p4": "Um Ihr Erlebnis zu verbessern, verwendet der Suno-Musik-Downloader Google Analytics Cookies, die uns dabei helfen, Ihre Einstellungen zu verstehen und für zukünftige Besuche zu speichern. Cookies sind kleine Datendateien, die über Ihren Webbrowser (mit Ihrer Erlaubnis) auf die Festplatte Ihres Geräts übertragen werden und es einer Website ermöglichen, Ihren Browser zu erkennen und bestimmte Informationen für die zukünftige Nutzung zu erfassen.",
-        "p-strong3": "Informationsaustausch:",
-        "p5": "Wir verkaufen, handeln oder übertragen Ihre persönlich identifizierbaren Informationen nicht an externe Parteien. Dies schließt vertrauenswürdige Dritte aus, die uns bei Websitebetrieb, Geschäftsführung oder Kundenservice unterstützen, vorausgesetzt, sie verpflichten sich, diese Informationen vertraulich zu behandeln. Wir können Ihre Informationen weitergeben, wenn dies zur Einhaltung gesetzlicher Verpflichtungen, zur Durchsetzung unserer Website-Richtlinien oder zum Schutz der Rechte, des Eigentums oder der Sicherheit unserer Nutzer oder anderer erforderlich ist. Nicht-persönlich identifizierbare Besucherinformationen können jedoch für Marketing-, Werbe- oder andere Zwecke geteilt werden.",
-        "p-strong4": "Aktualisierungen der Datenschutzrichtlinie:",
-        "p6": "Wir behalten uns das Recht vor, unsere Datenschutzrichtlinie zu ändern. Alle Änderungen werden auf dieser Seite veröffentlicht."
-    },
-    "footer": {
-        "item1": "Über",
-        "item2": "Datenschutzrichtlinie",
-        "item3": "Suno-Musik-Downloader",
-        "description": "Erlebe die Zukunft der Musik mit Suno AI. Lade sofort KI-generierte Songs herunter. Erkunde eine Vielzahl von Genres und starte deine musikalische Reise noch heute!",
-        "copyright": "Urheberrecht © 2024 - Alle Rechte vorbehalten",
-        "pricing": "Preise",
-        "legal": "Rechtlich",
-        "links": "Links",
-        "music": "KI-Musikgenerato",
-        "lyrics": "KI-Liedtextgenerator",
-        "tools": "Werkzeuge",
-        "suno": "Suno AI Musik"
-    },
-    "howTo": {
-        "download": {
-            "content": "Unser Suno Musik-Downloader hilft Ihnen, Songs von Suno AI (suno.ai) mit weniger Schritten als die Kopieren-und-Einfügen-Methode herunterzuladen. Der Suno Song Downloader funktioniert perfekt in jedem Browser, mobil und Desktop. Erfahren Sie, wie Sie mit unserer Website ein Suno-Lied speichern können, indem Sie die unten stehenden 'Wie zu' Anweisungen lesen.",
-            "question1": "Wie benutzt man die Suno Song Downloader App?",
-            "answer1": "Sie können den Downloadvorgang von Suno AI über unsere Website auf jedem Gerät mit einem installierten Browser und jedem Betriebssystem (Windows 7, 10, Mac, Linux, Ubuntu usw.) starten. Im Vergleich zur Browsererweiterung ist das Herunterladen über unsere Website einfach, der einzige Unterschied besteht darin, dass Sie einen zusätzlichen Schritt ausführen müssen. Alle Infos finden Sie unten.",
-            "question2": "MUSIK-URL KOPIEREN",
-            "answer2": "Finden Sie das Lied, das Sie von Suno AI speichern möchten, und kopieren Sie den Link vom Teilen-Symbol. Dieses Teilen-Link-Beispiel finden Sie im Abschnitt 'Wie zu'.",
-            "question3": "IN DAS EINGABEFELD EINFÜGEN",
-            "answer3": "Öffnen Sie die Suno Musik-Downloader-Website in einem neuen Tab und fügen Sie die URL in das Formular oben auf der Seite ein. Klicken Sie dann auf den „Download“-Button rechts, um das Lied zu erhalten.",
-            "question4": "SUNO-LIED HERUNTERLADEN",
-            "answer4": "Sobald Sie den Knopf drücken, wird dieses Lied in ein paar Sekunden über Ihren Browser heruntergeladen und in Ihrem Standard-Download-Ordner gespeichert."
-        },
-        "music-generator": {
-            "h2": "Wie man den KI-Musikgenerator verwendet",
-            "btn": "Lied generieren",
-            "step1": {
-                "title": "Mit Texten beginnen",
-                "description": "Geben Sie den Text ein, den Sie für das Lied verwenden möchten. Für beste Ergebnisse können Sie zwei Strophen (8 Zeilen) verwenden."
-            },
-            "step2": {
-                "title": "Wählen Sie Ihren KI-Musikstil",
-                "description": "Beschreiben Sie den gewünschten Musikstil (z. B. akustischer Pop). Die Modelle erkennen keine Künstlernamen, aber sie verstehen Genres und Stimmungen. Bitte verwenden Sie keine Künstlernamen."
-            },
-            "step3": {
-                "title": "Einzigartige Musik erstellen",
-                "description": "Klicken Sie auf die Schaltfläche Generieren, um ein Lied basierend auf Ihrem Text und Ihrem Musikstil zu erstellen. Der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihren Eingaben."
-            },
-            "step4": {
-                "title": "Lied vom KI-Musikgenerator herunterladen",
-                "description": "Sobald das Lied generiert ist, können Sie es auf Ihr Gerät herunterladen. Sie können das Lied für persönliche oder kommerzielle Zwecke verwenden."
-            },
-            "step5": {
-                "title": "Ihr KI-Lied anpassen",
-                "description": "Sie können Ihr Lied anpassen, indem Sie einen Liedtitel und eine Beschreibung hinzufügen. Dies hilft Ihnen, Ihre Lieder zu verfolgen und in Ihrer Bibliothek zu organisieren."
-            },
-            "step6": {
-                "title": "Instrumentale Musik erstellen",
-                "description": "Wenn Sie instrumentale Musik erstellen möchten, können Sie die instrumentale Option auswählen und einen Musiktrack ohne Text generieren."
-            }
-        },
-        "suno-ai-music": {
-            "h2": "Wie man den Suno AI-Musikgenerator verwendet",
-            "btn": "Lied generieren",
-            "step1": {
-                "title": "Geben Sie Ihre lyrische Inspiration an",
-                "description": "Beginnen Sie mit der Eingabe der Texte, die Sie als Grundlage für Ihren Musiktitel verwenden möchten. Für beste Ergebnisse versuchen Sie, zwei Strophen (ungefähr 8 Zeilen) zu verwenden."
-            },
-            "step2": {
-                "title": "Beschreiben Sie Ihren gewünschten Musikstil",
-                "description": "Beschreiben Sie als Nächstes den Musikstil, das Genre oder die Stimmung, die Sie vom Suno AI erfassen möchten. Vermeiden Sie die Verwendung spezifischer Künstlernamen, aber fühlen Sie sich frei, auf allgemeine Stile wie 'akustischer Pop' oder 'filmisches Orchester' zu verweisen."
-            },
-            "step3": {
-                "title": "Lassen Sie Sunos KI seine Magie wirken",
-                "description": "Klicken Sie auf die Schaltfläche 'Lied generieren', und Sunos fortschrittliche KI wird einen einzigartigen Musiktitel erstellen, der auf Ihre lyrischen und stilistischen Vorlieben zugeschnitten ist."
-            },
-            "step4": {
-                "title": "Laden Sie Ihren von Suno generierten Track herunter",
-                "description": "Sobald die KI ihre Arbeit abgeschlossen hat, können Sie den fertigen Musiktitel auf Ihr Gerät herunterladen. Sie können dieses Lied für jeden persönlichen oder kommerziellen Zweck verwenden."
-            },
-            "step5": {
-                "title": "Passen Sie Ihre Suno AI-Kreation an",
-                "description": "Personalisieren Sie Ihren von Suno generierten Musiktitel, indem Sie einen Titel und eine Beschreibung hinzufügen. Dies hilft Ihnen, Ihre wachsende Bibliothek von Songs organisiert und leicht zu referenzieren zu halten."
-            },
-            "step6": {
-                "title": "Erkunden Sie instrumentale Möglichkeiten",
-                "description": "Wenn Sie daran interessiert sind, Hintergrundmusik oder eigenständige Instrumentalstücke zu erstellen, kann der Suno AI-Musikgenerator auch hochwertige Instrumentaltracks erstellen, die Ihren Bedürfnissen entsprechen."
-            }
-        }
-    },
-    "blog": {
-        "blog1": {
-            "title": "1. Was ist Suno AI?",
-            "p1": "Suno AI ist eine innovative Plattform, die die Art und Weise, wie Musik mit künstlicher Intelligenz erstellt wird, revolutioniert. Es ermöglicht Benutzern, vollständige Songs mit originalen Texten, Melodien und Instrumentierung basierend auf Texteingaben zu generieren. Dies bedeutet, dass Sie eine Beschreibung oder ein paar Zeilen Text eingeben können und die KI einen vollständigen Song basierend auf diesen Eingaben erstellt.",
-            "p2": "Der Service hat Aufmerksamkeit erregt, weil er es ermöglicht, schnell Musik zu erstellen, ohne dass traditionelle musikalische Fähigkeiten wie das Spielen eines Instruments oder das Singen erforderlich sind. Benutzer können auf Suno AI über eine Webanwendung zugreifen, die darauf ausgelegt ist, äußerst benutzerfreundlich zu sein und die Musikproduktion einer breiten Zielgruppe unabhängig von ihrem musikalischen Hintergrund zugänglich zu machen."
-        },
-        "blog2": {
-            "title": "2. Warum haben wir Suno Downloader erstellt?",
-            "p1": "Suno AI ist ein großartiges Werkzeug zur Musikproduktion, hat aber einige Einschränkungen. Zum Beispiel können Benutzer nur die von ihnen erstellten Songs herunterladen. Hier kommt Suno Downloader ins Spiel. Suno Downloader ist ein Drittanbieter-Tool, mit dem Benutzer jeden mit Suno AI erstellten Song herunterladen können, auch wenn sie nicht der ursprüngliche Ersteller waren. Dies bedeutet, dass Benutzer problemlos auf Songs zugreifen und sie teilen können, die mit Suno AI erstellt wurden, selbst wenn sie kein Suno AI-Konto haben."
-        },
-        "blog3": {
-            "title": "3. Wer hat Suno AI erstellt?",
-            "p1": "Suno wurde 2023 von vier Personen gegründet: Michael Shulman, Georg Kucsko, Martin Camacho und Keenan Freyberg."
-        },
-        "blog4": {
-            "title": "4. Warum ist Suno AI so beliebt?",
-            "p1": "Suno AI hat aufgrund seines innovativen Ansatzes zur Musikproduktion mithilfe künstlicher Intelligenz schnell an Beliebtheit gewonnen. Hier sind einige wichtige Gründe, warum Suno AI so beliebt geworden ist:",
-            "li1": "Unterstützung mehrerer Sprachen: Suno AI unterstützt mehrere Sprachen und macht sie so für ein breiteres Publikum zugänglich.",
-            "li2": "Kreativer Weg, Musik zu generieren: Suno AI bietet eine einzigartige und innovative Möglichkeit, Musik zu erstellen. Benutzer können vollständige Songs mit originalen Texten, Melodien und Instrumentierung basierend auf Texteingaben generieren.",
-            "li3": "Benutzerfreundlichkeit: Die Plattform bietet eine einfache und intuitive Benutzeroberfläche, mit der Benutzer AI-gestützte Chatbots und Sprachassistenten erstellen können, ohne technisches Know-how zu benötigen.",
-            "li4": "Erschwingliche Preise: Suno AI bietet wettbewerbsfähige Preismodelle, was es zu einer attraktiven Option für kleine und mittlere Unternehmen macht, die KI in ihre Geschäftsabläufe integrieren möchten.",
-            "li5": "Suno AI fördert ein starkes Gemeinschaftsengagement, indem es Herausforderungen veranstaltet und von Benutzern erstellte Tracks präsentiert. Dieser Community-Aspekt trägt dazu bei, eine unterstützende Umgebung zu schaffen, in der Benutzer ihre Musikproduktionsfähigkeiten verbessern können, indem sie lernen, teilen und sich austauschen. Menschen können auch basierend auf der Musik anderer Menschen ihre eigene Musik erstellen. Dies ist eine großartige Möglichkeit für Menschen, miteinander zu interagieren.",
-            "li6": "Suno AI kümmert sich nicht nur um den Audiobereich, sondern integriert auch Visuals in den Musikproduktionsprozess, was es zu einem umfassenden Werkzeug zur Erstellung von Multimedia-Inhalten macht. Diese Funktion ist besonders nützlich für Content-Ersteller, die Musikvideos oder visuelle Präsentationen neben ihrer Musik produzieren möchten.",
-            "p2": "Diese kombinierten Faktoren machen Suno AI zu einer beliebten Wahl für diejenigen, die ihre musikalische Kreativität erkunden oder erweitern möchten, ohne umfangreiche musikalische Vorkenntnisse oder Ressourcen zu benötigen."
-        },
-        "blog5": {
-            "title": "5. Suno vs. Udio",
-            "li1": "Suno AI ist darauf ausgelegt, den Musikproduktionsprozess für Personen ohne vorherige musikalische Ausbildung einfach und zugänglich zu gestalten. Es automatisiert die Erstellung vollständiger Tracks, einschließlich Gesang, und integriert sich gut mit visuellen Elementen, was es besonders attraktiv für Anfänger oder diejenigen macht, die schnell vollständige Songs mit minimalem Aufwand produzieren möchten. Suno AI wird für seine benutzerfreundliche Oberfläche und die Fähigkeit, leicht hochwertige Musik zu produzieren, gelobt.",
-            "li2": "Udio AI hingegen zeichnet sich durch seine fortschrittliche Stimmgenerierungstechnologie aus, die bemerkenswert realistische Gesangsspuren erzeugen kann. Dies macht Udio besonders vorteilhaft für Benutzer, die möglicherweise keine starken Gesangsfähigkeiten haben, aber überzeugende vokale Elemente in ihrer Musik haben möchten. Anfangs war Udios Funktionalität auf die Erstellung von 30-Sekunden-Schnipseln beschränkt, aber inzwischen hat es seine Fähigkeiten erweitert, um Kompositionen von bis zu vier Minuten Länge zu ermöglichen. Udio bietet eine übersichtliche Oberfläche mit sowohl automatisch generierten als auch manuellen Modusoptionen für Texte und Musik, was sowohl Neulinge in der Musikproduktion als auch Personen ohne musikalischen Hintergrund anspricht.",
-            "li3": "Zusammenfassend lässt sich sagen, dass Sie, wenn Sie nach einer super einfachen und schnellen Möglichkeit suchen, Ihre eigenen vollständigen Musiktracks zu erstellen, mit Suno AI definitiv gut beraten sind. Es ist perfekt für Anfänger oder alle, die keine musikalische Vorbildung haben, aber trotzdem einige großartige Melodien erstellen möchten. Wenn Sie jedoch mehr an fortgeschrittener Stimmgenerierung interessiert sind und längere, persönlichere Musikstücke erstellen möchten, auch ohne formale Schulung, könnte Udio AI eher Ihrem Geschmack entsprechen."
-        },
-        "blog6": {
-            "title": "6. Wird Suno die Musikindustrie beeinflussen?",
-            "p1": "Die Auswirkungen von KI-gesteuerten Musikgenerierungsplattformen wie Suno AI auf Künstler sind ein Thema kontinuierlicher Diskussionen in der Musikindustrie. Obwohl diese Tools das Potenzial haben, die Musikproduktion zu demokratisieren und neue Möglichkeiten zu bieten, können sie auch einige Herausforderungen für professionelle Künstler darstellen. Hier sind einige mögliche Auswirkungen:",
-            "li1": "Zunehmender Wettbewerb: Mit der Möglichkeit für mehr Menschen, Musik mit KI-Tools zu erstellen, könnte das Gesamtangebot an Musik zunehmen, was es einzelnen Künstlern möglicherweise erschwert, sich abzuheben.",
-            "li2": "Änderungen im kreativen Prozess: Einige Künstler könnten der Ansicht sein, dass von KI generierte Musik den menschlichen Touch und die emotionale Tiefe, die aus dem traditionellen kreativen Prozess resultieren, vermissen lässt.",
-            "li3": "Bedenken hinsichtlich der Originalität: Es könnten Fragen zur Originalität und Authentizität von mit KI erstellter Musik aufkommen, was die Wahrnehmung und den Wert solcher Musik durch Zuhörer beeinflussen könnte.",
-            "li4": "Potenzielle Auswirkungen auf die Einnahmen: Wenn KI-generierte Musik weit verbreitet und beliebt wird, könnte dies die Nachfrage nach menschlich erstellter Musik möglicherweise reduzieren und damit die Einkommensströme von Künstlern beeinträchtigen.",
-            "li5": "Verlagerung des Fokus auf Live-Auftritte: Künstler könnten einen größeren Schwerpunkt auf Live-Auftritte, Geschichtenerzählen und die Schaffung einzigartiger Erlebnisse legen, die von KI nicht repliziert werden können.",
-            "p2": "Es ist wichtig zu beachten, dass die langfristigen Auswirkungen von KI auf die Musikindustrie noch immer im Gange sind und wahrscheinlich von Faktoren wie den spezifischen verwendeten KI-Tools, den Rollen menschlicher Schöpfer und der Rezeption von KI-generierter Musik durch das Publikum abhängen werden. Wie bei jedem technologischen Fortschritt wird es sowohl Herausforderungen als auch Chancen für Künstler geben, die sich in diesem sich entwickelnden Umfeld bewegen."
-        }
-    },
-    "header": {
-        "title": "Suno-Musik-Downloader",
-        "tool": "KI-Musikgenerator",
-        "discover": "Entdecken",
-        "pricing": "Preise",
-        "library": "Meine Bibliothek",
-        "billing": "Abrechnung",
-        "logout": "Abmelden",
-        "signin": "Anmelden",
-        "tool1": "KI-Liedtextgenerator",
-        "tool2": "Suno AI Musik",
-        "ai-tool-dropdown": "KI-Tools"
-    },
-    "signin": {
-        "home": "Startseite",
-        "signin": "Anmelden bei Suno-Musik-Downloader",
-        "signup": "Mit Google anmelden"
-    },
-    "stripe": {
-        "Composer": {
-            "name": "Komponist",
-            "description": "Beginnen Sie Ihre KI-Musikreise",
-            "features": {
-                "songs": "200 Lieder",
-                "credits": "100 Credits für die Generierung",
-                "pricePerGeneration": "$0.06 pro Generierung",
-                "lyricsCredits": "100 Credits für die Textgenerierung",
-                "priorityQueue": "Priorisierte Generierungswarteschlange",
-                "downloads": "Unbegrenzte Downloads"
-            }
-        },
-        "Maestro": {
-            "name": "Maestro",
-            "description": "Unbegrenzte musikalische Möglichkeiten",
-            "features": {
-                "songs": "1200 Lieder",
-                "credits": "600 Credits für die Generierung",
-                "pricePerGeneration": "$0.026 pro Generierung",
-                "lyricsCredits": "600 Credits für die Textgenerierung",
-                "priorityQueue": "Priorisierte Generierungswarteschlange",
-                "downloads": "Unbegrenzte Downloads"
-            }
-        },
-        "Producer": {
-            "name": "Produzent",
-            "description": "Verstärken Sie Ihre kreative Leistung",
-            "features": {
-                "songs": "600 Lieder",
-                "credits": "300 Credits für die Generierung",
-                "pricePerGeneration": "$0.033 pro Generierung",
-                "lyricsCredits": "300 Credits für die Textgenerierung",
-                "priorityQueue": "Priorisierte Generierungswarteschlange",
-                "downloads": "Unbegrenzte Downloads"
-            }
-        },
-        "Virtuoso": {
-            "name": "Virtuoso",
-            "description": "Tauchen Sie ein in die Welt der Musik",
-            "features": {
-                "songs": "3000 Songs",
-                "credits": "1500 Credits für die Generierung",
-                "pricePerGeneration": "0,019 $ pro Generation",
-                "lyricsCredits": "1500 Credits für die Generierung von Texten",
-                "priorityQueue": "Prioritätsgenerierungswarteschlange",
-                "downloads": "Unbegrenzte Downloads"
-            }
-        },
-        "Free": {
-            "name": "Kostenlos",
-            "description": "Kostenloser Plan",
-            "features": {
-                "songs": "6 Lieder",
-                "credits": "3 Credits für die Generierung",
-                "lyricsCredits": "3 Credits für die Textgenerierung",
-                "priorityQueue": "Geteilte Generierungswarteschlange",
-                "history": "15 Tage Historie"
-            }
-        },
-        "title": "AI Musik Preisgestaltung",
-        "subtitle": "Wählen Sie den besten Plan für sich aus",
-        "button": "Jetzt komponieren",
-        "featured": "Beliebt",
-        "credit": "Credits",
-        "one-time": "Einmalzahlung",
-        "seo-title": "AI Musik Generator Preisgestaltung",
-        "seo-description": "Wählen Sie den Plan, der Ihren Bedürfnissen entspricht. Beginnen Sie heute Ihre AI-Musikreise.",
-        "inquire": "Für Anfragen oder Unterstützung kontaktieren Sie uns bitte unter",
-        "free-button": "Kostenlos starten"
-    },
-    "ai-music-generator": {
-        "title": "KI-Musikgenerator",
-        "description": "Erstelle einzigartige Musik mit dem KI-Musikgenerator, kann für persönliche und kommerzielle Zwecke verwendet werden.",
-        "button": "Lied generieren",
-        "seo-title": "Kostenloser KI-Musikgenerator",
-        "seo-description": "Erstelle kostenlos KI-Musik mit dem KI-Musikgenerator. Erstelle unbegrenzt Musikstücke und nutze sie überall.",
-        "credits": "Anzahl der Credits",
-        "free-credits": "Anzahl der kostenlosen Credits",
-        "lyrics": "KI-Textgenerator",
-        "lyrics-placeholder": "Geben Sie hier die Liedtexte ein und drücken Sie den Generieren-Button, um ein Lied zu erstellen.",
-        "lyrics-label": "Liedtexte",
-        "lyrics-tooltip": "Verwenden Sie zwei Strophen (8 Zeilen) für beste Ergebnisse.",
-        "ask-login1": "Melden Sie sich an, um",
-        "ask-login2": "kostenlose Credits zu genießen",
-        "music-style": "Musikstil",
-        "music-style-tooltip": "Beschreiben Sie den gewünschten Musikstil (z.B. 'Akustik-Pop'). Die Modelle erkennen keine Künstlernamen, verstehen aber Genres und Stimmungen.",
-        "music-style-placeholder": "Geben Sie hier den Musikstil ein",
-        "song-title": "Liedtitel",
-        "song-title-tooltip": "Geben Sie dem Lied einen Titel zum Teilen.",
-        "song-title-placeholder": "Geben Sie hier den Liedtitel ein",
-        "custom": "Benutzerdefiniert",
-        "instrumental": "Instrumental",
-        "instrumental-tooltip": "Musik ohne Text",
-        "isloading": "Bitte warten Sie, während wir Ihr Lied generieren, dies kann einige Minuten dauern. Oder Sie können später in Ihrer",
-        "library": "Musikbibliothek nachsehen",
-        "credits-alert": "Sie haben keine Credits mehr, bitte kaufen Sie mehr Credits",
-        "lyrics-length-alert": "Die Liedtexte sollten mindestens 200 Zeichen lang sein",
-        "style-length-alert": "Der Musikstil darf nicht leer sein",
-        "title-length-alert": "Der Liedtitel darf nicht leer sein",
-        "custom-description-alert": "Die Beschreibung des Liedes darf nicht leer sein!",
-        "custom-instrumental-style-length-alert": "Der Musikstil darf nicht leer sein",
-        "custom-instrumental-title-length-alert": "Der Liedtitel darf nicht leer sein",
-        "song-description": "Liedbeschreibung",
-        "song-description-tooltip": "Beschreibe das Lied, das du erstellen möchtest.",
-        "song-description-placeholder": "Ein futuristisches Popsong über Liebe",
-        "violence-alert": "Bitte fügen Sie keine Künstlernamen oder gewalttätige, sexuelle oder anstößige Inhalte in Ihren Texten oder Ihrem Titel ein. Andernfalls könnte Ihr Song abgelehnt werden."
+    "music-generator": {
+      "h2": "KI-Musikgenerator-FAQ",
+      "q1": {
+        "question": "Was ist der KI-Musikgenerator?",
+        "answer": "Allgemein gesagt ist der KI-Musikgenerator ein Tool, das Künstliche Intelligenz nutzt, um Musikstücke basierend auf deinen Eingaben zu erstellen. Er kann in Minuten einzigartige Musikstücke generieren. Du benötigst keine musikalischen Fähigkeiten, um den KI-Musikgenerator zu verwenden."
+      },
+      "q2": {
+        "question": "Wie funktioniert der KI-Musikgenerator?",
+        "answer": "Der KI-Musikgenerator verwendet fortschrittliche KI-Technologie, um Musikstücke basierend auf deinen Eingaben zu erstellen. Du musst lediglich die Texte eingeben, die du verwenden möchtest, und den gewünschten Musikstil beschreiben, und der KI-Musikgenerator wird ein einzigartiges Stück für dich generieren."
+      },
+      "q3": {
+        "question": "Wofür kann ich den KI-Musikgenerator verwenden?",
+        "answer": "Der KI-Musikgenerator kann für eine Vielzahl von Zwecken verwendet werden, einschließlich der Erstellung von Hintergrundmusik für Videos, Podcasts und Präsentationen, der Generierung von Musik für persönliche Projekte und der Erkundung verschiedener Musikstile."
+      },
+      "q4": {
+        "question": "Ist der KI-Musikgenerator kostenlos nutzbar?",
+        "answer": "Der KI-Musikgenerator bietet einen kostenlosen Tarif, der dir die Erstellung einer begrenzten Anzahl von Musikstücken ermöglicht. Für unbegrenzten Zugriff auf den KI-Musikgenerator kannst du einen Premium-Tarif buchen."
+      },
+      "q5": {
+        "question": "Kann ich den KI-Musikgenerator für kommerzielle Zwecke nutzen?",
+        "answer": "Ja, sobald du deinen Premium-Tarif gewählt hast. Du kannst die vom KI-Musikgenerator generierten Musikstücke für kommerzielle Zwecke verwenden. Du hast die vollen Rechte an den von dir erstellten Musikstücken."
+      },
+      "q6": {
+        "question": "Wie lange dauert es, ein Musikstück zu generieren?",
+        "answer": "Der KI-Musikgenerator kann ein Musikstück in Minuten erstellen. Die genaue Zeit kann je nach Komplexität des Stücks und Serverauslastung variieren."
+      },
+      "q7": {
+        "question": "Kann ich die vom KI-Musikgenerator generierten Musikstücke anpassen?",
+        "answer": "Ja, du kannst die Musikstücke anpassen, indem du ihnen einen Titel und eine Beschreibung hinzufügst. Dies hilft dir dabei, deine Musikstücke nachzuverfolgen und in deiner Bibliothek zu organisieren."
+      },
+      "q8": {
+        "question": "Kann ich mit dem KI-Musikgenerator auch Instrumentalmusik generieren?",
+        "answer": "Ja, du kannst mit dem KI-Musikgenerator Instrumentalmusik generieren. Wähle einfach die Option für Instrumentalmusik aus, wenn du ein Musikstück erstellst."
+      },
+      "q9": {
+        "question": "Was bedeuten die Guthaben im KI-Musikgenerator?",
+        "answer": "Guthaben werden verwendet, um Musikstücke mit dem KI-Musikgenerator zu erstellen. Jeder Tarif beinhaltet eine bestimmte Anzahl von Guthaben, die zum Generieren von Musikstücken verwendet werden können. Sobald dein Guthaben aufgebraucht ist, kannst du weitere Guthaben kaufen, um weiterhin Musikstücke zu erstellen."
+      }
     },
     "suno-ai-music": {
-        "title": "Kostenloser Suno AI Musikgenerator",
-        "description": "Erstellen Sie einzigartige Musik mit dem Suno AI Musikgenerator, der für persönliche und kommerzielle Zwecke verwendet werden kann.",
-        "seo-title": "Erstellen Sie AI-Musik aus Text | Suno AI Musikgenerator",
-        "seo-description": "Verwandeln Sie Ihre Fantasie in Musik mit dem Suno AI Musikgenerator. Drücken Sie sich mit einzigartigen Musikstücken aus. Jetzt ausprobieren!"
-    },
-    "features": {
-        "ai-music-generator": {
-            "h2": "KI-Musikgenerator-Funktionen",
-            "description": "Der KI-Musikgenerator ist ein hochmodernes Tool, mit dem Sie in wenigen Minuten einzigartige Musiktitel erstellen können. Mit einer breiten Palette von Funktionen ist der KI-Musikgenerator das perfekte Tool für Musiker, Content-Ersteller und Musikbegeisterte.",
-            "feature1": {
-                "title": "Blitzschnelle Generierung",
-                "description": "Mit der hochmodernen KI-Technologie kann der KI-Musikgenerator in wenigen Minuten einzigartige Musiktitel erstellen."
-            },
-            "feature2": {
-                "title": "Unbegrenzte Downloads",
-                "description": "Laden Sie so viele Songs herunter, wie Sie möchten, ohne Einschränkungen, sobald Sie sich einloggen."
-            },
-            "feature3": {
-                "title": "Benutzerdefinierter Musikstil",
-                "description": "Beschreiben Sie den gewünschten Musikstil, und der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihrer Beschreibung."
-            },
-            "feature4": {
-                "title": "Kostenlos zu verwenden",
-                "description": "Der KI-Musikgenerator ist für persönliche und kommerzielle Zwecke kostenlos zu verwenden, wenn Sie einen Kaufplan haben."
-            },
-            "feature5": {
-                "title": "Nicht nur Lieder",
-                "description": "Der KI-Musikgenerator kann auch instrumentale Musiktitel erstellen."
-            }
-        },
-        "suno-ai-music": {
-            "h2": "Entfesseln Sie Ihre Kreativität mit dem Suno AI Musikgenerator",
-            "description": "Der von KI betriebene Musikgenerator von Suno ist ein revolutionäres Tool, das es Ihnen ermöglicht, in wenigen Minuten einzigartige, professionelle Musikstücke zu erstellen. Egal, ob Sie ein erfahrener Musiker oder ein angehender Schöpfer sind",
-            "feature1": {
-                "title": "Effortless Music Generation",
-                "description": "Die fortschrittlichen KI-Algorithmen von Suno analysieren Ihre Eingaben und generieren sofort einen auf Ihre Vision zugeschnittenen Musiktitel. Es sind keine musikalischen Vorkenntnisse erforderlich - beschreiben Sie einfach die Stimmung und lassen Sie Sunos KI den Rest erledigen."
-            },
-            "feature2": {
-                "title": "Unbegrenzte kreative Freiheit",
-                "description": "Erkunden Sie endlose musikalische Möglichkeiten mit Sunos unbegrenzten Musikgenerierungsmöglichkeiten. Laden Sie so viele Tracks herunter, wie Sie benötigen, ohne Einschränkungen oder zusätzliche Kosten."
-            },
-            "feature3": {
-                "title": "Personalisierte Musikstile",
-                "description": "Der Suno AI Musikgenerator ermöglicht es Ihnen, den genauen Stil, das Genre und die Stimmung anzugeben, die Sie wünschen, um sicherzustellen, dass Ihre Musik perfekt zu Ihrer kreativen Vision passt."
-            },
-            "feature4": {
-                "title": "Kostenlose und Premium-Pläne",
-                "description": "Suno bietet einen kostenlosen Plan, um Ihnen den Einstieg zu erleichtern, sowie Premium-Abonnements, die erweiterte Funktionen und unbegrenzte Musikgenerierung für kommerzielle Zwecke freischalten."
-            },
-            "feature5": {
-                "title": "Instrumentale Meisterwerke",
-                "description": "Zusätzlich zu kompletten Songs kann Sunos KI auch fesselnde Instrumentaltitel generieren, um Ihre Projekte, Veranstaltungen oder persönlichen Wiedergabelisten zu verbessern."
-            }
-        }
-    },
-    "cta": {
-        "ai-music-generator": {
-            "h2": "AI-Musikgenerator",
-            "description": "Entfalten Sie Ihre Kreativität mit dem AI-Musikgenerator. Erstellen Sie unbegrenzte Musiktitel und verwenden Sie sie überall.",
-            "btn": "AI-Musik erstellen"
-        },
-        "suno-ai-music": {
-            "h2": "Entdecken Sie Ihr musikalisches Potenzial mit Suno",
-            "description": "Erkunden Sie die grenzenlosen Möglichkeiten der KI-gestützten Musikerstellung mit Suno. Generieren Sie einzigartige Tracks für jeden Zweck und entfesseln Sie Ihre Kreativität wie nie zuvor.",
-            "btn": "Mit Suno erstellen"
-        }
-    },
-    "usage": {
-        "ai-music-generator": {
-            "paragraph1": {
-                "title": "Kein Musiker? Kein Problem!",
-                "description": "Mit dem AI-Musikgenerator müssen Sie kein Musiker sein, um Musik zu erstellen. Sie können den AI-Musikgenerator verwenden, um Musiktitel für Ihre eigenen Songs mit jedem Stil und Text zu erstellen."
-            },
-            "paragraph2": {
-                "title": "Den perfekten Stil einfangen",
-                "description": "Haben Sie etwas im Kopf? Sie können einfach die Melodie oder den Text summen, und der AI-Musikgenerator erstellt einen Musiktitel für Sie im perfekten Stil."
-            },
-            "paragraph3": {
-                "title": "Nicht nur Lieder",
-                "description": "Der AI-Musikgenerator kann auch instrumentale Musiktitel erstellen. Das Erstellen von Instrumentalmusik ist so einfach wie das Atmen. Geben Sie einfach Ihren Stil ein und lassen Sie den AI-Musikgenerator den Rest erledigen."
-            },
-            "paragraph4": {
-                "title": "Perfekt für jeden Anlass",
-                "description": "Fehlen Ihnen Ideen für das Spielen auf einer Party? Der AI-Musikgenerator kann Ihnen dabei helfen. Beschreiben Sie einfach die Stimmung oder die Stimmung und der AI-Musikgenerator wird die perfekte Musik für diese Gelegenheit auswählen."
-            },
-            "btn": "AI-Musik erstellen"
-        },
-        "suno-ai-music": {
-            "paragraph1": {
-                "title": "Musik komponieren ohne musikalische Expertise",
-                "description": "Der Suno AI Musikgenerator ermöglicht es jedem, unabhängig von seinem musikalischen Hintergrund, professionell klingende Musik zu erstellen. Beschreiben Sie einfach den gewünschten Stil und lassen Sie Sunos KI den Rest erledigen."
-            },
-            "paragraph2": {
-                "title": "Die perfekte Stimmung und Atmosphäre einfangen",
-                "description": "Ob Sie fröhliche, energiegeladene Musik für eine Party oder einen beruhigenden, stimmungsvollen Track für ein Entspannungsvideo benötigen, Sunos KI kann den perfekten Soundtrack erstellen, der zu Ihrer kreativen Vision passt."
-            },
-            "paragraph3": {
-                "title": "Instrumentale Tracks für jedes Projekt",
-                "description": "Der Suno AI Musikgenerator zeichnet sich durch die Erstellung fesselnder Instrumentalstücke aus, was ihn zum idealen Werkzeug macht, um Videos, Podcasts, Präsentationen und mehr mit der perfekten Hintergrundmusik zu verbessern."
-            },
-            "paragraph4": {
-                "title": "Musik für jeden Anlass",
-                "description": "Haben Sie Schwierigkeiten, die richtige Musik für Ihre Veranstaltung, Ihr Video oder Ihr persönliches Projekt zu finden? Sunos KI kann den perfekten Track basierend auf Ihrer Beschreibung generieren und sicherstellen, dass Ihre kreative Vision zum Leben erweckt wird."
-            },
-            "btn": "Suno AI Musikgenerator ausprobieren"
-        }
+      "h2": "Suno AI Musikgenerator: Häufig gestellte Fragen",
+      "q1": {
+        "question": "Was ist der Suno AI Musikgenerator?",
+        "answer": "Der Suno AI Musikgenerator ist ein revolutionäres Tool, das mithilfe von künstlicher Intelligenz einzigartige, hochwertige Musiktitel basierend auf Ihren Eingaben erstellt. Er ermöglicht Benutzern aller Niveaus, ohne vorherige musikalische Ausbildung professionell klingende Musik zu komponieren."
+      },
+      "q2": {
+        "question": "Wie funktioniert der Suno AI Musikgenerator?",
+        "answer": "Der Suno AI Musikgenerator verwendet modernste Machine-Learning-Algorithmen, um Ihre Präferenzen und die Beschreibung des gewünschten Musikstils zu analysieren. Anschließend generiert er einen auf Ihre Vision zugeschnittenen, individuellen Musiktitel, ohne dass manuelle Komposition oder musikalische Expertise erforderlich ist."
+      },
+      "q3": {
+        "question": "Wofür kann ich den Suno AI Musikgenerator verwenden?",
+        "answer": "Der Suno AI Musikgenerator kann für eine Vielzahl von Anwendungen verwendet werden, wie zum Beispiel das Erstellen von Hintergrundmusik für Videos, Podcasts und Präsentationen, das Generieren von Tracks für persönliche Projekte oder das Erkunden neuer musikalischer Stile und Genres."
+      },
+      "q4": {
+        "question": "Ist der Suno AI Musikgenerator kostenlos zu verwenden?",
+        "answer": "Suno bietet einen kostenlosen Plan, der es Ihnen ermöglicht, eine begrenzte Anzahl von Musiktiteln zu generieren. Für unbegrenzten Zugriff und kommerzielle Nutzung können Sie auf einen der Premium-Abonnementpläne von Suno upgraden."
+      },
+      "q5": {
+        "question": "Kann ich die von Suno generierten AI-Musiktitel für kommerzielle Zwecke verwenden?",
+        "answer": "Absolut! Mit den Premium-Plänen von Suno haben Sie die vollen Rechte, die von Ihnen erstellten Musiktitel für jeden kommerziellen oder persönlichen Zweck ohne Einschränkungen zu verwenden."
+      },
+      "q6": {
+        "question": "Wie schnell kann der Suno AI Musikgenerator einen Track erstellen?",
+        "answer": "Der Suno AI Musikgenerator kann einen benutzerdefinierten Track in nur wenigen Minuten erstellen, abhängig von der Komplexität der gewünschten Musik und der aktuellen Serverauslastung."
+      },
+      "q7": {
+        "question": "Kann ich die von Suno generierten Musiktitel anpassen?",
+        "answer": "Ja, Sie können die Musiktitel anpassen, indem Sie einen Titel und eine Beschreibung hinzufügen, die Ihnen helfen, Ihre wachsende Bibliothek von Suno-generierter Musik zu organisieren und zu verwalten."
+      },
+      "q8": {
+        "question": "Kann ich mit dem Suno AI Musikgenerator instrumentale Musik erstellen?",
+        "answer": "Ja, der Suno AI Musikgenerator bietet die Möglichkeit, fesselnde instrumentale Tracks zu generieren, die sich perfekt als Hintergrundmusik, Klanglandschaften oder eigenständige Kompositionen eignen."
+      },
+      "q9": {
+        "question": "Was sind Credits im Suno AI Musikgenerator?",
+        "answer": "Credits sind die Währung, die verwendet wird, um mit dem Suno AI Musikgenerator Musiktitel zu generieren. Jeder Suno-Plan enthält eine bestimmte Anzahl von Credits, die zur Erstellung neuer Musik verwendet werden können. Wenn Sie Ihre Credits erschöpft haben, können Sie weitere kaufen, um Ihre kreative Reise fortzusetzen."
+      }
     }
+  },
+  "about": {
+    "h1": "Über",
+    "p1": "Willkommen bei",
+    "a": "Suno-Songs-Downloader",
+    "p2": "Ihrer Hauptanlaufstelle, um ganz einfach Suno-Musik auf jedem Gerät herunterzuladen - ob Computer, Tablet oder Mobiltelefon. Unsere Plattform vereinfacht den Musikdownload-Prozess und macht ihn zugänglich, schnell und vor allem kostenlos.",
+    "p3": "Wir bieten einen schnellen, zuverlässigen und völlig kostenlosen Service, damit Sie unbegrenzt Suno-AI-Musik herunterladen können, ohne Probleme zu haben. Unsere Downloads sind schnell und benutzerfreundlich, sodass alle Vorgänge für Ihre Bequemlichkeit optimiert sind. Kopieren Sie einfach den Link des Suno-Songs, den Sie herunterladen möchten, fügen Sie ihn auf der Hauptseite unserer Website ein und klicken Sie auf “Herunterladen”. So einfach ist das!",
+    "p4": "Wir sind bestrebt, Ihr Erlebnis zu verbessern. Unser Team aktualisiert den Suno-Musik-Downloader regelmäßig, um den Download-Prozess und die Website-Funktionalität zu optimieren, damit Sie unseren Service voll ausnutzen können. Gelegentliche technische Anpassungen im Backend können sich jedoch auf die Ladezeiten auswirken. Seien Sie versichert, dass wir hart daran arbeiten, Probleme schnell zu beheben und Unterbrechungen Ihrer Musik-Download-Aktivitäten zu minimieren."
+  },
+  "privacy": {
+    "h1": "Datenschutzrichtlinie",
+    "p1": "Durch die Nutzung von",
+    "a": "Suno-Musik-Downloader",
+    "p2": "stimmen Sie zu, die auf dieser Seite dargelegten Datenschutzrichtlinien einzuhalten:",
+    "p-strong1": "Informationen, die wir nicht sammeln:",
+    "p3": "Wir sammeln keinerlei persönliche Informationen von unseren Nutzern. Ihr Datenschutz und Ihre Sicherheit haben für uns höchste Priorität.",
+    "p-strong2": "Verwendung von Cookies:",
+    "p4": "Um Ihr Erlebnis zu verbessern, verwendet der Suno-Musik-Downloader Google Analytics Cookies, die uns dabei helfen, Ihre Einstellungen zu verstehen und für zukünftige Besuche zu speichern. Cookies sind kleine Datendateien, die über Ihren Webbrowser (mit Ihrer Erlaubnis) auf die Festplatte Ihres Geräts übertragen werden und es einer Website ermöglichen, Ihren Browser zu erkennen und bestimmte Informationen für die zukünftige Nutzung zu erfassen.",
+    "p-strong3": "Informationsaustausch:",
+    "p5": "Wir verkaufen, handeln oder übertragen Ihre persönlich identifizierbaren Informationen nicht an externe Parteien. Dies schließt vertrauenswürdige Dritte aus, die uns bei Websitebetrieb, Geschäftsführung oder Kundenservice unterstützen, vorausgesetzt, sie verpflichten sich, diese Informationen vertraulich zu behandeln. Wir können Ihre Informationen weitergeben, wenn dies zur Einhaltung gesetzlicher Verpflichtungen, zur Durchsetzung unserer Website-Richtlinien oder zum Schutz der Rechte, des Eigentums oder der Sicherheit unserer Nutzer oder anderer erforderlich ist. Nicht-persönlich identifizierbare Besucherinformationen können jedoch für Marketing-, Werbe- oder andere Zwecke geteilt werden.",
+    "p-strong4": "Aktualisierungen der Datenschutzrichtlinie:",
+    "p6": "Wir behalten uns das Recht vor, unsere Datenschutzrichtlinie zu ändern. Alle Änderungen werden auf dieser Seite veröffentlicht."
+  },
+  "footer": {
+    "item1": "Über",
+    "item2": "Datenschutzrichtlinie",
+    "item3": "Suno-Musik-Downloader",
+    "description": "Erlebe die Zukunft der Musik mit Suno AI. Lade sofort KI-generierte Songs herunter. Erkunde eine Vielzahl von Genres und starte deine musikalische Reise noch heute!",
+    "copyright": "Urheberrecht © 2024 - Alle Rechte vorbehalten",
+    "pricing": "Preise",
+    "legal": "Rechtlich",
+    "links": "Links",
+    "music": "KI-Musikgenerato",
+    "lyrics": "KI-Liedtextgenerator",
+    "tools": "Werkzeuge",
+    "suno": "Suno AI Musik"
+  },
+  "howTo": {
+    "download": {
+      "content": "Unser Suno Musik-Downloader hilft Ihnen, Songs von Suno AI (suno.ai) mit weniger Schritten als die Kopieren-und-Einfügen-Methode herunterzuladen. Der Suno Song Downloader funktioniert perfekt in jedem Browser, mobil und Desktop. Erfahren Sie, wie Sie mit unserer Website ein Suno-Lied speichern können, indem Sie die unten stehenden 'Wie zu' Anweisungen lesen.",
+      "question1": "Wie benutzt man die Suno Song Downloader App?",
+      "answer1": "Sie können den Downloadvorgang von Suno AI über unsere Website auf jedem Gerät mit einem installierten Browser und jedem Betriebssystem (Windows 7, 10, Mac, Linux, Ubuntu usw.) starten. Im Vergleich zur Browsererweiterung ist das Herunterladen über unsere Website einfach, der einzige Unterschied besteht darin, dass Sie einen zusätzlichen Schritt ausführen müssen. Alle Infos finden Sie unten.",
+      "question2": "MUSIK-URL KOPIEREN",
+      "answer2": "Finden Sie das Lied, das Sie von Suno AI speichern möchten, und kopieren Sie den Link vom Teilen-Symbol. Dieses Teilen-Link-Beispiel finden Sie im Abschnitt 'Wie zu'.",
+      "question3": "IN DAS EINGABEFELD EINFÜGEN",
+      "answer3": "Öffnen Sie die Suno Musik-Downloader-Website in einem neuen Tab und fügen Sie die URL in das Formular oben auf der Seite ein. Klicken Sie dann auf den „Download“-Button rechts, um das Lied zu erhalten.",
+      "question4": "SUNO-LIED HERUNTERLADEN",
+      "answer4": "Sobald Sie den Knopf drücken, wird dieses Lied in ein paar Sekunden über Ihren Browser heruntergeladen und in Ihrem Standard-Download-Ordner gespeichert."
+    },
+    "music-generator": {
+      "h2": "Wie man den KI-Musikgenerator verwendet",
+      "btn": "Lied generieren",
+      "step1": {
+        "title": "Mit Texten beginnen",
+        "description": "Geben Sie den Text ein, den Sie für das Lied verwenden möchten. Für beste Ergebnisse können Sie zwei Strophen (8 Zeilen) verwenden."
+      },
+      "step2": {
+        "title": "Wählen Sie Ihren KI-Musikstil",
+        "description": "Beschreiben Sie den gewünschten Musikstil (z. B. akustischer Pop). Die Modelle erkennen keine Künstlernamen, aber sie verstehen Genres und Stimmungen. Bitte verwenden Sie keine Künstlernamen."
+      },
+      "step3": {
+        "title": "Einzigartige Musik erstellen",
+        "description": "Klicken Sie auf die Schaltfläche Generieren, um ein Lied basierend auf Ihrem Text und Ihrem Musikstil zu erstellen. Der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihren Eingaben."
+      },
+      "step4": {
+        "title": "Lied vom KI-Musikgenerator herunterladen",
+        "description": "Sobald das Lied generiert ist, können Sie es auf Ihr Gerät herunterladen. Sie können das Lied für persönliche oder kommerzielle Zwecke verwenden."
+      },
+      "step5": {
+        "title": "Ihr KI-Lied anpassen",
+        "description": "Sie können Ihr Lied anpassen, indem Sie einen Liedtitel und eine Beschreibung hinzufügen. Dies hilft Ihnen, Ihre Lieder zu verfolgen und in Ihrer Bibliothek zu organisieren."
+      },
+      "step6": {
+        "title": "Instrumentale Musik erstellen",
+        "description": "Wenn Sie instrumentale Musik erstellen möchten, können Sie die instrumentale Option auswählen und einen Musiktrack ohne Text generieren."
+      }
+    },
+    "suno-ai-music": {
+      "h2": "Wie man den Suno AI-Musikgenerator verwendet",
+      "btn": "Lied generieren",
+      "step1": {
+        "title": "Geben Sie Ihre lyrische Inspiration an",
+        "description": "Beginnen Sie mit der Eingabe der Texte, die Sie als Grundlage für Ihren Musiktitel verwenden möchten. Für beste Ergebnisse versuchen Sie, zwei Strophen (ungefähr 8 Zeilen) zu verwenden."
+      },
+      "step2": {
+        "title": "Beschreiben Sie Ihren gewünschten Musikstil",
+        "description": "Beschreiben Sie als Nächstes den Musikstil, das Genre oder die Stimmung, die Sie vom Suno AI erfassen möchten. Vermeiden Sie die Verwendung spezifischer Künstlernamen, aber fühlen Sie sich frei, auf allgemeine Stile wie 'akustischer Pop' oder 'filmisches Orchester' zu verweisen."
+      },
+      "step3": {
+        "title": "Lassen Sie Sunos KI seine Magie wirken",
+        "description": "Klicken Sie auf die Schaltfläche 'Lied generieren', und Sunos fortschrittliche KI wird einen einzigartigen Musiktitel erstellen, der auf Ihre lyrischen und stilistischen Vorlieben zugeschnitten ist."
+      },
+      "step4": {
+        "title": "Laden Sie Ihren von Suno generierten Track herunter",
+        "description": "Sobald die KI ihre Arbeit abgeschlossen hat, können Sie den fertigen Musiktitel auf Ihr Gerät herunterladen. Sie können dieses Lied für jeden persönlichen oder kommerziellen Zweck verwenden."
+      },
+      "step5": {
+        "title": "Passen Sie Ihre Suno AI-Kreation an",
+        "description": "Personalisieren Sie Ihren von Suno generierten Musiktitel, indem Sie einen Titel und eine Beschreibung hinzufügen. Dies hilft Ihnen, Ihre wachsende Bibliothek von Songs organisiert und leicht zu referenzieren zu halten."
+      },
+      "step6": {
+        "title": "Erkunden Sie instrumentale Möglichkeiten",
+        "description": "Wenn Sie daran interessiert sind, Hintergrundmusik oder eigenständige Instrumentalstücke zu erstellen, kann der Suno AI-Musikgenerator auch hochwertige Instrumentaltracks erstellen, die Ihren Bedürfnissen entsprechen."
+      }
+    }
+  },
+  "blog": {
+    "blog1": {
+      "title": "1. Was ist Suno AI?",
+      "p1": "Suno AI ist eine innovative Plattform, die die Art und Weise, wie Musik mit künstlicher Intelligenz erstellt wird, revolutioniert. Es ermöglicht Benutzern, vollständige Songs mit originalen Texten, Melodien und Instrumentierung basierend auf Texteingaben zu generieren. Dies bedeutet, dass Sie eine Beschreibung oder ein paar Zeilen Text eingeben können und die KI einen vollständigen Song basierend auf diesen Eingaben erstellt.",
+      "p2": "Der Service hat Aufmerksamkeit erregt, weil er es ermöglicht, schnell Musik zu erstellen, ohne dass traditionelle musikalische Fähigkeiten wie das Spielen eines Instruments oder das Singen erforderlich sind. Benutzer können auf Suno AI über eine Webanwendung zugreifen, die darauf ausgelegt ist, äußerst benutzerfreundlich zu sein und die Musikproduktion einer breiten Zielgruppe unabhängig von ihrem musikalischen Hintergrund zugänglich zu machen."
+    },
+    "blog2": {
+      "title": "2. Warum haben wir Suno Downloader erstellt?",
+      "p1": "Suno AI ist ein großartiges Werkzeug zur Musikproduktion, hat aber einige Einschränkungen. Zum Beispiel können Benutzer nur die von ihnen erstellten Songs herunterladen. Hier kommt Suno Downloader ins Spiel. Suno Downloader ist ein Drittanbieter-Tool, mit dem Benutzer jeden mit Suno AI erstellten Song herunterladen können, auch wenn sie nicht der ursprüngliche Ersteller waren. Dies bedeutet, dass Benutzer problemlos auf Songs zugreifen und sie teilen können, die mit Suno AI erstellt wurden, selbst wenn sie kein Suno AI-Konto haben."
+    },
+    "blog3": {
+      "title": "3. Wer hat Suno AI erstellt?",
+      "p1": "Suno wurde 2023 von vier Personen gegründet: Michael Shulman, Georg Kucsko, Martin Camacho und Keenan Freyberg."
+    },
+    "blog4": {
+      "title": "4. Warum ist Suno AI so beliebt?",
+      "p1": "Suno AI hat aufgrund seines innovativen Ansatzes zur Musikproduktion mithilfe künstlicher Intelligenz schnell an Beliebtheit gewonnen. Hier sind einige wichtige Gründe, warum Suno AI so beliebt geworden ist:",
+      "li1": "Unterstützung mehrerer Sprachen: Suno AI unterstützt mehrere Sprachen und macht sie so für ein breiteres Publikum zugänglich.",
+      "li2": "Kreativer Weg, Musik zu generieren: Suno AI bietet eine einzigartige und innovative Möglichkeit, Musik zu erstellen. Benutzer können vollständige Songs mit originalen Texten, Melodien und Instrumentierung basierend auf Texteingaben generieren.",
+      "li3": "Benutzerfreundlichkeit: Die Plattform bietet eine einfache und intuitive Benutzeroberfläche, mit der Benutzer AI-gestützte Chatbots und Sprachassistenten erstellen können, ohne technisches Know-how zu benötigen.",
+      "li4": "Erschwingliche Preise: Suno AI bietet wettbewerbsfähige Preismodelle, was es zu einer attraktiven Option für kleine und mittlere Unternehmen macht, die KI in ihre Geschäftsabläufe integrieren möchten.",
+      "li5": "Suno AI fördert ein starkes Gemeinschaftsengagement, indem es Herausforderungen veranstaltet und von Benutzern erstellte Tracks präsentiert. Dieser Community-Aspekt trägt dazu bei, eine unterstützende Umgebung zu schaffen, in der Benutzer ihre Musikproduktionsfähigkeiten verbessern können, indem sie lernen, teilen und sich austauschen. Menschen können auch basierend auf der Musik anderer Menschen ihre eigene Musik erstellen. Dies ist eine großartige Möglichkeit für Menschen, miteinander zu interagieren.",
+      "li6": "Suno AI kümmert sich nicht nur um den Audiobereich, sondern integriert auch Visuals in den Musikproduktionsprozess, was es zu einem umfassenden Werkzeug zur Erstellung von Multimedia-Inhalten macht. Diese Funktion ist besonders nützlich für Content-Ersteller, die Musikvideos oder visuelle Präsentationen neben ihrer Musik produzieren möchten.",
+      "p2": "Diese kombinierten Faktoren machen Suno AI zu einer beliebten Wahl für diejenigen, die ihre musikalische Kreativität erkunden oder erweitern möchten, ohne umfangreiche musikalische Vorkenntnisse oder Ressourcen zu benötigen."
+    },
+    "blog5": {
+      "title": "5. Suno vs. Udio",
+      "li1": "Suno AI ist darauf ausgelegt, den Musikproduktionsprozess für Personen ohne vorherige musikalische Ausbildung einfach und zugänglich zu gestalten. Es automatisiert die Erstellung vollständiger Tracks, einschließlich Gesang, und integriert sich gut mit visuellen Elementen, was es besonders attraktiv für Anfänger oder diejenigen macht, die schnell vollständige Songs mit minimalem Aufwand produzieren möchten. Suno AI wird für seine benutzerfreundliche Oberfläche und die Fähigkeit, leicht hochwertige Musik zu produzieren, gelobt.",
+      "li2": "Udio AI hingegen zeichnet sich durch seine fortschrittliche Stimmgenerierungstechnologie aus, die bemerkenswert realistische Gesangsspuren erzeugen kann. Dies macht Udio besonders vorteilhaft für Benutzer, die möglicherweise keine starken Gesangsfähigkeiten haben, aber überzeugende vokale Elemente in ihrer Musik haben möchten. Anfangs war Udios Funktionalität auf die Erstellung von 30-Sekunden-Schnipseln beschränkt, aber inzwischen hat es seine Fähigkeiten erweitert, um Kompositionen von bis zu vier Minuten Länge zu ermöglichen. Udio bietet eine übersichtliche Oberfläche mit sowohl automatisch generierten als auch manuellen Modusoptionen für Texte und Musik, was sowohl Neulinge in der Musikproduktion als auch Personen ohne musikalischen Hintergrund anspricht.",
+      "li3": "Zusammenfassend lässt sich sagen, dass Sie, wenn Sie nach einer super einfachen und schnellen Möglichkeit suchen, Ihre eigenen vollständigen Musiktracks zu erstellen, mit Suno AI definitiv gut beraten sind. Es ist perfekt für Anfänger oder alle, die keine musikalische Vorbildung haben, aber trotzdem einige großartige Melodien erstellen möchten. Wenn Sie jedoch mehr an fortgeschrittener Stimmgenerierung interessiert sind und längere, persönlichere Musikstücke erstellen möchten, auch ohne formale Schulung, könnte Udio AI eher Ihrem Geschmack entsprechen."
+    },
+    "blog6": {
+      "title": "6. Wird Suno die Musikindustrie beeinflussen?",
+      "p1": "Die Auswirkungen von KI-gesteuerten Musikgenerierungsplattformen wie Suno AI auf Künstler sind ein Thema kontinuierlicher Diskussionen in der Musikindustrie. Obwohl diese Tools das Potenzial haben, die Musikproduktion zu demokratisieren und neue Möglichkeiten zu bieten, können sie auch einige Herausforderungen für professionelle Künstler darstellen. Hier sind einige mögliche Auswirkungen:",
+      "li1": "Zunehmender Wettbewerb: Mit der Möglichkeit für mehr Menschen, Musik mit KI-Tools zu erstellen, könnte das Gesamtangebot an Musik zunehmen, was es einzelnen Künstlern möglicherweise erschwert, sich abzuheben.",
+      "li2": "Änderungen im kreativen Prozess: Einige Künstler könnten der Ansicht sein, dass von KI generierte Musik den menschlichen Touch und die emotionale Tiefe, die aus dem traditionellen kreativen Prozess resultieren, vermissen lässt.",
+      "li3": "Bedenken hinsichtlich der Originalität: Es könnten Fragen zur Originalität und Authentizität von mit KI erstellter Musik aufkommen, was die Wahrnehmung und den Wert solcher Musik durch Zuhörer beeinflussen könnte.",
+      "li4": "Potenzielle Auswirkungen auf die Einnahmen: Wenn KI-generierte Musik weit verbreitet und beliebt wird, könnte dies die Nachfrage nach menschlich erstellter Musik möglicherweise reduzieren und damit die Einkommensströme von Künstlern beeinträchtigen.",
+      "li5": "Verlagerung des Fokus auf Live-Auftritte: Künstler könnten einen größeren Schwerpunkt auf Live-Auftritte, Geschichtenerzählen und die Schaffung einzigartiger Erlebnisse legen, die von KI nicht repliziert werden können.",
+      "p2": "Es ist wichtig zu beachten, dass die langfristigen Auswirkungen von KI auf die Musikindustrie noch immer im Gange sind und wahrscheinlich von Faktoren wie den spezifischen verwendeten KI-Tools, den Rollen menschlicher Schöpfer und der Rezeption von KI-generierter Musik durch das Publikum abhängen werden. Wie bei jedem technologischen Fortschritt wird es sowohl Herausforderungen als auch Chancen für Künstler geben, die sich in diesem sich entwickelnden Umfeld bewegen."
+    }
+  },
+  "header": {
+    "title": "Suno-Musik-Downloader",
+    "tool": "KI-Musikgenerator",
+    "discover": "Entdecken",
+    "pricing": "Preise",
+    "library": "Meine Bibliothek",
+    "billing": "Abrechnung",
+    "logout": "Abmelden",
+    "signin": "Anmelden",
+    "tool1": "KI-Liedtextgenerator",
+    "tool2": "Suno AI Musik",
+    "ai-tool-dropdown": "KI-Tools"
+  },
+  "signin": {
+    "home": "Startseite",
+    "signin": "Anmelden bei Suno-Musik-Downloader",
+    "signup": "Mit Google anmelden"
+  },
+  "stripe": {
+    "Composer": {
+      "name": "Komponist",
+      "description": "Beginnen Sie Ihre KI-Musikreise",
+      "features": {
+        "songs": "200 Lieder",
+        "credits": "100 Credits für die Generierung",
+        "pricePerGeneration": "$0.06 pro Generierung",
+        "lyricsCredits": "100 Credits für die Textgenerierung",
+        "priorityQueue": "Priorisierte Generierungswarteschlange",
+        "downloads": "Unbegrenzte Downloads",
+        "extend": "Erweitern Sie vorhandene Musik"
+      }
+    },
+    "Maestro": {
+      "name": "Maestro",
+      "description": "Unbegrenzte musikalische Möglichkeiten",
+      "features": {
+        "songs": "1200 Lieder",
+        "credits": "600 Credits für die Generierung",
+        "pricePerGeneration": "$0.026 pro Generierung",
+        "lyricsCredits": "600 Credits für die Textgenerierung",
+        "priorityQueue": "Priorisierte Generierungswarteschlange",
+        "downloads": "Unbegrenzte Downloads",
+        "extend": "Erweitern Sie vorhandene Musik"
+      }
+    },
+    "Producer": {
+      "name": "Produzent",
+      "description": "Verstärken Sie Ihre kreative Leistung",
+      "features": {
+        "songs": "600 Lieder",
+        "credits": "300 Credits für die Generierung",
+        "pricePerGeneration": "$0.033 pro Generierung",
+        "lyricsCredits": "300 Credits für die Textgenerierung",
+        "priorityQueue": "Priorisierte Generierungswarteschlange",
+        "downloads": "Unbegrenzte Downloads",
+        "extend": "Erweitern Sie vorhandene Musik"
+      }
+    },
+    "Virtuoso": {
+      "name": "Virtuoso",
+      "description": "Tauchen Sie ein in die Welt der Musik",
+      "features": {
+        "songs": "3000 Songs",
+        "credits": "1500 Credits für die Generierung",
+        "pricePerGeneration": "0,019 $ pro Generation",
+        "lyricsCredits": "1500 Credits für die Generierung von Texten",
+        "priorityQueue": "Prioritätsgenerierungswarteschlange",
+        "downloads": "Unbegrenzte Downloads",
+        "extend": "Erweitern Sie vorhandene Musik"
+      }
+    },
+    "Free": {
+      "name": "Kostenlos",
+      "description": "Kostenloser Plan",
+      "features": {
+        "songs": "6 Lieder",
+        "credits": "3 Credits für die Generierung",
+        "lyricsCredits": "3 Credits für die Textgenerierung",
+        "priorityQueue": "Geteilte Generierungswarteschlange",
+        "history": "15 Tage Historie"
+      }
+    },
+    "title": "AI Musik Preisgestaltung",
+    "subtitle": "Wählen Sie den besten Plan für sich aus",
+    "button": "Jetzt komponieren",
+    "featured": "Beliebt",
+    "credit": "Credits",
+    "one-time": "Einmalzahlung",
+    "seo-title": "AI Musik Generator Preisgestaltung",
+    "seo-description": "Wählen Sie den Plan, der Ihren Bedürfnissen entspricht. Beginnen Sie heute Ihre AI-Musikreise.",
+    "inquire": "Für Anfragen oder Unterstützung kontaktieren Sie uns bitte unter",
+    "free-button": "Kostenlos starten"
+  },
+  "ai-music-generator": {
+    "title": "KI-Musikgenerator",
+    "description": "Erstelle einzigartige Musik mit dem KI-Musikgenerator, kann für persönliche und kommerzielle Zwecke verwendet werden.",
+    "button": "Lied generieren",
+    "seo-title": "Kostenloser KI-Musikgenerator",
+    "seo-description": "Erstelle kostenlos KI-Musik mit dem KI-Musikgenerator. Erstelle unbegrenzt Musikstücke und nutze sie überall.",
+    "credits": "Anzahl der Credits",
+    "free-credits": "Anzahl der kostenlosen Credits",
+    "lyrics": "KI-Textgenerator",
+    "lyrics-placeholder": "Geben Sie hier die Liedtexte ein und drücken Sie den Generieren-Button, um ein Lied zu erstellen.",
+    "lyrics-label": "Liedtexte",
+    "lyrics-tooltip": "Verwenden Sie zwei Strophen (8 Zeilen) für beste Ergebnisse.",
+    "ask-login1": "Melden Sie sich an, um",
+    "ask-login2": "kostenlose Credits zu genießen",
+    "music-style": "Musikstil",
+    "music-style-tooltip": "Beschreiben Sie den gewünschten Musikstil (z.B. 'Akustik-Pop'). Die Modelle erkennen keine Künstlernamen, verstehen aber Genres und Stimmungen.",
+    "music-style-placeholder": "Geben Sie hier den Musikstil ein",
+    "song-title": "Liedtitel",
+    "song-title-tooltip": "Geben Sie dem Lied einen Titel zum Teilen.",
+    "song-title-placeholder": "Geben Sie hier den Liedtitel ein",
+    "custom": "Benutzerdefiniert",
+    "instrumental": "Instrumental",
+    "instrumental-tooltip": "Musik ohne Text",
+    "isloading": "Bitte warten Sie, während wir Ihr Lied generieren, dies kann einige Minuten dauern. Oder Sie können später in Ihrer",
+    "library": "Musikbibliothek nachsehen",
+    "credits-alert": "Sie haben keine Credits mehr, bitte kaufen Sie mehr Credits",
+    "lyrics-length-alert": "Die Liedtexte sollten mindestens 200 Zeichen lang sein",
+    "style-length-alert": "Der Musikstil darf nicht leer sein",
+    "title-length-alert": "Der Liedtitel darf nicht leer sein",
+    "custom-description-alert": "Die Beschreibung des Liedes darf nicht leer sein!",
+    "custom-instrumental-style-length-alert": "Der Musikstil darf nicht leer sein",
+    "custom-instrumental-title-length-alert": "Der Liedtitel darf nicht leer sein",
+    "song-description": "Liedbeschreibung",
+    "song-description-tooltip": "Beschreibe das Lied, das du erstellen möchtest.",
+    "song-description-placeholder": "Ein futuristisches Popsong über Liebe",
+    "violence-alert": "Bitte fügen Sie keine Künstlernamen oder gewalttätige, sexuelle oder anstößige Inhalte in Ihren Texten oder Ihrem Titel ein. Andernfalls könnte Ihr Song abgelehnt werden.",
+    "extend-loading": "Bitte beachten Sie, dass der Erweiterungs- und Concat-Vorgang mehr Zeit in Anspruch nimmt als die Generierung.",
+    "extend-song-btn": "Lied verlängern",
+    "cancel-btn": "Stornieren",
+    "extend-from-tooltip": "Die ausgewählte Zeit muss vor dem Ende des Songs liegen",
+    "extend-from-label": "Verlängern von",
+    "upgrade-alert": "Bitte aktualisieren Sie auf Pro, um diese Funktion nutzen zu können",
+    "extend-features": "Jetzt können Sie Extend von der vorhandenen Musikfunktion genießen. \nGehen Sie einfach zur Musikdetailseite"
+  },
+  "suno-ai-music": {
+    "title": "Kostenloser Suno AI Musikgenerator",
+    "description": "Erstellen Sie einzigartige Musik mit dem Suno AI Musikgenerator, der für persönliche und kommerzielle Zwecke verwendet werden kann.",
+    "seo-title": "Erstellen Sie AI-Musik aus Text | Suno AI Musikgenerator",
+    "seo-description": "Verwandeln Sie Ihre Fantasie in Musik mit dem Suno AI Musikgenerator. Drücken Sie sich mit einzigartigen Musikstücken aus. Jetzt ausprobieren!"
+  },
+  "features": {
+    "ai-music-generator": {
+      "h2": "KI-Musikgenerator-Funktionen",
+      "description": "Der KI-Musikgenerator ist ein hochmodernes Tool, mit dem Sie in wenigen Minuten einzigartige Musiktitel erstellen können. Mit einer breiten Palette von Funktionen ist der KI-Musikgenerator das perfekte Tool für Musiker, Content-Ersteller und Musikbegeisterte.",
+      "feature1": {
+        "title": "Blitzschnelle Generierung",
+        "description": "Mit der hochmodernen KI-Technologie kann der KI-Musikgenerator in wenigen Minuten einzigartige Musiktitel erstellen."
+      },
+      "feature2": {
+        "title": "Unbegrenzte Downloads",
+        "description": "Laden Sie so viele Songs herunter, wie Sie möchten, ohne Einschränkungen, sobald Sie sich einloggen."
+      },
+      "feature3": {
+        "title": "Benutzerdefinierter Musikstil",
+        "description": "Beschreiben Sie den gewünschten Musikstil, und der KI-Musikgenerator erstellt einen einzigartigen Track basierend auf Ihrer Beschreibung."
+      },
+      "feature4": {
+        "title": "Kostenlos zu verwenden",
+        "description": "Der KI-Musikgenerator ist für persönliche und kommerzielle Zwecke kostenlos zu verwenden, wenn Sie einen Kaufplan haben."
+      },
+      "feature5": {
+        "title": "Nicht nur Lieder",
+        "description": "Der KI-Musikgenerator kann auch instrumentale Musiktitel erstellen."
+      }
+    },
+    "suno-ai-music": {
+      "h2": "Entfesseln Sie Ihre Kreativität mit dem Suno AI Musikgenerator",
+      "description": "Der von KI betriebene Musikgenerator von Suno ist ein revolutionäres Tool, das es Ihnen ermöglicht, in wenigen Minuten einzigartige, professionelle Musikstücke zu erstellen. Egal, ob Sie ein erfahrener Musiker oder ein angehender Schöpfer sind",
+      "feature1": {
+        "title": "Effortless Music Generation",
+        "description": "Die fortschrittlichen KI-Algorithmen von Suno analysieren Ihre Eingaben und generieren sofort einen auf Ihre Vision zugeschnittenen Musiktitel. Es sind keine musikalischen Vorkenntnisse erforderlich - beschreiben Sie einfach die Stimmung und lassen Sie Sunos KI den Rest erledigen."
+      },
+      "feature2": {
+        "title": "Unbegrenzte kreative Freiheit",
+        "description": "Erkunden Sie endlose musikalische Möglichkeiten mit Sunos unbegrenzten Musikgenerierungsmöglichkeiten. Laden Sie so viele Tracks herunter, wie Sie benötigen, ohne Einschränkungen oder zusätzliche Kosten."
+      },
+      "feature3": {
+        "title": "Personalisierte Musikstile",
+        "description": "Der Suno AI Musikgenerator ermöglicht es Ihnen, den genauen Stil, das Genre und die Stimmung anzugeben, die Sie wünschen, um sicherzustellen, dass Ihre Musik perfekt zu Ihrer kreativen Vision passt."
+      },
+      "feature4": {
+        "title": "Kostenlose und Premium-Pläne",
+        "description": "Suno bietet einen kostenlosen Plan, um Ihnen den Einstieg zu erleichtern, sowie Premium-Abonnements, die erweiterte Funktionen und unbegrenzte Musikgenerierung für kommerzielle Zwecke freischalten."
+      },
+      "feature5": {
+        "title": "Instrumentale Meisterwerke",
+        "description": "Zusätzlich zu kompletten Songs kann Sunos KI auch fesselnde Instrumentaltitel generieren, um Ihre Projekte, Veranstaltungen oder persönlichen Wiedergabelisten zu verbessern."
+      }
+    }
+  },
+  "cta": {
+    "ai-music-generator": {
+      "h2": "AI-Musikgenerator",
+      "description": "Entfalten Sie Ihre Kreativität mit dem AI-Musikgenerator. Erstellen Sie unbegrenzte Musiktitel und verwenden Sie sie überall.",
+      "btn": "AI-Musik erstellen"
+    },
+    "suno-ai-music": {
+      "h2": "Entdecken Sie Ihr musikalisches Potenzial mit Suno",
+      "description": "Erkunden Sie die grenzenlosen Möglichkeiten der KI-gestützten Musikerstellung mit Suno. Generieren Sie einzigartige Tracks für jeden Zweck und entfesseln Sie Ihre Kreativität wie nie zuvor.",
+      "btn": "Mit Suno erstellen"
+    }
+  },
+  "usage": {
+    "ai-music-generator": {
+      "paragraph1": {
+        "title": "Kein Musiker? Kein Problem!",
+        "description": "Mit dem AI-Musikgenerator müssen Sie kein Musiker sein, um Musik zu erstellen. Sie können den AI-Musikgenerator verwenden, um Musiktitel für Ihre eigenen Songs mit jedem Stil und Text zu erstellen."
+      },
+      "paragraph2": {
+        "title": "Den perfekten Stil einfangen",
+        "description": "Haben Sie etwas im Kopf? Sie können einfach die Melodie oder den Text summen, und der AI-Musikgenerator erstellt einen Musiktitel für Sie im perfekten Stil."
+      },
+      "paragraph3": {
+        "title": "Nicht nur Lieder",
+        "description": "Der AI-Musikgenerator kann auch instrumentale Musiktitel erstellen. Das Erstellen von Instrumentalmusik ist so einfach wie das Atmen. Geben Sie einfach Ihren Stil ein und lassen Sie den AI-Musikgenerator den Rest erledigen."
+      },
+      "paragraph4": {
+        "title": "Perfekt für jeden Anlass",
+        "description": "Fehlen Ihnen Ideen für das Spielen auf einer Party? Der AI-Musikgenerator kann Ihnen dabei helfen. Beschreiben Sie einfach die Stimmung oder die Stimmung und der AI-Musikgenerator wird die perfekte Musik für diese Gelegenheit auswählen."
+      },
+      "btn": "AI-Musik erstellen"
+    },
+    "suno-ai-music": {
+      "paragraph1": {
+        "title": "Musik komponieren ohne musikalische Expertise",
+        "description": "Der Suno AI Musikgenerator ermöglicht es jedem, unabhängig von seinem musikalischen Hintergrund, professionell klingende Musik zu erstellen. Beschreiben Sie einfach den gewünschten Stil und lassen Sie Sunos KI den Rest erledigen."
+      },
+      "paragraph2": {
+        "title": "Die perfekte Stimmung und Atmosphäre einfangen",
+        "description": "Ob Sie fröhliche, energiegeladene Musik für eine Party oder einen beruhigenden, stimmungsvollen Track für ein Entspannungsvideo benötigen, Sunos KI kann den perfekten Soundtrack erstellen, der zu Ihrer kreativen Vision passt."
+      },
+      "paragraph3": {
+        "title": "Instrumentale Tracks für jedes Projekt",
+        "description": "Der Suno AI Musikgenerator zeichnet sich durch die Erstellung fesselnder Instrumentalstücke aus, was ihn zum idealen Werkzeug macht, um Videos, Podcasts, Präsentationen und mehr mit der perfekten Hintergrundmusik zu verbessern."
+      },
+      "paragraph4": {
+        "title": "Musik für jeden Anlass",
+        "description": "Haben Sie Schwierigkeiten, die richtige Musik für Ihre Veranstaltung, Ihr Video oder Ihr persönliches Projekt zu finden? Sunos KI kann den perfekten Track basierend auf Ihrer Beschreibung generieren und sicherstellen, dass Ihre kreative Vision zum Leben erweckt wird."
+      },
+      "btn": "Suno AI Musikgenerator ausprobieren"
+    }
+  },
+  "music-detail": {
+    "extend-description": "Jetzt können Sie Ihre Musik verlängern, klicken Sie einfach auf die + Schaltfläche neben dem Audio.",
+    "extend-tooltip": "Diesen Song verlängern",
+    "download-tooltip": "Diesen Song herunterladen",
+    "cancel-btn": "Abbrechen",
+    "extend-from-tooltip": "Die ausgewählte Zeit muss vor dem Ende des Songs liegen",
+    "delete-btn": "Löschen",
+    "delete-modal-title": "Löschen bestätigen",
+    "delete-tooltip": "Sind Sie sicher, dass Sie diese Musik löschen möchten?",
+    "created-at": "Erstellt am",
+    "h2": "AI Musik erstellt von",
+    "lyrics": "Text",
+    "music-style": "Musikstil"
+  }
 }

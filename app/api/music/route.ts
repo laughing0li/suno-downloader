@@ -43,7 +43,6 @@ export async function DELETE(req: NextRequest) {
     const supabase = createRouteHandlerClient({ cookies });
     const { searchParams } = new URL(req.url);
     const id = searchParams.get("id");
-    console.log('id', id);
     try {
         // Delete from audio_generations
         // Delete from media_urls first
