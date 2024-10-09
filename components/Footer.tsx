@@ -30,7 +30,8 @@ const Footer = () => {
             {
                 name: "Sprunki Incrediboxes",
                 href: 'https://sprunkiincrediboxes.net/'
-            }
+            },
+            { text: 'HD Photo Converter', href: 'https://hdphotoconverter.net/', title: 'HD Photo Converter' }
         ]
     }
     return (
