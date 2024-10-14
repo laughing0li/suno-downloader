@@ -35,6 +35,9 @@ export async function GET(req: NextRequest) {
                 } 
                 if (!profileData) {
                     let free_credits = 1
+                    if (cfCountry === "RU") {
+                        free_credits = 0
+                    }
                     const { error: insertError } = await supabase.from("users").insert([
                         {
                             id: userId,
