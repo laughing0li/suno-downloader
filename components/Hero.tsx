@@ -118,46 +118,6 @@ export function Hero() {
                         </div>
                     </div>
                 </div>
-
-                {/* <h1 className='text-center text-3xl font-semibold text-slate-600'>{t('tool')}</h1>
-                <p className="text-center text-xl font-semibold mt-4 text-slate-600 underline">
-                    <a href="/ai-music-generator">{t('try')} &gt;&gt;</a>
-                </p> */}
-                {/* <div className="mx-auto max-w-xl lg:max-w-3xl lg:px-12">
-                    {isError && (
-                        <div role="alert" className="alert alert-error mb-16">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6 hover:" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" onClick={handleClearError} /></svg>
-                            <span>{t('error')}</span>
-                        </div>
-                    )} */}
-
-                {/* <div className="mt-12 flex flex-row gap-10 justify-center">
-                        <input
-                            type="url"
-                            name="name"
-                            id="name"
-                            value={targetUrl}
-                            onChange={(e) => setTargetUrl(e.target.value)}
-                            className="basis block w-full rounded-full border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 dark:text-slate-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                            placeholder={t('placeholder')}
-                        />
-                        {isDownloading ? (
-                            <span className="loading loading-bars text-indigo-600 loading-lg h-12" />
-                        ) : (
-                            <button
-                                className='inline-flex items-center px-6 py-3 text-lg font-semibold text-white bg-purple-600 rounded-2xl hover:bg-purple-700 transition duration-300'
-                                onClick={handleDownloadAudio}
-                                type="button"
-                            >
-                                {t('button')}
-                            </button>
-                        )}
-                    </div> */}
-                {/* <div className='mt-10'>
-            <AdSense slot={"3719858701"} />
-          </div> */}
-                {/* </div> */}
-
             </Container>
         </div>
     )
