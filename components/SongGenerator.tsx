@@ -362,9 +362,9 @@ const SongGenerator = () => {
                     </div>)
                     :
                     (<div className='text-center'>
-                        <button type="submit" onClick={handleSubmit} className="btn btn-wide btn-primary mb-8">
+                        {/* <button type="submit" onClick={handleSubmit} className="btn btn-wide btn-primary mb-8">
                             {t('button')}
-                        </button>
+                        </button> */}
                     </div>)
             }
 
